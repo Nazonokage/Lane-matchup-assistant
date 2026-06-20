@@ -1,0 +1,88 @@
+**Yeah bruv, the dataset is pretty solid overall** — especially for a quick-reference bot lane tool. You've got good coverage on the major ADCs, a decent spread of APCs, and strong Support entries with archetypes. The structure (good/bad, synergies/avoid, conditions, tips, etc.) is clean and useful for both the Almanac and Draft Helper.
+
+### Quick Feedback on Data
+**Strengths:**
+- Very detailed matchups and notes — this is gold for players.
+- Draft rules section is smart (condition-based).
+- Playstyle tags and conditions arrays will make filtering/scoring easy.
+- Covers the most common bot lane picks well.
+
+**Things to tighten / add:**
+
+1. **Completeness gaps (small)**
+   - Missing some niche but relevant picks: **Swain** (APC), **Vel'Koz** (already partial), **Annie** (APC), **Neeko** (can be played bot), **Milio** (enchanter support), **Renata Glasc**, **Hwei** (if APC viable), **Mel** (newer champs).
+   - **ADC**: You have most, but **Hwei** or **Corki** APC overlap is fine.
+
+2. **Consistency fixes**
+   - Not every Support has `archetype`. Add it where missing (e.g. Seraphine, Senna, etc.).
+   - Some `avoidSynergies` are arrays of strings, others objects with `note`. Standardize to objects everywhere.
+   - A few entries repeat the same synergies/avoid lists (e.g. several mages have identical ones) — customize a bit more.
+   - `roles` array is good, but consider adding a top-level `primaryRole` or keep filtering on `roles.includes("ADC")`.
+
+3. **Quality of life upgrades**
+   - Add `difficulty` (Easy/Medium/Hard) or `skillFloor` to help newer players.
+   - Add `winCondition` short string (e.g. "Scale to late", "Win lane early", "Teamfight ult").
+   - For draftRules, some conditions are very specific (`enemyADC === 'X'`). That's fine, but you can also add more general ones like `enemyHasHook` or `enemyIsHypercarry`.
+   - Consider adding `counterScore` or raw numbers in data for easier JS scoring later.
+
+4. **Minor inaccuracies / polish**
+   - Some notes feel copied (e.g. many "Can't CC through shield" for Morgana counters). Make them more unique where possible.
+   - Update for current Wild Rift meta if you play on that (some PC-only champs have weaker data).
+
+Overall: **8.5/10**. It's already better than most community cheat sheets. With a few more entries and consistency passes it'll be excellent.
+
+---
+
+### Project Plan Review
+Your plan is **excellent** — very pragmatic and focused. Offline-first with plain HTML/JS is the right call for mobile champ select use.
+
+**What’s strong:**
+- File structure is perfect.
+- Loading `data.js` via `<script>` instead of fetch = smart (avoids file:// CORS hell).
+- Clear separation: data, logic, UI.
+- Scope is tight (bot lane only) → high chance of finishing.
+- Dark tactical theme fits perfectly.
+
+**Suggestions / Additions to the plan:**
+
+**Phase 0 (quick wins)**
+- Add a `lastUpdated` date at top of `data.js` and show it in UI.
+- Include a simple "Meta note" section (e.g. "Patch 5.2 — Draven still strong").
+
+**Draft Helper Logic Ideas**
+- Simple scoring:
+  - +3 for direct goodAgainst
+  - +2 for synergy with your support
+  - +1 for playstyle match (e.g. your engage support + their immobile ADC)
+  - -2 for badAgainst / avoidSynergies
+  - Bonus for draftRules that trigger
+- Show top 5 recommendations with expandable "Why" cards.
+
+**UI Polish**
+- Tab 1 (Almanac): Search bar + role filters + playstyle chips (poke/hypercarry/etc.).
+- Champion cards: Color code by role (ADC blue, Support green, APC purple).
+- Tab 2 (Draft): Three dropdowns (Enemy ADC, Enemy Supp, Your Supp) → live results.
+- Add "Copy to clipboard" for recommended picks (useful in champ select).
+- Dark mode only, with nice gold/teal accents.
+
+**Tech additions (still lightweight)**
+- `localStorage` to save favorite champions or last draft.
+- Very basic PWA manifest so it feels like an app on phone home screen.
+- Responsive — test on portrait phone heavily.
+
+**Future scope (after v1)**
+- Jungle/mid support later.
+- Export/import custom notes.
+- Simple "ban this" suggestions.
+
+---
+
+**Verdict**: Data is good enough to start building the app **right now**. Fix consistency, add 4-5 missing champs, standardize arrays → then move to `script.js` + `index.html`.
+
+Want me to:
+1. Help clean/fix the `data.js` file?
+2. Start writing `index.html` + `style.css` skeleton?
+3. Write the core scoring logic for Draft Helper?
+4. Add the missing champions?
+
+Just say the word bruv, I got you. Let's ship this thing. 🔥
