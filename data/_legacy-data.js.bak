@@ -1,0 +1,13 @@
+// =============================================================================
+// Lane Ledger — bot lane data now lives in JSON (not this file).
+//
+//   data/drLane.json     → ADC + APC (Dragon lane)
+//   data/suppRole.json   → Supports
+//   data/draftRules.json → Draft rules
+//
+// After editing JSON:  npm run build   (or: node scripts/build-data.js)
+// App loads:           data/bundle.js
+//
+// Legacy backup:       data/_legacy-data.js.bak
+// Re-merge from backup: node scripts/extract-bot-data.js
+// =============================================================================

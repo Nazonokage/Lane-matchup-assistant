@@ -1,0 +1,3245 @@
+{
+  "meta": {
+    "lastUpdated": "2025-06-20",
+    "patch": "7.1g",
+    "lane": "Dragon",
+    "description": "Wild Rift bot lane carry data (ADC + APC)"
+  },
+  "champions": [
+    {
+      "name": "Aphelios",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "utility",
+        "DPS",
+        "burst"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Caitlyn",
+          "note": "Better utility, strong 2v2"
+        },
+        {
+          "name": "Jhin",
+          "note": "Out-trade with Calibrum"
+        },
+        {
+          "name": "Sivir",
+          "note": "Burst through shield"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Draven",
+          "note": "Can't trade early"
+        },
+        {
+          "name": "Vayne",
+          "note": "Condemn cancels your Q"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Can't match her mobility"
+        }
+      ],
+      "synergies": [
+        "Thresh",
+        "Nautilus",
+        "Leona",
+        "Braum",
+        "Lulu"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Soraka",
+          "note": "Need engage, not sustain"
+        },
+        {
+          "name": "Yuumi",
+          "note": "Want CC support"
+        }
+      ],
+      "caution": "Weapon order matters. Learn your rotations.",
+      "tips": "Red+White for DPS, Green+Purple for picks. Plan your weapons.",
+      "pickWhen": [
+        "You know your weapon combos",
+        "Team needs utility"
+      ],
+      "avoidWhen": [
+        "Enemy has assassins",
+        "Need early game pressure"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Ashe",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [
+        "Support"
+      ],
+      "playstyle": [
+        "utility",
+        "kiting",
+        "scaling"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Zeri",
+          "note": "Outranges and slows her down"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Pokes her before she can engage"
+        },
+        {
+          "name": "Varus",
+          "note": "Sustains through his poke"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Interrupts her ult with arrow"
+        },
+        {
+          "name": "Xayah",
+          "note": "Outranges and kites her"
+        },
+        {
+          "name": "Vayne",
+          "note": "Pokes her out early"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Caitlyn",
+          "note": "Outranged and outpoked"
+        },
+        {
+          "name": "Draven",
+          "note": "Gets out-traded early"
+        },
+        {
+          "name": "Jhin",
+          "note": "Gets burst down before she can kite"
+        },
+        {
+          "name": "Tristana",
+          "note": "Gets jumped on and oneshot"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Too slippery to lock down"
+        },
+        {
+          "name": "Lucian",
+          "note": "Gets out-burst in short trades"
+        }
+      ],
+      "synergies": [
+        "Braum",
+        "Nami",
+        "Thresh",
+        "Leona",
+        "Alistar"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Yuumi",
+          "note": "Lacks engage to follow up on slows"
+        },
+        {
+          "name": "Janna",
+          "note": "Lacks hard engage"
+        },
+        {
+          "name": "Soraka",
+          "note": "Lacks engage potential"
+        }
+      ],
+      "caution": "Very immobile — position carefully and rely on your support for peel.",
+      "tips": "Use hawkshot to track enemy jungle. Save arrow for engages or self-peel.",
+      "pickWhen": [
+        "Your team has frontline to protect you"
+      ],
+      "avoidWhen": [
+        "Enemy has multiple assassins/divers",
+        "Enemy has heavy poke that outranges you"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Brand",
+      "primaryRole": "Support",
+      "secondaryRoles": [
+        "Mid"
+      ],
+      "playstyle": [
+        "burst",
+        "AoE",
+        "teamfight"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Alistar",
+          "note": "Melt his HP"
+        },
+        {
+          "name": "Seraphine",
+          "note": "Out-damages her"
+        },
+        {
+          "name": "Lulu",
+          "note": "Out-damages her"
+        },
+        {
+          "name": "Soraka",
+          "note": "Out-damages her healing"
+        },
+        {
+          "name": "Senna",
+          "note": "Out-damages her"
+        },
+        {
+          "name": "Thresh",
+          "note": "Out-damages him"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Pyke",
+          "note": "Hook oneshots him"
+        },
+        {
+          "name": "Nautilus",
+          "note": "Hook oneshots him"
+        },
+        {
+          "name": "Blitzcrank",
+          "note": "Hook oneshots him"
+        },
+        {
+          "name": "Morgana",
+          "note": "Black shield blocks his burst"
+        },
+        {
+          "name": "Braum",
+          "note": "Blocks his projectiles"
+        }
+      ],
+      "synergies": [
+        "Caitlyn",
+        "Jhin",
+        "Varus"
+      ],
+      "avoidSynergies": [],
+      "caution": "Very squishy. Needs to position safely.",
+      "tips": "Passive detonation does % HP damage. Combo: E > Q > W.",
+      "pickWhen": [
+        "Enemy team clumps up",
+        "Your team needs magic damage"
+      ],
+      "avoidWhen": [
+        "Enemy has mobile divers",
+        "Enemy has multiple spell shields"
+      ],
+      "roles": [
+        "APC",
+        "Support"
+      ]
+    },
+    {
+      "name": "Caitlyn",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "poke",
+        "siege",
+        "lane bully"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Zeri",
+          "note": "Outranges and zones her"
+        },
+        {
+          "name": "Aphelios",
+          "note": "Pokes him out early"
+        },
+        {
+          "name": "Xayah",
+          "note": "Outranges in lane"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Zones her off cs"
+        },
+        {
+          "name": "Lucian",
+          "note": "Outranges his short trades"
+        },
+        {
+          "name": "Sivir",
+          "note": "Out-pokes her shield"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Jhin",
+          "note": "Gets out-traded and burst"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Too slippery to trap"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Gets out-poked"
+        },
+        {
+          "name": "Nilah",
+          "note": "Gets all-inned and out-sustained"
+        },
+        {
+          "name": "Twitch",
+          "note": "Gets ambushed and burst"
+        },
+        {
+          "name": "Jinx",
+          "note": "Gets out-scaled"
+        }
+      ],
+      "synergies": [
+        "Morgana",
+        "Lux",
+        "Leona",
+        "Thresh",
+        "Blitzcrank",
+        "Nautilus"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Soraka",
+          "note": "Lacks kill pressure synergy"
+        },
+        {
+          "name": "Janna",
+          "note": "Lacks setup for traps"
+        },
+        {
+          "name": "Seraphine",
+          "note": "Less reliable root for trap combos"
+        }
+      ],
+      "caution": "Falls off late if not ahead. Must dominate early.",
+      "tips": "Place traps under CC'd enemies. Headshot + Q is your main trading combo.",
+      "pickWhen": [
+        "You want to siege towers fast",
+        "You have engage support for trap combos"
+      ],
+      "avoidWhen": [
+        "Enemy has heavy dive/gap closers",
+        "Enemy has better scaling and can survive lane"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Cassiopeia",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "scaling",
+        "DPS",
+        "utility"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Sivir",
+          "note": "Can't spellshield your Q"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Out-scale him"
+        },
+        {
+          "name": "Caitlyn",
+          "note": "Scale past her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Draven",
+          "note": "Burst you early"
+        },
+        {
+          "name": "Lucian",
+          "note": "Dash to dodge Q"
+        },
+        {
+          "name": "Vayne",
+          "note": "Can't hit her"
+        }
+      ],
+      "synergies": [
+        "Morgana",
+        "Lux",
+        "Karma",
+        "Nami",
+        "Lulu"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Leona",
+          "note": "Can't follow engage"
+        },
+        {
+          "name": "Alistar",
+          "note": "Need poke support"
+        }
+      ],
+      "caution": "Immobile. Position carefully.",
+      "tips": "Q for poke. W for ground. E for sustain. R for CC.",
+      "pickWhen": [
+        "Enemy lacks mobility",
+        "Need DPS"
+      ],
+      "avoidWhen": [
+        "Enemy has assassins",
+        "Need early game pressure"
+      ],
+      "roles": [
+        "APC"
+      ]
+    },
+    {
+      "name": "Corki",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [
+        "Mid"
+      ],
+      "playstyle": [
+        "burst",
+        "hybrid",
+        "scaling"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Ziggs",
+          "note": "Dodges poke and all-ins"
+        },
+        {
+          "name": "Katarina",
+          "note": "Pokes her out"
+        },
+        {
+          "name": "Orianna",
+          "note": "Out-trades with mixed damage"
+        },
+        {
+          "name": "Yasuo",
+          "note": "Bursts through windwall"
+        },
+        {
+          "name": "Ekko",
+          "note": "Bursts before he can ult"
+        },
+        {
+          "name": "Tristana",
+          "note": "Out-pokes her early"
+        },
+        {
+          "name": "Vayne",
+          "note": "Bursts her before she can scale"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Out-trades in short fights"
+        },
+        {
+          "name": "Jinx",
+          "note": "Bursts her early"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Out-bursts her"
+        },
+        {
+          "name": "Nilah",
+          "note": "Kites and bursts her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Caitlyn",
+          "note": "Outranged in lane"
+        },
+        {
+          "name": "Draven",
+          "note": "Gets out-traded hard"
+        },
+        {
+          "name": "Ashe",
+          "note": "Gets kited and slowed"
+        },
+        {
+          "name": "Varus",
+          "note": "Gets poked from range"
+        },
+        {
+          "name": "Lucian",
+          "note": "Gets out-burst early"
+        },
+        {
+          "name": "Sivir",
+          "note": "Shields his burst combo"
+        }
+      ],
+      "synergies": [
+        "Leona",
+        "Nautilus",
+        "Thresh",
+        "Blitzcrank",
+        "Alistar",
+        "Rakan"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Yuumi",
+          "note": "Needs peel, Yuumi lacks engage"
+        },
+        {
+          "name": "Soraka",
+          "note": "Lacks engage for his burst"
+        }
+      ],
+      "caution": "Weak to early lane pressure. Needs an engage support to shine.",
+      "tips": "Package is game-changing for objectives. Use it to contest dragon/baron.",
+      "pickWhen": [
+        "Your team lacks magic damage",
+        "Enemy team is squishy"
+      ],
+      "avoidWhen": [
+        "Enemy has heavy poke",
+        "Enemy has point-and-click lockdown"
+      ],
+      "roles": [
+        "ADC",
+        "APC"
+      ]
+    },
+    {
+      "name": "Draven",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "lane bully",
+        "snowball",
+        "aggressive"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Sivir",
+          "note": "Out-trades her early"
+        },
+        {
+          "name": "Zeri",
+          "note": "Bursts her before she scales"
+        },
+        {
+          "name": "Varus",
+          "note": "Out-trades in short fights"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Out-bursts her early"
+        },
+        {
+          "name": "Kalista",
+          "note": "Out-trades her aggression"
+        },
+        {
+          "name": "Caitlyn",
+          "note": "All-ins her before she can poke"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Senna",
+          "note": "Pokes him from safety"
+        },
+        {
+          "name": "Jhin",
+          "note": "Out-ranges and bursts him"
+        },
+        {
+          "name": "Ashe",
+          "note": "Kites him with slows"
+        },
+        {
+          "name": "Nilah",
+          "note": "Sustains through his burst"
+        },
+        {
+          "name": "Twitch",
+          "note": "Ambushes him"
+        },
+        {
+          "name": "Aphelios",
+          "note": "Matches his damage with better range"
+        }
+      ],
+      "synergies": [
+        "Thresh",
+        "Leona",
+        "Nautilus",
+        "Alistar",
+        "Blitzcrank",
+        "Nami"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Janna",
+          "note": "Lacks engage to set up axes"
+        },
+        {
+          "name": "Yuumi",
+          "note": "Lacks engage and poke"
+        },
+        {
+          "name": "Soraka",
+          "note": "Lacks kill pressure"
+        }
+      ],
+      "caution": "Dropping axes loses trades. Must stay aggressive but not overextend.",
+      "tips": "Always catch axes unless it puts you in danger. Passive stacks = gold.",
+      "pickWhen": [
+        "Enemy ADC is immobile",
+        "You have engage support"
+      ],
+      "avoidWhen": [
+        "Enemy has point-and-click CC",
+        "Enemy can kite you effectively"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Ezreal",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [
+        "Mid"
+      ],
+      "playstyle": [
+        "poke",
+        "slippery",
+        "scaling"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Ashe",
+          "note": "Too slippery to lock down"
+        },
+        {
+          "name": "Varus",
+          "note": "Dodges his poke"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Dodges her ult"
+        },
+        {
+          "name": "Lucian",
+          "note": "Out-pokes him"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Kites her engage"
+        },
+        {
+          "name": "Zeri",
+          "note": "Out-pokes her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Nilah",
+          "note": "Sustains his poke and all-ins"
+        },
+        {
+          "name": "Vayne",
+          "note": "Out-scales and out-duels"
+        },
+        {
+          "name": "Draven",
+          "note": "Gets out-burst"
+        },
+        {
+          "name": "Tristana",
+          "note": "Gets jumped on"
+        },
+        {
+          "name": "Aphelios",
+          "note": "Out-trades with better autos"
+        },
+        {
+          "name": "Kalista",
+          "note": "Can't hit her with skillshots"
+        }
+      ],
+      "synergies": [
+        "Yuumi",
+        "Karma",
+        "Lux",
+        "Seraphine",
+        "Nami",
+        "Senna",
+        "Soraka",
+        "Sona"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Leona",
+          "note": "Can't follow her engages"
+        },
+        {
+          "name": "Thresh",
+          "note": "Lacks all-in potential"
+        },
+        {
+          "name": "Blitzcrank",
+          "note": "Can't follow hooks with burst"
+        }
+      ],
+      "caution": "Cannot all-in like other ADCs. Requires poke and peel.",
+      "tips": "Weave autos between Qs for max DPS. E is your only escape—save it!",
+      "pickWhen": [
+        "You need a safe laner",
+        "Enemy has dive champions you can kite"
+      ],
+      "avoidWhen": [
+        "Enemy has unstoppable engage",
+        "Your team needs early game ADC"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Heimerdinger",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "poke",
+        "zone control",
+        "utility"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Sivir",
+          "note": "Can't push into turrets"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Can't farm against turrets"
+        },
+        {
+          "name": "Caitlyn",
+          "note": "Can't siege with turrets"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Draven",
+          "note": "Kill turrets quickly"
+        },
+        {
+          "name": "Lucian",
+          "note": "Dash to turrets, kill them"
+        },
+        {
+          "name": "Vayne",
+          "note": "Condemn cancels your turrets"
+        }
+      ],
+      "synergies": [
+        "Morgana",
+        "Lux",
+        "Karma",
+        "Nami",
+        "Lulu"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Leona",
+          "note": "Can't follow engage"
+        },
+        {
+          "name": "Alistar",
+          "note": "Need poke support"
+        }
+      ],
+      "caution": "Turrets have long CD early. Don't waste them.",
+      "tips": "Place turrets defensively. Use E for stun. R for empowerment.",
+      "pickWhen": [
+        "Enemy has low waveclear",
+        "Need zone control"
+      ],
+      "avoidWhen": [
+        "Enemy has assassins",
+        "Need mobility"
+      ],
+      "roles": [
+        "APC"
+      ]
+    },
+    {
+      "name": "Jhin",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "burst",
+        "utility",
+        "kiting"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Xayah",
+          "note": "Out-ranges and bursts her"
+        },
+        {
+          "name": "Caitlyn",
+          "note": "Out-trades her with 4th shot"
+        },
+        {
+          "name": "Varus",
+          "note": "Bursts him before he can poke"
+        },
+        {
+          "name": "Kalista",
+          "note": "Out-bursts her aggression"
+        },
+        {
+          "name": "Aphelios",
+          "note": "Bursts him before he can DPS"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Pokes him out of lane"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Lucian",
+          "note": "Gets out-burst early"
+        },
+        {
+          "name": "Vayne",
+          "note": "Gets out-scaled and out-dueled"
+        },
+        {
+          "name": "Tristana",
+          "note": "Gets jumped and burst"
+        },
+        {
+          "name": "Nilah",
+          "note": "Sustains his burst"
+        },
+        {
+          "name": "Twitch",
+          "note": "Ambushes and out-damages"
+        },
+        {
+          "name": "Jinx",
+          "note": "Out-scales and out-ranges"
+        }
+      ],
+      "synergies": [
+        "Karma",
+        "Nami",
+        "Leona",
+        "Thresh",
+        "Alistar",
+        "Morgana"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Yuumi",
+          "note": "His reload makes her less effective"
+        },
+        {
+          "name": "Soraka",
+          "note": "Lacks pick potential"
+        }
+      ],
+      "caution": "Four shot system requires patience. Fourth shot is your kill threat.",
+      "tips": "Root with W before ulting. Learn to dance between reloads.",
+      "pickWhen": [
+        "Enemy team is squishy",
+        "You have CC support for root combos"
+      ],
+      "avoidWhen": [
+        "Enemy has multiple tanks",
+        "Enemy has champions that can dive you"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Jinx",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "hypercarry",
+        "teamfight",
+        "scaling"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Aphelios",
+          "note": "Out-scales him"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Out-ranges and out-scales"
+        },
+        {
+          "name": "Varus",
+          "note": "Out-scales his poke"
+        },
+        {
+          "name": "Kalista",
+          "note": "Out-scales her aggression"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Draven",
+          "note": "Gets out-traded early"
+        },
+        {
+          "name": "Tristana",
+          "note": "Gets jumped and burst"
+        },
+        {
+          "name": "Xayah",
+          "note": "Gets out-burst"
+        },
+        {
+          "name": "Twitch",
+          "note": "Gets ambushed"
+        },
+        {
+          "name": "Nilah",
+          "note": "Gets all-inned"
+        },
+        {
+          "name": "Senna",
+          "note": "Gets out-poked"
+        }
+      ],
+      "synergies": [
+        "Lulu",
+        "Yuumi",
+        "Braum",
+        "Nami",
+        "Soraka",
+        "Janna"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Pyke",
+          "note": "Roams too much, leaves her exposed"
+        },
+        {
+          "name": "Senna",
+          "note": "Double squishy comp"
+        },
+        {
+          "name": "Brand",
+          "note": "Lacks peel"
+        }
+      ],
+      "caution": "Extremely weak early game. Must farm safely to scale.",
+      "tips": "Rockets for teamfights, minigun for single targets. Passive resets are your win condition.",
+      "pickWhen": [
+        "Your team has frontline to protect you",
+        "Enemy has no hard engage"
+      ],
+      "avoidWhen": [
+        "Enemy has early game lane bullies",
+        "Enemy has multiple assassins"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Kai'Sa",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "hypercarry",
+        "mobile",
+        "scaling"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Tristana",
+          "note": "Out-scales her burst"
+        },
+        {
+          "name": "Zeri",
+          "note": "Out-scales her"
+        },
+        {
+          "name": "Aphelios",
+          "note": "Dodges his skillshots"
+        },
+        {
+          "name": "Varus",
+          "note": "Dodges his poke and all-ins"
+        },
+        {
+          "name": "Kalista",
+          "note": "Out-scales her aggression"
+        },
+        {
+          "name": "Jinx",
+          "note": "Out-duels her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Vayne",
+          "note": "Out-scales in duels"
+        },
+        {
+          "name": "Xayah",
+          "note": "Gets out-burst with feathers"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Too slippery to hit"
+        },
+        {
+          "name": "Sivir",
+          "note": "Shields her burst"
+        },
+        {
+          "name": "Lucian",
+          "note": "Gets out-burst early"
+        },
+        {
+          "name": "Caitlyn",
+          "note": "Gets out-ranged and poked"
+        }
+      ],
+      "synergies": [
+        "Blitzcrank",
+        "Leona",
+        "Nautilus",
+        "Rakan",
+        "Thresh",
+        "Alistar"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Janna",
+          "note": "Lacks engage for plasma stacks"
+        },
+        {
+          "name": "Yuumi",
+          "note": "Lacks engage, can't proc plasma"
+        },
+        {
+          "name": "Soraka",
+          "note": "Lacks engage"
+        }
+      ],
+      "caution": "Needs to evolve abilities to reach power spikes. Farm is critical.",
+      "tips": "Get Q evolve ASAP. Use E invisibility to reposition in fights.",
+      "pickWhen": [
+        "Enemy has dive champions you can out-play",
+        "You have engage support"
+      ],
+      "avoidWhen": [
+        "Enemy has point-and-click CC",
+        "Enemy can poke you out of lane"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Kalista",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "aggressive",
+        "kiting",
+        "early game"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Senna",
+          "note": "Bursts her before she can poke"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Too mobile for his skillshots"
+        },
+        {
+          "name": "Varus",
+          "note": "Dodges his poke"
+        },
+        {
+          "name": "Jhin",
+          "note": "Can't hit her with fourth shot"
+        },
+        {
+          "name": "Sivir",
+          "note": "Bursts through her shield"
+        },
+        {
+          "name": "Aphelios",
+          "note": "Out-aggresses him"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Nilah",
+          "note": "Sustains her burst"
+        },
+        {
+          "name": "Xayah",
+          "note": "Out-bursts her with feathers"
+        },
+        {
+          "name": "Lucian",
+          "note": "Out-bursts early"
+        },
+        {
+          "name": "Twitch",
+          "note": "Ambushes and out-damages"
+        },
+        {
+          "name": "Ashe",
+          "note": "Slows ruin her mobility"
+        },
+        {
+          "name": "Zeri",
+          "note": "Too mobile to pin down"
+        }
+      ],
+      "synergies": [
+        "Thresh",
+        "Leona",
+        "Nautilus",
+        "Alistar",
+        "Blitzcrank",
+        "Rakan"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Yuumi",
+          "note": "Can't throw her in ultimate"
+        },
+        {
+          "name": "Janna",
+          "note": "Lacks engage for her playstyle"
+        },
+        {
+          "name": "Soraka",
+          "note": "Lacks engage"
+        }
+      ],
+      "caution": "Loses effectiveness late game. Must snowball early.",
+      "tips": "Use E to execute minions and champions. Stack spears then rend.",
+      "pickWhen": [
+        "Enemy bot lane is immobile",
+        "You have engage support"
+      ],
+      "avoidWhen": [
+        "Enemy has point-and-click CC",
+        "Enemy can slow/root you"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Karma",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "archetype": "Poke",
+      "playstyle": [
+        "poke",
+        "shield",
+        "utility"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Leona",
+          "note": "W to stop her engage"
+        },
+        {
+          "name": "Nautilus",
+          "note": "W to stop his hook"
+        },
+        {
+          "name": "Alistar",
+          "note": "W to stop his combo"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Morgana",
+          "note": "Can't CC through shield"
+        },
+        {
+          "name": "Blitzcrank",
+          "note": "Can't stop hook"
+        },
+        {
+          "name": "Thresh",
+          "note": "Can't stop hook"
+        }
+      ],
+      "synergies": [
+        "Ezreal",
+        "Caitlyn",
+        "Jhin",
+        "Sivir",
+        "Draven"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Vayne",
+          "note": "Need peel, not poke"
+        },
+        {
+          "name": "Kog'Maw",
+          "note": "Need more sustain"
+        }
+      ],
+      "caution": "Your mantra is your identity. Use it wisely.",
+      "tips": "Mantra Q for poke, Mantra E for team shield and speed.",
+      "pickWhen": [
+        "Enemy has immobile bot lane",
+        "You need poke"
+      ],
+      "avoidWhen": [
+        "Enemy has engage supports",
+        "Your team needs engage"
+      ],
+      "roles": [
+        "Support",
+        "APC"
+      ]
+    },
+    {
+      "name": "Karthus",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "scaling",
+        "global",
+        "utility"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Sivir",
+          "note": "Can't spellshield your Q"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Out-scale him"
+        },
+        {
+          "name": "Caitlyn",
+          "note": "Scale past her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Draven",
+          "note": "Burst you early"
+        },
+        {
+          "name": "Lucian",
+          "note": "Dash to dodge Q"
+        },
+        {
+          "name": "Vayne",
+          "note": "Can't hit her"
+        }
+      ],
+      "synergies": [
+        "Morgana",
+        "Lux",
+        "Karma",
+        "Nami",
+        "Lulu"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Leona",
+          "note": "Can't follow engage"
+        },
+        {
+          "name": "Alistar",
+          "note": "Need poke support"
+        }
+      ],
+      "caution": "Immobile. Position is crucial.",
+      "tips": "Q for poke. W for slow. R for global damage.",
+      "pickWhen": [
+        "Enemy lacks mobility",
+        "Your team needs global pressure"
+      ],
+      "avoidWhen": [
+        "Enemy has assassins",
+        "Need early game pressure"
+      ],
+      "roles": [
+        "APC"
+      ]
+    },
+    {
+      "name": "Kog'Maw",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "hypercarry",
+        "tank shredder",
+        "scaling"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Corki",
+          "note": "Out-scales his burst"
+        },
+        {
+          "name": "Xayah",
+          "note": "Out-ranges her"
+        },
+        {
+          "name": "Varus",
+          "note": "Out-scales his poke"
+        },
+        {
+          "name": "Samira",
+          "note": "Out-ranges her"
+        },
+        {
+          "name": "Tristana",
+          "note": "Out-scales her"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Out-ranges and out-scales"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Vayne",
+          "note": "Out-duels him"
+        },
+        {
+          "name": "Draven",
+          "note": "Gets out-traded early"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Gets ulted and burst"
+        },
+        {
+          "name": "Twitch",
+          "note": "Ambushes him"
+        },
+        {
+          "name": "Lucian",
+          "note": "Gets out-burst early"
+        },
+        {
+          "name": "Caitlyn",
+          "note": "Gets out-ranged"
+        }
+      ],
+      "synergies": [
+        "Lulu",
+        "Braum",
+        "Alistar",
+        "Rakan",
+        "Yuumi",
+        "Morgana",
+        "Soraka",
+        "Janna",
+        "Nami"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Pyke",
+          "note": "Can't protect him"
+        },
+        {
+          "name": "Blitzcrank",
+          "note": "Pulls enemies onto him"
+        },
+        {
+          "name": "Senna",
+          "note": "Double squishy comp"
+        }
+      ],
+      "caution": "No mobility whatsoever. Position is everything.",
+      "tips": "Turn on W to shred tanks. Keep passive in mind for post-death damage.",
+      "pickWhen": [
+        "Your team can peel for you",
+        "Enemy has tanks you need to shred"
+      ],
+      "avoidWhen": [
+        "Enemy has multiple assassins",
+        "Enemy has heavy dive comp"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Lucian",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [
+        "Mid"
+      ],
+      "playstyle": [
+        "burst",
+        "lane bully",
+        "mobile"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Varus",
+          "note": "Out-bursts him early"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Dashes out of her ult"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Out-trades in short fights"
+        },
+        {
+          "name": "Kalista",
+          "note": "Out-bursts her"
+        },
+        {
+          "name": "Aphelios",
+          "note": "Bursts him before he DPS"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Vayne",
+          "note": "Out-scales in duels"
+        },
+        {
+          "name": "Ashe",
+          "note": "Slows ruin his mobility"
+        },
+        {
+          "name": "Nilah",
+          "note": "Sustains his burst"
+        },
+        {
+          "name": "Caitlyn",
+          "note": "Out-ranges him"
+        },
+        {
+          "name": "Twitch",
+          "note": "Out-ranges and ambushes"
+        },
+        {
+          "name": "Tristana",
+          "note": "Out-ranges and out-bursts late"
+        }
+      ],
+      "synergies": [
+        "Nami",
+        "Braum",
+        "Thresh",
+        "Leona",
+        "Alistar",
+        "Rakan"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Yuumi",
+          "note": "Lacks engage for his playstyle"
+        },
+        {
+          "name": "Soraka",
+          "note": "Lacks kill pressure"
+        }
+      ],
+      "caution": "Falls off late. Must win lane and snowball.",
+      "tips": "E + auto Q + auto is your main trade combo. Use R to push waves.",
+      "pickWhen": [
+        "Enemy has immobile ADC",
+        "You need early game presence"
+      ],
+      "avoidWhen": [
+        "Enemy has better scaling and can survive lane",
+        "Enemy has point-and-click CC"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Lux",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "archetype": "Mage",
+      "playstyle": [
+        "poke",
+        "burst",
+        "utility"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Thresh",
+          "note": "Poke him from range"
+        },
+        {
+          "name": "Blitzcrank",
+          "note": "Poke him from range"
+        },
+        {
+          "name": "Nautilus",
+          "note": "Poke him from range"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Morgana",
+          "note": "Shield blocks your CC"
+        },
+        {
+          "name": "Lulu",
+          "note": "Polymorph > CC"
+        },
+        {
+          "name": "Janna",
+          "note": "Tornado > CC"
+        }
+      ],
+      "synergies": [
+        "Caitlyn",
+        "Jhin",
+        "Lucian",
+        "Draven",
+        "Ashe"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Ezreal",
+          "note": "No follow-up CC"
+        },
+        {
+          "name": "Sivir",
+          "note": "No follow-up CC"
+        }
+      ],
+      "caution": "Squishy. Don't get caught.",
+      "tips": "Q for root. E for poke. W for shield. R for burst.",
+      "pickWhen": [
+        "Enemy has immobile bot lane",
+        "Need poke and burst"
+      ],
+      "avoidWhen": [
+        "Enemy has engage supports",
+        "Heavy dive comps"
+      ],
+      "roles": [
+        "Support",
+        "APC"
+      ]
+    },
+    {
+      "name": "Miss Fortune",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "burst",
+        "teamfight",
+        "poke"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Vayne",
+          "note": "Bursts her in lane"
+        },
+        {
+          "name": "Sivir",
+          "note": "Pokes her down"
+        },
+        {
+          "name": "Jinx",
+          "note": "Out-pokes and bursts"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Draven",
+          "note": "Gets out-traded"
+        },
+        {
+          "name": "Varus",
+          "note": "Gets out-poked"
+        },
+        {
+          "name": "Jhin",
+          "note": "Gets out-burst"
+        },
+        {
+          "name": "Xayah",
+          "note": "Gets out-burst with feathers"
+        },
+        {
+          "name": "Lucian",
+          "note": "Gets out-burst early"
+        }
+      ],
+      "synergies": [
+        "Leona",
+        "Alistar",
+        "Nautilus",
+        "Malphite",
+        "Braum",
+        "Amumu"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Janna",
+          "note": "Can ult enemies out of bullet time"
+        },
+        {
+          "name": "Soraka",
+          "note": "Lacks engage for ult setup"
+        },
+        {
+          "name": "Yuumi",
+          "note": "Lacks CC for ult"
+        }
+      ],
+      "caution": "Ult is easily interrupted. Need CC support to guarantee it.",
+      "tips": "Q bounce is your main poke tool. Position for maximum R usage.",
+      "pickWhen": [
+        "Your team has AoE CC for your ult",
+        "Enemy team is squishy"
+      ],
+      "avoidWhen": [
+        "Enemy has multiple interrupts",
+        "Enemy can dive you easily"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Morgana",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "archetype": "Mage",
+      "playstyle": [
+        "poke",
+        "engage",
+        "utility"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Thresh",
+          "note": "Black shield blocks his hook"
+        },
+        {
+          "name": "Blitzcrank",
+          "note": "Black shield blocks his hook"
+        },
+        {
+          "name": "Leona",
+          "note": "Black shield blocks her CC"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Lulu",
+          "note": "Polymorph > shield"
+        },
+        {
+          "name": "Janna",
+          "note": "Tornado > shield"
+        },
+        {
+          "name": "Nami",
+          "note": "Q > shield"
+        }
+      ],
+      "synergies": [
+        "Caitlyn",
+        "Jhin",
+        "Lucian",
+        "Kai'Sa",
+        "Draven"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Ezreal",
+          "note": "No follow-up CC"
+        },
+        {
+          "name": "Sivir",
+          "note": "No follow-up CC"
+        }
+      ],
+      "caution": "Black Shield has long CD. Don't waste it.",
+      "tips": "Q for root. E for shield. W for poke. R for teamfight CC.",
+      "pickWhen": [
+        "Enemy has engage supports",
+        "You need poke"
+      ],
+      "avoidWhen": [
+        "Enemy has poke supports",
+        "Enemy has Lulu/Polymorph"
+      ],
+      "roles": [
+        "Support",
+        "APC"
+      ]
+    },
+    {
+      "name": "Nilah",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [
+        "Jungle"
+      ],
+      "playstyle": [
+        "burst",
+        "melee",
+        "snowball"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Vayne",
+          "note": "Sustains her damage and out-bursts"
+        },
+        {
+          "name": "Aphelios",
+          "note": "Sustains and all-ins him"
+        },
+        {
+          "name": "Varus",
+          "note": "Sustains his poke"
+        },
+        {
+          "name": "Samira",
+          "note": "Out-sustains her"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Sustains her poke"
+        },
+        {
+          "name": "Kalista",
+          "note": "Sustains her aggression"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Caitlyn",
+          "note": "Gets out-ranged and poked"
+        },
+        {
+          "name": "Xayah",
+          "note": "Gets out-burst"
+        },
+        {
+          "name": "Sivir",
+          "note": "Pokes and shields"
+        },
+        {
+          "name": "Draven",
+          "note": "Gets out-traded early"
+        },
+        {
+          "name": "Jinx",
+          "note": "Gets out-ranged"
+        },
+        {
+          "name": "Ashe",
+          "note": "Slows ruin her engage"
+        }
+      ],
+      "synergies": [
+        "Soraka",
+        "Rakan",
+        "Malphite",
+        "Ornn",
+        "Nami",
+        "Seraphine"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Lux",
+          "note": "Poke support lacks peel"
+        },
+        {
+          "name": "Brand",
+          "note": "Lacks peel for melee ADC"
+        }
+      ],
+      "caution": "Melee range makes her vulnerable. Needs sustain to survive.",
+      "tips": "Your W gives dodge chance. Use E to engage and Q for sustain.",
+      "pickWhen": [
+        "Enemy has weak early game",
+        "You have sustain support"
+      ],
+      "avoidWhen": [
+        "Enemy has heavy poke",
+        "Enemy can kite you easily"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Samira",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "burst",
+        "aggressive",
+        "teamfight"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Aphelios",
+          "note": "Bursts before he can DPS"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Bursts her early"
+        },
+        {
+          "name": "Varus",
+          "note": "Dodges his poke and all-ins"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Bursts through his poke"
+        },
+        {
+          "name": "Kalista",
+          "note": "Out-bursts her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Draven",
+          "note": "Gets out-traded"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Gets out-poked"
+        },
+        {
+          "name": "Senna",
+          "note": "Gets out-ranged"
+        },
+        {
+          "name": "Nilah",
+          "note": "Out-sustains her burst"
+        },
+        {
+          "name": "Jinx",
+          "note": "Out-ranges her"
+        },
+        {
+          "name": "Xayah",
+          "note": "Out-bursts with feathers"
+        }
+      ],
+      "synergies": [
+        "Nautilus",
+        "Leona",
+        "Blitzcrank",
+        "Thresh",
+        "Alistar",
+        "Rakan"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Soraka",
+          "note": "Lacks CC for her combos"
+        },
+        {
+          "name": "Milio",
+          "note": "Lacks engage"
+        },
+        {
+          "name": "Janna",
+          "note": "Lacks engage"
+        }
+      ],
+      "caution": "Needs hard CC support to get in range. Can't engage without setup.",
+      "tips": "Stack passive with E + Q. Save W to block projectiles.",
+      "pickWhen": [
+        "You have engage support",
+        "Enemy has squishy champions"
+      ],
+      "avoidWhen": [
+        "Enemy has point-and-click CC",
+        "Enemy can kite your engage"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Senna",
+      "primaryRole": "Support",
+      "secondaryRoles": [],
+      "playstyle": [
+        "poke",
+        "scaling",
+        "utility"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Seraphine",
+          "note": "Out-pokes her"
+        },
+        {
+          "name": "Sona",
+          "note": "Out-ranges and pokes"
+        },
+        {
+          "name": "Janna",
+          "note": "Out-pokes her"
+        },
+        {
+          "name": "Soraka",
+          "note": "Out-pokes her"
+        },
+        {
+          "name": "Yuumi",
+          "note": "Pokes her off ADC"
+        },
+        {
+          "name": "Nami",
+          "note": "Out-pokes her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Blitzcrank",
+          "note": "Hook destroys her"
+        },
+        {
+          "name": "Leona",
+          "note": "Engage oneshots her"
+        },
+        {
+          "name": "Thresh",
+          "note": "Hook destroys her"
+        },
+        {
+          "name": "Rakan",
+          "note": "Engage oneshots her"
+        },
+        {
+          "name": "Nautilus",
+          "note": "Hook destroys her"
+        },
+        {
+          "name": "Braum",
+          "note": "Blocks her poke"
+        }
+      ],
+      "synergies": [
+        "Nasus",
+        "Galio",
+        "Seraphine",
+        "Lux",
+        "Karma"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Sona",
+          "note": "Double squishy"
+        },
+        {
+          "name": "Soraka",
+          "note": "Double squishy"
+        }
+      ],
+      "caution": "Very squishy. Bad positioning gets you killed instantly.",
+      "tips": "Collect souls from poke. Build lethality for damage, enchanter for utility.",
+      "pickWhen": [
+        "Enemy has enchanter support",
+        "Your team has frontline"
+      ],
+      "avoidWhen": [
+        "Enemy has hard engage",
+        "Enemy has multiple assassins"
+      ],
+      "roles": [
+        "ADC",
+        "Support"
+      ]
+    },
+    {
+      "name": "Seraphine",
+      "primaryRole": "Support",
+      "secondaryRoles": [
+        "Mid"
+      ],
+      "playstyle": [
+        "utility",
+        "poke",
+        "teamfight"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Morgana",
+          "note": "Out-pokes her"
+        },
+        {
+          "name": "Thresh",
+          "note": "Out-pokes him"
+        },
+        {
+          "name": "Alistar",
+          "note": "Out-pokes him"
+        },
+        {
+          "name": "Rakan",
+          "note": "Out-pokes him"
+        },
+        {
+          "name": "Braum",
+          "note": "Out-pokes him"
+        },
+        {
+          "name": "Leona",
+          "note": "Out-pokes her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Sona",
+          "note": "Out-sustains her"
+        },
+        {
+          "name": "Soraka",
+          "note": "Out-sustains her"
+        },
+        {
+          "name": "Janna",
+          "note": "Out-sustains her"
+        },
+        {
+          "name": "Senna",
+          "note": "Out-ranges her"
+        },
+        {
+          "name": "Pyke",
+          "note": "Hook oneshots her"
+        },
+        {
+          "name": "Milio",
+          "note": "Out-sustains her"
+        }
+      ],
+      "synergies": [
+        "Senna",
+        "Ezreal",
+        "Ashe",
+        "Jhin"
+      ],
+      "avoidSynergies": [],
+      "caution": "Very squishy. Position carefully.",
+      "tips": "Double cast E for root, double cast W for heal. Ultimate is game-changing.",
+      "pickWhen": [
+        "Enemy has engage comp you can kite",
+        "Your team needs AP damage"
+      ],
+      "avoidWhen": [
+        "Enemy has mobile assassins",
+        "Enemy has hook supports"
+      ],
+      "roles": [
+        "APC",
+        "Support"
+      ]
+    },
+    {
+      "name": "Sivir",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "poke",
+        "waveclear",
+        "utility"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Ezreal",
+          "note": "Shields his poke"
+        },
+        {
+          "name": "Draven",
+          "note": "Shields his burst"
+        },
+        {
+          "name": "Tristana",
+          "note": "Pokes her down"
+        },
+        {
+          "name": "Lucian",
+          "note": "Pokes him down"
+        },
+        {
+          "name": "Xayah",
+          "note": "Out-pokes and shields"
+        },
+        {
+          "name": "Varus",
+          "note": "Shields his poke"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Jhin",
+          "note": "Out-bursts her"
+        },
+        {
+          "name": "Jinx",
+          "note": "Out-ranges her"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Out-bursts her"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Out-pokes and bursts"
+        },
+        {
+          "name": "Vayne",
+          "note": "Out-scales her"
+        },
+        {
+          "name": "Ashe",
+          "note": "Out-ranges her"
+        }
+      ],
+      "synergies": [
+        "Rakan",
+        "Leona",
+        "Alistar",
+        "Nautilus",
+        "Thresh",
+        "Yuumi",
+        "Morgana"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Blitzcrank",
+          "note": "Hook can be inconsistent with her W"
+        }
+      ],
+      "caution": "Lacks kill pressure. Focus on farm and waveclear.",
+      "tips": "Use spell shield to block key abilities. Q is your main damage tool.",
+      "pickWhen": [
+        "Enemy has heavy poke",
+        "You want to neutralize lane"
+      ],
+      "avoidWhen": [
+        "Enemy has better scaling",
+        "Enemy has dive comp"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Smolder",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [
+        "Mid"
+      ],
+      "playstyle": [
+        "scaling",
+        "teamfight",
+        "hybrid"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Vayne",
+          "note": "Out-pokes her early"
+        },
+        {
+          "name": "Kog'Maw",
+          "note": "Out-pokes him"
+        },
+        {
+          "name": "Jinx",
+          "note": "Out-pokes her early"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Draven",
+          "note": "Gets out-traded"
+        },
+        {
+          "name": "Lucian",
+          "note": "Gets out-burst"
+        },
+        {
+          "name": "Caitlyn",
+          "note": "Gets out-ranged"
+        }
+      ],
+      "synergies": [
+        "Rakan",
+        "Alistar",
+        "Braum",
+        "Renata",
+        "Sona",
+        "Nami"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Lux",
+          "note": "Poke support lacks peel"
+        },
+        {
+          "name": "Karma",
+          "note": "Poke support lacks peel"
+        },
+        {
+          "name": "Seraphine",
+          "note": "Can steal farm"
+        },
+        {
+          "name": "Brand",
+          "note": "Can steal farm"
+        },
+        {
+          "name": "Vel'Koz",
+          "note": "Can steal farm"
+        }
+      ],
+      "caution": "Early game is weak. Needs peel and scaling.",
+      "tips": "Stack your passive for true damage. Position safely in teamfights.",
+      "pickWhen": [
+        "You have peel support",
+        "Enemy has immobile ADC"
+      ],
+      "avoidWhen": [
+        "Enemy has early game lane bullies",
+        "Enemy has dive comp"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Tristana",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [
+        "Mid"
+      ],
+      "playstyle": [
+        "burst",
+        "snowball",
+        "scaling"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Caitlyn",
+          "note": "Jumps on her and bursts"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Jumps on her and bursts"
+        },
+        {
+          "name": "Ashe",
+          "note": "Jumps on her and bursts"
+        },
+        {
+          "name": "Varus",
+          "note": "Jumps on him and bursts"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Xayah",
+          "note": "Out-bursts her with feathers"
+        },
+        {
+          "name": "Draven",
+          "note": "Gets out-traded early"
+        },
+        {
+          "name": "Lucian",
+          "note": "Gets out-burst early"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Too slippery to jump on"
+        },
+        {
+          "name": "Sivir",
+          "note": "Shields her burst"
+        },
+        {
+          "name": "Jhin",
+          "note": "Gets burst before she can jump"
+        }
+      ],
+      "synergies": [
+        "Leona",
+        "Nautilus",
+        "Alistar",
+        "Thresh",
+        "Blitzcrank",
+        "Rakan"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Soraka",
+          "note": "Lacks engage"
+        },
+        {
+          "name": "Sona",
+          "note": "Lacks engage"
+        }
+      ],
+      "caution": "W is your engage and escape. Use it wisely.",
+      "tips": "E + auto + W + auto is your kill combo. Reset W for cleanup.",
+      "pickWhen": [
+        "Enemy has immobile ADC",
+        "You have engage support"
+      ],
+      "avoidWhen": [
+        "Enemy has point-and-click CC",
+        "Enemy can kite your jump"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Twitch",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "hypercarry",
+        "stealth",
+        "scaling"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Vayne",
+          "note": "Out-ranges and ambushes"
+        },
+        {
+          "name": "Jinx",
+          "note": "Ambushes her"
+        },
+        {
+          "name": "Varus",
+          "note": "Ambushes him"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Ambushes him"
+        },
+        {
+          "name": "Ashe",
+          "note": "Ambushes her"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Ambushes her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Jhin",
+          "note": "Gets burst before ambush"
+        },
+        {
+          "name": "Tristana",
+          "note": "Gets jumped and burst"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Can see him with W"
+        },
+        {
+          "name": "Draven",
+          "note": "Gets out-traded"
+        },
+        {
+          "name": "Xayah",
+          "note": "Can root with feathers"
+        },
+        {
+          "name": "Samira",
+          "note": "Can block his attacks"
+        }
+      ],
+      "synergies": [
+        "Lulu",
+        "Yuumi",
+        "Nami",
+        "Janna",
+        "Soraka",
+        "Braum"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Blitzcrank",
+          "note": "Pulls enemies onto him"
+        },
+        {
+          "name": "Leona",
+          "note": "Engage can put him in danger"
+        }
+      ],
+      "caution": "Very weak early game. Must survive to scale.",
+      "tips": "Use Q to reposition in fights. Ultimate gives long range and piercing.",
+      "pickWhen": [
+        "Enemy has immobile ADC",
+        "You have peel support"
+      ],
+      "avoidWhen": [
+        "Enemy has point-and-click burst",
+        "Enemy has sweepers/control wards"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Varus",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [
+        "Mid"
+      ],
+      "playstyle": [
+        "poke",
+        "utility",
+        "flexible"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Caitlyn",
+          "note": "Out-pokes her"
+        },
+        {
+          "name": "Sivir",
+          "note": "Out-pokes her shield"
+        },
+        {
+          "name": "Ashe",
+          "note": "Out-pokes her"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Out-pokes and cancels ult"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Draven",
+          "note": "Gets out-traded"
+        },
+        {
+          "name": "Vayne",
+          "note": "Gets out-scaled"
+        },
+        {
+          "name": "Lucian",
+          "note": "Gets out-burst"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Too slippery to hit"
+        },
+        {
+          "name": "Xayah",
+          "note": "Gets out-burst"
+        }
+      ],
+      "synergies": [
+        "Leona",
+        "Rakan",
+        "Alistar",
+        "Thresh",
+        "Braum",
+        "Nami",
+        "Janna",
+        "Lulu"
+      ],
+      "avoidSynergies": [],
+      "caution": "Immobile — vulnerable to dive. Needs peel.",
+      "tips": "Can be built AD or AP. Use E to apply grievous wounds.",
+      "pickWhen": [
+        "Enemy has low mobility",
+        "You need poke or anti-heal"
+      ],
+      "avoidWhen": [
+        "Enemy has heavy dive",
+        "Enemy has multiple assassins"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Vayne",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [
+        "Top"
+      ],
+      "playstyle": [
+        "hypercarry",
+        "duelist",
+        "scaling"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Ezreal",
+          "note": "Out-scales him"
+        },
+        {
+          "name": "Jhin",
+          "note": "Out-scales him"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Out-scales her"
+        },
+        {
+          "name": "Xayah",
+          "note": "Out-duels her"
+        },
+        {
+          "name": "Kalista",
+          "note": "Out-scales her"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Out-duels her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Caitlyn",
+          "note": "Gets out-ranged"
+        },
+        {
+          "name": "Draven",
+          "note": "Gets out-traded early"
+        },
+        {
+          "name": "Varus",
+          "note": "Gets out-poked"
+        },
+        {
+          "name": "Ashe",
+          "note": "Gets out-ranged and slowed"
+        },
+        {
+          "name": "Tristana",
+          "note": "Gets jumped on early"
+        },
+        {
+          "name": "Graves",
+          "note": "Can burst her"
+        }
+      ],
+      "synergies": [
+        "Lulu",
+        "Soraka",
+        "Nami",
+        "Yuumi",
+        "Braum",
+        "Janna",
+        "Thresh"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Brand",
+          "note": "Poke support lacks peel"
+        },
+        {
+          "name": "Lux",
+          "note": "Poke support lacks peel"
+        },
+        {
+          "name": "Senna",
+          "note": "Double squishy"
+        }
+      ],
+      "caution": "Extremely weak early game. Must survive to scale.",
+      "tips": "Silver bolts do % max HP true damage. Use Q to dodge skillshots.",
+      "pickWhen": [
+        "Enemy has tanks you need to shred",
+        "You have peel support"
+      ],
+      "avoidWhen": [
+        "Enemy has lane bullies",
+        "Enemy has point-and-click CC"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Veigar",
+      "primaryRole": "Support",
+      "secondaryRoles": [
+        "Mid"
+      ],
+      "playstyle": [
+        "burst",
+        "scaling",
+        "utility"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Tristana",
+          "note": "Traps her jump"
+        },
+        {
+          "name": "Draven",
+          "note": "Traps his aggression"
+        },
+        {
+          "name": "Ezreal",
+          "note": "Traps his blink"
+        },
+        {
+          "name": "Corki",
+          "note": "Out-scales his burst"
+        },
+        {
+          "name": "Rakan",
+          "note": "Traps his engage"
+        },
+        {
+          "name": "Orianna",
+          "note": "Out-ranges her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Braum",
+          "note": "Shields his burst"
+        },
+        {
+          "name": "Seraphine",
+          "note": "Out-sustains him"
+        },
+        {
+          "name": "Aphelios",
+          "note": "Out-ranges him"
+        },
+        {
+          "name": "Xayah",
+          "note": "Out-bursts him"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Out-ranges him"
+        },
+        {
+          "name": "Lucian",
+          "note": "Out-bursts him early"
+        }
+      ],
+      "synergies": [
+        "Leona",
+        "Nautilus",
+        "Thresh",
+        "Alistar"
+      ],
+      "avoidSynergies": [],
+      "caution": "Weak early game. Needs to stack AP safely.",
+      "tips": "Use cage to zone and trap. Stack passive on minions and champions.",
+      "pickWhen": [
+        "Your team needs magic damage",
+        "Enemy has immobile champions"
+      ],
+      "avoidWhen": [
+        "Enemy has Sivir (spellshield)",
+        "Enemy has Olaf (ignores cage)"
+      ],
+      "roles": [
+        "APC",
+        "Support"
+      ]
+    },
+    {
+      "name": "Vel'Koz",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "archetype": "Mage",
+      "playstyle": [
+        "poke",
+        "burst",
+        "utility"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Thresh",
+          "note": "Poke from range"
+        },
+        {
+          "name": "Blitzcrank",
+          "note": "Poke from range"
+        },
+        {
+          "name": "Nautilus",
+          "note": "Poke from range"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Morgana",
+          "note": "Shield blocks your CC"
+        },
+        {
+          "name": "Lulu",
+          "note": "Polymorph > CC"
+        },
+        {
+          "name": "Janna",
+          "note": "Tornado > CC"
+        }
+      ],
+      "synergies": [
+        "Caitlyn",
+        "Jhin",
+        "Lucian",
+        "Draven",
+        "Ashe"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Ezreal",
+          "note": "No follow-up CC"
+        },
+        {
+          "name": "Sivir",
+          "note": "No follow-up CC"
+        }
+      ],
+      "caution": "Squishy and immobile. Position carefully.",
+      "tips": "Q for poke. W for waveclear. E for CC. R for true damage burst.",
+      "pickWhen": [
+        "Enemy has immobile bot lane",
+        "Need poke"
+      ],
+      "avoidWhen": [
+        "Enemy has engage supports",
+        "Heavy dive comps"
+      ],
+      "roles": [
+        "Support",
+        "APC"
+      ]
+    },
+    {
+      "name": "Xayah",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "burst",
+        "kiting",
+        "teamfight"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Ashe",
+          "note": "Out-bursts her"
+        },
+        {
+          "name": "Vayne",
+          "note": "Out-bursts her early"
+        },
+        {
+          "name": "Zeri",
+          "note": "Out-bursts her"
+        },
+        {
+          "name": "Aphelios",
+          "note": "Out-bursts him"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Out-bursts her"
+        },
+        {
+          "name": "Samira",
+          "note": "Out-bursts her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Draven",
+          "note": "Gets out-traded"
+        },
+        {
+          "name": "Varus",
+          "note": "Gets out-poked"
+        },
+        {
+          "name": "Caitlyn",
+          "note": "Gets out-ranged"
+        },
+        {
+          "name": "Kalista",
+          "note": "Too mobile to root"
+        }
+      ],
+      "synergies": [
+        "Rakan",
+        "Morgana",
+        "Thresh",
+        "Alistar",
+        "Braum",
+        "Leona"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Soraka",
+          "note": "Lacks engage"
+        },
+        {
+          "name": "Janna",
+          "note": "Lacks engage"
+        },
+        {
+          "name": "Sona",
+          "note": "Lacks engage"
+        },
+        {
+          "name": "Lux",
+          "note": "Lacks engage"
+        }
+      ],
+      "caution": "Root combo requires precise feather placement.",
+      "tips": "Setup feathers with Q + autos, then E to root and burst.",
+      "pickWhen": [
+        "Enemy has engage comp you can kite",
+        "You have CC support for root combos"
+      ],
+      "avoidWhen": [
+        "Enemy has better scaling",
+        "Enemy can dodge your feathers"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Xerath",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "archetype": "Mage",
+      "playstyle": [
+        "poke",
+        "burst",
+        "utility"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Thresh",
+          "note": "Poke from range"
+        },
+        {
+          "name": "Blitzcrank",
+          "note": "Poke from range"
+        },
+        {
+          "name": "Nautilus",
+          "note": "Poke from range"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Morgana",
+          "note": "Shield blocks your CC"
+        },
+        {
+          "name": "Lulu",
+          "note": "Polymorph > CC"
+        },
+        {
+          "name": "Janna",
+          "note": "Tornado > CC"
+        }
+      ],
+      "synergies": [
+        "Caitlyn",
+        "Jhin",
+        "Lucian",
+        "Draven",
+        "Ashe"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Ezreal",
+          "note": "No follow-up CC"
+        },
+        {
+          "name": "Sivir",
+          "note": "No follow-up CC"
+        }
+      ],
+      "caution": "Squishy and immobile. Position is crucial.",
+      "tips": "Q for poke. W for slow. E for stun. R for burst.",
+      "pickWhen": [
+        "Enemy has immobile bot lane",
+        "Need poke"
+      ],
+      "avoidWhen": [
+        "Enemy has engage supports",
+        "Heavy dive comps"
+      ],
+      "roles": [
+        "Support",
+        "APC"
+      ]
+    },
+    {
+      "name": "Zeri",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "playstyle": [
+        "hypercarry",
+        "mobile",
+        "scaling"
+      ],
+      "goodAgainst": [],
+      "badAgainst": [
+        {
+          "name": "Caitlyn",
+          "note": "Gets out-ranged"
+        },
+        {
+          "name": "Jhin",
+          "note": "Gets out-burst"
+        },
+        {
+          "name": "Miss Fortune",
+          "note": "Gets out-poked"
+        },
+        {
+          "name": "Lucian",
+          "note": "Gets out-burst early"
+        },
+        {
+          "name": "Draven",
+          "note": "Gets out-traded"
+        },
+        {
+          "name": "Vayne",
+          "note": "Out-duels her"
+        }
+      ],
+      "synergies": [
+        "Yuumi",
+        "Lulu",
+        "Janna",
+        "Nami",
+        "Soraka"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Leona",
+          "note": "Lacks peel"
+        },
+        {
+          "name": "Alistar",
+          "note": "Lacks peel"
+        }
+      ],
+      "caution": "Very weak early game. Needs peel and scaling.",
+      "tips": "Use passive to steal shields. Q is your main damage — don't miss.",
+      "pickWhen": [
+        "You need a hypercarry",
+        "You have peel support"
+      ],
+      "avoidWhen": [
+        "Enemy has early game bullies",
+        "Enemy has point-and-click CC"
+      ],
+      "roles": [
+        "ADC"
+      ]
+    },
+    {
+      "name": "Ziggs",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [
+        "Mid"
+      ],
+      "playstyle": [
+        "poke",
+        "siege",
+        "waveclear"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Jinx",
+          "note": "Out-pushes and out-pokes"
+        },
+        {
+          "name": "Caitlyn",
+          "note": "Out-pushes her"
+        },
+        {
+          "name": "Sivir",
+          "note": "Out-pushes her"
+        },
+        {
+          "name": "Draven",
+          "note": "Pushes him under tower"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Samira",
+          "note": "Can dash through his poke"
+        },
+        {
+          "name": "Zeri",
+          "note": "Too mobile to hit"
+        },
+        {
+          "name": "Kai'Sa",
+          "note": "Dodges his skillshots"
+        },
+        {
+          "name": "Jhin",
+          "note": "Out-bursts him"
+        },
+        {
+          "name": "Varus",
+          "note": "Out-pokes him"
+        }
+      ],
+      "synergies": [
+        "Leona",
+        "Nautilus",
+        "Thresh",
+        "Alistar"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Janna",
+          "note": "Lacks peel for immobile APC"
+        },
+        {
+          "name": "Soraka",
+          "note": "Lacks engage"
+        }
+      ],
+      "caution": "No mobility. Position is everything.",
+      "tips": "Use ultimate to waveclear or secure objectives. Siege towers with W.",
+      "pickWhen": [
+        "Your team lacks magic damage",
+        "Enemy has weak early game"
+      ],
+      "avoidWhen": [
+        "Enemy has mobile assassins",
+        "Enemy has sustain"
+      ],
+      "roles": [
+        "APC"
+      ]
+    },
+    {
+      "name": "Zilean",
+      "primaryRole": "Dragon",
+      "secondaryRoles": [],
+      "archetype": "Mage",
+      "playstyle": [
+        "poke",
+        "utility",
+        "revive"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Thresh",
+          "note": "Speed to dodge hooks"
+        },
+        {
+          "name": "Blitzcrank",
+          "note": "Speed to dodge hooks"
+        },
+        {
+          "name": "Nautilus",
+          "note": "Speed to dodge hooks"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Morgana",
+          "note": "Can't CC through shield"
+        },
+        {
+          "name": "Lulu",
+          "note": "Can't out-speed polymorph"
+        },
+        {
+          "name": "Janna",
+          "note": "Can't out-speed tornado"
+        }
+      ],
+      "synergies": [
+        "Ezreal",
+        "Caitlyn",
+        "Jhin",
+        "Draven",
+        "Lucian"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Vayne",
+          "note": "Need peel, not speed"
+        },
+        {
+          "name": "Kog'Maw",
+          "note": "Need more sustain"
+        }
+      ],
+      "caution": "Squishy. Position carefully.",
+      "tips": "Q for stun. W for CD reset. E for speed. R for revive.",
+      "pickWhen": [
+        "Enemy has engage supports",
+        "Need speed and utility"
+      ],
+      "avoidWhen": [
+        "Enemy has poke",
+        "Need engage support"
+      ],
+      "roles": [
+        "Support",
+        "APC"
+      ]
+    },
+    {
+      "name": "Zyra",
+      "primaryRole": "Support",
+      "secondaryRoles": [
+        "Mid"
+      ],
+      "playstyle": [
+        "poke",
+        "zone-control",
+        "teamfight"
+      ],
+      "goodAgainst": [
+        {
+          "name": "Morgana",
+          "note": "Out-pokes her"
+        },
+        {
+          "name": "Thresh",
+          "note": "Plants block his hooks"
+        },
+        {
+          "name": "Alistar",
+          "note": "Out-pokes him"
+        },
+        {
+          "name": "Nautilus",
+          "note": "Plants block his hooks"
+        },
+        {
+          "name": "Blitzcrank",
+          "note": "Plants block his hooks"
+        },
+        {
+          "name": "Leona",
+          "note": "Out-pokes her"
+        }
+      ],
+      "badAgainst": [
+        {
+          "name": "Soraka",
+          "note": "Out-sustains her poke"
+        },
+        {
+          "name": "Janna",
+          "note": "Out-sustains her poke"
+        },
+        {
+          "name": "Nami",
+          "note": "Out-sustains her poke"
+        },
+        {
+          "name": "Sona",
+          "note": "Out-sustains her poke"
+        }
+      ],
+      "synergies": [
+        "Caitlyn",
+        "Jhin",
+        "Ezreal",
+        "Ashe"
+      ],
+      "avoidSynergies": [
+        {
+          "name": "Lux",
+          "note": "Steals her plant farm"
+        },
+        {
+          "name": "Xerath",
+          "note": "Steals her plant farm"
+        }
+      ],
+      "caution": "Rooted while using abilities. Position safely.",
+      "tips": "Place plants in hook paths to block skillshots. E + W + Q is your poke combo.",
+      "pickWhen": [
+        "Enemy has engage supports (plants counter hooks)",
+        "Your team needs AP damage"
+      ],
+      "avoidWhen": [
+        "Enemy has sustain supports",
+        "Enemy can kill plants easily"
+      ],
+      "roles": [
+        "APC",
+        "Support"
+      ]
+    }
+  ]
+}

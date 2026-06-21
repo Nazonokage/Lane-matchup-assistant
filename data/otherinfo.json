@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "lastUpdated": "June 2026",
+    "description": "Cross-lane draft conditions, flex-pick warnings, global meta notes"
+  },
+  "flexPicks": [
+    {
+      "name": "Akali",
+      "lanes": ["Mid", "Baron"],
+      "note": "Confirm lane in champ select — matchups differ by lane."
+    },
+    {
+      "name": "Yasuo",
+      "lanes": ["Mid", "Baron"],
+      "note": "Can be mid or baron — check draft position."
+    },
+    {
+      "name": "Yone",
+      "lanes": ["Mid", "Baron"],
+      "note": "Flex mid/baron — lane changes counter picks."
+    },
+    {
+      "name": "Pantheon",
+      "lanes": ["Mid", "Jungle", "Baron"],
+      "note": "Can appear in multiple roles — check draft position."
+    },
+    {
+      "name": "Diana",
+      "lanes": ["Mid", "Jungle"],
+      "note": "Mid or jungle flex — matchups differ."
+    },
+    {
+      "name": "Ekko",
+      "lanes": ["Mid", "Jungle"],
+      "note": "Mid or jungle flex."
+    },
+    {
+      "name": "Nidalee",
+      "lanes": ["Mid", "Jungle"],
+      "note": "Rare mid flex — usually jungle."
+    },
+    {
+      "name": "Viego",
+      "lanes": ["Mid", "Jungle"],
+      "note": "Can jungle or mid."
+    },
+    {
+      "name": "Irelia",
+      "lanes": ["Mid", "Baron"],
+      "note": "Mid or baron flex pick."
+    },
+    {
+      "name": "Jayce",
+      "lanes": ["Mid", "Baron"],
+      "note": "Mid or baron — poke vs melee matchups differ."
+    },
+    {
+      "name": "Teemo",
+      "lanes": ["Mid", "Baron"],
+      "note": "Baron teemo vs mid teemo — confirm lane."
+    },
+    {
+      "name": "Wukong",
+      "lanes": ["Jungle", "Baron"],
+      "note": "Jungle or baron flex."
+    },
+    {
+      "name": "Nautilus",
+      "lanes": ["Support", "Jungle"],
+      "note": "Usually support — rare jungle flex."
+    },
+    {
+      "name": "Vayne",
+      "lanes": ["Dragon", "Baron"],
+      "note": "Can be ADC or baron — check draft."
+    },
+    {
+      "name": "Nilah",
+      "lanes": ["Dragon", "Jungle"],
+      "note": "ADC or jungle flex on Wild Rift."
+    },
+    {
+      "name": "Brand",
+      "lanes": ["Dragon", "Support"],
+      "note": "APC bot or support — different lane pressure."
+    },
+    {
+      "name": "Seraphine",
+      "lanes": ["Dragon", "Support"],
+      "note": "APC bot or support flex."
+    },
+    {
+      "name": "Senna",
+      "lanes": ["Dragon", "Support"],
+      "note": "ADC or support — very different lane matchups."
+    }
+  ],
+  "globalConditions": [
+    {
+      "id": "hook-squishy-warning",
+      "lanes": ["Dragon", "Support"],
+      "text": "Hook supports punish immobile squishy bot lanes. Respect bush control.",
+      "scoreAdjust": 0
+    },
+    {
+      "id": "engage-vs-enchanter",
+      "lanes": ["Support"],
+      "text": "Engage supports beat enchanters in lane if they land CC — don't get caught alone.",
+      "scoreAdjust": 0
+    },
+    {
+      "id": "assassin-mid-warning",
+      "lanes": ["Mid"],
+      "text": "Assassin mids win with roams and picks — ward river and track missing.",
+      "scoreAdjust": 0
+    }
+  ],
+  "metaNotes": [
+    {
+      "patch": "7.1g",
+      "text": "Wild Rift bot lane — Draven and Lucian still strong early. Update matchups as patches shift."
+    }
+  ]
+}

@@ -1,55 +1,65 @@
 # Lane Ledger
 
-Offline bot lane draft companion for fast **ADC/APC** pick decisions during champ select.
+Offline **Wild Rift** draft companion — all 5 lanes, works on phone with no internet.
 
-Lane Ledger contains:
-- **Almanac**: browse/search champions and read matchup notes
-- **Draft Helper**: choose enemy bot lane + your support → get recommended carry picks with “why” + “watch out” explanations
+## Quick start
 
-## Features
-- Works **offline** (plain HTML/CSS/JS, no build step)
-- Text-only champion matchups (no images/portraits)
-- Filters for role + playstyle in the Almanac
-- Draft Helper live scoring based on your selections:
-  - good matchups / bad matchups
-  - synergy + avoid pairing logic (both directions)
-  - support-vs-support lane signals
-  - conditions (green/red) that affect the score
-  - rule-based “active draft rules” triggered by enemy picks
-- Saves your last draft selection using `localStorage`
+1. Open `index.html` in your browser (or copy the folder to your phone).
+2. Use **Almanac** to browse champs, **Draft Helper** for live pick suggestions.
 
-## Project Structure
+Data is already built in `data/bundle.js`. You only need to rebuild after editing JSON.
+
+## Edit champion data
+
+**Source of truth** — edit these, not `data.js` or `bundle.js`:
+
+| File | Content |
+|------|---------|
+| `data/drLane.json` | Dragon lane — ADC + APC |
+| `data/suppRole.json` | Supports |
+| `data/Midlane.json` | Mid |
+| `data/JglRole.json` | Jungle |
+| `data/BrLane.json` | Baron |
+| `data/draftRules.json` | Bot lane draft rules |
+| `data/otherinfo.json` | Flex picks, global conditions, meta notes |
+
+Then rebuild:
+
+```bash
+npm run build
+# or: node scripts/build-data.js
 ```
-.
-├── index.html   # UI shell + tabs
-├── style.css    # Dark tactical styling
-├── script.js    # Search, scoring, rendering, and draft helper logic
-└── data.js      # Champion roster + draft rules data (text-heavy)
+
+## Project layout
+
+```
+├── index.html          # App shell
+├── script.js           # UI + scoring
+├── style.css
+├── data/
+│   ├── drLane.json     # ← edit bot carries here
+│   ├── suppRole.json   # ← edit supports here
+│   ├── …other lane JSON
+│   └── bundle.js       # generated — app loads this
+└── scripts/
+    ├── build-data.js
+    └── extract-bot-data.js   # optional legacy merge
 ```
 
-## How it works
-- `data.js` defines:
-  - `championData`: champion roster with matchup notes (good/bad, synergies/avoid, tips/caution, etc.)
-  - `draftRules`: rule triggers that become “Active draft rules” when enemy picks match
-- `script.js`:
-  - filters champions for the Almanac
-  - computes a score for each carry pick based on the current draft inputs
-  - renders top recommendations (with reasons + warnings) and relevant almanac details
+## Flex champs (Akali, Yasuo, etc.)
 
-## Setup / Run
-Open the project folder and run locally:
-- Open `index.html` in your browser (no build required)
+Same champion in multiple lane files (e.g. Mid + Baron) merges at build into **one almanac card** with `matchupsByLane` — no duplicate entries in the app.
 
-If your browser blocks `file://` behavior, use any static server (optional):
-- Node: `npx serve .`
-- Python: `python -m http.server 8000`
+## Legacy `data.js`
 
-Then open the shown URL.
+`data.js` at the project root is **deprecated** (stub only). Full old export backed up at `data/_legacy-data.js.bak`. To merge anything still missing from that backup:
 
-## Notes
-- This project is intended for **bot lane** (carry/support/APC).
-- Update matchups inside `data.js` as patches/meta change.
+```bash
+# temporarily restore backup as data.js, then:
+node scripts/extract-bot-data.js
+npm run build
+```
 
 ## License
-Add your preferred license here (e.g. MIT).
 
+MIT or your choice.

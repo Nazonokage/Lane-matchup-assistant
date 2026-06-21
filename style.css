@@ -573,6 +573,68 @@ body {
   border-top: none;
 }
 
+.badge-mid { background: rgba(210, 153, 34, 0.18); color: #d29922; }
+.badge-jungle { background: rgba(163, 113, 247, 0.18); color: #a371f7; }
+.badge-baron { background: rgba(248, 81, 73, 0.15); color: #f85149; }
+
+.lane-row {
+  margin-bottom: 12px;
+}
+
+.chip-lane.active {
+  color: var(--teal);
+  border-color: var(--teal);
+}
+
+.chip-lane.badge-lane-dragon.active { color: var(--adc); border-color: var(--adc); }
+.chip-lane.badge-lane-support.active { color: var(--support); border-color: var(--support); }
+.chip-lane.badge-lane-mid.active { color: #d29922; border-color: #d29922; }
+.chip-lane.badge-lane-jungle.active { color: #a371f7; border-color: #a371f7; }
+.chip-lane.badge-lane-baron.active { color: #f85149; border-color: #f85149; }
+
+.flex-badge {
+  font-size: 0.6875rem;
+  color: var(--gold);
+  margin-left: 4px;
+}
+
+.flex-banner {
+  margin-bottom: 14px;
+  padding: 12px;
+  border: 1px solid rgba(248, 81, 73, 0.35);
+  border-radius: var(--radius);
+  background: rgba(248, 81, 73, 0.07);
+}
+
+.flex-banner h3 {
+  margin: 0 0 8px;
+  font-size: 0.8125rem;
+  color: var(--red);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.flex-banner ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.875rem;
+}
+
+.strengths {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin: 8px 0;
+}
+
+.global-cond {
+  border-color: rgba(63, 185, 176, 0.35);
+  background: rgba(63, 185, 176, 0.07);
+}
+
+.global-cond h3 {
+  color: var(--teal);
+}
+
 @media (min-width: 480px) {
   .detail-grid {
     grid-template-columns: 1fr 1fr;

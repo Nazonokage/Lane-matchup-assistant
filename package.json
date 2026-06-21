@@ -1,0 +1,10 @@
+{
+  "name": "lane-ledger",
+  "private": true,
+  "description": "Wild Rift offline draft companion",
+  "scripts": {
+    "build": "node scripts/build-data.js",
+    "migrate": "node scripts/extract-bot-data.js",
+    "migrate:full": "node scripts/extract-bot-data.js --full"
+  }
+}
