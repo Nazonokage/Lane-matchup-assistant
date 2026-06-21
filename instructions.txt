@@ -1,0 +1,354 @@
+LANE LEDGER -- DRAFT HELPER REDESIGN PLAN
+==========================================
+Status: planning only, no code yet. Use this as the checklist for the next
+implementation session.
+
+
+1. GOAL
+-------
+Rework the Draft Helper tab from "2-3 dropdowns per lane" into a full 5v5
+draft input.
+
+- The existing top tabs (Dragon / Support / Mid / Jungle / Baron) become
+  "which role am I playing this game?" when you're on the Draft Helper tab.
+  They keep working exactly as before on the Almanac tab -- no change there.
+- Below that: 5 dropdowns for the enemy team -- Top, Jungle, Mid, ADC,
+  Support. Always all 5, every game.
+- Below that: 4 dropdowns for your own team -- same 5 roles minus whichever
+  one you picked via the tab (that one is "you," no dropdown needed for it).
+- Total inputs = 1 role selector + 5 enemy + 4 ally = 10. Matches your plan.
+
+Example: you tap the "Dragon" (ADC) tab. You see 5 enemy dropdowns (Enemy
+Top / Jungle / Mid / ADC / Support) and 4 ally dropdowns (Ally Top / Jungle
+/ Mid / Support -- no Ally ADC, because that's you).
+
+
+2. IMPORTANT DISCOVERY -- THE DATA ALREADY EXPECTS THIS
+--------------------------------------------------------
+The "draftRules" arrays embedded inside BrLane.json, JglRole.json, and
+Midlane.json (NOT the standalone data/draftRules.json, which is bot-lane
+only) already use a full 5-role vocabulary that the app doesn't currently
+support:
+
+  enemyTop, enemyJungle, enemyMid, enemyADC, enemySupport
+  allyTop, allyJungle, allyMid, allySupport  (allyADC is implied/missing)
+
+Two things are silently broken right now because of this:
+
+  a) evaluateCondition() in script.js only defines enemyADC, enemySupport,
+     yourSupport, yourAlly, enemy1, enemyRole as variables. Any rule that
+     references enemyTop / enemyJungle / enemyMid / allyTop / allyJungle /
+     allyMid / allySupport throws a ReferenceError, which gets swallowed by
+     the try/catch and just returns false. These rules have never fired.
+
+  b) build-data.js's loadDraftRules() only reads data/draftRules.json. It
+     never looks at the "draftRules" key inside BrLane.json, JglRole.json,
+     or Midlane.json, so those rules aren't even merged into the bundle
+     today -- they don't exist as far as the running app is concerned.
+
+Takeaway: the content side is basically already built for what you're
+describing. We mainly need to wire the app up to use it, and the naming
+convention is already decided for us -- use it as-is so the JSON doesn't
+need touching again:
+
+  enemy<Role> / ally<Role>   where <Role> is one of: Top, Jungle, Mid, ADC,
+  Support
+
+
+3. NEW DRAFT STATE SHAPE
+-------------------------
+Replace the current state.draft (enemyADC, enemySupport, yourSupport,
+yourAlly, enemy1) with one flat object, always 10 keys, regardless of which
+tab is active:
+
+  {
+    enemyTop: "", enemyJungle: "", enemyMid: "", enemyADC: "", enemySupport: "",
+    allyTop: "",  allyJungle: "",  allyMid: "",  allyADC: "",  allySupport: ""
+  }
+
+Rules:
+  - All 5 enemy fields are always visible, on every tab.
+  - Only 4 of the 5 ally fields are visible at a time -- whichever one
+    matches the active tab/role is hidden (that's you, not a dropdown).
+  - Values persist when you switch tabs. If you fill in allyMid while on
+    the ADC tab, then switch to the Mid tab, allyMid just disappears from
+    the form (Mid is now "you") -- the value stays stored, just unused.
+    Don't clear it on tab switch.
+  - One saved object in localStorage. No more per-lane draft variants.
+
+Tab -> role-key mapping (which ally field to hide, and which enemy field
+counts as your "direct lane opponent"):
+
+  Dragon tab  -> role "ADC"     -> hide allyADC,     opponent = enemyADC
+  Support tab -> role "Support" -> hide allySupport,  opponent = enemySupport
+  Mid tab     -> role "Mid"     -> hide allyMid,      opponent = enemyMid
+  Jungle tab  -> role "Jungle"  -> hide allyJungle,   no single direct
+                                    opponent (junglers roam/invade) --
+                                    treat enemyJungle as a normal enemy
+                                    slot, no special bonus weight
+  Baron tab   -> role "Top"     -> hide allyTop,      opponent = enemyTop
+
+Bot lane special case: ADC and Support share a lane. When role = ADC,
+allySupport is one of the 4 visible ally dropdowns, and the existing
+support-vs-support lane logic (comparing allySupport against enemySupport
+using suppRole.json's Support-lane matchup data) should still run as a
+bonus on top of normal ally-synergy scoring. Same in reverse when
+role = Support (compare allyADC vs enemyADC using drLane.json's Dragon-lane
+data). This is the one case where two of your dropdowns interact directly
+with two of the enemy's dropdowns.
+
+
+4. UI LAYOUT
+------------
+On the Draft Helper panel, under the existing lane chips:
+
+  [ Enemy Team ]
+  5 selects: Enemy Top, Enemy Jungle, Enemy Mid, Enemy ADC, Enemy Support
+
+  [ Your Team ]
+  4 selects (one hidden per the mapping in section 3): Ally Top, Ally
+  Jungle, Ally Mid, Ally ADC, Ally Support
+
+Each select's option list still pulls from the matching lane pool
+(getChampionsByLane("Baron") for Top, "Jungle" for Jungle, "Mid" for Mid,
+the existing ADC/APC "carry" pool for ADC, "Support" for Support) -- that
+part of the code already works and doesn't need to change.
+
+Add two small section headers ("Enemy Team" / "Your Team") so the two
+groups are visually distinct -- probably a new CSS class or two (e.g.
+.draft-group, .draft-group-title), reusing the existing .field /
+.draft-fields styling.
+
+The "Lane intel" context strip currently shows 2-3 champion cards. RESOLVED
+(see section 11): with up to 9 filled slots, only your direct opponent and
+your lane partner (bot lane only) get full cards -- everyone else shows up
+as a small chip instead.
+
+
+5. SCORING LOGIC CHANGES (scoreChampion)
+------------------------------------------
+Generalize from "hardcoded enemyADC / enemySupport / yourSupport handling"
+into a loop:
+
+  For each of the 5 enemy slots that has a value:
+    - champ's goodAgainst/badAgainst vs that enemy (existing findMatch
+      logic, unchanged)
+    - the enemy's own goodAgainst/badAgainst vs champ (reverse-counter
+      logic, already exists)
+    - small extra weight if this slot is your "direct lane opponent"
+      (see the mapping in section 3)
+
+  For each of the 4 visible ally slots that has a value:
+    - champ's synergies/avoidSynergies with that ally (existing findMatch
+      logic, both directions)
+    - small extra weight if this slot is your lane partner (the ADC<->
+      Support case only)
+
+Keep the existing keyword/condition scoring (evaluateConditions /
+getDraftKeywords) as-is -- it already scans "all draft values," so it
+should keep working once state.draft simply has more keys in it. Confirm
+getDraftValues(draft) still works unchanged (it's just
+Object.values(draft).filter(Boolean), so it will).
+
+Keep getRulesForChampion / getTriggeredRules as-is too. Once
+evaluateCondition supports the new variable names (section 6) and
+build-data.js merges the lane-level rules in (section 7), these should
+mostly just start working without further changes.
+
+Note: scores will trend higher now that up to 9 inputs can each
+contribute, instead of 2-3. That's fine for sorting/ranking (relative
+order is what matters) -- the displayed +N/-N number will just look
+bigger than before. Not a bug, just a heads up.
+
+
+6. evaluateCondition() VARIABLE LIST
+--------------------------------------
+Update the Function(...) call to expose exactly:
+
+  enemyTop, enemyJungle, enemyMid, enemyADC, enemySupport,
+  allyTop, allyJungle, allyMid, allyADC, allySupport
+
+(plus keep enemyRole if still needed by any condition, derived from
+byName(enemyADC) same as today).
+
+Drop yourSupport / yourAlly / enemy1 -- those were the old per-lane field
+names and won't be needed once everything reads from the same 10-key draft
+object.
+
+One loose end: data/draftRules.json (the bot-lane file) currently uses
+"yourSupport" in its conditions, and enemyADC/enemySupport which already
+match the new names. Pick one fix:
+  - rename yourSupport -> allySupport directly in that JSON file (cleaner,
+    it's a small file), or
+  - keep a yourSupport = allySupport alias inside evaluateCondition for
+    backward compatibility.
+Recommend the rename.
+
+
+7. build-data.js CHANGES
+--------------------------
+Add a step that also collects each lane file's own "draftRules" array
+(BrLane.json, JglRole.json, Midlane.json each have one inline) and merges
+them into the master draftRules list alongside data/draftRules.json's
+rules, deduping by id (same pattern as mergeRules() in
+extract-bot-data.js). The lane-file rules don't currently carry a "lanes"
+field at all (only data/draftRules.json's bot-lane rules do) -- default
+each merged-in rule to its own file's lane, e.g.:
+
+  BrLane.json rules    -> lanes: ["Baron"]
+  JglRole.json rules   -> lanes: ["Jungle"]
+  Midlane.json rules   -> lanes: ["Mid"]
+
+Re-run `npm run build` after this change and confirm the total rule count
+goes up -- right now only the bot-lane rules from data/draftRules.json make
+it into the bundle.
+
+
+8. DECISIONS
+-------------
+1. Duplicate picks across slots -- BLOCKED. A champion can only occupy one
+   of the 10 slots at a time, matching real draft rules (no duplicate
+   champions across the whole match, not even mirrored across teams). Two
+   implementation effects, covered in section 10 below: each dropdown's
+   option list needs to exclude anyone already picked elsewhere, and the
+   recommendation list needs to exclude anyone already picked too -- no
+   point suggesting a champion that's already on the board.
+
+2. Jungle bonus weighting -- DEFERRED. Going with the simple default: no
+   special weighting for enemyJungle, treat it like any other enemy slot.
+   Once the new dropdowns are working we'll have a better feel for whether
+   jungle recommendations need a counter-jungle bonus -- revisit then
+   instead of guessing now.
+
+3. Tab labels -- CONFIRMED, relabel for clarity. On the Draft Helper tab
+   specifically, show "ADC / Support / Mid / Jungle / Top" instead of
+   "Dragon / Support / Mid / Jungle / Baron." Purely a cosmetic label swap
+   -- the underlying lane keys/data files keep their existing names
+   (Dragon, Baron, etc.), only the text shown on the tab buttons changes
+   when state.tab === "draft". The Almanac tab keeps the original labels.
+
+   Also folding in your follow-up idea here: the recommendations panel
+   should be collapsed by default instead of live-recalculating on every
+   dropdown change. See section 9.
+
+4. Old localStorage drafts -- CONFIRMED, just wipe/reset to a blank
+   new-format draft on first load after this change. No migration code
+   needed.
+
+5. Lane intel clutter -- CONFIRMED, see section 11.
+
+
+9. COLLAPSED RECOMMENDATIONS PANEL (new, from your tab-label note)
+-----------------------------------------------------------------------
+Right now recommendations recalculate and re-render on every single
+dropdown change, which is fine with 2-3 fields but will feel noisy with up
+to 9. Plan: hide the recommendation list by default when you land on the
+Draft Helper tab. Show a "Show recommendations" (or "Get picks") button
+instead. Tapping it reveals the list using whatever's filled in at that
+moment. After it's open, further dropdown changes can auto-refresh the
+visible list -- only the *first* reveal needs the button tap.
+
+Needs a small state addition: something like state.recommendationsOpen
+(boolean, default false), reset to false whenever you switch tabs/lanes.
+
+
+10. UNIQUE PICKS ACROSS THE DRAFT (new, from decision 1)
+---------------------------------------------------------------
+Two places need an "already picked elsewhere" filter:
+
+  a) Dropdown options -- when populating each of the 10 selects, exclude
+     any champion currently selected in one of the *other* 9 slots (a
+     champion stays available in its own slot, just not anywhere else).
+     Recompute on every change.
+
+  b) getRecommendations() -- filter the candidate pool to exclude any
+     champion already sitting in any of the 10 slots, so we never suggest
+     someone already drafted.
+
+Both can share one helper, e.g. getDraftedNames(draft) -> Set of every
+non-empty value across all 10 keys.
+
+
+11. LANE INTEL PANEL -- RESOLVED
+-------------------------------------
+Once you've filled in several of the 9 dropdowns, the "Lane intel" section
+shows a little summary card for each pick. Final behavior:
+
+  - Full card (role badge, playstyle tags, caution note) for exactly two
+    slots: your direct lane opponent (see the mapping in section 3), and
+    your lane partner if you have one (ADC <-> Support only -- Mid,
+    Jungle, and Top roles don't get a second full card since they have no
+    lane partner).
+  - Every other filled slot (the remaining enemy/ally picks) renders as a
+    small chip -- just the champion name + a tiny role-color dot, no
+    expanded details. Tapping a chip could later jump to that champion's
+    full almanac entry, but that's a nice-to-have, not required for v1.
+
+Roles with no lane partner (Mid, Jungle, Top) end up with one full card +
+up to 8 chips. ADC/Support end up with two full cards + up to 7 chips.
+
+
+12. SUGGESTED BUILD ORDER
+----------------------------
+  1. build-data.js: merge per-lane draftRules into the bundle. Rebuild,
+     sanity-check the rule count went up.
+  2. data/draftRules.json: rename "yourSupport" -> "allySupport" in its
+     conditions (or add the alias in evaluateCondition instead).
+  3. script.js: new state.draft shape (10 keys) + new EMPTY_DRAFT +
+     localStorage save/load (wipe old format on load, per decision 4).
+  4. script.js: LANE_CONFIG -- replace the per-lane "fields" array with the
+     fixed role-key / hidden-ally-field / direct-opponent-field mapping
+     from section 3, plus the Draft-tab-only label strings (decision 3).
+  5. script.js: render the two dropdown groups (5 enemy / 4 ally), each
+     filtering out already-picked champions (section 10a).
+  6. script.js: evaluateCondition() -- new variable list.
+  7. script.js: scoreChampion() -- generalize to loop over all filled
+     enemy/ally slots instead of hardcoded keys; getRecommendations()
+     excludes already-picked champions (section 10b).
+  8. script.js: add the collapsed-by-default recommendations panel + its
+     reveal button (section 9).
+  9. script.js: update context-strip ("Lane intel") rendering -- full
+     card for direct opponent + lane partner, compact chip for every
+     other filled slot (section 11).
+  10. style.css: small additions for the two-group dropdown layout
+      (section headers, maybe a 2-column grid on wider screens) and the
+      collapsed-panel button.
+  11. Manual test: fill in a full mock 5v5 draft from each of the 5 tabs,
+      confirm recommendations + triggered rules + lane intel all update
+      correctly, duplicate picks are blocked, and the previously-dead
+      per-lane draftRules now actually fire.
+
+
+13. DEPLOYMENT CONTEXT (Vercel)
+-----------------------------------
+This project deploys via Vercel, building from:
+  github.com/Nazonokage/Lane-matchup-assistant, branch master
+
+Relevant detail from a recent build log: Vercel's "vercel build" step runs
+`npm install` then whatever `npm run build` does, and package.json
+already defines:
+  "build": "node scripts/build-data.js"
+
+So Vercel auto-runs scripts/build-data.js (the JSON -> data/bundle.js
+merge step from section 7) on every single deploy, before serving the
+static files. Two things that matter for this fix:
+
+  - Any mistake in build-data.js (bad JSON, a typo in a merge function,
+    etc.) will fail the Vercel build outright, not just a local `npm run
+    build`. Test `node scripts/build-data.js` locally and confirm it
+    exits clean before pushing to master.
+  - This also means there's no separate "rebuild bundle.js and commit it"
+    step needed -- once the per-lane draftRules merge (section 7) is
+    added to build-data.js, pushing the JSON + script changes is enough;
+    Vercel regenerates data/bundle.js automatically on deploy.
+
+There's no "dependencies"/"devDependencies" in package.json, so the
+"Installing dependencies..." step should finish almost instantly with
+nothing to fetch. If a future build log shows that step hanging or
+erroring, that points to something changed in package.json itself (e.g.
+an accidental dependency got added), not a problem with build-data.js.
+
+
+Nothing in the codebase has been touched yet -- this is the checklist for
+the next implementation pass. All open questions are resolved; this plan
+is ready to build from.

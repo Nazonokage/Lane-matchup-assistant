@@ -194,7 +194,7 @@ const otherInfo = {
 const draftRules = [
   {
     "id": "jhin-yuumi-avoid",
-    "condition": "yourSupport === 'Yuumi' && enemyADC === 'Jhin'",
+    "condition": "allySupport === 'Yuumi' && enemyADC === 'Jhin'",
     "text": "Jhin + Yuumi is considered one of the worst ADC + Support combos. Yuumi's kit doesn't synergize with Jhin's reload mechanic.",
     "lanes": [
       "Dragon",
@@ -212,7 +212,7 @@ const draftRules = [
   },
   {
     "id": "xayah-rakan-synergy",
-    "condition": "yourSupport === 'Rakan' && enemyADC === 'Xayah'",
+    "condition": "allySupport === 'Rakan' && enemyADC === 'Xayah'",
     "text": "Xayah + Rakan have special synergy. Strong laning phase and teamfight combo.",
     "lanes": [
       "Dragon",
@@ -221,7 +221,7 @@ const draftRules = [
   },
   {
     "id": "kaisa-engage-support",
-    "condition": "yourSupport === 'Leona' && enemyADC === 'Kai'Sa'",
+    "condition": "allySupport === 'Leona' && enemyADC === 'Kai'Sa'",
     "text": "Kai'Sa thrives with engage supports that help stack her plasma.",
     "lanes": [
       "Dragon",
@@ -239,7 +239,7 @@ const draftRules = [
   },
   {
     "id": "enchanter-vs-tank",
-    "condition": "yourSupport === 'Janna' || yourSupport === 'Soraka'",
+    "condition": "allySupport === 'Janna' || allySupport === 'Soraka'",
     "text": "Enchanter supports struggle against engage supports. Position carefully and save disengage abilities.",
     "lanes": [
       "Dragon",
@@ -248,7 +248,7 @@ const draftRules = [
   },
   {
     "id": "caitlyn-trap-synergy",
-    "condition": "yourSupport === 'Morgana' || yourSupport === 'Lux'",
+    "condition": "allySupport === 'Morgana' || allySupport === 'Lux'",
     "text": "Caitlyn + Morgana/Lux: Long roots guarantee trap headshots.",
     "lanes": [
       "Dragon",
@@ -257,7 +257,7 @@ const draftRules = [
   },
   {
     "id": "kogmaw-protect-synergy",
-    "condition": "yourSupport === 'Lulu' || yourSupport === 'Braum'",
+    "condition": "allySupport === 'Lulu' || allySupport === 'Braum'",
     "text": "Kog'Maw needs heavy peel to survive. Lulu and Braum are his best protectors.",
     "lanes": [
       "Dragon",
@@ -266,7 +266,7 @@ const draftRules = [
   },
   {
     "id": "kalista-thresh-synergy",
-    "condition": "yourSupport === 'Thresh'",
+    "condition": "allySupport === 'Thresh'",
     "text": "Kalista + Thresh is a classic combo — Thresh can be thrown in with Kalista's ultimate.",
     "lanes": [
       "Dragon",
@@ -284,7 +284,7 @@ const draftRules = [
   },
   {
     "id": "twitch-lulu-synergy",
-    "condition": "yourSupport === 'Lulu' && enemyADC === 'Twitch'",
+    "condition": "allySupport === 'Lulu' && enemyADC === 'Twitch'",
     "text": "Twitch + Lulu: Hypercarry + attack speed buffs. Strong scaling combo.",
     "lanes": [
       "Dragon",
@@ -293,7 +293,7 @@ const draftRules = [
   },
   {
     "id": "lucian-nami-synergy",
-    "condition": "yourSupport === 'Nami' && enemyADC === 'Lucian'",
+    "condition": "allySupport === 'Nami' && enemyADC === 'Lucian'",
     "text": "Lucian + Nami: Early game power spike with double damage amplification.",
     "lanes": [
       "Dragon",
@@ -320,7 +320,7 @@ const draftRules = [
   },
   {
     "id": "enchanter-vs-hook-warning",
-    "condition": "yourSupport === 'Sona' || yourSupport === 'Soraka' || yourSupport === 'Janna'",
+    "condition": "allySupport === 'Sona' || allySupport === 'Soraka' || allySupport === 'Janna'",
     "text": "Enchanters are very squishy vs hook supports. One hook = death.",
     "lanes": [
       "Dragon",
@@ -572,7 +572,7 @@ const draftRules = [
   },
   {
     "id": "adc-synergy",
-    "condition": "yourSupport === 'Lulu' && (enemyADC === 'Draven' || enemyADC === 'Lucian')",
+    "condition": "allySupport === 'Lulu' && (enemyADC === 'Draven' || enemyADC === 'Lucian')",
     "text": "Lulu struggles into lane bullies. Play safe, scale up, and peel for your ADC in teamfights.",
     "lanes": [
       "Dragon",
@@ -581,7 +581,7 @@ const draftRules = [
   },
   {
     "id": "support-pairing-morgana",
-    "condition": "yourSupport === 'Morgana' && (enemySupport === 'Thresh' || enemySupport === 'Blitzcrank' || enemySupport === 'Pyke' || enemySupport === 'Nautilus')",
+    "condition": "allySupport === 'Morgana' && (enemySupport === 'Thresh' || enemySupport === 'Blitzcrank' || enemySupport === 'Pyke' || enemySupport === 'Nautilus')",
     "text": "Morgana's black shield counters hooks. Use it to enable your ADC to play aggressively and deny their pick potential.",
     "lanes": [
       "Dragon",
@@ -590,7 +590,7 @@ const draftRules = [
   },
   {
     "id": "support-pairing-leona",
-    "condition": "yourSupport === 'Leona' && enemySupport === 'Morgana'",
+    "condition": "allySupport === 'Leona' && enemySupport === 'Morgana'",
     "text": "Morgana counters Leona with black shield. Bait out the shield before engaging, or look for roams to other lanes.",
     "lanes": [
       "Dragon",
@@ -599,7 +599,7 @@ const draftRules = [
   },
   {
     "id": "support-pairing-braum",
-    "condition": "yourSupport === 'Braum' && (enemySupport === 'Thresh' || enemySupport === 'Blitzcrank' || enemySupport === 'Nautilus')",
+    "condition": "allySupport === 'Braum' && (enemySupport === 'Thresh' || enemySupport === 'Blitzcrank' || enemySupport === 'Nautilus')",
     "text": "Braum's E can block hooks. Use it to protect your ADC and counter-engage with Q and R.",
     "lanes": [
       "Dragon",
@@ -608,11 +608,187 @@ const draftRules = [
   },
   {
     "id": "support-pairing-janna",
-    "condition": "yourSupport === 'Janna' && (enemySupport === 'Leona' || enemySupport === 'Nautilus' || enemySupport === 'Alistar')",
+    "condition": "allySupport === 'Janna' && (enemySupport === 'Leona' || enemySupport === 'Nautilus' || enemySupport === 'Alistar')",
     "text": "Janna's Q and R counter engage supports. Cancel their engages and peel for your ADC.",
     "lanes": [
       "Dragon",
       "Support"
+    ]
+  },
+  {
+    "id": "assassin-into-mage",
+    "condition": "enemyMid === 'Lux' || enemyMid === 'Ziggs' || enemyMid === 'Seraphine'",
+    "text": "Assassins like Zed, Fizz, and Akali excel against immobile mages. Look for early kill pressure.",
+    "lanes": [
+      "Mid"
+    ]
+  },
+  {
+    "id": "control-into-assassin",
+    "condition": "enemyMid === 'Zed' || enemyMid === 'Akali' || enemyMid === 'Fizz'",
+    "text": "Control mages like Lissandra, Galio, and Vex counter assassins with CC and survivability.",
+    "lanes": [
+      "Mid"
+    ]
+  },
+  {
+    "id": "roam-mid-synergy",
+    "condition": "allyJungle === 'Vi' || allyJungle === 'Jarvan IV' || allyJungle === 'Nautilus'",
+    "text": "Engage junglers pair well with burst/control mids like Ahri, Orianna, and Syndra for easy follow-up.",
+    "lanes": [
+      "Mid"
+    ]
+  },
+  {
+    "id": "ap-heavy-warning",
+    "condition": "enemyMid === 'Galio'",
+    "text": "Galio is a strong counter to AP-heavy team comps. Consider an AD mid like Zed, Yasuo, or Lucian.",
+    "lanes": [
+      "Mid"
+    ]
+  },
+  {
+    "id": "ad-mid-tank-counter",
+    "condition": "enemyMid === 'Zed' || enemyMid === 'Yasuo' || enemyMid === 'Talon'",
+    "text": "Tanky champions like Malphite and Galio can neutralize AD assassins with armor/MR and CC.",
+    "lanes": [
+      "Mid"
+    ]
+  },
+  {
+    "id": "scaling-vs-early",
+    "condition": "enemyJungle === 'Pantheon' || enemyJungle === 'Xin Zhao' || enemyJungle === 'Lee Sin'",
+    "text": "Scaling junglers like Master Yi and Shyvana struggle against early pressure. Farm safe and concede early objectives.",
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  {
+    "id": "vex-into-dash",
+    "condition": "enemyMid === 'Yasuo' || enemyMid === 'Yone' || enemyMid === 'Irelia'",
+    "text": "Vex's passive counters dash-heavy champions. Pick her into mobile team comps.",
+    "lanes": [
+      "Mid"
+    ]
+  },
+  {
+    "id": "no-frontline-warning",
+    "condition": "allyTop !== 'Ornn' && allyTop !== 'Malphite' && allySupport !== 'Leona' && allySupport !== 'Nautilus' && allySupport !== 'Alistar'",
+    "text": "Carry junglers need frontline. Consider a tank jungler or ask team for frontline.",
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  {
+    "id": "global-roam-warning",
+    "condition": "enemyMid === 'Twisted Fate' || enemyMid === 'Galio' || enemyMid === 'Akshan'",
+    "text": "Global roamers will pressure side lanes. Warn your team and match their roams.",
+    "lanes": [
+      "Mid"
+    ]
+  },
+  {
+    "id": "tank-into-ad",
+    "condition": "enemyTop === 'Darius' || enemyTop === 'Sett' || enemyTop === 'Renekton'",
+    "text": "Tanks like Ornn and Malphite are strong into AD bruisers. Build armor and survive the lane.",
+    "lanes": [
+      "Baron"
+    ]
+  },
+  {
+    "id": "assassin-into-squishy",
+    "condition": "enemyMid === 'Lux' || enemyMid === 'Ziggs' || enemyADC === 'Jinx' || enemyADC === 'Zeri'",
+    "text": "Assassins like Eve, Rengar, and Kayn excel against immobile carries. Look for picks.",
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  {
+    "id": "ap-into-tank",
+    "condition": "enemyJungle === 'Rammus' || enemyJungle === 'Amumu' || enemyJungle === 'Nautilus'",
+    "text": "AP junglers like Lillia, Diana, and Nidalee shred tanks. Build magic damage.",
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  {
+    "id": "engage-synergy",
+    "condition": "allySupport === 'Leona' || allySupport === 'Nautilus' || allyMid === 'Orianna' || allyMid === 'Syndra'",
+    "text": "Engage supports and control mages pair well with dive junglers like Vi, Jarvan, and Lee Sin.",
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  {
+    "id": "early-gank-warning",
+    "condition": "enemyJungle === 'Lee Sin' || enemyJungle === 'Xin Zhao' || enemyJungle === 'Pantheon'",
+    "text": "Early game junglers will look for early ganks. Ward and play safe early.",
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  {
+    "id": "counter-jungle-warning",
+    "condition": "enemyJungle === 'Graves' || enemyJungle === 'Nidalee' || enemyJungle === 'Lee Sin'",
+    "text": "Strong early junglers will invade. Coordinate with lanes for vision and response.",
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  {
+    "id": "dragon-control",
+    "condition": "allyJungle === 'Shyvana' || allyJungle === 'Vi' || allyJungle === 'Olaf'",
+    "text": "Strong dragon control junglers. Prioritize early drakes for team buffs.",
+    "lanes": [
+      "Jungle"
+    ]
+  },
+  {
+    "id": "duelist-into-tank",
+    "condition": "enemyTop === 'Ornn' || enemyTop === 'Malphite' || enemyTop === 'Sion'",
+    "text": "Duelists like Fiora and Camille shred tanks with true damage. Win through split push.",
+    "lanes": [
+      "Baron"
+    ]
+  },
+  {
+    "id": "ranged-into-melee",
+    "condition": "enemyTop === 'Darius' || enemyTop === 'Garen' || enemyTop === 'Sett'",
+    "text": "Ranged champions (Teemo, Jayce, Gnar) can kite melee bruisers. Play safe and poke.",
+    "lanes": [
+      "Baron"
+    ]
+  },
+  {
+    "id": "full-ad-warning",
+    "condition": "enemyTop === 'Darius' || enemyTop === 'Sett' || enemyTop === 'Garen'",
+    "text": "If your team has multiple AD threats, Malphite is a strong pick against full AD comps.",
+    "lanes": [
+      "Baron"
+    ]
+  },
+  {
+    "id": "split-push-warning",
+    "condition": "enemyTop === 'Fiora' || enemyTop === 'Jax' || enemyTop === 'Camille'",
+    "text": "Split pushers require team coordination. Match their split with grouped plays or counter-split.",
+    "lanes": [
+      "Baron"
+    ]
+  },
+  {
+    "id": "counter-mobility",
+    "condition": "enemyTop === 'Camille' || enemyTop === 'Irelia' || enemyTop === 'Riven'",
+    "text": "Poppy's W blocks dashes. Consider Poppy against mobile champions.",
+    "lanes": [
+      "Baron"
+    ]
+  },
+  {
+    "id": "ap-top-synergy",
+    "condition": "enemyTop === 'Mordekaiser' || enemyTop === 'Gwen'",
+    "text": "AP top laners need MR counter building. Consider picking an AD duelist or buying Hexdrinker.",
+    "lanes": [
+      "Baron"
     ]
   }
 ];

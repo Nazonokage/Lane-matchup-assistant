@@ -6,7 +6,7 @@
   "rules": [
     {
       "id": "jhin-yuumi-avoid",
-      "condition": "yourSupport === 'Yuumi' && enemyADC === 'Jhin'",
+      "condition": "allySupport === 'Yuumi' && enemyADC === 'Jhin'",
       "text": "Jhin + Yuumi is considered one of the worst ADC + Support combos. Yuumi's kit doesn't synergize with Jhin's reload mechanic.",
       "lanes": [
         "Dragon",
@@ -24,7 +24,7 @@
     },
     {
       "id": "xayah-rakan-synergy",
-      "condition": "yourSupport === 'Rakan' && enemyADC === 'Xayah'",
+      "condition": "allySupport === 'Rakan' && enemyADC === 'Xayah'",
       "text": "Xayah + Rakan have special synergy. Strong laning phase and teamfight combo.",
       "lanes": [
         "Dragon",
@@ -33,7 +33,7 @@
     },
     {
       "id": "kaisa-engage-support",
-      "condition": "yourSupport === 'Leona' && enemyADC === 'Kai'Sa'",
+      "condition": "allySupport === 'Leona' && enemyADC === 'Kai'Sa'",
       "text": "Kai'Sa thrives with engage supports that help stack her plasma.",
       "lanes": [
         "Dragon",
@@ -51,7 +51,7 @@
     },
     {
       "id": "enchanter-vs-tank",
-      "condition": "yourSupport === 'Janna' || yourSupport === 'Soraka'",
+      "condition": "allySupport === 'Janna' || allySupport === 'Soraka'",
       "text": "Enchanter supports struggle against engage supports. Position carefully and save disengage abilities.",
       "lanes": [
         "Dragon",
@@ -60,7 +60,7 @@
     },
     {
       "id": "caitlyn-trap-synergy",
-      "condition": "yourSupport === 'Morgana' || yourSupport === 'Lux'",
+      "condition": "allySupport === 'Morgana' || allySupport === 'Lux'",
       "text": "Caitlyn + Morgana/Lux: Long roots guarantee trap headshots.",
       "lanes": [
         "Dragon",
@@ -69,7 +69,7 @@
     },
     {
       "id": "kogmaw-protect-synergy",
-      "condition": "yourSupport === 'Lulu' || yourSupport === 'Braum'",
+      "condition": "allySupport === 'Lulu' || allySupport === 'Braum'",
       "text": "Kog'Maw needs heavy peel to survive. Lulu and Braum are his best protectors.",
       "lanes": [
         "Dragon",
@@ -78,7 +78,7 @@
     },
     {
       "id": "kalista-thresh-synergy",
-      "condition": "yourSupport === 'Thresh'",
+      "condition": "allySupport === 'Thresh'",
       "text": "Kalista + Thresh is a classic combo — Thresh can be thrown in with Kalista's ultimate.",
       "lanes": [
         "Dragon",
@@ -96,7 +96,7 @@
     },
     {
       "id": "twitch-lulu-synergy",
-      "condition": "yourSupport === 'Lulu' && enemyADC === 'Twitch'",
+      "condition": "allySupport === 'Lulu' && enemyADC === 'Twitch'",
       "text": "Twitch + Lulu: Hypercarry + attack speed buffs. Strong scaling combo.",
       "lanes": [
         "Dragon",
@@ -105,7 +105,7 @@
     },
     {
       "id": "lucian-nami-synergy",
-      "condition": "yourSupport === 'Nami' && enemyADC === 'Lucian'",
+      "condition": "allySupport === 'Nami' && enemyADC === 'Lucian'",
       "text": "Lucian + Nami: Early game power spike with double damage amplification.",
       "lanes": [
         "Dragon",
@@ -132,7 +132,7 @@
     },
     {
       "id": "enchanter-vs-hook-warning",
-      "condition": "yourSupport === 'Sona' || yourSupport === 'Soraka' || yourSupport === 'Janna'",
+      "condition": "allySupport === 'Sona' || allySupport === 'Soraka' || allySupport === 'Janna'",
       "text": "Enchanters are very squishy vs hook supports. One hook = death.",
       "lanes": [
         "Dragon",
@@ -384,7 +384,7 @@
     },
     {
       "id": "adc-synergy",
-      "condition": "yourSupport === 'Lulu' && (enemyADC === 'Draven' || enemyADC === 'Lucian')",
+      "condition": "allySupport === 'Lulu' && (enemyADC === 'Draven' || enemyADC === 'Lucian')",
       "text": "Lulu struggles into lane bullies. Play safe, scale up, and peel for your ADC in teamfights.",
       "lanes": [
         "Dragon",
@@ -393,7 +393,7 @@
     },
     {
       "id": "support-pairing-morgana",
-      "condition": "yourSupport === 'Morgana' && (enemySupport === 'Thresh' || enemySupport === 'Blitzcrank' || enemySupport === 'Pyke' || enemySupport === 'Nautilus')",
+      "condition": "allySupport === 'Morgana' && (enemySupport === 'Thresh' || enemySupport === 'Blitzcrank' || enemySupport === 'Pyke' || enemySupport === 'Nautilus')",
       "text": "Morgana's black shield counters hooks. Use it to enable your ADC to play aggressively and deny their pick potential.",
       "lanes": [
         "Dragon",
@@ -402,7 +402,7 @@
     },
     {
       "id": "support-pairing-leona",
-      "condition": "yourSupport === 'Leona' && enemySupport === 'Morgana'",
+      "condition": "allySupport === 'Leona' && enemySupport === 'Morgana'",
       "text": "Morgana counters Leona with black shield. Bait out the shield before engaging, or look for roams to other lanes.",
       "lanes": [
         "Dragon",
@@ -411,7 +411,7 @@
     },
     {
       "id": "support-pairing-braum",
-      "condition": "yourSupport === 'Braum' && (enemySupport === 'Thresh' || enemySupport === 'Blitzcrank' || enemySupport === 'Nautilus')",
+      "condition": "allySupport === 'Braum' && (enemySupport === 'Thresh' || enemySupport === 'Blitzcrank' || enemySupport === 'Nautilus')",
       "text": "Braum's E can block hooks. Use it to protect your ADC and counter-engage with Q and R.",
       "lanes": [
         "Dragon",
@@ -420,7 +420,7 @@
     },
     {
       "id": "support-pairing-janna",
-      "condition": "yourSupport === 'Janna' && (enemySupport === 'Leona' || enemySupport === 'Nautilus' || enemySupport === 'Alistar')",
+      "condition": "allySupport === 'Janna' && (enemySupport === 'Leona' || enemySupport === 'Nautilus' || enemySupport === 'Alistar')",
       "text": "Janna's Q and R counter engage supports. Cancel their engages and peel for your ADC.",
       "lanes": [
         "Dragon",

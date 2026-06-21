@@ -1,6 +1,11 @@
-/* Lane Ledger — core logic (5-lane) */
+/* Lane Ledger — core logic (5-lane, full 5v5 draft) */
 
 const LANES = ["Dragon", "Support", "Mid", "Jungle", "Baron"];
+
+const DRAFT_KEYS = [
+  "enemyTop", "enemyJungle", "enemyMid", "enemyADC", "enemySupport",
+  "allyTop", "allyJungle", "allyMid", "allyADC", "allySupport"
+];
 
 const SCORE = {
   goodAgainst: 3,
@@ -14,7 +19,9 @@ const SCORE = {
   playstyle: 1,
   conditionGreen: 1,
   conditionRed: -1,
-  draftRule: 2
+  draftRule: 2,
+  directOpponent: 1,
+  lanePartner: 1
 };
 
 const ROLE_COLORS = {
@@ -26,54 +33,68 @@ const ROLE_COLORS = {
   Baron: "baron"
 };
 
+const DRAFT_FIELD_DEFS = {
+  enemyTop: { label: "Enemy Top", pool: "Baron", group: "enemy" },
+  enemyJungle: { label: "Enemy Jungle", pool: "Jungle", group: "enemy" },
+  enemyMid: { label: "Enemy Mid", pool: "Mid", group: "enemy" },
+  enemyADC: { label: "Enemy ADC", pool: "carry", group: "enemy" },
+  enemySupport: { label: "Enemy Support", pool: "Support", group: "enemy" },
+  allyTop: { label: "Ally Top", pool: "Baron", group: "ally" },
+  allyJungle: { label: "Ally Jungle", pool: "Jungle", group: "ally" },
+  allyMid: { label: "Ally Mid", pool: "Mid", group: "ally" },
+  allyADC: { label: "Ally ADC", pool: "carry", group: "ally" },
+  allySupport: { label: "Ally Support", pool: "Support", group: "ally" }
+};
+
 const LANE_CONFIG = {
   Dragon: {
-    desc: "Enemy bot lane + your support → pick your ADC/APC.",
-    fields: [
-      { id: "enemy-support", key: "enemySupport", label: "Enemy Support", pool: "Support" },
-      { id: "enemy-adc", key: "enemyADC", label: "Enemy ADC / APC", pool: "carry" },
-      { id: "your-support", key: "yourSupport", label: "Your Support", pool: "Support" }
-    ],
+    draftLabel: "ADC",
+    hiddenAlly: "allyADC",
+    directOpponent: "enemyADC",
+    lanePartner: "allySupport",
+    desc: "You're ADC — fill in the 5v5 draft, then get picks.",
     pickLane: "Dragon",
     isPick: (c) => c.roles?.includes("ADC") || c.roles?.includes("APC")
   },
   Support: {
-    desc: "Enemy bot lane + your carry → pick your support.",
-    fields: [
-      { id: "enemy-adc", key: "enemyADC", label: "Enemy Carry", pool: "carry" },
-      { id: "enemy-support", key: "enemySupport", label: "Enemy Support", pool: "Support" },
-      { id: "your-adc", key: "yourAlly", label: "Your Carry", pool: "carry" }
-    ],
+    draftLabel: "Support",
+    hiddenAlly: "allySupport",
+    directOpponent: "enemySupport",
+    lanePartner: "allyADC",
+    desc: "You're Support — fill in the 5v5 draft, then get picks.",
     pickLane: "Support",
     isPick: (c) => c.playableLanes?.includes("Support") || c.roles?.includes("Support")
   },
   Mid: {
-    desc: "Enemy mid pick → recommend your mid.",
-    fields: [{ id: "enemy-mid", key: "enemy1", label: "Enemy Mid", pool: "Mid" }],
+    draftLabel: "Mid",
+    hiddenAlly: "allyMid",
+    directOpponent: "enemyMid",
+    lanePartner: null,
+    desc: "You're Mid — fill in the 5v5 draft, then get picks.",
     pickLane: "Mid",
     isPick: (c) => c.playableLanes?.includes("Mid")
   },
   Jungle: {
-    desc: "Enemy jungle pick → recommend your jungle.",
-    fields: [{ id: "enemy-jgl", key: "enemy1", label: "Enemy Jungle", pool: "Jungle" }],
+    draftLabel: "Jungle",
+    hiddenAlly: "allyJungle",
+    directOpponent: null,
+    lanePartner: null,
+    desc: "You're Jungle — fill in the 5v5 draft, then get picks.",
     pickLane: "Jungle",
     isPick: (c) => c.playableLanes?.includes("Jungle")
   },
   Baron: {
-    desc: "Enemy baron pick → recommend your baron laner.",
-    fields: [{ id: "enemy-baron", key: "enemy1", label: "Enemy Baron", pool: "Baron" }],
+    draftLabel: "Top",
+    hiddenAlly: "allyTop",
+    directOpponent: "enemyTop",
+    lanePartner: null,
+    desc: "You're Top — fill in the 5v5 draft, then get picks.",
     pickLane: "Baron",
     isPick: (c) => c.playableLanes?.includes("Baron")
   }
 };
 
-const EMPTY_DRAFT = {
-  enemyADC: "",
-  enemySupport: "",
-  yourSupport: "",
-  yourAlly: "",
-  enemy1: ""
-};
+const EMPTY_DRAFT = Object.fromEntries(DRAFT_KEYS.map((k) => [k, ""]));
 
 const state = {
   tab: "almanac",
@@ -83,6 +104,7 @@ const state = {
   playstyleFilter: "All",
   expandedChampion: null,
   expandedPick: null,
+  recommendationsOpen: false,
   draft: { ...EMPTY_DRAFT }
 };
 
@@ -135,13 +157,23 @@ function getChampionsByLane(lane) {
 
 function getPoolChampions(pool, lane) {
   if (pool === "carry") {
+    // Carry pool should include all marksmen-like roles for the current lane.
+    // Previously this only included ADC/APC which could hide other roles.
+    const laneIsDragon = lane === "Dragon";
     return championData
-      .filter((c) => c.roles?.includes("ADC") || c.roles?.includes("APC"))
+      .filter((c) => {
+        if (laneIsDragon) {
+          return c.roles?.includes("ADC") || c.roles?.includes("APC");
+        }
+        // If carry pool is requested for a non-dragon lane, fall back to playable lanes.
+        return c.playableLanes?.includes(lane);
+      })
       .sort((a, b) => a.name.localeCompare(b.name));
   }
   if (pool === "Support") return getChampionsByLane("Support");
   return getChampionsByLane(lane);
 }
+
 
 function primaryRole(champ) {
   if (champ.roles?.includes("ADC")) return "ADC";
@@ -169,23 +201,45 @@ function getDraftValues(draft) {
   return Object.values(draft).filter(Boolean);
 }
 
+function getDraftedNames(draft) {
+  return new Set(getDraftValues(draft));
+}
+
+function getDraftedNamesExcept(draft, exceptKey) {
+  const taken = new Set();
+  DRAFT_KEYS.forEach((k) => {
+    if (k !== exceptKey && draft[k]) taken.add(draft[k]);
+  });
+  return taken;
+}
+
 function evaluateCondition(condition, ctx) {
   try {
     return Function(
+      "enemyTop",
+      "enemyJungle",
+      "enemyMid",
       "enemyADC",
       "enemySupport",
-      "yourSupport",
-      "yourAlly",
-      "enemy1",
+      "allyTop",
+      "allyJungle",
+      "allyMid",
+      "allyADC",
+      "allySupport",
       "enemyRole",
       `return ${condition}`
     )(
-      ctx.enemyADC,
-      ctx.enemySupport,
-      ctx.yourSupport,
-      ctx.yourAlly,
-      ctx.enemy1,
-      ctx.enemyRole
+      ctx.enemyTop || "",
+      ctx.enemyJungle || "",
+      ctx.enemyMid || "",
+      ctx.enemyADC || "",
+      ctx.enemySupport || "",
+      ctx.allyTop || "",
+      ctx.allyJungle || "",
+      ctx.allyMid || "",
+      ctx.allyADC || "",
+      ctx.allySupport || "",
+      ctx.enemyRole || ""
     );
   } catch {
     return false;
@@ -193,7 +247,7 @@ function evaluateCondition(condition, ctx) {
 }
 
 function getDraftContext(draft, lane) {
-  const enemy = byName(draft.enemyADC || draft.enemy1);
+  const enemy = byName(draft.enemyADC);
   const enemyRole = enemy?.roles?.includes("APC") ? "APC" : enemy?.roles?.includes("ADC") ? "ADC" : "";
   return { ...draft, enemyRole, lane };
 }
@@ -269,7 +323,7 @@ function evaluateConditions(champ, draft, lane) {
 }
 
 function getFlexWarnings(draft) {
-  const selected = new Set(getDraftValues(draft));
+  const selected = getDraftedNames(draft);
   return (typeof otherInfo !== "undefined" ? otherInfo.flexPicks : []).filter(
     (fp) => selected.has(fp.name) && fp.lanes?.length > 1
   );
@@ -309,130 +363,146 @@ function scorePlaystyle(champ, yourSup, enemySup) {
   return bonus;
 }
 
+function scoreEnemyMatchup(champ, cv, enemyName, lbl, lane, isDirect) {
+  const reasons = [];
+  const warnings = [];
+  let score = 0;
+  const direct = isDirect ? SCORE.directOpponent : 0;
+
+  const good = findMatch(cv.goodAgainst, enemyName);
+  if (good) {
+    score += SCORE.goodAgainst + direct;
+    reasons.push({ label: `${lbl} counter`, text: good.note || `Strong into ${enemyName}` });
+  }
+  const bad = findMatch(cv.badAgainst, enemyName);
+  if (bad) {
+    score += SCORE.badAgainst - direct;
+    warnings.push({ label: `${lbl} weak`, text: bad.note || `Struggles vs ${enemyName}` });
+  }
+
+  const enemy = byName(enemyName);
+  if (enemy) {
+    const ev = withLaneMatchups(enemy, lane);
+    const revG = findMatch(ev.badAgainst, champ.name);
+    if (revG && !bad) {
+      score += SCORE.reverseCounter + direct;
+      reasons.push({ label: "Enemy hates this", text: revG.note || `${enemyName} weak into you` });
+    }
+    const revB = findMatch(ev.goodAgainst, champ.name);
+    if (revB && !good) {
+      score += SCORE.reverseWeak - direct;
+      warnings.push({ label: "Enemy favors lane", text: revB.note || `${enemyName} strong into you` });
+    }
+  }
+
+  return { score, reasons, warnings };
+}
+
+function scoreAllySynergy(champ, allyName, lbl, isPartner) {
+  const reasons = [];
+  const warnings = [];
+  let score = 0;
+  const partner = isPartner ? SCORE.lanePartner : 0;
+  const ally = byName(allyName);
+
+  const syn = findMatch((champ.synergies || []).map(normalizeEntry), allyName);
+  const synAlly = ally ? findMatch((ally.synergies || []).map(normalizeEntry), champ.name) : null;
+  if (syn || synAlly) {
+    score += SCORE.synergy + partner;
+    reasons.push({ label: `${lbl} synergy`, text: syn?.note || synAlly?.note || `Works with ${allyName}` });
+  }
+  const avoid = findMatch(champ.avoidSynergies, allyName);
+  const avoidAlly = ally ? findMatch(ally.avoidSynergies, champ.name) : null;
+  if (avoid || avoidAlly) {
+    score += SCORE.avoidSynergy;
+    warnings.push({ label: "Bad pairing", text: avoid?.note || avoidAlly?.note || `Clashes with ${allyName}` });
+  }
+
+  return { score, reasons, warnings };
+}
+
 function scoreChampion(champ, draft, lane) {
   const reasons = [];
   const warnings = [];
   let score = 0;
+  const cfg = LANE_CONFIG[lane];
   const cv = withLaneMatchups(champ, lane);
 
-  if (lane === "Dragon" || lane === "Support") {
-    const { enemyADC, enemySupport, yourSupport, yourAlly } = draft;
-    const yourSup = lane === "Dragon" ? byName(yourSupport) : null;
-    const yourCarry = lane === "Support" ? byName(yourAlly) : null;
-    const enemySup = byName(enemySupport);
-    const enemyCarry = byName(enemyADC);
+  const enemySlots = [
+    ["enemyTop", "Enemy top"],
+    ["enemyJungle", "Enemy jungle"],
+    ["enemyMid", "Enemy mid"],
+    ["enemyADC", "Enemy carry"],
+    ["enemySupport", "Enemy support"]
+  ];
 
-    const enemies = [
-      [enemyADC, "Enemy carry"],
-      [enemySupport, "Enemy support"]
-    ];
-    enemies.forEach(([name, lbl]) => {
-      if (!name) return;
-      const good = findMatch(cv.goodAgainst, name);
-      if (good) {
-        score += SCORE.goodAgainst;
-        reasons.push({ label: `${lbl} counter`, text: good.note || `Strong into ${name}` });
-      }
-      const bad = findMatch(cv.badAgainst, name);
-      if (bad) {
-        score += SCORE.badAgainst;
-        warnings.push({ label: `${lbl} weak`, text: bad.note || `Struggles vs ${name}` });
-      }
-      const enemy = byName(name);
-      if (enemy) {
-        const ev = withLaneMatchups(enemy, lane);
-        const revG = findMatch(ev.badAgainst, champ.name);
-        if (revG && !bad) {
-          score += SCORE.reverseCounter;
-          reasons.push({ label: "Enemy hates this", text: revG.note || `${name} weak into you` });
-        }
-        const revB = findMatch(ev.goodAgainst, champ.name);
-        if (revB && !good) {
-          score += SCORE.reverseWeak;
-          warnings.push({ label: "Enemy favors lane", text: revB.note || `${name} strong into you` });
-        }
-      }
-    });
+  enemySlots.forEach(([key, lbl]) => {
+    const name = draft[key];
+    if (!name) return;
+    const r = scoreEnemyMatchup(champ, cv, name, lbl, lane, key === cfg.directOpponent);
+    score += r.score;
+    reasons.push(...r.reasons);
+    warnings.push(...r.warnings);
+  });
 
-    if (lane === "Dragon" && yourSupport) {
-      const syn = findMatch((champ.synergies || []).map(normalizeEntry), yourSupport);
-      const synSup = yourSup ? findMatch((yourSup.synergies || []).map(normalizeEntry), champ.name) : null;
-      if (syn || synSup) {
-        score += SCORE.synergy;
-        reasons.push({ label: "Support synergy", text: syn?.note || synSup?.note || `Works with ${yourSupport}` });
-      }
-      const avoid = findMatch(champ.avoidSynergies, yourSupport);
-      const avoidSup = yourSup ? findMatch(yourSup.avoidSynergies, champ.name) : null;
-      if (avoid || avoidSup) {
-        score += SCORE.avoidSynergy;
-        warnings.push({ label: "Bad pairing", text: avoid?.note || avoidSup?.note || `Clashes with ${yourSupport}` });
-      }
-    }
+  const allySlots = [
+    ["allyTop", "Ally top"],
+    ["allyJungle", "Ally jungle"],
+    ["allyMid", "Ally mid"],
+    ["allyADC", "Ally carry"],
+    ["allySupport", "Ally support"]
+  ].filter(([key]) => key !== cfg.hiddenAlly);
 
-    if (lane === "Support" && yourAlly) {
-      const syn = findMatch((champ.synergies || []).map(normalizeEntry), yourAlly);
-      const synCarry = yourCarry ? findMatch((yourCarry.synergies || []).map(normalizeEntry), champ.name) : null;
-      if (syn || synCarry) {
-        score += SCORE.synergy;
-        reasons.push({ label: "Carry synergy", text: syn?.note || synCarry?.note || `Works with ${yourAlly}` });
-      }
-      const avoid = findMatch(champ.avoidSynergies, yourAlly);
-      if (avoid) {
-        score += SCORE.avoidSynergy;
-        warnings.push({ label: "Bad pairing", text: avoid.note || `Clashes with ${yourAlly}` });
-      }
-    }
+  allySlots.forEach(([key, lbl]) => {
+    const name = draft[key];
+    if (!name) return;
+    const r = scoreAllySynergy(champ, name, lbl, key === cfg.lanePartner);
+    score += r.score;
+    reasons.push(...r.reasons);
+    warnings.push(...r.warnings);
+  });
 
-    if (lane === "Support" && enemySup && byName(draft.yourAlly)) {
-      /* support vs support when evaluating your support pick */
-    }
-
-    if (yourSup && enemySup && lane === "Dragon") {
+  if (lane === "Dragon" && draft.allySupport && draft.enemySupport) {
+    const yourSup = byName(draft.allySupport);
+    if (yourSup) {
       const yv = withLaneMatchups(yourSup, "Support");
-      const wins = findMatch(yv.goodAgainst, enemySupport);
+      const wins = findMatch(yv.goodAgainst, draft.enemySupport);
       if (wins) {
         score += SCORE.supLaneGood;
-        reasons.push({ label: "Your sup wins matchup", text: wins.note || `${yourSupport} beats ${enemySupport}` });
+        reasons.push({ label: "Your sup wins matchup", text: wins.note || `${draft.allySupport} beats ${draft.enemySupport}` });
       }
-      const loses = findMatch(yv.badAgainst, enemySupport);
+      const loses = findMatch(yv.badAgainst, draft.enemySupport);
       if (loses) {
         score += SCORE.supLaneBad;
-        warnings.push({ label: "Your sup loses matchup", text: loses.note || `${yourSupport} struggles` });
+        warnings.push({ label: "Your sup loses matchup", text: loses.note || `${draft.allySupport} struggles` });
       }
     }
+  }
 
-    const ps = scorePlaystyle(champ, yourSup || withLaneMatchups(champ, "Support"), enemySup);
+  if (lane === "Support" && draft.allyADC && draft.enemyADC) {
+    const yourCarry = byName(draft.allyADC);
+    if (yourCarry) {
+      const yv = withLaneMatchups(yourCarry, "Dragon");
+      const wins = findMatch(yv.goodAgainst, draft.enemyADC);
+      if (wins) {
+        score += SCORE.supLaneGood;
+        reasons.push({ label: "Your carry wins lane", text: wins.note || `${draft.allyADC} beats ${draft.enemyADC}` });
+      }
+      const loses = findMatch(yv.badAgainst, draft.enemyADC);
+      if (loses) {
+        score += SCORE.supLaneBad;
+        warnings.push({ label: "Your carry loses lane", text: loses.note || `${draft.allyADC} struggles vs ${draft.enemyADC}` });
+      }
+    }
+  }
+
+  if (lane === "Dragon" || lane === "Support") {
+    const yourSup = byName(draft.allySupport);
+    const enemySup = byName(draft.enemySupport);
+    const ps = scorePlaystyle(champ, yourSup, enemySup);
     if (ps > 0) {
       score += ps;
       reasons.push({ label: "Playstyle fit", text: "Comp lines up with this pick." });
-    }
-  } else {
-    const enemyName = draft.enemy1;
-    if (enemyName) {
-      const good = findMatch(cv.goodAgainst, enemyName);
-      if (good) {
-        score += SCORE.goodAgainst;
-        reasons.push({ label: "Counters enemy", text: good.note || `Strong into ${enemyName}` });
-      }
-      const bad = findMatch(cv.badAgainst, enemyName);
-      if (bad) {
-        score += SCORE.badAgainst;
-        warnings.push({ label: "Weak into enemy", text: bad.note || `Struggles vs ${enemyName}` });
-      }
-      const enemy = byName(enemyName);
-      if (enemy) {
-        const ev = withLaneMatchups(enemy, lane);
-        const revG = findMatch(ev.badAgainst, champ.name);
-        if (revG && !bad) {
-          score += SCORE.reverseCounter;
-          reasons.push({ label: "Enemy hates this", text: revG.note });
-        }
-        const revB = findMatch(ev.goodAgainst, champ.name);
-        if (revB && !good) {
-          score += SCORE.reverseWeak;
-          warnings.push({ label: "Enemy favors lane", text: revB.note });
-        }
-      }
     }
   }
 
@@ -451,10 +521,12 @@ function scoreChampion(champ, draft, lane) {
 
 function getRecommendations(draft, lane) {
   const cfg = LANE_CONFIG[lane];
-  if (!getDraftValues(draft).length) return [];
+  const drafted = getDraftedNames(draft);
+  if (!drafted.size) return [];
 
   return getChampionsByLane(cfg.pickLane)
     .filter(cfg.isPick)
+    .filter((champ) => !drafted.has(champ.name))
     .map((champ) => ({ champ, ...scoreChampion(champ, draft, lane) }))
     .sort((a, b) => b.score - a.score || a.champ.name.localeCompare(b.champ.name))
     .slice(0, 8);
@@ -509,7 +581,9 @@ function loadDraft() {
     if (!raw) return;
     const parsed = JSON.parse(raw);
     if (parsed.activeLane) state.activeLane = parsed.activeLane;
-    if (parsed.draft) state.draft = { ...EMPTY_DRAFT, ...parsed.draft };
+    if (parsed.draft && "enemyTop" in parsed.draft) {
+      state.draft = { ...EMPTY_DRAFT, ...parsed.draft };
+    }
   } catch { /* ignore */ }
 }
 
@@ -523,11 +597,12 @@ function esc(str) {
 }
 
 function renderLaneChips() {
+  const isDraft = state.tab === "draft";
   return `
     <div class="chip-row lane-row">
       ${LANES.map(
         (l) =>
-          `<button type="button" class="chip chip-lane badge-lane-${l.toLowerCase()} ${state.activeLane === l ? "active" : ""}" data-lane="${l}">${l}</button>`
+          `<button type="button" class="chip chip-lane badge-lane-${l.toLowerCase()} ${state.activeLane === l ? "active" : ""}" data-lane="${l}">${isDraft ? esc(LANE_CONFIG[l].draftLabel) : l}</button>`
       ).join("")}
     </div>`;
 }
@@ -584,41 +659,61 @@ function renderContextualMatchups(champ, draft, lane) {
     </div>`;
 }
 
-function renderDraftContextCard(champ) {
+function renderDraftContextCard(champ, label) {
   const role = primaryRole(champ);
   return `
-    <article class="context-card">
-      <div class="context-card-head">
-        <span class="badge badge-${ROLE_COLORS[role] || "adc"}">${esc(role)}</span>
-        <strong>${esc(champ.name)}</strong>
-        ${flexBadge(champ)}
-      </div>
-      ${(champ.playstyle || []).length ? `<p class="context-tags">${(champ.playstyle || []).map((p) => `<span class="tag">${esc(p)}</span>`).join("")}</p>` : ""}
-      ${champ.caution ? `<p class="caution compact">⚠ ${esc(champ.caution)}</p>` : ""}
-    </article>`;
+    <div class="context-slot">
+      <span class="context-label">${esc(label)}</span>
+      <article class="context-card">
+        <div class="context-card-head">
+          <span class="badge badge-${ROLE_COLORS[role] || "adc"}">${esc(role)}</span>
+          <strong>${esc(champ.name)}</strong>
+          ${flexBadge(champ)}
+        </div>
+        ${(champ.playstyle || []).length ? `<p class="context-tags">${(champ.playstyle || []).map((p) => `<span class="tag">${esc(p)}</span>`).join("")}</p>` : ""}
+        ${champ.caution ? `<p class="caution compact">⚠ ${esc(champ.caution)}</p>` : ""}
+      </article>
+    </div>`;
+}
+
+function renderIntelChip(name) {
+  const champ = byName(name);
+  if (!champ) return "";
+  const role = primaryRole(champ);
+  return `<span class="intel-chip"><span class="intel-dot badge-${ROLE_COLORS[role] || "adc"}"></span>${esc(champ.name)}</span>`;
 }
 
 function renderDraftContextStrip(draft, lane) {
   const cfg = LANE_CONFIG[lane];
-  const slots = cfg.fields
-    .map((f) => ({ label: f.label.replace("Enemy ", "Enemy ").replace("Your ", "Your "), name: draft[f.key] }))
-    .filter((s) => s.name);
+  const filled = DRAFT_KEYS.filter((k) => draft[k]).map((k) => ({
+    key: k,
+    name: draft[k],
+    label: DRAFT_FIELD_DEFS[k].label
+  }));
 
-  if (!slots.length) return "";
+  if (!filled.length) return "";
+
+  const fullKeys = new Set([cfg.directOpponent, cfg.lanePartner].filter(Boolean));
+  const fullSlots = filled.filter((s) => fullKeys.has(s.key));
+  const chipSlots = filled.filter((s) => !fullKeys.has(s.key));
+
+  const fullLabels = {
+    [cfg.directOpponent]: "Direct opponent",
+    [cfg.lanePartner]: "Lane partner"
+  };
 
   return `
     <div class="context-strip">
       <h3>Lane intel</h3>
       <div class="context-cards">
-        ${slots
+        ${fullSlots
           .map((s) => {
             const champ = byName(s.name);
-            return champ
-              ? `<div class="context-slot"><span class="context-label">${esc(s.label)}</span>${renderDraftContextCard(champ)}</div>`
-              : "";
+            return champ ? renderDraftContextCard(champ, fullLabels[s.key] || s.label) : "";
           })
           .join("")}
       </div>
+      ${chipSlots.length ? `<div class="intel-chips">${chipSlots.map((s) => renderIntelChip(s.name)).join("")}</div>` : ""}
     </div>`;
 }
 
@@ -717,31 +812,76 @@ function renderAlmanac() {
     </section>`;
 }
 
-function renderDraftSelect(field, draft) {
-  const lane = state.activeLane;
-  const options = getPoolChampions(field.pool, lane);
+function renderDraftSelect(key, draft) {
+  const def = DRAFT_FIELD_DEFS[key];
+  const taken = getDraftedNamesExcept(draft, key);
+  const options = getPoolChampions(def.pool, state.activeLane).filter(
+    (c) => !taken.has(c.name) || draft[key] === c.name
+  );
 
   return `
     <label class="field">
-      <span>${esc(field.label)}</span>
-      <select id="${field.id}" data-draft-key="${field.key}">
+      <span>${esc(def.label)}</span>
+      <select id="draft-${key}" data-draft-key="${key}">
         <option value="">— optional —</option>
-        ${options.map((c) => `<option value="${esc(c.name)}" ${draft[field.key] === c.name ? "selected" : ""}>${esc(c.name)}</option>`).join("")}
+        ${options.map((c) => `<option value="${esc(c.name)}" ${draft[key] === c.name ? "selected" : ""}>${esc(c.name)}</option>`).join("")}
       </select>
     </label>`;
+}
+
+function renderRecommendationsPanel(draft, lane) {
+  if (!getDraftValues(draft).length) {
+    return `<p class="empty">Fill in at least one draft slot to get picks.</p>`;
+  }
+
+  if (!state.recommendationsOpen) {
+    return `<button type="button" class="btn-reveal" id="btn-get-picks">Get picks</button>`;
+  }
+
+  const recs = getRecommendations(draft, lane);
+  if (!recs.length) {
+    return `<p class="empty">No picks found for ${esc(LANE_CONFIG[lane].draftLabel)}.</p>`;
+  }
+
+  return recs
+    .map(({ champ, score, reasons, warnings }) => {
+      const role = primaryRole(champ);
+      const open = state.expandedPick === champ.name;
+      const scoreCls = score > 0 ? "pos" : score < 0 ? "neg" : "neutral";
+      return `
+        <article class="rec-card ${open ? "open" : ""}" data-pick="${esc(champ.name)}">
+          <button class="rec-head" type="button">
+            <div class="rec-title">
+              <span class="badge badge-${ROLE_COLORS[role] || "adc"}">${esc(role)}</span>
+              <span class="rec-name">${esc(champ.name)}</span>
+            </div>
+            <span class="score score-${scoreCls}">${score > 0 ? "+" : ""}${score}</span>
+          </button>
+          ${open ? renderDraftPickDetail(champ, draft, lane, reasons, warnings) : ""}
+        </article>`;
+    })
+    .join("");
 }
 
 function renderDraft() {
   const lane = state.activeLane;
   const cfg = LANE_CONFIG[lane];
-  const recs = getRecommendations(state.draft, lane);
   const triggered = getTriggeredRules(state.draft, lane);
+  const enemyKeys = DRAFT_KEYS.filter((k) => k.startsWith("enemy"));
+  const allyKeys = DRAFT_KEYS.filter((k) => k.startsWith("ally") && k !== cfg.hiddenAlly);
 
   return `
     <section class="panel">
       ${renderLaneChips()}
       <p class="panel-desc">${esc(cfg.desc)}</p>
-      <div class="draft-fields">${cfg.fields.map((f) => renderDraftSelect(f, state.draft)).join("")}</div>
+      <div class="draft-group">
+        <h3 class="draft-group-title">Enemy Team</h3>
+        <div class="draft-fields">${enemyKeys.map((k) => renderDraftSelect(k, state.draft)).join("")}</div>
+      </div>
+      <div class="draft-group">
+        <h3 class="draft-group-title">Your Team</h3>
+        <div class="draft-fields">${allyKeys.map((k) => renderDraftSelect(k, state.draft)).join("")}</div>
+      </div>
       ${renderDraftContextStrip(state.draft, lane)}
       ${renderFlexBanner(state.draft)}
       ${renderGlobalConditions(lane)}
@@ -750,32 +890,7 @@ function renderDraft() {
           ? `<div class="rules-banner"><h3>Active draft rules</h3><ul>${triggered.map((r) => `<li>${esc(r.text)}</li>`).join("")}</ul></div>`
           : ""
       }
-      <div class="rec-list">
-        ${
-          !getDraftValues(state.draft).length
-            ? `<p class="empty">Pick at least one field to see recommendations.</p>`
-            : recs.length === 0
-              ? `<p class="empty">No picks found for ${esc(lane)}.</p>`
-              : recs
-                  .map(({ champ, score, reasons, warnings }) => {
-                    const role = primaryRole(champ);
-                    const open = state.expandedPick === champ.name;
-                    const scoreCls = score > 0 ? "pos" : score < 0 ? "neg" : "neutral";
-                    return `
-                      <article class="rec-card ${open ? "open" : ""}" data-pick="${esc(champ.name)}">
-                        <button class="rec-head" type="button">
-                          <div class="rec-title">
-                            <span class="badge badge-${ROLE_COLORS[role] || "adc"}">${esc(role)}</span>
-                            <span class="rec-name">${esc(champ.name)}</span>
-                          </div>
-                          <span class="score score-${scoreCls}">${score > 0 ? "+" : ""}${score}</span>
-                        </button>
-                        ${open ? renderDraftPickDetail(champ, state.draft, lane, reasons, warnings) : ""}
-                      </article>`;
-                  })
-                  .join("")
-        }
-      </div>
+      <div class="rec-list">${renderRecommendationsPanel(state.draft, lane)}</div>
     </section>`;
 }
 
@@ -802,6 +917,8 @@ function bindEvents() {
   document.querySelectorAll(".tab").forEach((btn) => {
     btn.addEventListener("click", () => {
       state.tab = btn.dataset.tab;
+      state.recommendationsOpen = false;
+      state.expandedPick = null;
       render();
     });
   });
@@ -813,6 +930,7 @@ function bindEvents() {
       state.playstyleFilter = "All";
       state.expandedChampion = null;
       state.expandedPick = null;
+      state.recommendationsOpen = false;
       saveDraft();
       render();
     });
@@ -861,6 +979,11 @@ function bindEvents() {
       saveDraft();
       render();
     });
+  });
+
+  document.getElementById("btn-get-picks")?.addEventListener("click", () => {
+    state.recommendationsOpen = true;
+    render();
   });
 
   document.querySelectorAll("[data-pick]").forEach((card) => {

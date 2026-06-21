@@ -216,19 +216,42 @@ function loadLaneFiles() {
   return [...byName.values()].map(flattenForBundle).sort((a, b) => a.name.localeCompare(b.name));
 }
 
+function mergeRulesList(existing, incoming, defaultLanes) {
+  const byId = new Map(existing.map((r) => [r.id, r]));
+  for (const rule of incoming || []) {
+    const tagged = {
+      ...rule,
+      lanes: rule.lanes?.length ? rule.lanes : defaultLanes
+    };
+    byId.set(rule.id, tagged);
+  }
+  return [...byId.values()];
+}
+
 function loadDraftRules() {
-  const fp = path.join(DATA, "draftRules.json");
+  let rules = [];
+
   try {
-    const data = readJson(fp);
-    if (!data?.rules?.length) {
-      report.warnings.push("draftRules.json empty — using empty rules");
-      return [];
+    const bot = readJson(path.join(DATA, "draftRules.json"));
+    if (bot?.rules?.length) {
+      rules = mergeRulesList(rules, bot.rules, ["Dragon", "Support"]);
     }
-    return data.rules;
   } catch {
     report.warnings.push("draftRules.json missing or invalid");
-    return [];
   }
+
+  for (const { file, lane } of LANE_FILES) {
+    const fp = path.join(DATA, file);
+    if (!fs.existsSync(fp)) continue;
+    const data = readJson(fp);
+    if (data?.draftRules?.length) {
+      rules = mergeRulesList(rules, data.draftRules, [lane]);
+      report.counts[`rules:${lane}`] = data.draftRules.length;
+    }
+  }
+
+  if (!rules.length) report.warnings.push("No draft rules loaded");
+  return rules;
 }
 
 function loadOtherInfo() {
