@@ -2,6 +2,24 @@
 
 Offline **Wild Rift** draft companion — all 5 lanes, works on phone with no internet.
 
+## How it works (flow)
+
+```mermaid
+graph TD
+  A[Open app (index.html)] --> B{Choose tab}
+  B -->|Almanac| C[Search champ / browse roles]
+  B -->|Draft Helper| D[Fill in opponent picks + your support]
+
+  D --> E[Matchups & synergies lookup]
+  E --> F[Apply draft rules]
+  F --> G[Score candidates]
+  G --> H[Show top recommendations]
+  H --> I[Expand “Why pick this” + “What to watch out for”]
+
+  C --> J[Open champion card]
+  J --> I
+```
+
 ## Quick start
 
 1. Open `index.html` in your browser (or copy the folder to your phone).
