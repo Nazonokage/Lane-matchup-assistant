@@ -1,0 +1,221 @@
+# Lane Ledger — Project Audit
+
+**Lane Ledger** is a Wild Rift draft companion (Almanac + Draft Helper) built with **React 19**, **Vite 8**, and plain CSS. Runtime deps are only `react` and `react-dom` — that part is lean.
+
+The main problems are **algorithmic inefficiency in the scoring engine**, **data/logic duplication from an incomplete legacy → React migration**, and a few **real bugs**. The production bundle is fine (~382 KB / ~99 KB gzip); bloat is mostly in the repo, not what users download.
+
+---
+
+## What’s working well
+
+- Clear split: `constants` → `engine` → components
+- Scoring logic is thorough (matchups, synergies, reverse counters, playstyle, draft rules)
+- Offline-first design fits the use case
+- No dependency bloat in `package.json`
+
+---
+
+## High priority — performance & bugs
+
+### 1. `localStorage` parsed on every render (bug)
+
+```9:19:D:\Akun files\Projects\inubrahan\Current project\bot Lane counter Picks\lane_ledger\src\App.jsx
+  const saved = loadDraftFromStorage();
+
+  const [tab, setTab] = useState("almanac");
+  const [activeLane, setActiveLane] = useState(saved?.activeLane || "Dragon");
+  // ...
+  const [draft, setDraft] = useState(saved?.draft || { ...EMPTY_DRAFT });
+```
+
+`loadDraftFromStorage()` runs on **every re-render**, not just mount. Fix with lazy initializers:
+
+```jsx
+const [activeLane, setActiveLane] = useState(() => loadDraftFromStorage()?.activeLane ?? "Dragon");
+const [draft, setDraft] = useState(() => loadDraftFromStorage()?.draft ?? { ...EMPTY_DRAFT });
+```
+
+(Or read storage once into a module-level constant.)
+
+---
+
+### 2. Scoring engine re-evaluates all rules per champion (N× pattern)
+
+When you click **Get picks**, `getRecommendations()` scores up to ~25 candidates. Each call to `scoreChampion()` hits `getRulesForChampion()`, which calls `getTriggeredRules()` again:
+
+```128:134:D:\Akun files\Projects\inubrahan\Current project\bot Lane counter Picks\lane_ledger\src\lib\engine.js
+export function getRulesForChampion(champ, draft, lane) {
+  return getTriggeredRules(draft, lane).filter(
+    (r) =>
+      r.text.toLowerCase().includes(champ.name.toLowerCase()) ||
+      r.condition.includes(`'${champ.name}'`)
+  );
+}
+```
+
+That’s ~25 champions × ~50 rules ≈ **1,250 rule evaluations** per pick request. Compute triggered rules **once** in `getRecommendations()` and pass them into scoring.
+
+---
+
+### 3. `new Function()` on every rule check
+
+```97:112:D:\Akun files\Projects\inubrahan\Current project\bot Lane counter Picks\lane_ledger\src\lib\engine.js
+function evaluateCondition(condition, ctx) {
+  try {
+    return Function(
+      "enemyTop", "enemyJungle", "enemyMid", "enemyADC", "enemySupport",
+      // ...
+      `return ${condition}`
+    )(
+```
+
+Each evaluation **compiles** a new function. Pre-compile rules once at data load and reuse them.
+
+---
+
+### 4. O(n) champion lookups via linear search
+
+```10:12:D:\Akun files\Projects\inubrahan\Current project\bot Lane counter Picks\lane_ledger\src\lib\engine.js
+export function byName(name) {
+  return championData.find((c) => c.name === name) || null;
+}
+```
+
+`byName()` is called many times per scored champion (enemy slots, allies, reverse matchups). Build a `Map<name, champion>` once at init for O(1) lookups.
+
+---
+
+### 5. Draft dropdowns rebuild full champion lists every render
+
+```147:152:D:\Akun files\Projects\inubrahan\Current project\bot Lane counter Picks\lane_ledger\src\components\DraftPanel.jsx
+function DraftSelect({ draftKey, draft, activeLane, onChange }) {
+  const def = DRAFT_FIELD_DEFS[draftKey];
+  const taken = getDraftedNamesExcept(draft, draftKey);
+  const options = getPoolChampions(def.pool).filter(
+    (c) => !taken.has(c.name) || draft[draftKey] === c.name
+  );
+```
+
+You have ~9 `<DraftSelect>` instances. Each parent re-render re-filters and re-sorts the full pool. Memoize per pool + draft, or precompute pool lists at module load.
+
+---
+
+### 6. Rules/warnings recomputed on every draft keystroke
+
+```218:221:D:\Akun files\Projects\inubrahan\Current project\bot Lane counter Picks\lane_ledger\src\components\DraftPanel.jsx
+  const triggered = getTriggeredRules(draft, activeLane);
+  const flex = getFlexWarnings(draft);
+  const globalCond = getGlobalConditions(activeLane);
+```
+
+No memoization — every slot change re-runs full rule evaluation. `useMemo` keyed on `draft` + `activeLane` would help.
+
+---
+
+### 7. Runtime data merge on every page load
+
+```10:14:D:\Akun files\Projects\inubrahan\Current project\bot Lane counter Picks\lane_ledger\src\lib\data.js
+const { championData, draftRules, otherInfo, lastUpdated, metaNote } = buildDataset(
+  { drLane, suppRole, Midlane, JglRole, BrLane },
+  draftRulesFile,
+  otherinfo
+);
+```
+
+Vite bundles raw JSON, then the browser merges ~127 champions at startup. Move merge to **build time** (you already have `scripts/build-data.js`) and import a pre-merged artifact.
+
+---
+
+## Medium priority — bloat & cleanup
+
+### Duplicate data (3 copies of the same JSON)
+
+| Location | Used by React? |
+|----------|----------------|
+| `lane_ledger/src/data/*.json` | **Yes** |
+| `lane_ledger/src/assets/data/*.json` | **No** — identical copies |
+| `data/*.json` (repo root) | Legacy vanilla app only |
+
+Also two generated **`bundle.js`** files (~506 KB each) in `src/data/` and `src/assets/data/` — **not imported** by the React app. That’s ~1 MB of dead generated code in the repo.
+
+Comments in those bundle files say “edit `src/assets/data/*.json`”, but `data.js` imports from `src/data/` — conflicting docs.
+
+---
+
+### Legacy vanilla app still in the monorepo
+
+At repo root you still have:
+
+- `script.js` (~900 lines) — duplicate of `engine.js`
+- `style.css` — duplicate of `index.css`
+- `basis index.html` — old HTML shell
+- `data/bundle.js` — legacy build output
+- `scripts/build-data.js` — ~90% duplicate of `mergeData.js`
+
+Vercel deploys the React build from `lane_ledger/dist`. The legacy stack is dead weight unless you still use it locally.
+
+---
+
+### Unused / broken files
+
+| File | Issue |
+|------|-------|
+| `src/App.css` | Vite template leftover, never imported |
+| `src/assets/vite.svg`, `react.svg` | Template assets, unused |
+| `src/data/_legacy-data.js.bak` | Backup stub |
+| `@types/react`, `@types/react-dom` | No TypeScript in the project |
+| `think_fam_think.png` | Referenced in `index.html` and `App.jsx` but **missing from repo** — broken logo/favicon |
+
+---
+
+### Organization
+
+- `ChampionDetail` lives in `AlmanacPanel.jsx` but is imported by `DraftPanel.jsx` — should be its own component
+- `normalizeEntry()` duplicated in `engine.js` and `mergeData.js`
+- No tests on the scoring engine (critical business logic)
+- `README.md` is still the default Vite template
+
+---
+
+## Low priority
+
+- `setTimeout` in `CopyButton` without cleanup (minor unmount edge case)
+- React StrictMode double-invokes in dev (amplifies the localStorage bug)
+- React Compiler adds build complexity — may be overkill for this app size; worth benchmarking dev/build speed
+- Virtualizing the almanac list — only ~20–40 champions per lane today, not urgent
+
+---
+
+## Bundle reality check
+
+Production build (just ran it):
+
+```
+dist/assets/index-DIfqV2iD.js   382 KB │ gzip: 99 KB
+dist/assets/index-CVdfj3tB.css     9.6 KB │ gzip:  2.4 KB
+```
+
+The `chunkSizeWarningLimit: 2000` in `vite.config.js` is precautionary — the shipped bundle is not 2 MB. The real size cost is JSON + merge logic in one chunk; build-time merge could trim init work further.
+
+---
+
+## Recommended action plan
+
+| Priority | Action | Impact |
+|----------|--------|--------|
+| **1** | Fix lazy `useState` for localStorage | Stops unnecessary JSON parse every render |
+| **2** | `Map` for `byName()`, pre-compile rules, cache triggered rules during scoring | Biggest win on “Get picks” latency |
+| **3** | Memoize draft panel computations + pool options | Smoother draft slot changes |
+| **4** | Single data dir (`src/data/`), delete `src/assets/data/` duplicates + unused `bundle.js` | ~1 MB repo bloat gone, no drift risk |
+| **5** | Build-time merge via Vite plugin or `build-data.js` | Faster startup |
+| **6** | Retire or archive legacy `script.js` stack | ~1,800 lines of duplicate maintenance |
+| **7** | Add/fix `think_fam_think.png` | Fixes broken branding |
+| **8** | Extract `ChampionDetail`, remove template cruft, update README | Cleaner codebase |
+
+---
+
+## Summary
+
+The React app architecture is sound and the shipped bundle is reasonable. The highest-ROI work is in **`engine.js`** (lookup map, rule pre-compilation, stop re-evaluating rules per champion) and **`App.jsx`** (localStorage bug). The biggest **bloat** is repo-level: triple JSON copies, unused `bundle.js` files, and the legacy vanilla app sitting alongside the React migration.
+
+If you want, I can start implementing — I’d tackle items 1–3 first (quick wins with the biggest runtime impact), then clean up the duplicate data files.

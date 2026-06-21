@@ -1,0 +1,431 @@
+{
+  "meta": {
+    "lastUpdated": "2025-06-20",
+    "patch": "7.1g"
+  },
+  "rules": [
+    {
+      "id": "jhin-yuumi-avoid",
+      "condition": "allySupport === 'Yuumi' && enemyADC === 'Jhin'",
+      "text": "Jhin + Yuumi is considered one of the worst ADC + Support combos. Yuumi's kit doesn't synergize with Jhin's reload mechanic.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "sivir-mage-counter",
+      "condition": "enemyADC === 'Sivir'",
+      "text": "Sivir's Spell Shield neutralizes poke mages. Be careful with skillshot-heavy picks.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "xayah-rakan-synergy",
+      "condition": "allySupport === 'Rakan' && enemyADC === 'Xayah'",
+      "text": "Xayah + Rakan have special synergy. Strong laning phase and teamfight combo.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "kaisa-engage-support",
+      "condition": "allySupport === 'Leona' && enemyADC === 'Kai'Sa'",
+      "text": "Kai'Sa thrives with engage supports that help stack her plasma.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "senna-hook-counter",
+      "condition": "enemyADC === 'Senna'",
+      "text": "Senna is extremely vulnerable to hook supports (Blitzcrank, Thresh, Nautilus, Pyke).",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "enchanter-vs-tank",
+      "condition": "allySupport === 'Janna' || allySupport === 'Soraka'",
+      "text": "Enchanter supports struggle against engage supports. Position carefully and save disengage abilities.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "caitlyn-trap-synergy",
+      "condition": "allySupport === 'Morgana' || allySupport === 'Lux'",
+      "text": "Caitlyn + Morgana/Lux: Long roots guarantee trap headshots.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "kogmaw-protect-synergy",
+      "condition": "allySupport === 'Lulu' || allySupport === 'Braum'",
+      "text": "Kog'Maw needs heavy peel to survive. Lulu and Braum are his best protectors.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "kalista-thresh-synergy",
+      "condition": "allySupport === 'Thresh'",
+      "text": "Kalista + Thresh is a classic combo — Thresh can be thrown in with Kalista's ultimate.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "samira-engage-needed",
+      "condition": "enemyADC === 'Samira'",
+      "text": "Samira needs engage support to unlock her full potential. Nautilus, Leona, and Thresh are best.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "twitch-lulu-synergy",
+      "condition": "allySupport === 'Lulu' && enemyADC === 'Twitch'",
+      "text": "Twitch + Lulu: Hypercarry + attack speed buffs. Strong scaling combo.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "lucian-nami-synergy",
+      "condition": "allySupport === 'Nami' && enemyADC === 'Lucian'",
+      "text": "Lucian + Nami: Early game power spike with double damage amplification.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "apc-poke-warning",
+      "condition": "enemyADC === 'Ziggs' || enemyADC === 'Brand'",
+      "text": "APC bot lanes have strong poke but are vulnerable to all-ins. Don't let them push you under tower.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "zyra-hook-counter",
+      "condition": "enemySupport === 'Blitzcrank' || enemySupport === 'Thresh' || enemySupport === 'Nautilus'",
+      "text": "Zyra's plants can block hooks — use them to body-block skillshots.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "enchanter-vs-hook-warning",
+      "condition": "allySupport === 'Sona' || allySupport === 'Soraka' || allySupport === 'Janna'",
+      "text": "Enchanters are very squishy vs hook supports. One hook = death.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "vayne-top-pick",
+      "condition": "enemyADC === 'Vayne'",
+      "text": "Vayne can also be played top lane. If you see Vayne in draft, consider if she's ADC or top.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "nilah-jungle-pick",
+      "condition": "enemyADC === 'Nilah'",
+      "text": "Nilah can be played jungle. Watch for unusual jungle pathing.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "draven-bully",
+      "condition": "enemyADC === 'Draven'",
+      "text": "Draven dominates most marksmen early with raw damage. Pick Caitlyn for range, Varus for poke, or Tristana for safety. Never pick Vayne/Kai'Sa into him.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "caitlyn-siege",
+      "condition": "enemyADC === 'Caitlyn'",
+      "text": "Caitlyn wins through lane pressure. Pick Varus to match poke, Draven for all-in, or Ezreal for safety. Avoid short-range ADCs.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "vayne-scaling",
+      "condition": "enemyADC === 'Vayne'",
+      "text": "Vayne needs to scale. Pick Draven/Lucian to punish early, Caitlyn for range, or Ashe for vision. Don't let her farm safely.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "lucian-burst",
+      "condition": "enemyADC === 'Lucian'",
+      "text": "Lucian wants early kills. Pick Caitlyn for range, Draven to trade back, or Sivir to block his burst. Don't pick Kog'Maw.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "ezreal-safe",
+      "condition": "enemyADC === 'Ezreal'",
+      "text": "Ezreal plays safe and pokes. Pick Draven to all-in, Twitch to flank, or Sivir to push him in. Don't let him scale safely.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "ashe-utility",
+      "condition": "enemyADC === 'Ashe'",
+      "text": "Ashe wins with utility and slows. Pick Draven to out-damage, Ezreal for mobility, or Caitlyn for range.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "jhin-burst",
+      "condition": "enemyADC === 'Jhin'",
+      "text": "Jhin wins with burst and utility. Pick Draven to out-trade, Tristana to jump his reload, or Varus for poke.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "jinx-hypercarry",
+      "condition": "enemyADC === 'Jinx'",
+      "text": "Jinx scales hard. Pick Draven/Lucian to pressure early, Tristana to match scaling, or Caitlyn to out-range.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "kalista-mobility",
+      "condition": "enemyADC === 'Kalista'",
+      "text": "Kalista wins with mobility. Pick Ashe for slows, Draven for raw damage, or Caitlyn for range to deny her jumps.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "kogmaw-hypercarry",
+      "condition": "enemyADC === 'Kog'Maw'",
+      "text": "Kog'Maw needs protection. Pick Draven/Lucian for early burst, Tristana to jump him, or Varus for poke.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "zeri-kiting",
+      "condition": "enemyADC === 'Zeri'",
+      "text": "Zeri wins with kiting. Pick Draven for early damage, Caitlyn for range, or Lucian for burst to shut her down.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "engage-support",
+      "condition": "enemySupport === 'Leona' || enemySupport === 'Nautilus' || enemySupport === 'Alistar' || enemySupport === 'Amumu'",
+      "text": "Engage supports want to all-in. Pick Morgana (black shield), Janna (disengage), or Braum (peel) to counter.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "hook-support",
+      "condition": "enemySupport === 'Thresh' || enemySupport === 'Blitzcrank' || enemySupport === 'Pyke' || enemySupport === 'Nautilus'",
+      "text": "Hook supports punish bad positioning. Pick Morgana (black shield), Sivir (spell shield), Ezreal (mobility), or Zyra (plants block hooks).",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "poke-support",
+      "condition": "enemySupport === 'Zyra' || enemySupport === 'Xerath' || enemySupport === 'Vel'Koz' || enemySupport === 'Brand'",
+      "text": "Poke supports win through pressure. Pick sustain (Soraka/Nami) or hard engage (Leona/Nautilus) to counter.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "enchanter-support",
+      "condition": "enemySupport === 'Lulu' || enemySupport === 'Janna' || enemySupport === 'Soraka' || enemySupport === 'Nami' || enemySupport === 'Yuumi'",
+      "text": "Enchanters protect and sustain. Pick poke (Zyra/Xerath) or engage (Leona/Nautilus) to out-pressure and deny their scaling.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "ziggs-apc",
+      "condition": "enemyADC === 'Ziggs'",
+      "text": "Ziggs wants to siege. Pick Ezreal for mobility, Varus for poke, or Draven for early burst. Don't let him take your tower.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "veigar-apc",
+      "condition": "enemyADC === 'Veigar'",
+      "text": "Veigar scales infinitely. Pick Sivir (spell shield), Ezreal (mobility), or Draven (early pressure) to counter.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "seraphine-apc",
+      "condition": "enemyADC === 'Seraphine'",
+      "text": "Seraphine wins in teamfights. Pick Pyke/Blitz/Nautilus for hook engage, or Zeri to dodge her skillshots.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "ziggs-siege",
+      "condition": "enemyADC === 'Ziggs'",
+      "text": "Ziggs is a siege god. Pick Sivir to push back, Ezreal to dodge, or Tristana to all-in him before he scales.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "brand-support",
+      "condition": "enemySupport === 'Brand'",
+      "text": "Brand is a damage support. Pick sustain (Soraka/Nami) to heal his poke, or engage to burst him down.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "zyra-plant",
+      "condition": "enemySupport === 'Zyra'",
+      "text": "Zyra's plants block hooks. Pick Miss Fortune to clear plants with Q, Caitlyn for range, or Xerath to out-poke her.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "senna-support",
+      "condition": "enemySupport === 'Senna'",
+      "text": "Senna wins through poke and scaling. Pick engage supports to burst her, or hard engage to lock her down.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "pyke-roam",
+      "condition": "enemySupport === 'Pyke'",
+      "text": "Pyke is a roaming assassin. Pick Morgana to block his hooks, or Alistar to peel his engages. Ward river and ping MIA.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "yuumi-enchanter",
+      "condition": "enemySupport === 'Yuumi'",
+      "text": "Yuumi is annoying but weak early. Pick engage supports to burst her ADC, or enchanters to match her sustain.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "apc-vs-adc",
+      "condition": "enemyRole === 'APC' && (enemyADC === 'Ziggs' || enemyADC === 'Veigar' || enemyADC === 'Seraphine' || enemyADC === 'Karthus')",
+      "text": "APCs are weak early. Pick Draven/Lucian for early pressure, or Sivir to push them in. Don't let them scale.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "adc-synergy",
+      "condition": "allySupport === 'Lulu' && (enemyADC === 'Draven' || enemyADC === 'Lucian')",
+      "text": "Lulu struggles into lane bullies. Play safe, scale up, and peel for your ADC in teamfights.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "support-pairing-morgana",
+      "condition": "allySupport === 'Morgana' && (enemySupport === 'Thresh' || enemySupport === 'Blitzcrank' || enemySupport === 'Pyke' || enemySupport === 'Nautilus')",
+      "text": "Morgana's black shield counters hooks. Use it to enable your ADC to play aggressively and deny their pick potential.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "support-pairing-leona",
+      "condition": "allySupport === 'Leona' && enemySupport === 'Morgana'",
+      "text": "Morgana counters Leona with black shield. Bait out the shield before engaging, or look for roams to other lanes.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "support-pairing-braum",
+      "condition": "allySupport === 'Braum' && (enemySupport === 'Thresh' || enemySupport === 'Blitzcrank' || enemySupport === 'Nautilus')",
+      "text": "Braum's E can block hooks. Use it to protect your ADC and counter-engage with Q and R.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    },
+    {
+      "id": "support-pairing-janna",
+      "condition": "allySupport === 'Janna' && (enemySupport === 'Leona' || enemySupport === 'Nautilus' || enemySupport === 'Alistar')",
+      "text": "Janna's Q and R counter engage supports. Cancel their engages and peel for your ADC.",
+      "lanes": [
+        "Dragon",
+        "Support"
+      ]
+    }
+  ]
+}
