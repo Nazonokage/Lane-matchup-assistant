@@ -1,4 +1,4 @@
-export const LANES = ["Dragon", "Support", "Mid", "Jungle", "Baron"];
+export const LANES = ["Support", "Dragon", "Mid", "Jungle", "Baron"];
 
 export const DRAFT_KEYS = [
   "enemyTop", "enemyJungle", "enemyMid", "enemyADC", "enemySupport",

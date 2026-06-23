@@ -1,9 +1,9 @@
 {
   "meta": {
-    "lastUpdated": "June 2026",
+    "lastUpdated": "2026-06-23",
     "patch": "7.1g",
     "lane": "Mid Lane",
-    "description": "Wild Rift Mid Lane champion data based on wildriftcounter.com matchups, Core tier lists, and community discussions",
+    "description": "Wild Rift Mid Lane champion data – updated with QWER skill references and pick/avoid examples",
     "dataSource": "wildriftcounter.com, r/wildrift, Wild Rift Core"
   },
   "champions": [
@@ -13,339 +13,162 @@
       "primaryRole": "Mid",
       "secondaryRoles": [],
       "goodAgainst": [
-        {
-          "name": "Diana",
-          "note": "Charm interrupts her engage"
-        },
-        {
-          "name": "Yasuo",
-          "note": "Charm dodges his dashes"
-        },
-        {
-          "name": "Zed",
-          "note": "Charm stops his all-in"
-        },
-        {
-          "name": "Akali",
-          "note": "Can charm her out of shroud"
-        },
-        {
-          "name": "Fizz",
-          "note": "Charm counters his engage"
-        }
+        { "name": "Diana", "note": "Charm (E) interrupts her engage" },
+        { "name": "Yasuo", "note": "Charm (E) interrupts his dashes" },
+        { "name": "Zed", "note": "Charm (E) stops his all-in" },
+        { "name": "Akali", "note": "Charm (E) can reveal her out of shroud (W)" },
+        { "name": "Fizz", "note": "Charm (E) counters his engage" }
       ],
       "badAgainst": [
-        {
-          "name": "Kassadin",
-          "note": "Out-scales her"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks her burst with MR"
-        },
-        {
-          "name": "Syndra",
-          "note": "Out-ranges and out-pokes"
-        },
-        {
-          "name": "Orianna",
-          "note": "Better wave control"
-        },
-        {
-          "name": "Akali",
-          "note": "Can outplay her charm"
-        }
+        { "name": "Kassadin", "note": "Out-scales her" },
+        { "name": "Galio", "note": "Tanks her burst with MR" },
+        { "name": "Syndra", "note": "Out-ranges and out-pokes" },
+        { "name": "Orianna", "note": "Better wave control" },
+        { "name": "Akali", "note": "Can outplay your charm with W" }
       ],
-      "strengths": [
-        "Mobility",
-        "Charm setup",
-        "Roam potential",
-        "Safe poke"
-      ],
-      "synergies": [
-        "Vi",
-        "Jarvan IV",
-        "Nautilus",
-        "Galio"
-      ],
-      "avoidSynergies": [
-        "Heavy dive without peel",
-        "All-AD teams"
-      ],
+      "strengths": ["Mobility", "Charm setup", "Roam potential", "Safe poke"],
+      "synergies": ["Vi", "Jarvan IV", "Nautilus", "Galio"],
+      "avoidSynergies": ["Heavy dive without peel", "All-AD teams"],
       "pickWhen": [
         "Need a safe blind pick",
         "Team needs roam potential",
-        "Enemy has squishy champions"
+        "Enemy has squishy champions (e.g., Lux, Ziggs, Jhin)"
       ],
       "avoidWhen": [
-        "Enemy has heavy CC tanks (Galio, Kassadin)",
-        "Enemy has strong control mages"
+        "Enemy has heavy CC tanks (e.g., Galio, Kassadin)",
+        "Enemy has strong control mages (e.g., Orianna, Syndra)",
+        "Your team lacks AP damage"
       ],
-      "playstyle": [
-        "burst",
-        "mobile",
-        "roam"
-      ],
-      "tips": "Use charm to interrupt engages. Roam with ultimate advantage."
+      "playstyle": ["burst", "mobile", "roam"],
+      "tips": "Use E to interrupt engages. Roam with R advantage."
     },
     {
       "name": "Akali",
       "category": "Assassin",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Outplays her charm"
-        },
-        {
-          "name": "Syndra",
-          "note": "Dodges her stun"
-        },
-        {
-          "name": "Orianna",
-          "note": "Dodges her ball"
-        },
-        {
-          "name": "Lux",
-          "note": "Dodges her root"
-        }
+        { "name": "Ahri", "note": "Dodge charm with W + E" },
+        { "name": "Syndra", "note": "Dodge stun (E) with W" },
+        { "name": "Orianna", "note": "Dodge ball with W" },
+        { "name": "Lux", "note": "Dodge root (Q) with W" }
       ],
       "badAgainst": [
-        {
-          "name": "Gragas",
-          "note": "Tanks her burst"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks her burst with MR"
-        },
-        {
-          "name": "Pantheon",
-          "note": "Hard CC counters her"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades her"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales her"
-        }
+        { "name": "Gragas", "note": "Tanks her burst" },
+        { "name": "Galio", "note": "Tanks her burst with MR" },
+        { "name": "Pantheon", "note": "Hard CC (W) counters her" },
+        { "name": "Diana", "note": "Out-trades her" },
+        { "name": "Kassadin", "note": "Out-scales her" },
+        { "name": "Lissandra", "note": "Lockdown CC (R) completely shuts down her mobility" }
       ],
-      "strengths": [
-        "Burst",
-        "Mobility",
-        "Shroud",
-        "Execute"
-      ],
-      "synergies": [
-        "Engage supports",
-        "Frontline"
-      ],
-      "avoidSynergies": [
-        "Tanky peel comps"
-      ],
+      "strengths": ["Burst", "Mobility", "Shroud", "Execute"],
+      "synergies": ["Engage supports", "Frontline"],
+      "avoidSynergies": ["Tanky peel comps"],
       "pickWhen": [
-        "Enemy is squishy",
-        "Need a mobile assassin"
+        "Enemy has immobile squishy carries (e.g., Lux, Ziggs, Jhin)",
+        "Need a mobile assassin",
+        "You can snowball early"
       ],
       "avoidWhen": [
-        "Enemy has tanks",
-        "Enemy has hard CC"
+        "Enemy has tanks (e.g., Galio, Gragas)",
+        "Enemy has hard CC (e.g., Pantheon, Lissandra)",
+        "Your team lacks engage"
       ],
-      "playstyle": [
-        "assassin",
-        "mobile",
-        "burst"
-      ],
-      "tips": "Use shroud to outplay. Passive auto for extra damage."
+      "playstyle": ["assassin", "mobile", "burst"],
+      "tips": "Use W to outplay. Passive auto for extra damage."
     },
     {
       "name": "Akshan",
       "category": "Marksman",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "ADC"
-      ],
+      "secondaryRoles": ["ADC"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Out-trades with shield"
-        },
-        {
-          "name": "Akali",
-          "note": "Out-trades with shield"
-        },
-        {
-          "name": "Fizz",
-          "note": "Out-trades with shield"
-        }
+        { "name": "Zed", "note": "Shield (W) blocks his burst" },
+        { "name": "Akali", "note": "Shield (W) blocks her burst" },
+        { "name": "Fizz", "note": "Shield (W) blocks his burst" }
       ],
       "badAgainst": [
-        {
-          "name": "Syndra",
-          "note": "Out-ranges him"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks his damage"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        }
+        { "name": "Syndra", "note": "Out-ranges him" },
+        { "name": "Galio", "note": "Tanks his damage" },
+        { "name": "Diana", "note": "Out-trades him" }
       ],
-      "strengths": [
-        "Roam",
-        "Revive passive",
-        "Mobility",
-        "Poke"
-      ],
-      "synergies": [
-        "Any team comp"
-      ],
-      "avoidSynergies": [
-        "Heavy CC burst"
-      ],
+      "strengths": ["Roam", "Revive passive", "Mobility", "Poke"],
+      "synergies": ["Any team comp"],
+      "avoidSynergies": ["Heavy CC burst"],
       "pickWhen": [
-        "Need roam pressure",
-        "Team needs revival utility"
+        "Need roam pressure and map presence",
+        "Team needs revival utility",
+        "Enemy has immobile mages (e.g., Lux, Veigar)"
       ],
       "avoidWhen": [
-        "Enemy has heavy CC burst"
+        "Enemy has heavy CC burst (e.g., Pantheon, Lissandra)",
+        "Enemy has strong poke mages (e.g., Syndra, Ziggs)",
+        "Your team lacks AP damage"
       ],
-      "playstyle": [
-        "marksman",
-        "roam",
-        "mobility"
-      ],
-      "tips": "Use grapple to roam. Passive revive is game-changing."
+      "playstyle": ["marksman", "roam", "mobility"],
+      "tips": "Use E (grapple) to roam. Passive revive is game-changing."
     },
     {
       "name": "Ambessa",
       "category": "Fighter",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Diana",
-          "note": "Out-sustains her"
-        },
-        {
-          "name": "Yasuo",
-          "note": "Out-trades him"
-        },
-        {
-          "name": "Irelia",
-          "note": "Out-trades her"
-        }
+        { "name": "Diana", "note": "Out-sustains her" },
+        { "name": "Yasuo", "note": "Out-trades him" },
+        { "name": "Irelia", "note": "Out-trades her" }
       ],
       "badAgainst": [
-        {
-          "name": "Lux",
-          "note": "Out-ranged and kited"
-        },
-        {
-          "name": "Ziggs",
-          "note": "Out-ranged and kited"
-        },
-        {
-          "name": "Syndra",
-          "note": "Out-ranged and kited"
-        }
+        { "name": "Lux", "note": "Out-ranged and kited" },
+        { "name": "Ziggs", "note": "Out-ranged and kited" },
+        { "name": "Syndra", "note": "Out-ranged and kited" }
       ],
-      "strengths": [
-        "Dive",
-        "Sustain",
-        "Burst"
-      ],
-      "synergies": [
-        "Frontline",
-        "Engage"
-      ],
-      "avoidSynergies": [
-        "Heavy poke"
-      ],
+      "strengths": ["Dive", "Sustain", "Burst"],
+      "synergies": ["Frontline", "Engage"],
+      "avoidSynergies": ["Heavy poke"],
       "pickWhen": [
-        "Need dive potential",
-        "Enemy has melee champions"
+        "Need dive potential and sustain",
+        "Enemy has melee champions (e.g., Yasuo, Diana, Irelia)",
+        "Your team needs a secondary engage"
       ],
       "avoidWhen": [
-        "Enemy has heavy poke",
-        "Enemy has ranged mages"
+        "Enemy has heavy poke (e.g., Lux, Ziggs, Syndra)",
+        "Enemy has ranged mages that can kite you",
+        "Your team lacks frontline"
       ],
-      "playstyle": [
-        "fighter",
-        "dive",
-        "sustain"
-      ],
+      "playstyle": ["fighter", "dive", "sustain"],
       "tips": "Build sustain items. Dive backline in teamfights."
     },
     {
       "name": "Annie",
       "category": "Burst Mage",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Support"
-      ],
+      "secondaryRoles": ["Support"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Stun stops his all-in"
-        },
-        {
-          "name": "Akali",
-          "note": "Stun reveals her"
-        },
-        {
-          "name": "Fizz",
-          "note": "Stun counters his engage"
-        }
+        { "name": "Zed", "note": "Stun (passive) stops his all-in" },
+        { "name": "Akali", "note": "Stun reveals her in shroud" },
+        { "name": "Fizz", "note": "Stun counters his engage" }
       ],
       "badAgainst": [
-        {
-          "name": "Fizz",
-          "note": "Dodges her stun"
-        },
-        {
-          "name": "Akali",
-          "note": "Dodges her stun"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks her burst"
-        }
+        { "name": "Fizz", "note": "Dodges her stun with E" },
+        { "name": "Akali", "note": "Dodges her stun with W" },
+        { "name": "Galio", "note": "Tanks her burst" }
       ],
-      "strengths": [
-        "Easy burst",
-        "Flash Tibbers",
-        "Point-click stun"
-      ],
-      "synergies": [
-        "Engage comps"
-      ],
-      "avoidSynergies": [
-        "Mobile comps"
-      ],
+      "strengths": ["Easy burst", "Flash Tibbers", "Point-click stun"],
+      "synergies": ["Engage comps"],
+      "avoidSynergies": ["Mobile comps"],
       "pickWhen": [
-        "Need reliable burst",
-        "Enemy is immobile"
+        "Need reliable burst and teamfight engage",
+        "Enemy is immobile (e.g., Lux, Veigar, Ziggs)",
+        "You want a simple but effective mid laner"
       ],
       "avoidWhen": [
-        "Enemy has high mobility",
-        "Enemy has tanks"
+        "Enemy has high mobility (e.g., Fizz, Akali, Zed)",
+        "Enemy has tanks (e.g., Galio, Gragas)",
+        "Enemy has long-range poke"
       ],
-      "playstyle": [
-        "burst",
-        "simple",
-        "engage"
-      ],
-      "tips": "Stack stun passive. Flash + Tibbers for engage."
+      "playstyle": ["burst", "simple", "engage"],
+      "tips": "Stack stun passive (4 abilities). Flash + R (Tibbers) for engage."
     },
     {
       "name": "Aurelion Sol",
@@ -353,771 +176,432 @@
       "primaryRole": "Mid",
       "secondaryRoles": [],
       "goodAgainst": [
-        {
-          "name": "Ziggs",
-          "note": "Out-trades him"
-        },
-        {
-          "name": "Lux",
-          "note": "Out-trades her"
-        },
-        {
-          "name": "Seraphine",
-          "note": "Out-trades her"
-        }
+        { "name": "Ziggs", "note": "Out-trades him" },
+        { "name": "Lux", "note": "Out-trades her" },
+        { "name": "Seraphine", "note": "Out-trades her" }
       ],
       "badAgainst": [
-        {
-          "name": "Zed",
-          "note": "Bursts him"
-        },
-        {
-          "name": "Fizz",
-          "note": "Bursts him"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales him"
-        }
+        { "name": "Zed", "note": "Bursts him" },
+        { "name": "Fizz", "note": "Bursts him" },
+        { "name": "Kassadin", "note": "Out-scales him" }
       ],
-      "strengths": [
-        "Star scaling",
-        "Global roam",
-        "Teamfight"
-      ],
-      "synergies": [
-        "Teamfight comps"
-      ],
-      "avoidSynergies": [
-        "Mobile assassins"
-      ],
+      "strengths": ["Star scaling", "Global roam", "Teamfight"],
+      "synergies": ["Teamfight comps"],
+      "avoidSynergies": ["Mobile assassins"],
       "pickWhen": [
-        "Need teamfight control",
-        "Need roam pressure"
+        "Need teamfight control and AoE damage",
+        "Need roam pressure with E",
+        "Enemy has immobile mages (e.g., Lux, Ziggs)"
       ],
       "avoidWhen": [
-        "Enemy has mobile assassins"
+        "Enemy has mobile assassins (e.g., Zed, Fizz, Akali)",
+        "Your team needs early game pressure",
+        "Enemy has strong dive"
       ],
-      "playstyle": [
-        "roam",
-        "control",
-        "scaling"
-      ],
-      "tips": "Use E to roam. Stars do damage around you."
+      "playstyle": ["roam", "control", "scaling"],
+      "tips": "Use E to roam. Stars (passive) do damage around you."
     },
     {
       "name": "Aurora",
       "category": "Burst",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Vex",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-mobiles her"
-        },
-        {
-          "name": "Syndra",
-          "note": "Out-mobiles her"
-        }
+        { "name": "Vex", "note": "Out-bursts her" },
+        { "name": "Orianna", "note": "Out-mobiles her" },
+        { "name": "Syndra", "note": "Out-mobiles her" }
       ],
       "badAgainst": [
-        {
-          "name": "Orianna",
-          "note": "Better control"
-        },
-        {
-          "name": "Syndra",
-          "note": "Better control"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks her burst"
-        }
+        { "name": "Orianna", "note": "Better control" },
+        { "name": "Syndra", "note": "Better control" },
+        { "name": "Galio", "note": "Tanks her burst" }
       ],
-      "strengths": [
-        "Mobility",
-        "Burst"
-      ],
-      "synergies": [
-        "Engage comps"
-      ],
-      "avoidSynergies": [
-        "Heavy CC"
-      ],
+      "strengths": ["Mobility", "Burst"],
+      "synergies": ["Engage comps"],
+      "avoidSynergies": ["Heavy CC"],
       "pickWhen": [
-        "Need mobile burst",
-        "Need flex pick"
+        "Need mobile burst and flex pick",
+        "Enemy has immobile mages (e.g., Lux, Veigar)",
+        "You want to outplay skillshots"
       ],
       "avoidWhen": [
-        "Enemy has strong control mages"
+        "Enemy has strong control mages (e.g., Orianna, Syndra)",
+        "Enemy has tanks (e.g., Galio)",
+        "Enemy has heavy CC"
       ],
-      "playstyle": [
-        "burst",
-        "mobile"
-      ],
+      "playstyle": ["burst", "mobile"],
       "tips": "Position aggressively. Use mobility to dodge skillshots."
     },
+    {
+    "name": "Azir",
+    "category": "Control Mage",
+    "primaryRole": "Mid",
+    "secondaryRoles": [],
+    "goodAgainst": [
+      { "name": "Orianna", "note": "Out-ranges her with soldiers (W)" },
+      { "name": "Syndra", "note": "Out-ranges her with soldiers (W)" },
+      { "name": "Yasuo", "note": "Soldiers (W) zone him; R blocks his engage" },
+      { "name": "Zed", "note": "R pushes him away; soldiers zone his shadows" },
+      { "name": "Lux", "note": "Out-ranges her; E (slow) makes Q easy to hit" }
+    ],
+    "badAgainst": [
+      { "name": "Fizz", "note": "Dodges soldiers with E; bursts you" },
+      { "name": "Akali", "note": "Dodges soldiers with W; dives you" },
+      { "name": "Kassadin", "note": "Out-scales you; can dive you post-6" },
+      { "name": "Galio", "note": "Tanks your sustained damage" },
+      { "name": "Diana", "note": "Dives you; out-bursts you" }
+    ],
+    "strengths": [
+      "Long-range poke with soldiers (W+Q)",
+      "Strong teamfight engage with R (Shurima Shuffle)",
+      "High sustained DPS",
+      "Self-peel with E (dash + shield)",
+      "Tower sieging with soldiers"
+    ],
+    "synergies": [
+      "Engage supports (Leona, Nautilus) – can follow up on your R",
+      "Frontline tanks (Ornn, Malphite) – protect you while you DPS",
+      "ADC follow-up (Jinx, Twitch) – benefits from your peel"
+    ],
+    "avoidSynergies": [
+      "No frontline – you're immobile and squishy",
+      "Full dive comps – you need peel to survive"
+    ],
+    "pickWhen": [
+      "Need a control mage with long-range poke and DPS",
+      "Enemy has immobile champions (e.g., Lux, Orianna, Syndra)",
+      "Your team has frontline to protect you",
+      "You need a strong teamfight engage with R (Shurima Shuffle)",
+      "Enemy has melee champions you can kite with soldiers (W)"
+    ],
+    "avoidWhen": [
+      "Enemy has mobile assassins (e.g., Fizz, Akali, Zed)",
+      "Enemy has Kassadin (outscales you)",
+      "Your team lacks frontline",
+      "Enemy has hard engage that can dive you (e.g., Diana, Galio)",
+      "You are not confident in soldier (W) positioning"
+    ],
+    "playstyle": ["control", "teamfight", "scaling"],
+    "tips": "Position soldiers (W) aggressively to poke with Q. Use E (dash) + Q for escape or engage. R (Emperor's Divide) can knock enemies into your team or peel divers. Late game, you are a hypercarry – position safely and DPS with soldiers."
+  },
     {
       "name": "Corki",
       "category": "Marksman",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "ADC"
-      ],
+      "secondaryRoles": ["ADC"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Akali",
-          "note": "Out-pokes her"
-        },
-        {
-          "name": "Fizz",
-          "note": "Out-pokes him"
-        }
+        { "name": "Zed", "note": "Out-pokes him with Q" },
+        { "name": "Akali", "note": "Out-pokes her with Q" },
+        { "name": "Fizz", "note": "Out-pokes him with Q" }
       ],
       "badAgainst": [
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks his damage"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales him"
-        }
+        { "name": "Diana", "note": "Out-trades him" },
+        { "name": "Galio", "note": "Tanks his damage" },
+        { "name": "Kassadin", "note": "Out-scales him" }
       ],
-      "strengths": [
-        "Hybrid damage",
-        "Package",
-        "Scaling"
-      ],
-      "synergies": [
-        "Any team comp"
-      ],
-      "avoidSynergies": [
-        "Pure tanks"
-      ],
+      "strengths": ["Hybrid damage", "Package", "Scaling"],
+      "synergies": ["Any team comp"],
+      "avoidSynergies": ["Pure tanks"],
       "pickWhen": [
-        "Need hybrid damage",
-        "Team needs mixed damage"
+        "Need hybrid damage (AP + AD)",
+        "Team needs mixed damage to avoid armor/MR stacking",
+        "Enemy is squishy"
       ],
       "avoidWhen": [
-        "Enemy has pure tanks"
+        "Enemy has pure tanks (e.g., Malphite, Rammus)",
+        "Enemy has heavy engage that can dive you",
+        "Your team lacks frontline"
       ],
-      "playstyle": [
-        "marksman",
-        "hybrid",
-        "scaling"
-      ],
-      "tips": "Package is game-changing. Build hybrid damage."
+      "playstyle": ["marksman", "hybrid", "scaling"],
+      "tips": "Package (passive) is game-changing. Use it for objectives."
     },
     {
       "name": "Diana",
       "category": "Assassin/Fighter",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Jungle"
-      ],
+      "secondaryRoles": ["Jungle"],
       "goodAgainst": [
-        {
-          "name": "Orianna",
-          "note": "Dives her"
-        },
-        {
-          "name": "Syndra",
-          "note": "Dives her"
-        },
-        {
-          "name": "Lux",
-          "note": "Dives her"
-        },
-        {
-          "name": "Ziggs",
-          "note": "Dives him"
-        }
+        { "name": "Orianna", "note": "Dives her with R" },
+        { "name": "Syndra", "note": "Dives her with R" },
+        { "name": "Lux", "note": "Dives her with R" },
+        { "name": "Ziggs", "note": "Dives him with R" }
       ],
       "badAgainst": [
-        {
-          "name": "Pantheon",
-          "note": "Hard CC stops her"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks her burst"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales her"
-        },
-        {
-          "name": "Fizz",
-          "note": "Dodges her engage"
-        }
+        { "name": "Pantheon", "note": "Hard CC (W) stops her" },
+        { "name": "Galio", "note": "Tanks her burst" },
+        { "name": "Kassadin", "note": "Out-scales her" },
+        { "name": "Fizz", "note": "Dodges her engage with E" }
       ],
-      "strengths": [
-        "Dive",
-        "Reset",
-        "Burst",
-        "Shield"
-      ],
-      "synergies": [
-        "Engage comps",
-        "Dive comps"
-      ],
-      "avoidSynergies": [
-        "Strong peel comps"
-      ],
+      "strengths": ["Dive", "Reset", "Burst", "Shield"],
+      "synergies": ["Engage comps", "Dive comps"],
+      "avoidSynergies": ["Strong peel comps"],
       "pickWhen": [
-        "Need dive potential",
-        "Enemy has immobile mages"
+        "Need dive potential and AP burst",
+        "Enemy has immobile mages (e.g., Lux, Ziggs, Orianna)",
+        "Your team needs engage"
       ],
       "avoidWhen": [
-        "Enemy has strong CC",
-        "Enemy has peel supports"
+        "Enemy has strong CC (e.g., Pantheon, Galio)",
+        "Enemy has peel supports (e.g., Janna, Lulu)",
+        "Enemy has Kassadin (outscales you)"
       ],
-      "playstyle": [
-        "assassin",
-        "dive",
-        "burst"
-      ],
-      "tips": "Use Q to poke, E to engage. Ultimate pulls enemies in."
+      "playstyle": ["assassin", "dive", "burst"],
+      "tips": "Use Q to poke, E to engage. R pulls enemies in."
     },
     {
       "name": "Ekko",
       "category": "Assassin/Fighter",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Jungle"
-      ],
+      "secondaryRoles": ["Jungle"],
       "goodAgainst": [
-        {
-          "name": "Orianna",
-          "note": "Out-mobiles her"
-        },
-        {
-          "name": "Syndra",
-          "note": "Out-mobiles her"
-        },
-        {
-          "name": "Lux",
-          "note": "Out-mobiles her"
-        }
+        { "name": "Orianna", "note": "Out-mobiles her" },
+        { "name": "Syndra", "note": "Out-mobiles her" },
+        { "name": "Lux", "note": "Out-mobiles her" }
       ],
       "badAgainst": [
-        {
-          "name": "Pantheon",
-          "note": "Hard CC stops him"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks his burst"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        }
+        { "name": "Pantheon", "note": "Hard CC (W) stops him" },
+        { "name": "Galio", "note": "Tanks his burst" },
+        { "name": "Diana", "note": "Out-trades him" }
       ],
-      "strengths": [
-        "Burst",
-        "Ult outplay",
-        "Mobility"
-      ],
-      "synergies": [
-        "Engage comps"
-      ],
-      "avoidSynergies": [
-        "Lockdown CC"
-      ],
+      "strengths": ["Burst", "Ult outplay", "Mobility"],
+      "synergies": ["Engage comps"],
+      "avoidSynergies": ["Lockdown CC"],
       "pickWhen": [
-        "Need skill expression",
-        "Need outplay potential"
+        "Need skill expression and outplay potential",
+        "Enemy has immobile mages (e.g., Lux, Orianna)",
+        "You want a safe assassin with escape"
       ],
       "avoidWhen": [
-        "Enemy has lockdown CC"
+        "Enemy has lockdown CC (e.g., Pantheon, Lissandra)",
+        "Enemy has tanks (e.g., Galio)",
+        "Your team lacks engage"
       ],
-      "playstyle": [
-        "assassin",
-        "mobile",
-        "outplay"
-      ],
+      "playstyle": ["assassin", "mobile", "outplay"],
       "tips": "Use W for shield/stun. R to undo damage."
     },
     {
       "name": "Fizz",
       "category": "Assassin",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Jungle"
-      ],
+      "secondaryRoles": ["Jungle"],
       "goodAgainst": [
-        {
-          "name": "Orianna",
-          "note": "Dodges her ball"
-        },
-        {
-          "name": "Syndra",
-          "note": "Dodges her stun"
-        },
-        {
-          "name": "Lux",
-          "note": "Dodges her root"
-        },
-        {
-          "name": "Ahri",
-          "note": "Dodges her charm"
-        }
+        { "name": "Orianna", "note": "Dodge ball with E" },
+        { "name": "Syndra", "note": "Dodge stun with E" },
+        { "name": "Lux", "note": "Dodge root with E" },
+        { "name": "Ahri", "note": "Dodge charm with E" }
       ],
       "badAgainst": [
-        {
-          "name": "Pantheon",
-          "note": "Hard CC stops him"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks his burst"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales him"
-        }
+        { "name": "Pantheon", "note": "Hard CC (W) stops him" },
+        { "name": "Galio", "note": "Tanks his burst" },
+        { "name": "Diana", "note": "Out-trades him" },
+        { "name": "Kassadin", "note": "Out-scales him" }
       ],
-      "strengths": [
-        "Burst",
-        "Troll pole",
-        "Roam"
-      ],
-      "synergies": [
-        "Burst comps",
-        "Engage"
-      ],
-      "avoidSynergies": [
-        "CC heavy comps",
-        "Tanks"
-      ],
+      "strengths": ["Burst", "Troll pole", "Roam"],
+      "synergies": ["Burst comps", "Engage"],
+      "avoidSynergies": ["CC heavy comps", "Tanks"],
       "pickWhen": [
-        "Enemy has mages",
-        "Need mobile assassin"
+        "Enemy has immobile mages (e.g., Lux, Ziggs, Orianna)",
+        "Need a mobile assassin with dive potential",
+        "You want to snowball early"
       ],
       "avoidWhen": [
-        "Enemy has tanks",
-        "Enemy has hard CC"
+        "Enemy has tanks (e.g., Galio, Gragas)",
+        "Enemy has hard CC (e.g., Pantheon, Lissandra)",
+        "Enemy has Kassadin (outscales you)"
       ],
-      "playstyle": [
-        "assassin",
-        "mobile",
-        "burst"
-      ],
+      "playstyle": ["assassin", "mobile", "burst"],
       "tips": "Use E to dodge. Q through enemies for damage."
     },
     {
       "name": "Galio",
       "category": "Roam/Utility",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Support"
-      ],
+      "secondaryRoles": ["Support"],
       "goodAgainst": [
-        {
-          "name": "Syndra",
-          "note": "Tanks her burst"
-        },
-        {
-          "name": "Ahri",
-          "note": "Tanks her burst"
-        },
-        {
-          "name": "Akali",
-          "note": "Tanks her burst"
-        },
-        {
-          "name": "Zed",
-          "note": "Tanks his burst"
-        },
-        {
-          "name": "Fizz",
-          "note": "Tanks his burst"
-        },
-        {
-          "name": "Katarina",
-          "note": "Interrupts her ult"
-        }
+        { "name": "Syndra", "note": "Tanks her burst with W" },
+        { "name": "Ahri", "note": "Tanks her burst with W" },
+        { "name": "Akali", "note": "Tanks her burst with W" },
+        { "name": "Zed", "note": "Tanks his burst with W" },
+        { "name": "Fizz", "note": "Tanks his burst with W" },
+        { "name": "Katarina", "note": "Interrupts her R with W" }
       ],
       "badAgainst": [
-        {
-          "name": "Jayce",
-          "note": "AD pressure"
-        },
-        {
-          "name": "Yasuo",
-          "note": "AD pressure"
-        },
-        {
-          "name": "Akshan",
-          "note": "AD pressure"
-        },
-        {
-          "name": "Lucian",
-          "note": "AD pressure"
-        }
+        { "name": "Jayce", "note": "AD pressure" },
+        { "name": "Yasuo", "note": "AD pressure" },
+        { "name": "Akshan", "note": "AD pressure" },
+        { "name": "Lucian", "note": "AD pressure" }
       ],
-      "strengths": [
-        "Taunt",
-        "Roam",
-        "MR scaling",
-        "Peel"
-      ],
-      "synergies": [
-        "AP heavy teams"
-      ],
-      "avoidSynergies": [
-        "AD heavy teams"
-      ],
+      "strengths": ["Taunt", "Roam", "MR scaling", "Peel"],
+      "synergies": ["AP heavy teams"],
+      "avoidSynergies": ["AD heavy teams"],
       "pickWhen": [
-        "Enemy has AP champions",
-        "Need roam pressure"
+        "Enemy has AP champions (e.g., Syndra, Ahri, Akali)",
+        "Need roam pressure and peel",
+        "Your team needs a frontline tank"
       ],
       "avoidWhen": [
-        "Enemy has AD pressure",
-        "Team needs AP damage"
+        "Enemy has AD pressure (e.g., Jayce, Yasuo, Lucian)",
+        "Team needs AP damage",
+        "Enemy has heavy physical damage"
       ],
-      "playstyle": [
-        "roam",
-        "utility",
-        "tank"
-      ],
-      "tips": "Use ult to save teammates. Taunt into your team."
+      "playstyle": ["roam", "utility", "tank"],
+      "tips": "Use R to save teammates. W (taunt) into your team."
     },
     {
       "name": "Gragas",
       "category": "Fighter",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron",
-        "Jungle",
-        "Support"
-      ],
+      "secondaryRoles": ["Baron", "Jungle", "Support"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Tanks his burst"
-        },
-        {
-          "name": "Akali",
-          "note": "Tanks her burst"
-        },
-        {
-          "name": "Fizz",
-          "note": "Tanks his burst"
-        }
+        { "name": "Zed", "note": "Tanks his burst" },
+        { "name": "Akali", "note": "Tanks her burst" },
+        { "name": "Fizz", "note": "Tanks his burst" }
       ],
       "badAgainst": [
-        {
-          "name": "Orianna",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Syndra",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Lux",
-          "note": "Out-pokes him"
-        }
+        { "name": "Orianna", "note": "Out-pokes him with Q" },
+        { "name": "Syndra", "note": "Out-pokes him with Q" },
+        { "name": "Lux", "note": "Out-pokes him with Q" }
       ],
-      "strengths": [
-        "CC",
-        "Sustain",
-        "Barrel poke",
-        "Flexibility"
-      ],
-      "synergies": [
-        "Any team comp",
-        "Engage"
-      ],
+      "strengths": ["CC", "Sustain", "Barrel poke", "Flexibility"],
+      "synergies": ["Any team comp", "Engage"],
       "avoidSynergies": [],
       "pickWhen": [
-        "Need a flex pick",
-        "Need CC and sustain"
+        "Need a flex pick (mid, top, jungle, support)",
+        "Need CC and sustain",
+        "Enemy has assassins you can tank"
       ],
       "avoidWhen": [
-        "Enemy has heavy poke"
+        "Enemy has heavy poke (e.g., Orianna, Syndra, Lux)",
+        "Your team needs pure damage carry",
+        "Enemy has mobile comps that kite you"
       ],
-      "playstyle": [
-        "fighter",
-        "cc",
-        "flexible"
-      ],
-      "tips": "Use barrel to poke and slow. Ult to engage or disengage."
+      "playstyle": ["fighter", "cc", "flexible"],
+      "tips": "Use Q (barrel) to poke and slow. R to engage or disengage."
     },
     {
       "name": "Heimerdinger",
       "category": "Poke/Control",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "ADC",
-        "Support"
-      ],
+      "secondaryRoles": ["ADC", "Support"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Turret zones him"
-        },
-        {
-          "name": "Fizz",
-          "note": "Turret zones him"
-        },
-        {
-          "name": "Yasuo",
-          "note": "Turret zones him"
-        }
+        { "name": "Zed", "note": "Turrets (Q) zone him" },
+        { "name": "Fizz", "note": "Turrets (Q) zone him" },
+        { "name": "Yasuo", "note": "Turrets (Q) zone him" }
       ],
       "badAgainst": [
-        {
-          "name": "Ziggs",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Akshan",
-          "note": "Can kill turrets"
-        },
-        {
-          "name": "Lucian",
-          "note": "Can kill turrets"
-        }
+        { "name": "Ziggs", "note": "Out-pokes him" },
+        { "name": "Akshan", "note": "Can kill turrets" },
+        { "name": "Lucian", "note": "Can kill turrets" }
       ],
-      "strengths": [
-        "Turret zoning",
-        "Poke",
-        "Waveclear"
-      ],
-      "synergies": [
-        "Poke comps",
-        "Siege"
-      ],
-      "avoidSynergies": [
-        "Mobile burst",
-        "Dive"
-      ],
+      "strengths": ["Turret zoning", "Poke", "Waveclear"],
+      "synergies": ["Poke comps", "Siege"],
+      "avoidSynergies": ["Mobile burst", "Dive"],
       "pickWhen": [
-        "Need zone control",
-        "Enemy has melee pushers"
+        "Need zone control and poke",
+        "Enemy has melee pushers (e.g., Yasuo, Zed)",
+        "Team needs waveclear"
       ],
       "avoidWhen": [
-        "Enemy has mobile burst",
-        "Enemy can kill turrets easily"
+        "Enemy has mobile burst (e.g., Fizz, Akali)",
+        "Enemy can kill turrets easily (e.g., Lucian, Akshan)",
+        "Your team lacks frontline"
       ],
-      "playstyle": [
-        "poke",
-        "control",
-        "zone"
-      ],
-      "tips": "Place turrets for vision and damage. Use grenade for stun."
+      "playstyle": ["poke", "control", "zone"],
+      "tips": "Place turrets (Q) for vision and damage. Use E (grenade) for stun."
     },
     {
       "name": "Irelia",
       "category": "Fighter",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Orianna",
-          "note": "Dashes to her"
-        },
-        {
-          "name": "Syndra",
-          "note": "Dashes to her"
-        },
-        {
-          "name": "Lux",
-          "note": "Dashes to her"
-        },
-        {
-          "name": "Ziggs",
-          "note": "Dashes to him"
-        }
+        { "name": "Orianna", "note": "Dashes to her with Q" },
+        { "name": "Syndra", "note": "Dashes to her with Q" },
+        { "name": "Lux", "note": "Dashes to her with Q" },
+        { "name": "Ziggs", "note": "Dashes to him with Q" }
       ],
       "badAgainst": [
-        {
-          "name": "Pantheon",
-          "note": "Hard CC stops her"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks her damage"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades her"
-        }
+        { "name": "Pantheon", "note": "Hard CC (W) stops her" },
+        { "name": "Galio", "note": "Tanks her damage" },
+        { "name": "Diana", "note": "Out-trades her" }
       ],
-      "strengths": [
-        "Reset dashes",
-        "Sustain",
-        "Scaling"
-      ],
-      "synergies": [
-        "Engage comps"
-      ],
-      "avoidSynergies": [
-        "Heavy CC",
-        "Kiting"
-      ],
+      "strengths": ["Reset dashes", "Sustain", "Scaling"],
+      "synergies": ["Engage comps"],
+      "avoidSynergies": ["Heavy CC", "Kiting"],
       "pickWhen": [
-        "Enemy has mages",
-        "Need mobility"
+        "Enemy has immobile mages (e.g., Lux, Orianna, Ziggs)",
+        "Need a mobile fighter with sustain",
+        "You can abuse Q resets on minions"
       ],
       "avoidWhen": [
-        "Enemy has hard CC",
-        "Enemy can kite you"
+        "Enemy has hard CC (e.g., Pantheon, Lissandra)",
+        "Enemy can kite you (e.g., Syndra, Orianna)",
+        "Enemy has tanks (e.g., Galio)"
       ],
-      "playstyle": [
-        "fighter",
-        "mobile",
-        "sustain"
-      ],
+      "playstyle": ["fighter", "mobile", "sustain"],
       "tips": "Stack passive for DPS. Use Q to reset on minions."
     },
     {
       "name": "Jayce",
       "category": "Niche",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Akali",
-          "note": "Out-pokes her"
-        },
-        {
-          "name": "Fizz",
-          "note": "Out-pokes him"
-        }
+        { "name": "Zed", "note": "Out-pokes him with Q" },
+        { "name": "Akali", "note": "Out-pokes her with Q" },
+        { "name": "Fizz", "note": "Out-pokes him with Q" }
       ],
       "badAgainst": [
-        {
-          "name": "Malphite",
-          "note": "Tanks his damage"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks his damage"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        }
+        { "name": "Malphite", "note": "Tanks his damage" },
+        { "name": "Galio", "note": "Tanks his damage" },
+        { "name": "Diana", "note": "Out-trades him" }
       ],
-      "strengths": [
-        "Poke",
-        "Burst forms",
-        "Siege"
-      ],
-      "synergies": [
-        "Poke comps",
-        "Siege"
-      ],
-      "avoidSynergies": [
-        "Tanks",
-        "CC"
-      ],
+      "strengths": ["Poke", "Burst forms", "Siege"],
+      "synergies": ["Poke comps", "Siege"],
+      "avoidSynergies": ["Tanks", "CC"],
       "pickWhen": [
         "Need skill-based poke",
-        "Enemy is squishy"
+        "Enemy is squishy (e.g., Lux, Zed, Fizz)",
+        "Team needs siege potential"
       ],
       "avoidWhen": [
-        "Enemy has tanks",
-        "Enemy has hard CC"
+        "Enemy has tanks (e.g., Malphite, Galio)",
+        "Enemy has hard CC (e.g., Pantheon)",
+        "Your team lacks frontline"
       ],
-      "playstyle": [
-        "ranged",
-        "poke",
-        "hybrid"
-      ],
-      "tips": "Use ranged for poke, melee for burst. Combo forms."
+      "playstyle": ["ranged", "poke", "hybrid"],
+      "tips": "Use ranged form (Q) for poke, melee form for burst. Combo forms."
     },
     {
       "name": "Karma",
       "category": "Utility",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Support"
-      ],
+      "secondaryRoles": ["Support"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Shields his burst"
-        },
-        {
-          "name": "Akali",
-          "note": "Shields her burst"
-        },
-        {
-          "name": "Fizz",
-          "note": "Shields his burst"
-        }
+        { "name": "Zed", "note": "Shield (E) blocks his burst" },
+        { "name": "Akali", "note": "Shield (E) blocks her burst" },
+        { "name": "Fizz", "note": "Shield (E) blocks his burst" }
       ],
       "badAgainst": [
-        {
-          "name": "Syndra",
-          "note": "Out-ranges her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-trades her"
-        },
-        {
-          "name": "Lux",
-          "note": "Out-ranges her"
-        }
+        { "name": "Syndra", "note": "Out-ranges her" },
+        { "name": "Orianna", "note": "Out-trades her" },
+        { "name": "Lux", "note": "Out-ranges her" }
       ],
-      "strengths": [
-        "Utility",
-        "Poke",
-        "Shield",
-        "Root"
-      ],
-      "synergies": [
-        "Any team comp"
-      ],
-      "avoidSynergies": [
-        "Pure burst"
-      ],
+      "strengths": ["Utility", "Poke", "Shield", "Root"],
+      "synergies": ["Any team comp"],
+      "avoidSynergies": ["Pure burst"],
       "pickWhen": [
-        "Need utility",
-        "Need poke"
+        "Need utility and poke",
+        "Enemy has assassins you can shield against (e.g., Zed, Akali)",
+        "Your team needs a supportive mid"
       ],
       "avoidWhen": [
-        "Need pure burst"
+        "Need pure burst damage",
+        "Enemy has long-range poke (e.g., Syndra, Lux)",
+        "Your team lacks damage"
       ],
-      "playstyle": [
-        "utility",
-        "poke",
-        "shield"
-      ],
-      "tips": "Mantra E for big shield + speed. Mantra Q for poke."
+      "playstyle": ["utility", "poke", "shield"],
+      "tips": "Mantra (R) + E for big shield + speed. Mantra (R) + Q for poke."
     },
     {
       "name": "Kassadin",
@@ -1125,74 +609,34 @@
       "primaryRole": "Mid",
       "secondaryRoles": [],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-scales her"
-        },
-        {
-          "name": "Syndra",
-          "note": "Out-scales her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-scales her"
-        },
-        {
-          "name": "Lux",
-          "note": "Out-scales her"
-        },
-        {
-          "name": "Veigar",
-          "note": "Out-scales him"
-        }
+        { "name": "Ahri", "note": "Out-scales her" },
+        { "name": "Syndra", "note": "Out-scales her" },
+        { "name": "Orianna", "note": "Out-scales her" },
+        { "name": "Lux", "note": "Out-scales her" },
+        { "name": "Veigar", "note": "Out-scales him" }
       ],
       "badAgainst": [
-        {
-          "name": "Jayce",
-          "note": "Early AD pressure"
-        },
-        {
-          "name": "Pantheon",
-          "note": "Early AD pressure"
-        },
-        {
-          "name": "Akshan",
-          "note": "Early AD pressure"
-        },
-        {
-          "name": "Lucian",
-          "note": "Early AD pressure"
-        },
-        {
-          "name": "Zed",
-          "note": "AD pressure"
-        }
+        { "name": "Jayce", "note": "Early AD pressure" },
+        { "name": "Pantheon", "note": "Early AD pressure" },
+        { "name": "Akshan", "note": "Early AD pressure" },
+        { "name": "Lucian", "note": "Early AD pressure" },
+        { "name": "Zed", "note": "AD pressure" }
       ],
-      "strengths": [
-        "Late game monster",
-        "Scaling",
-        "Mobility"
-      ],
-      "synergies": [
-        "Any team (scales)"
-      ],
-      "avoidSynergies": [
-        "Early AD snowball comps"
-      ],
+      "strengths": ["Late game monster", "Scaling", "Mobility"],
+      "synergies": ["Any team (scales)"],
+      "avoidSynergies": ["Early AD snowball comps"],
       "pickWhen": [
         "Game will go late",
-        "Enemy has AP champions"
+        "Enemy has AP champions (e.g., Ahri, Syndra, Lux)",
+        "Your team has frontline to protect you"
       ],
       "avoidWhen": [
-        "Enemy has early AD pressure",
-        "Team needs early game"
+        "Enemy has early AD pressure (e.g., Jayce, Lucian, Pantheon)",
+        "Your team needs early game pressure",
+        "Enemy has strong AD assassins"
       ],
-      "playstyle": [
-        "assassin",
-        "scaling",
-        "late-game"
-      ],
-      "tips": "Farm safely early. Late game ultimate spam."
+      "playstyle": ["assassin", "scaling", "late-game"],
+      "tips": "Farm safely early. Late game spam R."
     },
     {
       "name": "Katarina",
@@ -1200,871 +644,489 @@
       "primaryRole": "Mid",
       "secondaryRoles": [],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Syndra",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Lux",
-          "note": "Out-bursts her"
-        }
+        { "name": "Ahri", "note": "Out-bursts her" },
+        { "name": "Orianna", "note": "Out-bursts her" },
+        { "name": "Syndra", "note": "Out-bursts her" },
+        { "name": "Lux", "note": "Out-bursts her" }
       ],
       "badAgainst": [
-        {
-          "name": "Galio",
-          "note": "Interrupts her ult"
-        },
-        {
-          "name": "Pantheon",
-          "note": "Hard CC stops her"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades her"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales her"
-        }
+        { "name": "Galio", "note": "Interrupts her R" },
+        { "name": "Pantheon", "note": "Hard CC (W) stops her" },
+        { "name": "Diana", "note": "Out-trades her" },
+        { "name": "Kassadin", "note": "Out-scales her" }
       ],
-      "strengths": [
-        "Reset burst",
-        "Roam",
-        "Mobility"
-      ],
-      "synergies": [
-        "AoE engage",
-        "Amumu",
-        "Gragas"
-      ],
-      "avoidSynergies": [
-        "Peel heavy",
-        "CC"
-      ],
+      "strengths": ["Reset burst", "Roam", "Mobility"],
+      "synergies": ["AoE engage", "Amumu", "Gragas"],
+      "avoidSynergies": ["Peel heavy", "CC"],
       "pickWhen": [
         "Need reset teamfights",
-        "Enemy has low CC"
+        "Enemy has low CC (e.g., Lux, Ziggs, Ahri)",
+        "Your team has AoE engage (e.g., Amumu, Malphite)"
       ],
       "avoidWhen": [
-        "Enemy has strong CC",
-        "Enemy can interrupt her ult"
+        "Enemy has strong CC (e.g., Galio, Pantheon)",
+        "Enemy can interrupt her R",
+        "Enemy has tanks that survive your burst"
       ],
-      "playstyle": [
-        "assassin",
-        "reset",
-        "roam"
-      ],
-      "tips": "Wait for CC before ulting. Resets are your win condition."
+      "playstyle": ["assassin", "reset", "roam"],
+      "tips": "Wait for CC before using R. Resets are your win condition."
     },
     {
       "name": "Kayle",
       "category": "Niche",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Akali",
-          "note": "Out-scales her"
-        },
-        {
-          "name": "Zed",
-          "note": "Out-scales him"
-        },
-        {
-          "name": "Fizz",
-          "note": "Out-scales him"
-        }
+        { "name": "Akali", "note": "Out-scales her" },
+        { "name": "Zed", "note": "Out-scales him" },
+        { "name": "Fizz", "note": "Out-scales him" }
       ],
       "badAgainst": [
-        {
-          "name": "Pantheon",
-          "note": "Early dive"
-        },
-        {
-          "name": "Diana",
-          "note": "Early dive"
-        },
-        {
-          "name": "Akshan",
-          "note": "Early pressure"
-        }
+        { "name": "Pantheon", "note": "Early dive" },
+        { "name": "Diana", "note": "Early dive" },
+        { "name": "Akshan", "note": "Early pressure" }
       ],
-      "strengths": [
-        "Late hypercarry",
-        "Scaling",
-        "Invulnerability"
-      ],
-      "synergies": [
-        "Protect comps"
-      ],
-      "avoidSynergies": [
-        "Early pressure comps"
-      ],
+      "strengths": ["Late hypercarry", "Scaling", "Invulnerability"],
+      "synergies": ["Protect comps"],
+      "avoidSynergies": ["Early pressure comps"],
       "pickWhen": [
         "Game will go late",
-        "Need hypercarry"
+        "Need a hypercarry",
+        "Your team can protect you (e.g., Lulu, Braum)"
       ],
       "avoidWhen": [
-        "Enemy has early dive",
-        "Team needs early game"
+        "Enemy has early dive (e.g., Pantheon, Diana)",
+        "Your team needs early game pressure",
+        "Enemy has strong early game comp"
       ],
-      "playstyle": [
-        "hypercarry",
-        "scaling",
-        "utility"
-      ],
+      "playstyle": ["hypercarry", "scaling", "utility"],
       "tips": "Survive early. Late game R for invulnerability."
     },
     {
       "name": "Kennen",
       "category": "Niche",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Yasuo",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Yone",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Zed",
-          "note": "Out-pokes him"
-        }
+        { "name": "Yasuo", "note": "Out-pokes him with Q" },
+        { "name": "Yone", "note": "Out-pokes him with Q" },
+        { "name": "Zed", "note": "Out-pokes him with Q" }
       ],
       "badAgainst": [],
-      "strengths": [
-        "Ult stun",
-        "Poke",
-        "Teamfight"
-      ],
-      "synergies": [
-        "Teamfight comps"
-      ],
+      "strengths": ["Ult stun", "Poke", "Teamfight"],
+      "synergies": ["Teamfight comps"],
       "avoidSynergies": [],
       "pickWhen": [
-        "Need teamfight ult",
-        "Need poke"
+        "Need teamfight ult (R) for AoE stun",
+        "Need poke in lane",
+        "Enemy clumps up in teamfights"
       ],
       "avoidWhen": [
-        "Enemy can disengage easily"
+        "Enemy can disengage easily (e.g., Janna, Gragas)",
+        "Your team needs sustained damage",
+        "Enemy has heavy MR"
       ],
-      "playstyle": [
-        "ranged",
-        "teamfight",
-        "cc"
-      ],
-      "tips": "Flash ult to stun team. Passive for stun stacks."
+      "playstyle": ["ranged", "teamfight", "cc"],
+      "tips": "Flash + R to stun entire team. Passive for stun stacks."
     },
     {
       "name": "Lucian",
       "category": "Marksman",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "ADC"
-      ],
+      "secondaryRoles": ["ADC"],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Syndra",
-          "note": "Out-bursts her"
-        }
+        { "name": "Ahri", "note": "Out-bursts her" },
+        { "name": "Orianna", "note": "Out-bursts her" },
+        { "name": "Syndra", "note": "Out-bursts her" }
       ],
       "badAgainst": [
-        {
-          "name": "Galio",
-          "note": "Tanks his damage"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales him"
-        }
+        { "name": "Galio", "note": "Tanks his damage" },
+        { "name": "Diana", "note": "Out-trades him" },
+        { "name": "Kassadin", "note": "Out-scales him" }
       ],
-      "strengths": [
-        "Early burst",
-        "Roam",
-        "Mobility"
-      ],
-      "synergies": [
-        "Engage comps"
-      ],
-      "avoidSynergies": [
-        "Tanks"
-      ],
+      "strengths": ["Early burst", "Roam", "Mobility"],
+      "synergies": ["Engage comps"],
+      "avoidSynergies": ["Tanks"],
       "pickWhen": [
-        "Need early pressure",
-        "Need roam"
+        "Need early pressure and roam",
+        "Enemy has immobile mages (e.g., Ahri, Orianna, Syndra)",
+        "Your team needs AD damage"
       ],
       "avoidWhen": [
-        "Enemy has tanks"
+        "Enemy has tanks (e.g., Galio, Malphite)",
+        "Enemy has hard CC (e.g., Pantheon)",
+        "Your team needs late game scaling"
       ],
-      "playstyle": [
-        "marksman",
-        "early-game",
-        "burst"
-      ],
-      "tips": "Win early lane. Roam with ultimate."
+      "playstyle": ["marksman", "early-game", "burst"],
+      "tips": "Win early lane. Roam with R."
     },
     {
       "name": "Lux",
       "category": "Control/Poke",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Support"
-      ],
+      "secondaryRoles": ["Support"],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-ranges her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-ranges her"
-        },
-        {
-          "name": "Veigar",
-          "note": "Out-ranges him"
-        }
+        { "name": "Ahri", "note": "Out-ranges her" },
+        { "name": "Orianna", "note": "Out-ranges her" },
+        { "name": "Veigar", "note": "Out-ranges him" }
       ],
       "badAgainst": [
-        {
-          "name": "Akali",
-          "note": "Dodges her root"
-        },
-        {
-          "name": "Zed",
-          "note": "Dodges her root"
-        },
-        {
-          "name": "Fizz",
-          "note": "Dodges her root"
-        },
-        {
-          "name": "Yasuo",
-          "note": "Windwall blocks her"
-        }
+        { "name": "Akali", "note": "Dodges her Q with W" },
+        { "name": "Zed", "note": "Dodges her Q with W" },
+        { "name": "Fizz", "note": "Dodges her Q with E" },
+        { "name": "Yasuo", "note": "Windwall (W) blocks her Q" }
       ],
-      "strengths": [
-        "Poke",
-        "Root setup",
-        "Global ult"
-      ],
-      "synergies": [
-        "Engage tanks",
-        "ADC follow-up"
-      ],
-      "avoidSynergies": [
-        "Dive heavy without peel"
-      ],
+      "strengths": ["Poke", "Root setup", "Global ult"],
+      "synergies": ["Engage tanks", "ADC follow-up"],
+      "avoidSynergies": ["Dive heavy without peel"],
       "pickWhen": [
-        "Need safe poke",
-        "Need vision/ult"
+        "Need safe poke and vision control",
+        "Enemy is immobile (e.g., Ahri, Orianna, Veigar)",
+        "Your team needs CC setup"
       ],
       "avoidWhen": [
-        "Enemy has mobile assassins"
+        "Enemy has mobile assassins (e.g., Akali, Zed, Fizz)",
+        "Enemy has Windwall (Yasuo)",
+        "Your team lacks frontline"
       ],
-      "playstyle": [
-        "poke",
-        "control",
-        "burst"
-      ],
-      "tips": "Q + E + R is your kill combo. Shield before trades."
+      "playstyle": ["poke", "control", "burst"],
+      "tips": "Q + E + R is your kill combo. Shield (W) before trades."
     },
     {
       "name": "Morgana",
       "category": "Utility",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Support"
-      ],
+      "secondaryRoles": ["Support"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Black shield blocks his burst"
-        },
-        {
-          "name": "Akali",
-          "note": "Black shield blocks her burst"
-        },
-        {
-          "name": "Fizz",
-          "note": "Black shield blocks his burst"
-        }
+        { "name": "Zed", "note": "Black shield (E) blocks his burst" },
+        { "name": "Akali", "note": "Black shield (E) blocks her burst" },
+        { "name": "Fizz", "note": "Black shield (E) blocks his burst" }
       ],
       "badAgainst": [
-        {
-          "name": "Syndra",
-          "note": "Out-ranges her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-ranges her"
-        }
+        { "name": "Syndra", "note": "Out-ranges her" },
+        { "name": "Orianna", "note": "Out-ranges her" }
       ],
-      "strengths": [
-        "Black shield",
-        "Root",
-        "Utility"
-      ],
-      "synergies": [
-        "Dive comps"
-      ],
-      "avoidSynergies": [
-        "Mobile"
-      ],
+      "strengths": ["Black shield", "Root", "Utility"],
+      "synergies": ["Dive comps"],
+      "avoidSynergies": ["Mobile"],
       "pickWhen": [
-        "Need black shield",
-        "Enemy has engage"
+        "Need black shield (E) against engage/assassins",
+        "Enemy has engage comps (e.g., Zed, Akali, Fizz)",
+        "Your team needs CC and utility"
       ],
       "avoidWhen": [
-        "Enemy has mobile champions"
+        "Enemy has mobile champions (e.g., Ezreal, Lucian)",
+        "Enemy has long-range poke (e.g., Syndra, Orianna)",
+        "Your team needs damage"
       ],
-      "playstyle": [
-        "utility",
-        "control",
-        "shield"
-      ],
-      "tips": "Black shield key targets. Long root to catch enemies."
+      "playstyle": ["utility", "control", "shield"],
+      "tips": "Black shield (E) key targets. Q to catch enemies."
     },
     {
       "name": "Nidalee",
       "category": "Niche",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Jungle"
-      ],
+      "secondaryRoles": ["Jungle"],
       "goodAgainst": [
-        {
-          "name": "Lux",
-          "note": "Out-mobiles her"
-        },
-        {
-          "name": "Ziggs",
-          "note": "Out-mobiles him"
-        }
+        { "name": "Lux", "note": "Out-mobiles her" },
+        { "name": "Ziggs", "note": "Out-mobiles him" }
       ],
       "badAgainst": [
-        {
-          "name": "Galio",
-          "note": "Tanks her burst"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades her"
-        }
+        { "name": "Galio", "note": "Tanks her burst" },
+        { "name": "Diana", "note": "Out-trades her" }
       ],
-      "strengths": [
-        "Spear poke",
-        "Heal",
-        "Mobility"
-      ],
-      "synergies": [
-        "Poke comps"
-      ],
-      "avoidSynergies": [
-        "CC"
-      ],
+      "strengths": ["Spear poke", "Heal", "Mobility"],
+      "synergies": ["Poke comps"],
+      "avoidSynergies": ["CC"],
       "pickWhen": [
-        "Need poke",
-        "Need heal"
+        "Need poke and mobility",
+        "Enemy has immobile mages (e.g., Lux, Ziggs)",
+        "Your team needs sustain (heal)"
       ],
       "avoidWhen": [
-        "Enemy has CC",
-        "Enemy has tanks"
+        "Enemy has CC (e.g., Pantheon, Lissandra)",
+        "Enemy has tanks (e.g., Galio)",
+        "Your team lacks frontline"
       ],
-      "playstyle": [
-        "poke",
-        "mobile",
-        "heal"
-      ],
-      "tips": "Land spears for damage. Use heal to sustain."
+      "playstyle": ["poke", "mobile", "heal"],
+      "tips": "Land spears (Q) for damage. Use heal (E) to sustain."
     },
+    {
+    "name": "Norra",
+    "category": "Artillery Mage",
+    "primaryRole": "Mid",
+    "secondaryRoles": ["Support"],
+    "goodAgainst": [
+      { "name": "Zed", "note": "Trinkets (Passive) and long-range poke zone him" },
+      { "name": "Akali", "note": "Portal (W/E) and charged Q outrange and punish shroud" },
+      { "name": "Fizz", "note": "Skillshots and trinkets deter his all-ins" },
+      { "name": "Yasuo", "note": "Charged Q and plants zone his dashes" }
+    ],
+    "badAgainst": [
+      { "name": "Diana", "note": "Dives and bursts her easily" },
+      { "name": "Galio", "note": "Tanks her poke with MR and engages" },
+      { "name": "Kassadin", "note": "Outscales and dives post-6" },
+      { "name": "Pantheon", "note": "Early all-in pressure" }
+    ],
+    "strengths": ["Long-range poke", "Trinket zoning", "Portal mobility/utility", "Teamfight control", "Cooldown reduction on hits"],
+    "synergies": ["Engage tanks (Nautilus, Leona)", "Frontline peel", "ADC follow-up"],
+    "avoidSynergies": ["Heavy dive without peel", "All-AD teams"],
+    "pickWhen": [
+      "Need safe long-range poke and zone control",
+      "Enemy has immobile/squishy carries (e.g., Lux, Ziggs, Jhin)",
+      "Team needs utility and trinket vision/setup"
+    ],
+    "avoidWhen": [
+      "Enemy has strong divers/assassins (e.g., Diana, Fizz, Zed)",
+      "Enemy has tanks that shrug off poke (e.g., Galio)",
+      "Your team lacks frontline or engage"
+    ],
+    "playstyle": ["poke", "artillery", "utility", "control"],
+    "tips": "Use Passive trinkets on next ability for zoning. Charge Q (Memory Surge) for big damage/slow. W (Journey) for reposition/escape. E (Threads) sets up plants. R (Portalpalooza) for multi-portal engages or saves.",
+    "clearPath": "Standard mid farm → push wave → roam with R portals or side lane pressure. Place trinkets for vision/control.",
+    "rotation": "Lane: Q poke + trinkets for wave clear/zone. Roam with W portals. Teamfight: Position backline, use E plants + charged Q for poke, R for portal setup into ally engages. Combo: E → trinket proc → Q charge → R portal follow-up."
+  },
     {
       "name": "Orianna",
       "category": "Control Mage",
       "primaryRole": "Mid",
       "secondaryRoles": [],
       "goodAgainst": [
-        {
-          "name": "Yasuo",
-          "note": "Ball zones him"
-        },
-        {
-          "name": "Yone",
-          "note": "Ball zones him"
-        },
-        {
-          "name": "Zed",
-          "note": "Shield blocks his burst"
-        },
-        {
-          "name": "Akali",
-          "note": "Shield blocks her burst"
-        }
+        { "name": "Yasuo", "note": "Ball (Q) zones him" },
+        { "name": "Yone", "note": "Ball (Q) zones him" },
+        { "name": "Zed", "note": "Shield (E) blocks his burst" },
+        { "name": "Akali", "note": "Shield (E) blocks her burst" }
       ],
       "badAgainst": [
-        {
-          "name": "Diana",
-          "note": "Dives her"
-        },
-        {
-          "name": "Gragas",
-          "note": "Dives her"
-        },
-        {
-          "name": "Ahri",
-          "note": "Out-mobiles her"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales her"
-        }
+        { "name": "Diana", "note": "Dives her with R" },
+        { "name": "Gragas", "note": "Dives her" },
+        { "name": "Ahri", "note": "Out-mobiles her" },
+        { "name": "Kassadin", "note": "Out-scales her" }
       ],
-      "strengths": [
-        "Waveclear",
-        "Teamfight ult",
-        "Zoning",
-        "Scaling"
-      ],
-      "synergies": [
-        "Engage (Vi, Jarvan IV, Nautilus)",
-        "ADC follow-up"
-      ],
-      "avoidSynergies": [
-        "Low CC teams",
-        "Hyper mobile assassins"
-      ],
+      "strengths": ["Waveclear", "Teamfight ult", "Zoning", "Scaling"],
+      "synergies": ["Engage (Vi, Jarvan IV, Nautilus)", "ADC follow-up"],
+      "avoidSynergies": ["Low CC teams", "Hyper mobile assassins"],
       "pickWhen": [
-        "Need teamfight control",
-        "Need utility/control"
+        "Need teamfight control and utility",
+        "Your team has engage to set up your R",
+        "Enemy has immobile melee champions (e.g., Yasuo, Yone)"
       ],
       "avoidWhen": [
-        "Enemy has early all-in dive"
+        "Enemy has early all-in dive (e.g., Diana, Gragas)",
+        "Enemy has hyper mobile assassins (e.g., Kassadin, Ahri)",
+        "Your team lacks frontline"
       ],
-      "playstyle": [
-        "control",
-        "teamfight",
-        "scaling"
-      ],
-      "tips": "Ball placement is key. Ult when enemies are grouped."
+      "playstyle": ["control", "teamfight", "scaling"],
+      "tips": "Ball (Q) placement is key. R when enemies are grouped."
     },
     {
       "name": "Pantheon",
       "category": "Fighter/Roam",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron",
-        "Support",
-        "Jungle"
-      ],
+      "secondaryRoles": ["Baron", "Support", "Jungle"],
       "goodAgainst": [
-        {
-          "name": "Akali",
-          "note": "Hard CC stops her"
-        },
-        {
-          "name": "Fizz",
-          "note": "Hard CC stops him"
-        },
-        {
-          "name": "Zed",
-          "note": "Hard CC stops him"
-        },
-        {
-          "name": "Irelia",
-          "note": "Hard CC stops her"
-        }
+        { "name": "Akali", "note": "Hard CC (W) stops her" },
+        { "name": "Fizz", "note": "Hard CC (W) stops him" },
+        { "name": "Zed", "note": "Hard CC (W) stops him" },
+        { "name": "Irelia", "note": "Hard CC (W) stops her" }
       ],
       "badAgainst": [
-        {
-          "name": "Jax",
-          "note": "Out-scales him"
-        },
-        {
-          "name": "Vladimir",
-          "note": "Out-sustains him"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales him"
-        },
-        {
-          "name": "Galio",
-          "note": "Out-tanks him"
-        }
+        { "name": "Jax", "note": "Out-scales him" },
+        { "name": "Vladimir", "note": "Out-sustains him" },
+        { "name": "Kassadin", "note": "Out-scales him" },
+        { "name": "Galio", "note": "Out-tanks him" }
       ],
-      "strengths": [
-        "Early pressure",
-        "Roam",
-        "Stun"
-      ],
-      "synergies": [
-        "Early gank comps",
-        "Roam comps"
-      ],
-      "avoidSynergies": [
-        "Scaling comps"
-      ],
+      "strengths": ["Early pressure", "Roam", "Stun"],
+      "synergies": ["Early gank comps", "Roam comps"],
+      "avoidSynergies": ["Scaling comps"],
       "pickWhen": [
-        "Need early game pressure",
-        "Need to roam"
+        "Need early game pressure and roam",
+        "Enemy has squishy assassins (e.g., Akali, Zed, Fizz)",
+        "Your team needs an early game leader"
       ],
       "avoidWhen": [
         "Game will go late",
-        "Enemy has tanks"
+        "Enemy has tanks (e.g., Galio, Malphite)",
+        "Your team needs scaling damage"
       ],
-      "playstyle": [
-        "fighter",
-        "early-game",
-        "roam"
-      ],
+      "playstyle": ["fighter", "early-game", "roam"],
       "tips": "Use R to roam. Empowered W gives stun."
     },
     {
       "name": "Rumble",
       "category": "Niche",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Out-trades him"
-        },
-        {
-          "name": "Akali",
-          "note": "Out-trades her"
-        }
+        { "name": "Zed", "note": "Out-trades him with Q" },
+        { "name": "Akali", "note": "Out-trades her with Q" }
       ],
       "badAgainst": [],
-      "strengths": [
-        "Ult zone",
-        "Teamfight",
-        "Poke"
-      ],
-      "synergies": [
-        "Teamfight comps"
-      ],
+      "strengths": ["Ult zone", "Teamfight", "Poke"],
+      "synergies": ["Teamfight comps"],
       "avoidSynergies": [],
       "pickWhen": [
-        "Need teamfight control",
-        "Need zone control"
+        "Need teamfight control and zone (R)",
+        "Need AP damage and poke",
+        "Enemy has immobile melee champions"
       ],
       "avoidWhen": [
-        "Enemy can displace you"
+        "Enemy can displace you (e.g., Gragas, Alistar)",
+        "Your team needs frontline",
+        "Enemy has heavy MR"
       ],
-      "playstyle": [
-        "teamfight",
-        "zone",
-        "poke"
-      ],
-      "tips": "Manage heat for empowered abilities. Ult for zone control."
+      "playstyle": ["teamfight", "zone", "poke"],
+      "tips": "Manage heat for empowered abilities. R for zone control."
     },
     {
       "name": "Ryze",
       "category": "Battle/Control",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Shields his burst"
-        },
-        {
-          "name": "Akali",
-          "note": "Shields her burst"
-        },
-        {
-          "name": "Fizz",
-          "note": "Shields his burst"
-        }
+        { "name": "Zed", "note": "Shield (E) blocks his burst" },
+        { "name": "Akali", "note": "Shield (E) blocks her burst" },
+        { "name": "Fizz", "note": "Shield (E) blocks his burst" }
       ],
       "badAgainst": [
-        {
-          "name": "Kassadin",
-          "note": "Out-scales him"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        }
+        { "name": "Kassadin", "note": "Out-scales him" },
+        { "name": "Diana", "note": "Out-trades him" }
       ],
-      "strengths": [
-        "Waveclear",
-        "Scaling",
-        "Rune prison"
-      ],
-      "synergies": [
-        "Team with setup"
-      ],
-      "avoidSynergies": [
-        "Snowball roam"
-      ],
+      "strengths": ["Waveclear", "Scaling", "Rune prison"],
+      "synergies": ["Team with setup"],
+      "avoidSynergies": ["Snowball roam"],
       "pickWhen": [
-        "Need safe scaling",
-        "Need waveclear"
+        "Need safe scaling and waveclear",
+        "Enemy has assassins you can lock down with W (rune prison)",
+        "Your team needs control mage"
       ],
       "avoidWhen": [
-        "Enemy has early pressure"
+        "Enemy has early pressure (e.g., Pantheon, Diana)",
+        "Enemy has Kassadin (outscales you)",
+        "Your team needs early game"
       ],
-      "playstyle": [
-        "battle",
-        "control",
-        "scaling"
-      ],
-      "tips": "Use rune prison to lock down. Farm to scale."
+      "playstyle": ["battle", "control", "scaling"],
+      "tips": "Use W (rune prison) to lock down. Farm to scale."
     },
     {
       "name": "Seraphine",
       "category": "Utility/Control",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Support",
-        "ADC"
-      ],
+      "secondaryRoles": ["Support", "ADC"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Shields his burst"
-        },
-        {
-          "name": "Akali",
-          "note": "Shields her burst"
-        },
-        {
-          "name": "Fizz",
-          "note": "Shields his burst"
-        }
+        { "name": "Zed", "note": "Shield (W) blocks his burst" },
+        { "name": "Akali", "note": "Shield (W) blocks her burst" },
+        { "name": "Fizz", "note": "Shield (W) blocks his burst" }
       ],
       "badAgainst": [
-        {
-          "name": "Fizz",
-          "note": "Bursts her"
-        },
-        {
-          "name": "Akali",
-          "note": "Bursts her"
-        },
-        {
-          "name": "Zed",
-          "note": "Bursts her"
-        }
+        { "name": "Fizz", "note": "Bursts her" },
+        { "name": "Akali", "note": "Bursts her" },
+        { "name": "Zed", "note": "Bursts her" }
       ],
-      "strengths": [
-        "Teamfight utility",
-        "Shields",
-        "Heal",
-        "Root"
-      ],
-      "synergies": [
-        "Teamfight comps"
-      ],
-      "avoidSynergies": [
-        "Hyper carry needing solo carry"
-      ],
+      "strengths": ["Teamfight utility", "Shields", "Heal", "Root"],
+      "synergies": ["Teamfight comps"],
+      "avoidSynergies": ["Hyper carry needing solo carry"],
       "pickWhen": [
-        "Need teamfight utility",
-        "Need shield/heal"
+        "Need teamfight utility (shields, heals, root)",
+        "Your team needs AP damage and control",
+        "Enemy has engage comp you can kite"
       ],
       "avoidWhen": [
-        "Enemy has early kill lanes"
+        "Enemy has early kill lanes (e.g., Zed, Akali, Fizz)",
+        "Your team needs solo carry damage",
+        "Enemy has mobile assassins"
       ],
-      "playstyle": [
-        "utility",
-        "control",
-        "teamfight"
-      ],
-      "tips": "Double cast E for root, W for heal. Ultimate is game-changing."
+      "playstyle": ["utility", "control", "teamfight"],
+      "tips": "Double cast E for root, W for heal. R is game-changing."
     },
     {
       "name": "Singed",
       "category": "Niche",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Out-sustains him"
-        },
-        {
-          "name": "Akali",
-          "note": "Out-sustains her"
-        }
+        { "name": "Zed", "note": "Out-sustains him" },
+        { "name": "Akali", "note": "Out-sustains her" }
       ],
       "badAgainst": [
-        {
-          "name": "Lux",
-          "note": "Out-ranges him"
-        },
-        {
-          "name": "Ziggs",
-          "note": "Out-ranges him"
-        }
+        { "name": "Lux", "note": "Out-ranges him" },
+        { "name": "Ziggs", "note": "Out-ranges him" }
       ],
-      "strengths": [
-        "Proxy",
-        "Fling",
-        "Sustain"
-      ],
+      "strengths": ["Proxy", "Fling", "Sustain"],
       "synergies": [],
-      "avoidSynergies": [
-        "Ranged"
-      ],
+      "avoidSynergies": ["Ranged"],
       "pickWhen": [
         "Need cheese pick",
-        "Need split push"
+        "Need split push pressure",
+        "Enemy has immobile melee assassins"
       ],
       "avoidWhen": [
-        "Enemy has ranged champions"
+        "Enemy has ranged champions (e.g., Lux, Ziggs)",
+        "Your team needs front-to-back damage",
+        "Enemy has heavy CC"
       ],
-      "playstyle": [
-        "cheese",
-        "split-push",
-        "sustain"
-      ],
-      "tips": "Proxy farm. Fling enemies into your team."
+      "playstyle": ["cheese", "split-push", "sustain"],
+      "tips": "Proxy farm. Fling (E) enemies into your team."
     },
     {
       "name": "Smolder",
       "category": "Marksman",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "ADC"
-      ],
+      "secondaryRoles": ["ADC"],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-pokes her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-pokes her"
-        }
+        { "name": "Ahri", "note": "Out-pokes her with Q" },
+        { "name": "Orianna", "note": "Out-pokes her with Q" }
       ],
       "badAgainst": [
-        {
-          "name": "Zed",
-          "note": "Bursts him"
-        },
-        {
-          "name": "Akali",
-          "note": "Bursts him"
-        },
-        {
-          "name": "Fizz",
-          "note": "Bursts him"
-        }
+        { "name": "Zed", "note": "Bursts him" },
+        { "name": "Akali", "note": "Bursts him" },
+        { "name": "Fizz", "note": "Bursts him" }
       ],
-      "strengths": [
-        "Hyper late",
-        "Scaling",
-        "Poke"
-      ],
-      "synergies": [
-        "Protect comps"
-      ],
-      "avoidSynergies": [
-        "Early all-in"
-      ],
+      "strengths": ["Hyper late", "Scaling", "Poke"],
+      "synergies": ["Protect comps"],
+      "avoidSynergies": ["Early all-in"],
       "pickWhen": [
         "Game will go late",
-        "Need hypercarry"
+        "Need hypercarry",
+        "Your team can protect you (e.g., Lulu, Braum)"
       ],
       "avoidWhen": [
-        "Enemy has early burst"
+        "Enemy has early burst (e.g., Zed, Fizz, Akali)",
+        "Your team needs early game pressure",
+        "Enemy has dive comps"
       ],
-      "playstyle": [
-        "hypercarry",
-        "scaling",
-        "poke"
-      ],
+      "playstyle": ["hypercarry", "scaling", "poke"],
       "tips": "Stack passive for true damage. Position safely."
     },
     {
       "name": "Swain",
       "category": "Battle",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Support"
-      ],
+      "secondaryRoles": ["Support"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Pulls him"
-        },
-        {
-          "name": "Akali",
-          "note": "Pulls her"
-        },
-        {
-          "name": "Fizz",
-          "note": "Pulls him"
-        }
+        { "name": "Zed", "note": "Pulls him with E" },
+        { "name": "Akali", "note": "Pulls her with E" },
+        { "name": "Fizz", "note": "Pulls him with E" }
       ],
       "badAgainst": [
-        {
-          "name": "Akshan",
-          "note": "Out-ranges him"
-        },
-        {
-          "name": "Lucian",
-          "note": "Out-ranges him"
-        }
+        { "name": "Akshan", "note": "Out-ranges him" },
+        { "name": "Lucian", "note": "Out-ranges him" }
       ],
-      "strengths": [
-        "Sustain",
-        "Teamfight ult",
-        "Pull"
-      ],
-      "synergies": [
-        "Frontline"
-      ],
-      "avoidSynergies": [
-        "Kiting AD"
-      ],
+      "strengths": ["Sustain", "Teamfight ult", "Pull"],
+      "synergies": ["Frontline"],
+      "avoidSynergies": ["Kiting AD"],
       "pickWhen": [
-        "Need sustain",
-        "Need teamfight"
+        "Need sustain and teamfight presence",
+        "Enemy has assassins you can pull (e.g., Zed, Akali, Fizz)",
+        "Your team has frontline"
       ],
       "avoidWhen": [
-        "Enemy has mobile kite"
+        "Enemy has mobile kite (e.g., Lucian, Akshan, Ezreal)",
+        "Your team lacks frontline",
+        "Enemy has long-range poke"
       ],
-      "playstyle": [
-        "battle",
-        "sustain",
-        "teamfight"
-      ],
-      "tips": "Pull enemies into your team. Ult in teamfights."
+      "playstyle": ["battle", "sustain", "teamfight"],
+      "tips": "Pull (E) enemies into your team. Use R in teamfights."
     },
     {
       "name": "Syndra",
@@ -2072,232 +1134,119 @@
       "primaryRole": "Mid",
       "secondaryRoles": [],
       "goodAgainst": [
-        {
-          "name": "Lux",
-          "note": "Out-ranges her"
-        },
-        {
-          "name": "Veigar",
-          "note": "Out-ranges him"
-        },
-        {
-          "name": "Ahri",
-          "note": "Out-ranges her"
-        },
-        {
-          "name": "Yasuo",
-          "note": "Stuns his dashes"
-        }
+        { "name": "Lux", "note": "Out-ranges her" },
+        { "name": "Veigar", "note": "Out-ranges him" },
+        { "name": "Ahri", "note": "Out-ranges her" },
+        { "name": "Yasuo", "note": "Stuns his dashes with E" }
       ],
       "badAgainst": [
-        {
-          "name": "Akali",
-          "note": "Dodges her stun"
-        },
-        {
-          "name": "Zed",
-          "note": "Dodges her stun"
-        },
-        {
-          "name": "Fizz",
-          "note": "Dodges her stun"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales her"
-        }
+        { "name": "Akali", "note": "Dodges her E with W" },
+        { "name": "Zed", "note": "Dodges her E with W" },
+        { "name": "Fizz", "note": "Dodges her E with E" },
+        { "name": "Kassadin", "note": "Out-scales her" }
       ],
-      "strengths": [
-        "Burst",
-        "Stun setups",
-        "Objective control"
-      ],
-      "synergies": [
-        "Tanky engage",
-        "Frontline",
-        "Poke supports"
-      ],
-      "avoidSynergies": [
-        "Squishy backline without peel"
-      ],
+      "strengths": ["Burst", "Stun setups", "Objective control"],
+      "synergies": ["Tanky engage", "Frontline", "Poke supports"],
+      "avoidSynergies": ["Squishy backline without peel"],
       "pickWhen": [
-        "Need pick potential",
-        "Enemy has low mobility"
+        "Need pick potential and burst",
+        "Enemy has low mobility (e.g., Lux, Veigar, Ahri)",
+        "Your team has frontline"
       ],
       "avoidWhen": [
-        "Enemy has high mobility",
-        "Enemy has gapclosers"
+        "Enemy has high mobility (e.g., Akali, Zed, Fizz)",
+        "Enemy has gapclosers (e.g., Kassadin)",
+        "Your team lacks peel"
       ],
-      "playstyle": [
-        "control",
-        "burst",
-        "pick"
-      ],
-      "tips": "Use Q + E for stun. Ultimate for execute."
+      "playstyle": ["control", "burst", "pick"],
+      "tips": "Use Q + E for stun. R for execute."
     },
     {
       "name": "Talon",
       "category": "Assassin",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Jungle"
-      ],
+      "secondaryRoles": ["Jungle"],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Bursts her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Bursts her"
-        },
-        {
-          "name": "Lux",
-          "note": "Bursts her"
-        }
+        { "name": "Ahri", "note": "Bursts her" },
+        { "name": "Orianna", "note": "Bursts her" },
+        { "name": "Lux", "note": "Bursts her" }
       ],
       "badAgainst": [
-        {
-          "name": "Galio",
-          "note": "Tanks his burst"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        },
-        {
-          "name": "Pantheon",
-          "note": "Hard CC"
-        }
+        { "name": "Galio", "note": "Tanks his burst" },
+        { "name": "Diana", "note": "Out-trades him" },
+        { "name": "Pantheon", "note": "Hard CC (W) stops him" }
       ],
-      "strengths": [
-        "Roam",
-        "Burst",
-        "Mobility"
-      ],
-      "synergies": [
-        "Global/roam comps"
-      ],
-      "avoidSynergies": [
-        "Tanks",
-        "Vision"
-      ],
+      "strengths": ["Roam", "Burst", "Mobility"],
+      "synergies": ["Global/roam comps"],
+      "avoidSynergies": ["Tanks", "Vision"],
       "pickWhen": [
-        "Need roam pressure",
-        "Enemy is squishy"
+        "Need roam pressure and burst",
+        "Enemy is squishy (e.g., Lux, Orianna, Ahri)",
+        "Your team needs AD assassin"
       ],
       "avoidWhen": [
-        "Enemy has tanks",
-        "Enemy has hard CC"
+        "Enemy has tanks (e.g., Galio)",
+        "Enemy has hard CC (e.g., Pantheon)",
+        "Enemy has heavy vision control"
       ],
-      "playstyle": [
-        "assassin",
-        "roam",
-        "burst"
-      ],
+      "playstyle": ["assassin", "roam", "burst"],
       "tips": "Use E to roam. Passive for bleed damage."
     },
     {
       "name": "Teemo",
       "category": "Niche",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Yasuo",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Yone",
-          "note": "Out-pokes him"
-        }
+        { "name": "Yasuo", "note": "Out-pokes him with Q" },
+        { "name": "Yone", "note": "Out-pokes him with Q" }
       ],
       "badAgainst": [],
-      "strengths": [
-        "Blind",
-        "Shrooms",
-        "Poke"
-      ],
-      "synergies": [
-        "Poke"
-      ],
-      "avoidSynergies": [
-        "Mobile"
-      ],
+      "strengths": ["Blind", "Shrooms", "Poke"],
+      "synergies": ["Poke"],
+      "avoidSynergies": ["Mobile"],
       "pickWhen": [
-        "Need vision control",
-        "Enemy is melee"
+        "Need vision control (shrooms)",
+        "Enemy has melee auto-attackers (e.g., Yasuo, Yone)",
+        "Need poke and map control"
       ],
       "avoidWhen": [
-        "Enemy has mobile champions"
+        "Enemy has mobile champions (e.g., Akali, Zed)",
+        "Your team needs frontline",
+        "Enemy has sweepers/control wards"
       ],
-      "playstyle": [
-        "ranged",
-        "poke",
-        "vision"
-      ],
-      "tips": "Place shrooms for vision. Blind key auto attackers."
+      "playstyle": ["ranged", "poke", "vision"],
+      "tips": "Place shrooms (R) for vision. Q (blind) key auto attackers."
     },
     {
       "name": "Tristana",
       "category": "Marksman",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "ADC"
-      ],
+      "secondaryRoles": ["ADC"],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Syndra",
-          "note": "Out-bursts her"
-        }
+        { "name": "Ahri", "note": "Out-bursts her" },
+        { "name": "Orianna", "note": "Out-bursts her" },
+        { "name": "Syndra", "note": "Out-bursts her" }
       ],
       "badAgainst": [
-        {
-          "name": "Galio",
-          "note": "Tanks her burst"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades her"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales her"
-        }
+        { "name": "Galio", "note": "Tanks her burst" },
+        { "name": "Diana", "note": "Out-trades her" },
+        { "name": "Kassadin", "note": "Out-scales her" }
       ],
-      "strengths": [
-        "Late burst",
-        "Tower damage",
-        "Scaling"
-      ],
-      "synergies": [
-        "Peel comps"
-      ],
-      "avoidSynergies": [
-        "Early dive"
-      ],
+      "strengths": ["Late burst", "Tower damage", "Scaling"],
+      "synergies": ["Peel comps"],
+      "avoidSynergies": ["Early dive"],
       "pickWhen": [
-        "Need scaling damage",
-        "Need tower pressure"
+        "Need scaling damage and tower pressure",
+        "Enemy has immobile mages (e.g., Ahri, Orianna, Syndra)",
+        "Your team has peel"
       ],
       "avoidWhen": [
-        "Enemy has early dive"
+        "Enemy has early dive (e.g., Diana, Pantheon)",
+        "Enemy has Galio (tanks your burst)",
+        "Your team lacks frontline"
       ],
-      "playstyle": [
-        "marksman",
-        "scaling",
-        "burst"
-      ],
+      "playstyle": ["marksman", "scaling", "burst"],
       "tips": "Use E + auto for burst. W to jump/reset."
     },
     {
@@ -2306,116 +1255,61 @@
       "primaryRole": "Mid",
       "secondaryRoles": [],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-roams her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-roams her"
-        },
-        {
-          "name": "Veigar",
-          "note": "Out-roams him"
-        }
+        { "name": "Ahri", "note": "Out-roams her" },
+        { "name": "Orianna", "note": "Out-roams her" },
+        { "name": "Veigar", "note": "Out-roams him" }
       ],
       "badAgainst": [
-        {
-          "name": "Fizz",
-          "note": "Bursts him"
-        },
-        {
-          "name": "Zed",
-          "note": "Bursts him"
-        },
-        {
-          "name": "Akali",
-          "note": "Bursts him"
-        }
+        { "name": "Fizz", "note": "Bursts him" },
+        { "name": "Zed", "note": "Bursts him" },
+        { "name": "Akali", "note": "Bursts him" }
       ],
-      "strengths": [
-        "Global roam",
-        "Stun",
-        "Map pressure"
-      ],
-      "synergies": [
-        "Any roam comps"
-      ],
+      "strengths": ["Global roam", "Stun", "Map pressure"],
+      "synergies": ["Any roam comps"],
       "avoidSynergies": [],
       "pickWhen": [
-        "Need map pressure",
-        "Need global presence"
+        "Need map pressure and global presence",
+        "Your team needs side lane pressure",
+        "Enemy has immobile champions"
       ],
       "avoidWhen": [
-        "Enemy has burst assassins"
+        "Enemy has burst assassins (e.g., Fizz, Zed, Akali)",
+        "Your team needs damage carry",
+        "Enemy has long-range poke"
       ],
-      "playstyle": [
-        "roam",
-        "utility",
-        "global"
-      ],
-      "tips": "Use R to roam. Pick gold card for stun."
+      "playstyle": ["roam", "utility", "global"],
+      "tips": "Use R to roam. Pick gold card (W) for stun."
     },
     {
       "name": "Veigar",
       "category": "Control Mage",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Support"
-      ],
+      "secondaryRoles": ["Support"],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Cage counters his all-in"
-        },
-        {
-          "name": "Akali",
-          "note": "Cage counters her"
-        },
-        {
-          "name": "Fizz",
-          "note": "Cage counters him"
-        }
+        { "name": "Zed", "note": "Cage (E) counters his all-in" },
+        { "name": "Akali", "note": "Cage (E) counters her" },
+        { "name": "Fizz", "note": "Cage (E) counters him" }
       ],
       "badAgainst": [
-        {
-          "name": "Twisted Fate",
-          "note": "Out-roams him"
-        },
-        {
-          "name": "Akshan",
-          "note": "Out-roams him"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks his burst"
-        }
+        { "name": "Twisted Fate", "note": "Out-roams him" },
+        { "name": "Akshan", "note": "Out-roams him" },
+        { "name": "Galio", "note": "Tanks his burst" }
       ],
-      "strengths": [
-        "Late scaling",
-        "Cage zoning",
-        "One-shot potential"
-      ],
-      "synergies": [
-        "Engage (setup cage)",
-        "Waveclear mids"
-      ],
-      "avoidSynergies": [
-        "Early game heavy"
-      ],
+      "strengths": ["Late scaling", "Cage zoning", "One-shot potential"],
+      "synergies": ["Engage (setup cage)", "Waveclear mids"],
+      "avoidSynergies": ["Early game heavy"],
       "pickWhen": [
         "Game will go late",
-        "Enemy has assassins"
+        "Enemy has assassins you can cage (e.g., Zed, Akali, Fizz)",
+        "Your team needs scaling AP damage"
       ],
       "avoidWhen": [
-        "Enemy has early roamers"
+        "Enemy has early roamers (e.g., Twisted Fate, Akshan)",
+        "Enemy has Galio (tanks your burst)",
+        "Your team needs early game pressure"
       ],
-      "playstyle": [
-        "control",
-        "scaling",
-        "burst"
-      ],
-      "tips": "Use cage to zone. Stack passive for AP."
+      "playstyle": ["control", "scaling", "burst"],
+      "tips": "Use E (cage) to zone. Stack passive for AP."
     },
     {
       "name": "Vex",
@@ -2423,307 +1317,155 @@
       "primaryRole": "Mid",
       "secondaryRoles": [],
       "goodAgainst": [
-        {
-          "name": "Zed",
-          "note": "Passive counters dashes"
-        },
-        {
-          "name": "Akali",
-          "note": "Passive counters dashes"
-        },
-        {
-          "name": "Fizz",
-          "note": "Passive counters dashes"
-        },
-        {
-          "name": "Yasuo",
-          "note": "Passive counters dashes"
-        },
-        {
-          "name": "Yone",
-          "note": "Passive counters dashes"
-        }
+        { "name": "Zed", "note": "Passive counters dashes" },
+        { "name": "Akali", "note": "Passive counters dashes" },
+        { "name": "Fizz", "note": "Passive counters dashes" },
+        { "name": "Yasuo", "note": "Passive counters dashes" },
+        { "name": "Yone", "note": "Passive counters dashes" }
       ],
       "badAgainst": [
-        {
-          "name": "Kassadin",
-          "note": "Out-scales her"
-        },
-        {
-          "name": "Lux",
-          "note": "Out-ranges her"
-        },
-        {
-          "name": "Ziggs",
-          "note": "Out-ranges her"
-        }
+        { "name": "Kassadin", "note": "Out-scales her" },
+        { "name": "Lux", "note": "Out-ranges her" },
+        { "name": "Ziggs", "note": "Out-ranges her" }
       ],
-      "strengths": [
-        "Anti-mobility",
-        "Burst",
-        "Fear"
-      ],
-      "synergies": [
-        "Engage for follow"
-      ],
-      "avoidSynergies": [
-        "Teams without front"
-      ],
+      "strengths": ["Anti-mobility", "Burst", "Fear"],
+      "synergies": ["Engage for follow"],
+      "avoidSynergies": ["Teams without front"],
       "pickWhen": [
-        "Enemy has dash-heavy comp",
-        "Need anti-mobility"
+        "Enemy has dash-heavy comp (e.g., Yasuo, Yone, Akali, Zed)",
+        "Need anti-mobility and burst",
+        "Your team has engage"
       ],
       "avoidWhen": [
-        "Enemy has heavy poke"
+        "Enemy has heavy poke (e.g., Lux, Ziggs)",
+        "Enemy has Kassadin (outscales you)",
+        "Your team lacks frontline"
       ],
-      "playstyle": [
-        "burst",
-        "anti-mobility"
-      ],
-      "tips": "Passive fears dashed enemies. Ultimate for execute."
+      "playstyle": ["burst", "anti-mobility"],
+      "tips": "Passive fears dashed enemies. R for execute."
     },
     {
       "name": "Viego",
       "category": "Niche",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Jungle"
-      ],
+      "secondaryRoles": ["Jungle"],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-trades her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-trades her"
-        }
+        { "name": "Ahri", "note": "Out-trades her" },
+        { "name": "Orianna", "note": "Out-trades her" }
       ],
       "badAgainst": [
-        {
-          "name": "Pantheon",
-          "note": "Hard CC"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks his burst"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        }
+        { "name": "Pantheon", "note": "Hard CC (W) stops him" },
+        { "name": "Galio", "note": "Tanks his burst" },
+        { "name": "Diana", "note": "Out-trades him" }
       ],
-      "strengths": [
-        "Possession",
-        "Reset",
-        "Flexibility"
-      ],
-      "synergies": [
-        "Any team"
-      ],
-      "avoidSynergies": [
-        "Lockdown CC"
-      ],
+      "strengths": ["Possession", "Reset", "Flexibility"],
+      "synergies": ["Any team"],
+      "avoidSynergies": ["Lockdown CC"],
       "pickWhen": [
-        "Need flex pick",
-        "Need possession value"
+        "Need flex pick (mid or jungle)",
+        "Need possession value in teamfights",
+        "Your team needs bruiser damage"
       ],
       "avoidWhen": [
-        "Enemy has lockdown CC"
+        "Enemy has lockdown CC (e.g., Pantheon, Lissandra)",
+        "Your team lacks frontline",
+        "Enemy has Galio (tanks your burst)"
       ],
-      "playstyle": [
-        "fighter",
-        "flex",
-        "reset"
-      ],
+      "playstyle": ["fighter", "flex", "reset"],
       "tips": "Possess enemies for extra value. Build bruiser."
     },
     {
       "name": "Vladimir",
       "category": "Battle",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-scales her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-scales her"
-        },
-        {
-          "name": "Syndra",
-          "note": "Out-scales her"
-        }
+        { "name": "Ahri", "note": "Out-scales her" },
+        { "name": "Orianna", "note": "Out-scales her" },
+        { "name": "Syndra", "note": "Out-scales her" }
       ],
       "badAgainst": [
-        {
-          "name": "Pantheon",
-          "note": "Early burst"
-        },
-        {
-          "name": "Diana",
-          "note": "Early burst"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales him"
-        }
+        { "name": "Pantheon", "note": "Early burst" },
+        { "name": "Diana", "note": "Early burst" },
+        { "name": "Kassadin", "note": "Out-scales him" }
       ],
-      "strengths": [
-        "Late scaling",
-        "Sustain",
-        "Pool"
-      ],
-      "synergies": [
-        "Any team (scales)"
-      ],
-      "avoidSynergies": [
-        "Early snowball"
-      ],
+      "strengths": ["Late scaling", "Sustain", "Pool"],
+      "synergies": ["Any team (scales)"],
+      "avoidSynergies": ["Early snowball"],
       "pickWhen": [
         "Game will go late",
-        "Need scaling sustain"
+        "Need scaling sustain and AP damage",
+        "Enemy has no early all-in"
       ],
       "avoidWhen": [
-        "Enemy has early all-in"
+        "Enemy has early all-in (e.g., Pantheon, Diana)",
+        "Your team needs early game pressure",
+        "Enemy has Kassadin (outscales you)"
       ],
-      "playstyle": [
-        "battle",
-        "scaling",
-        "sustain"
-      ],
-      "tips": "Pool to dodge. Late game massive sustain."
+      "playstyle": ["battle", "scaling", "sustain"],
+      "tips": "Pool (W) to dodge. Late game massive sustain."
     },
     {
       "name": "Yasuo",
       "category": "Skirmisher",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Windwall blocks charm"
-        },
-        {
-          "name": "Lux",
-          "note": "Windwall blocks root"
-        },
-        {
-          "name": "Ziggs",
-          "note": "Windwall blocks poke"
-        }
+        { "name": "Ahri", "note": "Windwall (W) blocks charm" },
+        { "name": "Lux", "note": "Windwall (W) blocks root" },
+        { "name": "Ziggs", "note": "Windwall (W) blocks poke" }
       ],
       "badAgainst": [
-        {
-          "name": "Malphite",
-          "note": "Tanks his damage"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks his damage"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        },
-        {
-          "name": "Pantheon",
-          "note": "Hard CC"
-        }
+        { "name": "Malphite", "note": "Tanks his damage" },
+        { "name": "Galio", "note": "Tanks his damage" },
+        { "name": "Diana", "note": "Out-trades him" },
+        { "name": "Pantheon", "note": "Hard CC (W) stops him" }
       ],
-      "strengths": [
-        "Windwall",
-        "Mobility",
-        "Scaling"
-      ],
-      "synergies": [
-        "Knockup (Malphite, Gragas)"
-      ],
-      "avoidSynergies": [
-        "No setup",
-        "Tanks"
-      ],
+      "strengths": ["Windwall", "Mobility", "Scaling"],
+      "synergies": ["Knockup (Malphite, Gragas)"],
+      "avoidSynergies": ["No setup", "Tanks"],
       "pickWhen": [
-        "Team has knockups",
-        "Need scaling carry"
+        "Team has knockups (e.g., Malphite, Gragas, Nautilus)",
+        "Need scaling carry",
+        "Enemy has immobile mages (e.g., Lux, Ahri, Ziggs)"
       ],
       "avoidWhen": [
-        "Enemy has tanks",
-        "No knockup synergy"
+        "Enemy has tanks (e.g., Malphite, Galio)",
+        "No knockup synergy on your team",
+        "Enemy has hard CC (e.g., Pantheon)"
       ],
-      "playstyle": [
-        "skirmisher",
-        "scaling",
-        "mobility"
-      ],
-      "tips": "Stack Q for tornado. Ults require knockup setup."
+      "playstyle": ["skirmisher", "scaling", "mobility"],
+      "tips": "Stack Q for tornado. R requires knockup setup."
     },
     {
       "name": "Yone",
       "category": "Skirmisher",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Baron"
-      ],
+      "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-trades her"
-        },
-        {
-          "name": "Lux",
-          "note": "Out-trades her"
-        },
-        {
-          "name": "Ziggs",
-          "note": "Out-trades him"
-        }
+        { "name": "Ahri", "note": "Out-trades her" },
+        { "name": "Lux", "note": "Out-trades her" },
+        { "name": "Ziggs", "note": "Out-trades him" }
       ],
       "badAgainst": [
-        {
-          "name": "Galio",
-          "note": "Tanks his damage"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        },
-        {
-          "name": "Malphite",
-          "note": "Tanks his damage"
-        }
+        { "name": "Galio", "note": "Tanks his damage" },
+        { "name": "Diana", "note": "Out-trades him" },
+        { "name": "Malphite", "note": "Tanks his damage" }
       ],
-      "strengths": [
-        "Mobility",
-        "Scaling",
-        "Sustain"
-      ],
-      "synergies": [
-        "Knockup teams"
-      ],
-      "avoidSynergies": [
-        "No setup",
-        "Tanks"
-      ],
+      "strengths": ["Mobility", "Scaling", "Sustain"],
+      "synergies": ["Knockup teams"],
+      "avoidSynergies": ["No setup", "Tanks"],
       "pickWhen": [
-        "Team has knockups",
-        "Need scaling carry"
+        "Team has knockups (e.g., Malphite, Gragas)",
+        "Need scaling carry",
+        "Enemy has immobile mages (e.g., Lux, Ahri, Ziggs)"
       ],
       "avoidWhen": [
-        "Enemy has tanks",
-        "No knockup synergy"
+        "Enemy has tanks (e.g., Malphite, Galio)",
+        "No knockup synergy on your team",
+        "Enemy has hard CC"
       ],
-      "playstyle": [
-        "skirmisher",
-        "scaling",
-        "mobility"
-      ],
+      "playstyle": ["skirmisher", "scaling", "mobility"],
       "tips": "Second Q knockup. E for engage/disengage."
     },
     {
@@ -2732,250 +1474,125 @@
       "primaryRole": "Mid",
       "secondaryRoles": [],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Lux",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Syndra",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Veigar",
-          "note": "Out-bursts him"
-        }
+        { "name": "Ahri", "note": "Out-bursts her" },
+        { "name": "Lux", "note": "Out-bursts her" },
+        { "name": "Syndra", "note": "Out-bursts her" },
+        { "name": "Orianna", "note": "Out-bursts her" },
+        { "name": "Veigar", "note": "Out-bursts him" }
       ],
       "badAgainst": [
-        {
-          "name": "Malphite",
-          "note": "Tanks his burst"
-        },
-        {
-          "name": "Galio",
-          "note": "Tanks his burst"
-        },
-        {
-          "name": "Pantheon",
-          "note": "Hard CC"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades him"
-        }
+        { "name": "Malphite", "note": "Tanks his burst" },
+        { "name": "Galio", "note": "Tanks his burst" },
+        { "name": "Pantheon", "note": "Hard CC (W) stops him" },
+        { "name": "Diana", "note": "Out-trades him" }
       ],
-      "strengths": [
-        "Burst",
-        "Roam",
-        "Shadows"
-      ],
-      "synergies": [
-        "Engage comps"
-      ],
-      "avoidSynergies": [
-        "Peel",
-        "Tanks"
-      ],
+      "strengths": ["Burst", "Roam", "Shadows"],
+      "synergies": ["Engage comps"],
+      "avoidSynergies": ["Peel", "Tanks"],
       "pickWhen": [
-        "Enemy is squishy",
-        "Need mobile assassin"
+        "Enemy is squishy (e.g., Lux, Orianna, Ahri)",
+        "Need mobile assassin",
+        "You can snowball early"
       ],
       "avoidWhen": [
-        "Enemy has tanks",
-        "Enemy has vision control"
+        "Enemy has tanks (e.g., Malphite, Galio)",
+        "Enemy has vision control",
+        "Enemy has hard CC (e.g., Pantheon)"
       ],
-      "playstyle": [
-        "assassin",
-        "mobile",
-        "burst"
-      ],
-      "tips": "Use shadows to outplay. Ultimate for execute damage."
+      "playstyle": ["assassin", "mobile", "burst"],
+      "tips": "Use shadows (W) to outplay. R for execute damage."
     },
     {
       "name": "Ziggs",
       "category": "Poke Mage",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "ADC"
-      ],
+      "secondaryRoles": ["ADC"],
       "goodAgainst": [
-        {
-          "name": "Yasuo",
-          "note": "Out-ranges him"
-        },
-        {
-          "name": "Yone",
-          "note": "Out-ranges him"
-        },
-        {
-          "name": "Zed",
-          "note": "Out-ranges him"
-        }
+        { "name": "Yasuo", "note": "Out-ranges him" },
+        { "name": "Yone", "note": "Out-ranges him" },
+        { "name": "Zed", "note": "Out-ranges him" }
       ],
       "badAgainst": [
-        {
-          "name": "Akali",
-          "note": "Bursts him"
-        },
-        {
-          "name": "Fizz",
-          "note": "Bursts him"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales him"
-        }
+        { "name": "Akali", "note": "Bursts him" },
+        { "name": "Fizz", "note": "Bursts him" },
+        { "name": "Kassadin", "note": "Out-scales him" }
       ],
-      "strengths": [
-        "Waveclear",
-        "Siege",
-        "Tower damage"
-      ],
-      "synergies": [
-        "Poke comps",
-        "Frontline"
-      ],
-      "avoidSynergies": [
-        "Mobile divers"
-      ],
+      "strengths": ["Waveclear", "Siege", "Tower damage"],
+      "synergies": ["Poke comps", "Frontline"],
+      "avoidSynergies": ["Mobile divers"],
       "pickWhen": [
-        "Need poke/siege",
-        "Need waveclear"
+        "Need poke and siege",
+        "Need waveclear",
+        "Enemy has immobile melee champions (e.g., Yasuo, Yone)"
       ],
       "avoidWhen": [
-        "Enemy has mobile assassins"
+        "Enemy has mobile assassins (e.g., Akali, Fizz, Zed)",
+        "Enemy has Kassadin (outscales you)",
+        "Your team lacks frontline"
       ],
-      "playstyle": [
-        "poke",
-        "siege",
-        "waveclear"
-      ],
-      "tips": "Use ultimate for waveclear or objectives. W to siege towers."
+      "playstyle": ["poke", "siege", "waveclear"],
+      "tips": "Use R for waveclear or objectives. W to siege towers."
     },
     {
       "name": "Zoe",
       "category": "Burst/Poke",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Support"
-      ],
+      "secondaryRoles": ["Support"],
       "goodAgainst": [
-        {
-          "name": "Ahri",
-          "note": "Out-pokes her"
-        },
-        {
-          "name": "Lux",
-          "note": "Out-pokes her"
-        },
-        {
-          "name": "Veigar",
-          "note": "Out-pokes him"
-        }
+        { "name": "Ahri", "note": "Out-pokes her with Q" },
+        { "name": "Lux", "note": "Out-pokes her with Q" },
+        { "name": "Veigar", "note": "Out-pokes him with Q" }
       ],
       "badAgainst": [
-        {
-          "name": "Galio",
-          "note": "Tanks her burst"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales her"
-        },
-        {
-          "name": "Diana",
-          "note": "Out-trades her"
-        }
+        { "name": "Galio", "note": "Tanks her burst" },
+        { "name": "Kassadin", "note": "Out-scales her" },
+        { "name": "Diana", "note": "Out-trades her" }
       ],
-      "strengths": [
-        "Poke",
-        "Sleep chain",
-        "Burst"
-      ],
-      "synergies": [
-        "Any team"
-      ],
-      "avoidSynergies": [
-        "Tanks",
-        "CC"
-      ],
+      "strengths": ["Poke", "Sleep chain", "Burst"],
+      "synergies": ["Any team"],
+      "avoidSynergies": ["Tanks", "CC"],
       "pickWhen": [
-        "Need skill expression",
-        "Need poke"
+        "Need skill expression and poke",
+        "Enemy is immobile (e.g., Lux, Veigar, Ahri)",
+        "Your team needs pick potential"
       ],
       "avoidWhen": [
-        "Enemy has tanks",
-        "Enemy has heavy CC"
+        "Enemy has tanks (e.g., Galio)",
+        "Enemy has heavy CC (e.g., Pantheon)",
+        "Enemy has Kassadin (outscales you)"
       ],
-      "playstyle": [
-        "poke",
-        "burst",
-        "skill-based"
-      ],
-      "tips": "Use sleep to set up. Q + R for long range poke."
+      "playstyle": ["poke", "burst", "skill-based"],
+      "tips": "Use E (sleep) to set up. Q + R for long-range poke."
     },
     {
       "name": "Zyra",
       "category": "Poke/Control",
       "primaryRole": "Mid",
-      "secondaryRoles": [
-        "Support"
-      ],
+      "secondaryRoles": ["Support"],
       "goodAgainst": [
-        {
-          "name": "Yasuo",
-          "note": "Plants zone him"
-        },
-        {
-          "name": "Zed",
-          "note": "Plants zone him"
-        },
-        {
-          "name": "Fizz",
-          "note": "Plants zone him"
-        }
+        { "name": "Yasuo", "note": "Plants (W) zone him" },
+        { "name": "Zed", "note": "Plants (W) zone him" },
+        { "name": "Fizz", "note": "Plants (W) zone him" }
       ],
       "badAgainst": [
-        {
-          "name": "Akali",
-          "note": "Bursts her"
-        },
-        {
-          "name": "Kassadin",
-          "note": "Out-scales her"
-        }
+        { "name": "Akali", "note": "Bursts her" },
+        { "name": "Kassadin", "note": "Out-scales her" }
       ],
-      "strengths": [
-        "Plant poke",
-        "CC",
-        "Burst"
-      ],
-      "synergies": [
-        "Engage comps"
-      ],
-      "avoidSynergies": [
-        "Mobile"
-      ],
+      "strengths": ["Plant poke", "CC", "Burst"],
+      "synergies": ["Engage comps"],
+      "avoidSynergies": ["Mobile"],
       "pickWhen": [
-        "Need plant setup",
-        "Need zone control"
+        "Need plant setup and zone control",
+        "Enemy has melee champions (e.g., Yasuo, Zed, Fizz)",
+        "Your team needs AP damage and CC"
       ],
       "avoidWhen": [
-        "Enemy has mobile champions"
+        "Enemy has mobile champions (e.g., Akali, Kassadin)",
+        "Your team lacks frontline",
+        "Enemy has long-range poke"
       ],
-      "playstyle": [
-        "poke",
-        "control",
-        "zone"
-      ],
-      "tips": "Place plants for poke. E + W + Q for combo."
+      "playstyle": ["poke", "control", "zone"],
+      "tips": "Place plants (W) for poke. E + W + Q for combo."
     }
   ],
   "draftRules": [
@@ -2987,7 +1604,7 @@
     {
       "id": "control-into-assassin",
       "condition": "enemyMid === 'Zed' || enemyMid === 'Akali' || enemyMid === 'Fizz'",
-      "text": "Control mages like Lissandra, Galio, and Vex counter assassins with CC and survivability."
+      "text": "Control mages like Galio and Vex counter assassins with CC and survivability. Consider building Zhonya's."
     },
     {
       "id": "roam-mid-synergy",
@@ -3023,6 +1640,16 @@
       "id": "global-roam-warning",
       "condition": "enemyMid === 'Twisted Fate' || enemyMid === 'Galio' || enemyMid === 'Akshan'",
       "text": "Global roamers will pressure side lanes. Warn your team and match their roams."
+    },
+    {
+      "id": "kassadin-late-warning",
+      "condition": "enemyMid === 'Kassadin'",
+      "text": "Kassadin outscales most AP mids. Pick an AD mid (Zed, Lucian) or apply early pressure to delay his scaling."
+    },
+    {
+      "id": "yasuo-knockup-required",
+      "condition": "allyMid === 'Yasuo'",
+      "text": "Yasuo needs knockup setup for his ultimate. Ensure your team has reliable knockups (e.g., Malphite, Gragas, Nautilus)."
     }
   ]
 }

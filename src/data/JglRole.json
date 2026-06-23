@@ -3,7 +3,7 @@
     "lastUpdated": "June 2026",
     "patch": "7.1g",
     "lane": "Jungle",
-    "description": "Wild Rift Jungle champion data based on wildriftcounter.com matchups, Core tier lists, and community discussions",
+    "description": "Wild Rift Jungle champion data – updated with QWER skill references, pick/avoid examples, and clear/rotation guides",
     "dataSource": "wildriftcounter.com, r/wildrift, Wild Rift Core"
   },
   "champions": [
@@ -13,30 +13,34 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Support"],
       "goodAgainst": [
-        { "name": "Graves", "note": "Tanks his burst" },
+        { "name": "Graves", "note": "Tanks his burst with E" },
         { "name": "Kindred", "note": "Tanks her damage" },
-        { "name": "Master Yi", "note": "CC stops his damage" },
-        { "name": "AD heavy teams", "note": "Tankiness vs AD" }
+        { "name": "Master Yi", "note": "CC (Q/R) stops his damage" },
+        { "name": "AD heavy teams", "note": "Tankiness vs AD with armor stacking" }
       ],
       "badAgainst": [
-        { "name": "Lee Sin", "note": "Out-duels and invades" },
+        { "name": "Lee Sin", "note": "Out-duels and invades early" },
         { "name": "Kayn", "note": "Out-duels and invades" },
-        { "name": "Evelynn", "note": "Out-damages him" },
-        { "name": "Mobile champions", "note": "Can't catch them" }
+        { "name": "Evelynn", "note": "Out-damages him; can't catch her" },
+        { "name": "Mobile champions", "note": "Can't catch them (e.g., Ezreal, Ahri)" }
       ],
-      "strengths": ["Ult engage", "Tankiness", "Teamfight CC"],
-      "synergies": ["Dive/engage teams", "Follow-up damage"],
-      "avoidSynergies": ["Mobile kite comps"],
+      "strengths": ["Ult engage (R)", "Tankiness", "Teamfight CC"],
+      "synergies": ["Dive/engage teams", "Follow-up damage (e.g., Miss Fortune, Samira)"],
+      "avoidSynergies": ["Mobile kite comps (e.g., Ezreal, Janna)"],
       "pickWhen": [
-        "Team needs teamfight CC",
-        "Enemy has AD heavy comp"
+        "Team needs teamfight CC and engage",
+        "Enemy has AD heavy comp (e.g., Zed, Yasuo, Graves)",
+        "You have follow-up damage (e.g., Miss Fortune, Orianna)"
       ],
       "avoidWhen": [
-        "Enemy has mobile burst",
-        "Enemy has AP heavy comp"
+        "Enemy has mobile burst (e.g., Lee Sin, Evelynn)",
+        "Enemy has AP heavy comp (e.g., Diana, Lillia)",
+        "Your team lacks damage to follow up on your engage"
       ],
       "playstyle": ["tank", "engage", "teamfight"],
-      "tips": "Flash + R is your engage. Build armor vs AD."
+      "tips": "Flash + R is your engage. Build armor vs AD. Use Q to gap close.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Look for R engages post-6. Ult when enemies are grouped. Use Q + R for multi-man CC."
     },
     {
       "name": "Diana",
@@ -44,28 +48,32 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Mid"],
       "goodAgainst": [
-        { "name": "Graves", "note": "Out-trades him" },
-        { "name": "Kindred", "note": "Out-trades her" },
-        { "name": "Nidalee", "note": "Out-bursts her" }
+        { "name": "Graves", "note": "Out-trades him with W shield" },
+        { "name": "Kindred", "note": "Out-trades her; burst her with R" },
+        { "name": "Nidalee", "note": "Out-bursts her with R" }
       ],
       "badAgainst": [
-        { "name": "Lee Sin", "note": "Out-duels her" },
-        { "name": "Pantheon", "note": "Hard CC stops her" },
-        { "name": "Vi", "note": "Out-duels her" }
+        { "name": "Lee Sin", "note": "Out-duels her early" },
+        { "name": "Pantheon", "note": "Hard CC (W) stops her engage" },
+        { "name": "Vi", "note": "Out-duels her; can R her out of engage" }
       ],
-      "strengths": ["Dive", "Reset", "Burst", "Shield"],
-      "synergies": ["Engage comps", "Dive comps"],
-      "avoidSynergies": ["Strong peel comps"],
+      "strengths": ["Dive (E)", "Reset (passive)", "Burst (R)", "Shield (W)"],
+      "synergies": ["Engage comps", "Dive comps (e.g., Malphite, Leona)"],
+      "avoidSynergies": ["Strong peel comps (e.g., Janna, Lulu)"],
       "pickWhen": [
-        "Need AP dive",
-        "Enemy has clustered fights"
+        "Need AP dive and burst",
+        "Enemy has clustered fights (e.g., immobile carries)",
+        "Your team has engage to set up your R"
       ],
       "avoidWhen": [
-        "Enemy has strong CC",
-        "Enemy has peel supports"
+        "Enemy has strong CC (e.g., Lissandra, Pantheon)",
+        "Enemy has peel supports (e.g., Janna, Lulu)",
+        "Your team lacks frontline"
       ],
       "playstyle": ["ap-assassin", "dive", "burst"],
-      "tips": "Use Q to poke, E to engage. Ultimate pulls enemies in."
+      "tips": "Use Q to poke, E to engage. R pulls enemies in for massive burst.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Look for E + R engages. Flash + R for multi-man pulls. Reset passive for burst."
     },
     {
       "name": "Ekko",
@@ -73,27 +81,32 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Mid"],
       "goodAgainst": [
-        { "name": "Nidalee", "note": "Out-trades her" },
-        { "name": "Lillia", "note": "Out-bursts her" },
-        { "name": "Graves", "note": "Out-mobiles him" }
+        { "name": "Nidalee", "note": "Out-trades her with passive" },
+        { "name": "Lillia", "note": "Out-bursts her with R" },
+        { "name": "Graves", "note": "Out-mobiles him; dodge his burst with R" }
       ],
       "badAgainst": [
-        { "name": "Lee Sin", "note": "Out-duels him" },
-        { "name": "Vi", "note": "Out-duels him" },
-        { "name": "Pantheon", "note": "Hard CC stops him" }
+        { "name": "Lee Sin", "note": "Out-duels him early" },
+        { "name": "Vi", "note": "Out-duels him; can R him out of engage" },
+        { "name": "Pantheon", "note": "Hard CC (W) stops him" }
       ],
-      "strengths": ["Ult outplay", "Burst", "Mobility"],
+      "strengths": ["Ult outplay (R)", "Burst", "Mobility (E)"],
       "synergies": ["Engage comps"],
-      "avoidSynergies": ["Lockdown CC"],
+      "avoidSynergies": ["Lockdown CC (e.g., Lissandra, Pantheon)"],
       "pickWhen": [
-        "Need skill expression",
-        "Need outplay potential"
+        "Need skill expression and outplay potential",
+        "Enemy has immobile carries (e.g., Lux, Jinx)",
+        "You want a safe assassin with escape (R)"
       ],
       "avoidWhen": [
-        "Enemy has lockdown CC"
+        "Enemy has lockdown CC (e.g., Lissandra, Pantheon)",
+        "Enemy has tanks that survive your burst (e.g., Galio)",
+        "Your team lacks frontline"
       ],
       "playstyle": ["ap-assassin", "mobile", "outplay"],
-      "tips": "Use W for shield/stun. R to undo damage."
+      "tips": "Use W for shield/stun. R to undo damage and reposition.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Look for W stuns. E + Q + auto for burst. Use R to escape or re-engage."
     },
     {
       "name": "Evelynn",
@@ -101,31 +114,35 @@
       "primaryRole": "Jungle",
       "secondaryRoles": [],
       "goodAgainst": [
-        { "name": "Ahri", "note": "Stealth ganks her" },
+        { "name": "Ahri", "note": "Stealth ganks her with passive" },
         { "name": "Orianna", "note": "Stealth ganks her" },
         { "name": "Lux", "note": "Stealth ganks her" },
-        { "name": "Isolated targets", "note": "Max damage on charm" }
+        { "name": "Isolated targets", "note": "Max damage on charm (W)" }
       ],
       "badAgainst": [
         { "name": "Ornn", "note": "Tanks her burst" },
         { "name": "Malphite", "note": "Tanks her burst" },
         { "name": "Rammus", "note": "Tanks her burst" },
-        { "name": "Heavy vision teams", "note": "Can't gank" },
-        { "name": "Rengar", "note": "Out-duels her" }
+        { "name": "Heavy vision teams", "note": "Can't gank due to control wards" },
+        { "name": "Rengar", "note": "Out-duels her in jungle" }
       ],
-      "strengths": ["Stealth ganks", "Burst", "Execute", "Roam"],
+      "strengths": ["Stealth ganks (passive)", "Burst (E)", "Execute (R)", "Roam"],
       "synergies": ["Assassin comps", "Roam comps"],
-      "avoidSynergies": ["Vision heavy", "Tanks"],
+      "avoidSynergies": ["Vision heavy (control wards)", "Tanks"],
       "pickWhen": [
-        "Need stealth picks",
-        "Enemy has squishy carries"
+        "Need stealth picks and assassination",
+        "Enemy has squishy carries (e.g., Lux, Jinx, Ziggs)",
+        "You want to snowball early"
       ],
       "avoidWhen": [
-        "Enemy has heavy vision",
-        "Enemy has tanks"
+        "Enemy has heavy vision (control wards, sweepers)",
+        "Enemy has tanks (e.g., Ornn, Malphite, Rammus)",
+        "Your team lacks frontline"
       ],
       "playstyle": ["assassin", "stealth", "burst"],
-      "tips": "Charm from stealth. Ult to execute and escape."
+      "tips": "Charm (W) from stealth. R to execute and escape.",
+      "clearPath": "Red Buff → Raptors → Wolves → Blue Buff → Gromp → Gank/Scuttle",
+      "rotation": "Wait for passive stealth. Use W to charm. R to execute. Look for isolated targets."
     },
     {
       "name": "Graves",
@@ -133,30 +150,34 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["ADC"],
       "goodAgainst": [
-        { "name": "Xin Zhao", "note": "Out-trades him" },
+        { "name": "Xin Zhao", "note": "Out-trades him with E + auto" },
         { "name": "Warwick", "note": "Out-trades him" },
         { "name": "Olaf", "note": "Out-trades him" },
-        { "name": "Melee junglers", "note": "Kites them" }
+        { "name": "Melee junglers", "note": "Kites them with E" }
       ],
       "badAgainst": [
         { "name": "Amumu", "note": "Tanks his damage" },
         { "name": "Rammus", "note": "Tanks his damage" },
         { "name": "Nautilus", "note": "CC blocks him" },
-        { "name": "Tanks", "note": "Can't kill them" }
+        { "name": "Tanks", "note": "Can't kill them (e.g., Malphite, Ornn)" }
       ],
-      "strengths": ["Early clear", "Burst", "Graves combo"],
+      "strengths": ["Early clear", "Burst (Q + auto)", "Graves combo"],
       "synergies": ["AD heavy teams"],
       "avoidSynergies": ["Tanks", "Kiting"],
       "pickWhen": [
-        "Need early invade/pressure",
-        "Enemy has melee junglers"
+        "Need early invade and pressure",
+        "Enemy has melee junglers (e.g., Xin Zhao, Warwick)",
+        "Your team needs AD damage"
       ],
       "avoidWhen": [
-        "Enemy has tanks",
-        "Enemy has heavy CC"
+        "Enemy has tanks (e.g., Rammus, Amumu)",
+        "Enemy has heavy CC (e.g., Nautilus, Lissandra)",
+        "Your team lacks frontline"
       ],
       "playstyle": ["marksman", "early-game", "burst"],
-      "tips": "Use Q + auto combo. Build bruiser or crit."
+      "tips": "Use Q + auto combo. Build bruiser or crit.",
+      "clearPath": "Red Buff → Raptors → Wolves → Blue Buff → Gromp → Gank/Scuttle",
+      "rotation": "Look for invades. Q + auto for burst. E for repositioning."
     },
     {
       "name": "Jarvan IV",
@@ -164,28 +185,33 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Baron", "Support"],
       "goodAgainst": [
-        { "name": "Kindred", "note": "Ult cages her" },
-        { "name": "Graves", "note": "Out-duels him" },
+        { "name": "Kindred", "note": "Ult (R) cages her" },
+        { "name": "Graves", "note": "Out-duels him with passive" },
         { "name": "Nidalee", "note": "Out-duels her" },
-        { "name": "Squishy targets", "note": "Ult traps them" }
+        { "name": "Squishy targets", "note": "Ult (R) traps them" }
       ],
       "badAgainst": [
         { "name": "Evelynn", "note": "Can't catch her" },
         { "name": "Lee Sin", "note": "Out-duels him" },
         { "name": "Vi", "note": "Out-duels him" }
       ],
-      "strengths": ["Ult cage", "Engage", "Gank setup"],
+      "strengths": ["Ult cage (R)", "Engage (EQ)", "Gank setup (W slow)"],
       "synergies": ["Engage teams"],
-      "avoidSynergies": ["Disengage comps"],
+      "avoidSynergies": ["Disengage comps (e.g., Janna, Gragas)"],
       "pickWhen": [
-        "Need gank setup",
-        "Need engage"
+        "Need gank setup and engage",
+        "Enemy has immobile carries (e.g., Jinx, Lux)",
+        "Your team has follow-up damage"
       ],
       "avoidWhen": [
-        "Enemy has mobile champions"
+        "Enemy has mobile champions (e.g., Ezreal, Akali)",
+        "Enemy has disengage (e.g., Janna, Gragas)",
+        "Your team lacks damage"
       ],
       "playstyle": ["fighter", "engage", "gank"],
-      "tips": "EQ for knockup. Ult to trap carries."
+      "tips": "EQ for knockup. R to trap carries.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Look for early ganks. EQ + W + R for lockdown. Flash + EQ for surprise engage."
     },
     {
       "name": "Kayn",
@@ -193,28 +219,33 @@
       "primaryRole": "Jungle",
       "secondaryRoles": [],
       "goodAgainst": [
-        { "name": "Kindred", "note": "Out-duels her" },
+        { "name": "Kindred", "note": "Out-duels her in Shadow form" },
         { "name": "Graves", "note": "Out-duels him" },
         { "name": "Nidalee", "note": "Out-duels her" },
-        { "name": "Squishy champions", "note": "Shadow form burst" }
+        { "name": "Squishy champions", "note": "Shadow form burst (W + Q)" }
       ],
       "badAgainst": [
         { "name": "Vi", "note": "Out-duels him" },
-        { "name": "Pantheon", "note": "Hard CC stops him" },
-        { "name": "Tanks", "note": "Can't kill them early" }
+        { "name": "Pantheon", "note": "Hard CC (W) stops him" },
+        { "name": "Tanks", "note": "Can't kill them early (e.g., Rammus, Amumu)" }
       ],
-      "strengths": ["Form flexibility", "Invades", "Scaling"],
-      "synergies": ["Any team (adapts)"],
+      "strengths": ["Form flexibility (Shadow/Darkin)", "Invades", "Scaling"],
+      "synergies": ["Any team (adapts to enemy comp)"],
       "avoidSynergies": ["Early gank comps"],
       "pickWhen": [
-        "Need scaling advantage",
-        "Can choose form based on enemy"
+        "Need scaling advantage and form flexibility",
+        "You can choose form based on enemy comp (Shadow vs squishy, Darkin vs tanks)",
+        "Enemy has squishy carries"
       ],
       "avoidWhen": [
-        "Enemy has early pressure"
+        "Enemy has early pressure (e.g., Lee Sin, Pantheon)",
+        "Enemy has heavy CC to lock you down",
+        "Your team needs early game pressure"
       ],
       "playstyle": ["assassin", "flexible", "scaling"],
-      "tips": "Choose form based on enemy comp. Farm to evolve."
+      "tips": "Choose form based on enemy comp. Farm to evolve.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Farm to evolve. Look for ganks after form. Shadow form for burst, Darkin for sustain."
     },
     {
       "name": "Kindred",
@@ -222,28 +253,33 @@
       "primaryRole": "Jungle",
       "secondaryRoles": [],
       "goodAgainst": [
-        { "name": "Rammus", "note": "Kites him" },
-        { "name": "Amumu", "note": "Kites him" },
+        { "name": "Rammus", "note": "Kites him with Q + auto" },
+        { "name": "Amumu", "note": "Kites him with Q" },
         { "name": "Nautilus", "note": "Kites him" }
       ],
       "badAgainst": [
-        { "name": "Lee Sin", "note": "Bursts her" },
+        { "name": "Lee Sin", "note": "Bursts her with Q + R" },
         { "name": "Rengar", "note": "Bursts her" },
-        { "name": "Evelynn", "note": "Bursts her" },
-        { "name": "Assassins", "note": "Out-burst her" }
+        { "name": "Evelynn", "note": "Bursts her from stealth" },
+        { "name": "Assassins", "note": "Out-burst her (e.g., Zed, Akali)" }
       ],
-      "strengths": ["Marks scaling", "Range", "Ult save"],
-      "synergies": ["Protect comps", "Peel"],
-      "avoidSynergies": ["Early divers"],
+      "strengths": ["Marks scaling (passive)", "Range (Q)", "Ult save (R)"],
+      "synergies": ["Protect comps", "Peel (e.g., Braum, Lulu)"],
+      "avoidSynergies": ["Early divers (e.g., Lee Sin, Rengar)"],
       "pickWhen": [
-        "Need scaling marksman",
-        "Need marks stacking"
+        "Need scaling marksman in jungle",
+        "Need marks stacking for late game",
+        "Your team has peel and frontline"
       ],
       "avoidWhen": [
-        "Enemy has burst assassins"
+        "Enemy has burst assassins (e.g., Lee Sin, Rengar, Zed)",
+        "Your team lacks frontline",
+        "Enemy has heavy invade pressure"
       ],
       "playstyle": ["marksman", "scaling", "range"],
-      "tips": "Stack marks on enemies. Ult to save allies."
+      "tips": "Stack marks on enemies. R to save allies.",
+      "clearPath": "Red Buff → Raptors → Wolves → Blue Buff → Gromp → Gank/Scuttle",
+      "rotation": "Look for marks on enemy camps. Q for mobility. R to save carries."
     },
     {
       "name": "Lee Sin",
@@ -251,30 +287,35 @@
       "primaryRole": "Jungle",
       "secondaryRoles": [],
       "goodAgainst": [
-        { "name": "Jarvan IV", "note": "Out-duels him" },
+        { "name": "Jarvan IV", "note": "Out-duels him with Q + E" },
         { "name": "Xin Zhao", "note": "Out-duels him" },
-        { "name": "Kindred", "note": "Bursts her" },
-        { "name": "Squishy targets", "note": "Insec plays" }
+        { "name": "Kindred", "note": "Bursts her with Q + R" },
+        { "name": "Squishy targets", "note": "Insec plays (R)" }
       ],
       "badAgainst": [
         { "name": "Rammus", "note": "Tanks his damage" },
         { "name": "Amumu", "note": "Tanks his damage" },
         { "name": "Vi", "note": "Out-duels him" },
-        { "name": "CC heavy comps", "note": "Can't insec" },
-        { "name": "Tanky comps", "note": "Can't kill them" }
+        { "name": "CC heavy comps", "note": "Can't insec (R) safely" },
+        { "name": "Tanky comps", "note": "Can't kill them (e.g., Malphite, Ornn)" }
       ],
-      "strengths": ["Early ganks", "Mobility", "Insec plays"],
+      "strengths": ["Early ganks", "Mobility (W)", "Insec plays (R)"],
       "synergies": ["Engage supports", "Strong laners"],
-      "avoidSynergies": ["Peel-heavy comps"],
+      "avoidSynergies": ["Peel-heavy comps (e.g., Janna, Lulu)"],
       "pickWhen": [
-        "Need early pressure",
-        "Need invade potential"
+        "Need early pressure and invade potential",
+        "You want to make Insec plays on enemy carries",
+        "Your team has follow-up damage"
       ],
       "avoidWhen": [
-        "Enemy has tanky CC comps"
+        "Enemy has tanky CC comps (e.g., Rammus, Malphite)",
+        "Enemy has heavy peel (e.g., Janna, Braum)",
+        "Your team needs late game scaling"
       ],
       "playstyle": ["fighter", "early-game", "playmaker"],
-      "tips": "Q into R + Flash for Insec. Ward hop for mobility."
+      "tips": "Q into R + Flash for Insec. Ward hop for mobility.",
+      "clearPath": "Red Buff → Raptors → Wolves → Blue Buff → Gromp → Gank/Scuttle",
+      "rotation": "Look for early ganks. Ward hop (W) for mobility. Insec (R) carries. Invade enemy jungle."
     },
     {
       "name": "Lillia",
@@ -291,18 +332,23 @@
         { "name": "Rengar", "note": "Bursts her" },
         { "name": "Evelynn", "note": "Bursts her" }
       ],
-      "strengths": ["Sleep AoE", "Scaling", "Teamfight"],
+      "strengths": ["Sleep AoE (R)", "Scaling", "Teamfight (Q)"],
       "synergies": ["Teamfight comps"],
       "avoidSynergies": ["Early invade comps"],
       "pickWhen": [
-        "Need scaling teamfight",
-        "Need AP damage"
+        "Need scaling teamfight and AP damage",
+        "Enemy has tanks you can shred with Q",
+        "Your team has frontline"
       ],
       "avoidWhen": [
-        "Enemy has early snowball"
+        "Enemy has early snowball (e.g., Lee Sin, Pantheon)",
+        "Enemy has burst assassins (e.g., Rengar, Evelynn)",
+        "Your team lacks frontline"
       ],
       "playstyle": ["ap-fighter", "scaling", "teamfight"],
-      "tips": "Q + sleep for ganks. Ult to engage teamfights."
+      "tips": "Q + sleep for ganks. R to engage teamfights.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Farm to scale. Look for Q + R engages. R to sleep enemy team."
     },
     {
       "name": "Master Yi",
@@ -310,31 +356,35 @@
       "primaryRole": "Jungle",
       "secondaryRoles": [],
       "goodAgainst": [
-        { "name": "Kindred", "note": "Out-duels her" },
+        { "name": "Kindred", "note": "Out-duels her with Q" },
         { "name": "Graves", "note": "Out-duels him" },
         { "name": "Nidalee", "note": "Out-duels her" },
-        { "name": "Low CC teams", "note": "Unstoppable" }
+        { "name": "Low CC teams", "note": "Unstoppable (R)" }
       ],
       "badAgainst": [
-        { "name": "Nautilus", "note": "CC stops him" },
-        { "name": "Amumu", "note": "CC stops him" },
+        { "name": "Nautilus", "note": "CC (R/Q) stops him" },
+        { "name": "Amumu", "note": "CC (Q/R) stops him" },
         { "name": "Rammus", "note": "Tanks his damage" },
-        { "name": "CC heavy teams", "note": "Can't do anything" },
-        { "name": "Tanks", "note": "Can't kill them" }
+        { "name": "CC heavy teams", "note": "Can't do anything (e.g., Lissandra, Leona)" },
+        { "name": "Tanks", "note": "Can't kill them (e.g., Malphite, Ornn)" }
       ],
-      "strengths": ["Late carry", "Reset autos", "Scaling"],
-      "synergies": ["Peel comps", "Protect"],
-      "avoidSynergies": ["CC lock comps"],
+      "strengths": ["Late carry", "Reset autos (passive)", "Scaling"],
+      "synergies": ["Peel comps", "Protect (e.g., Lulu, Braum)"],
+      "avoidSynergies": ["CC lock comps (e.g., Lissandra, Leona)"],
       "pickWhen": [
         "Game will go late",
-        "Enemy has low CC"
+        "Enemy has low CC (e.g., Lux, Ziggs, Jinx)",
+        "Your team has peel and frontline"
       ],
       "avoidWhen": [
-        "Enemy has heavy CC",
-        "Enemy has tanks"
+        "Enemy has heavy CC (e.g., Lissandra, Leona, Nautilus)",
+        "Enemy has tanks (e.g., Rammus, Malphite)",
+        "Your team lacks frontline"
       ],
       "playstyle": ["assassin", "scaling", "hypercarry"],
-      "tips": "Q to dodge. Auto resets with W. Build on-hit."
+      "tips": "Q to dodge. Auto resets with W. Build on-hit.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Farm to scale. Look for picks with Q. Use R for engage/escape. Focus on resetting passive."
     },
     {
       "name": "Nautilus",
@@ -342,27 +392,32 @@
       "primaryRole": "Support",
       "secondaryRoles": ["Jungle", "Baron"],
       "goodAgainst": [
-        { "name": "Xin Zhao", "note": "CC stops him" },
+        { "name": "Xin Zhao", "note": "CC (Q/R) stops him" },
         { "name": "Warwick", "note": "CC stops him" },
-        { "name": "Olaf", "note": "CC stops him" }
+        { "name": "Olaf", "note": "CC (R) stops him" }
       ],
       "badAgainst": [
         { "name": "Graves", "note": "Out-ranges him" },
         { "name": "Kindred", "note": "Out-ranges him" },
         { "name": "Nidalee", "note": "Out-ranges him" }
       ],
-      "strengths": ["Hook CC chain", "Tankiness", "Engage"],
+      "strengths": ["Hook CC chain (Q)", "Tankiness (W)", "Engage (R)"],
       "synergies": ["Engage comps"],
-      "avoidSynergies": ["Mobile poke"],
+      "avoidSynergies": ["Mobile poke (e.g., Ezreal, Zyra)"],
       "pickWhen": [
-        "Need CC setup",
-        "Need engage"
+        "Need CC setup and engage",
+        "Enemy has immobile carries (e.g., Jinx, Lux)",
+        "Your team has follow-up damage"
       ],
       "avoidWhen": [
-        "Enemy has mobile pokers"
+        "Enemy has mobile pokers (e.g., Ezreal, Zyra)",
+        "Your team needs damage",
+        "Enemy has heavy poke"
       ],
       "playstyle": ["tank", "engage", "cc"],
-      "tips": "Hook + auto root + E slow is your combo."
+      "tips": "Hook (Q) + auto root + E slow is your combo.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Look for early ganks. Q + auto + E for CC. R to lock down carries."
     },
     {
       "name": "Nidalee",
@@ -370,30 +425,34 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Mid"],
       "goodAgainst": [
-        { "name": "Graves", "note": "Out-pokes him" },
+        { "name": "Graves", "note": "Out-pokes him with Q" },
         { "name": "Xin Zhao", "note": "Out-pokes him" },
         { "name": "Warwick", "note": "Out-pokes him" },
-        { "name": "Squishy targets", "note": "Spear burst" }
+        { "name": "Squishy targets", "note": "Spear burst (Q)" }
       ],
       "badAgainst": [
         { "name": "Amumu", "note": "Tanks her burst" },
         { "name": "Rammus", "note": "Tanks her burst" },
         { "name": "Nautilus", "note": "Tanks her burst" },
-        { "name": "Tanks", "note": "Can't kill them" }
+        { "name": "Tanks", "note": "Can't kill them (e.g., Malphite, Ornn)" }
       ],
-      "strengths": ["Spear poke", "Heal", "Mobility"],
+      "strengths": ["Spear poke (Q)", "Heal (E)", "Mobility (W)"],
       "synergies": ["Poke comps"],
       "avoidSynergies": ["Tanks", "CC"],
       "pickWhen": [
-        "Need skill poke",
-        "Need invade pressure"
+        "Need skill poke and invade pressure",
+        "Enemy has squishy carries (e.g., Lux, Jinx)",
+        "You want to snowball early"
       ],
       "avoidWhen": [
-        "Enemy has tanks",
-        "Enemy has hard CC"
+        "Enemy has tanks (e.g., Rammus, Amumu)",
+        "Enemy has hard CC (e.g., Pantheon, Lissandra)",
+        "Your team lacks frontline"
       ],
       "playstyle": ["ap-assassin", "poke", "mobile"],
-      "tips": "Land spears for damage. Use heal to sustain."
+      "tips": "Land spears (Q) for damage. Use heal (E) to sustain.",
+      "clearPath": "Red Buff → Raptors → Wolves → Blue Buff → Gromp → Gank/Scuttle",
+      "rotation": "Look for early invades and ganks. Land Q (spear) for burst. Use E for sustain."
     },
     {
       "name": "Olaf",
@@ -401,28 +460,33 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        { "name": "Vi", "note": "Out-trades her" },
+        { "name": "Vi", "note": "Out-trades her with W + passive" },
         { "name": "Xin Zhao", "note": "Out-trades him" },
         { "name": "Warwick", "note": "Out-trades him" },
-        { "name": "Sustained fights", "note": "Lifesteal + true damage" }
+        { "name": "Sustained fights", "note": "Lifesteal + true damage (E)" }
       ],
       "badAgainst": [
         { "name": "Kindred", "note": "Kites him" },
         { "name": "Graves", "note": "Kites him" },
         { "name": "Nidalee", "note": "Kites him" }
       ],
-      "strengths": ["True damage", "Sustain", "Frontline"],
+      "strengths": ["True damage (E)", "Sustain (W)", "Frontline (R)"],
       "synergies": ["Frontline"],
-      "avoidSynergies": ["Heavy kite comps"],
+      "avoidSynergies": ["Heavy kite comps (e.g., Ezreal, Janna)"],
       "pickWhen": [
-        "Need sustain in fights",
-        "Need all-in potential"
+        "Need sustain in fights and all-in potential",
+        "Enemy has melee champions you can out-trade",
+        "Your team needs frontline"
       ],
       "avoidWhen": [
-        "Enemy has heavy kite"
+        "Enemy has heavy kite (e.g., Ezreal, Ashe, Janna)",
+        "Enemy has champions that can disengage (e.g., Gragas)",
+        "Your team needs range"
       ],
       "playstyle": ["fighter", "sustain", "all-in"],
-      "tips": "Use R for CC immunity. Q + auto for damage."
+      "tips": "Use R for CC immunity. Q + auto for damage.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Look for early invades. R to counter CC. E for true damage. Sustain with W."
     },
     {
       "name": "Pantheon",
@@ -430,28 +494,33 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Baron", "Support", "Mid"],
       "goodAgainst": [
-        { "name": "Nidalee", "note": "Hard CC stops her" },
-        { "name": "Evelynn", "note": "Hard CC stops her" },
-        { "name": "Master Yi", "note": "Hard CC stops him" },
-        { "name": "Squishy targets", "note": "Burst + stun" }
+        { "name": "Nidalee", "note": "Hard CC (W) stops her" },
+        { "name": "Evelynn", "note": "Hard CC (W) stops her" },
+        { "name": "Master Yi", "note": "Hard CC (W) stops him" },
+        { "name": "Squishy targets", "note": "Burst + stun (W)" }
       ],
       "badAgainst": [
         { "name": "Vi", "note": "Out-duels him" },
         { "name": "Jarvan IV", "note": "Out-duels him" },
         { "name": "Kassadin", "note": "Out-scales him" }
       ],
-      "strengths": ["Early ganks", "Roam", "Stun"],
-      "synergies": ["Roam comps"],
+      "strengths": ["Early ganks", "Roam (R)", "Stun (W)"],
+      "synergies": ["Roam comps", "Early gank comps"],
       "avoidSynergies": ["Scaling comps"],
       "pickWhen": [
-        "Need early game pressure",
-        "Need roam potential"
+        "Need early game pressure and roam",
+        "Enemy has squishy junglers (e.g., Nidalee, Evelynn)",
+        "Your team has follow-up damage"
       ],
       "avoidWhen": [
-        "Game will go late"
+        "Game will go late",
+        "Enemy has tanks that survive your burst (e.g., Galio, Rammus)",
+        "Your team needs scaling"
       ],
       "playstyle": ["fighter", "early-game", "roam"],
-      "tips": "Use R to roam. Empowered W for stun."
+      "tips": "Use R to roam. Empowered W for stun.",
+      "clearPath": "Red Buff → Raptors → Wolves → Blue Buff → Gromp → Gank/Scuttle",
+      "rotation": "Look for early ganks. R for cross-map pressure. W for stun. E for block."
     },
     {
       "name": "Rammus",
@@ -459,30 +528,35 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Support"],
       "goodAgainst": [
-        { "name": "Master Yi", "note": "Taunt stops him" },
-        { "name": "Tryndamere", "note": "Taunt stops him" },
-        { "name": "Yasuo", "note": "Taunt stops him" },
-        { "name": "AD auto attackers", "note": "Reflects damage" }
+        { "name": "Master Yi", "note": "Taunt (E) stops him" },
+        { "name": "Tryndamere", "note": "Taunt (E) stops him" },
+        { "name": "Yasuo", "note": "Taunt (E) stops him" },
+        { "name": "AD auto attackers", "note": "Reflects damage with W" }
       ],
       "badAgainst": [
         { "name": "Lillia", "note": "AP damage" },
         { "name": "Diana", "note": "AP damage" },
         { "name": "Ekko", "note": "AP damage" },
         { "name": "Nidalee", "note": "AP damage" },
-        { "name": "AP heavy comps", "note": "Can't tank" }
+        { "name": "AP heavy comps", "note": "Can't tank (e.g., Diana, Lillia, Ekko)" }
       ],
-      "strengths": ["Taunt", "Speed", "Tankiness vs AD"],
+      "strengths": ["Taunt (E)", "Speed (Q)", "Tankiness vs AD (W)"],
       "synergies": ["AD teams"],
       "avoidSynergies": ["AP heavy comps"],
       "pickWhen": [
-        "Enemy has AD auto attackers",
-        "Need tank vs AD"
+        "Enemy has AD auto attackers (e.g., Master Yi, Tryndamere, Yasuo)",
+        "Need tank vs AD",
+        "Your team has AP damage"
       ],
       "avoidWhen": [
-        "Enemy has AP heavy comp"
+        "Enemy has AP heavy comp (e.g., Diana, Lillia, Ekko)",
+        "Your team needs damage",
+        "Enemy has strong AP carries"
       ],
       "playstyle": ["tank", "anti-ad", "engage"],
-      "tips": "Build armor. Taunt key targets."
+      "tips": "Build armor. Taunt (E) key targets.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Look for ganks with Q (speed). E (taunt) key auto attackers. R for AoE slow."
     },
     {
       "name": "Rengar",
@@ -493,28 +567,32 @@
         { "name": "Nidalee", "note": "Out-bursts her" },
         { "name": "Kindred", "note": "Out-bursts her" },
         { "name": "Graves", "note": "Out-bursts him" },
-        { "name": "Isolated carries", "note": "Max burst" }
+        { "name": "Isolated carries", "note": "Max burst (passive)" }
       ],
       "badAgainst": [
         { "name": "Rammus", "note": "Tanks his burst" },
         { "name": "Amumu", "note": "Tanks his burst" },
         { "name": "Nautilus", "note": "Tanks his burst" },
-        { "name": "Heavy vision teams", "note": "Can't gank" },
-        { "name": "Tanks", "note": "Can't kill them" }
+        { "name": "Heavy vision teams", "note": "Can't gank (control wards)" },
+        { "name": "Tanks", "note": "Can't kill them (e.g., Malphite, Ornn)" }
       ],
-      "strengths": ["Bush leaps", "Burst", "Roam"],
+      "strengths": ["Bush leaps (passive)", "Burst (Q)", "Roam (R)"],
       "synergies": ["Roam comps"],
-      "avoidSynergies": ["Vision heavy", "Tanks"],
+      "avoidSynergies": ["Vision heavy (control wards)", "Tanks"],
       "pickWhen": [
-        "Need bush control",
-        "Enemy has squishy carries"
+        "Need bush control and burst",
+        "Enemy has squishy carries (e.g., Lux, Jinx, Ziggs)",
+        "You want to snowball early"
       ],
       "avoidWhen": [
-        "Enemy has heavy vision",
-        "Enemy has tanks"
+        "Enemy has heavy vision (control wards, sweepers)",
+        "Enemy has tanks (e.g., Rammus, Amumu)",
+        "Your team lacks frontline"
       ],
       "playstyle": ["assassin", "burst", "vision"],
-      "tips": "Use bushes for leaps. Ult for stealth ganks."
+      "tips": "Use bushes for leaps. R for stealth ganks.",
+      "clearPath": "Red Buff → Raptors → Wolves → Blue Buff → Gromp → Gank/Scuttle",
+      "rotation": "Look for bush leaps. R for stealth ganks. Burst with Q + E."
     },
     {
       "name": "Shyvana",
@@ -522,28 +600,33 @@
       "primaryRole": "Jungle",
       "secondaryRoles": [],
       "goodAgainst": [
-        { "name": "Xin Zhao", "note": "Out-trades him" },
+        { "name": "Xin Zhao", "note": "Out-trades him with E" },
         { "name": "Warwick", "note": "Out-trades him" },
         { "name": "Olaf", "note": "Out-trades him" },
-        { "name": "Melee comps", "note": "Dragon form AoE" }
+        { "name": "Melee comps", "note": "Dragon form (R) AoE" }
       ],
       "badAgainst": [
         { "name": "Lee Sin", "note": "Out-duels her" },
         { "name": "Vi", "note": "Out-duels her" },
-        { "name": "Pantheon", "note": "Hard CC" }
+        { "name": "Pantheon", "note": "Hard CC (W) stops her" }
       ],
-      "strengths": ["Dragon form", "Clear speed", "Teamfight"],
+      "strengths": ["Dragon form (R)", "Clear speed (E)", "Teamfight"],
       "synergies": ["Teamfight comps"],
       "avoidSynergies": ["Early burst"],
       "pickWhen": [
         "Need scaling dragon control",
-        "Need teamfight damage"
+        "Need teamfight damage",
+        "Your team has frontline"
       ],
       "avoidWhen": [
-        "Enemy has early burst"
+        "Enemy has early burst (e.g., Lee Sin, Pantheon)",
+        "Your team lacks frontline",
+        "Enemy has strong invade pressure"
       ],
       "playstyle": ["fighter", "scaling", "teamfight"],
-      "tips": "Control dragons for passive. Use R for engage."
+      "tips": "Control dragons for passive. R for engage.",
+      "clearPath": "Red Buff → Raptors → Wolves → Blue Buff → Gromp → Gank/Scuttle",
+      "rotation": "Farm and prioritize dragons. R for engage. E for poke."
     },
     {
       "name": "Skarner",
@@ -551,7 +634,7 @@
       "primaryRole": "Jungle",
       "secondaryRoles": [],
       "goodAgainst": [
-        { "name": "Master Yi", "note": "Suppression stops him" },
+        { "name": "Master Yi", "note": "Suppression (R) stops him" },
         { "name": "Xin Zhao", "note": "Out-sustains him" },
         { "name": "Warwick", "note": "Out-sustains him" }
       ],
@@ -560,18 +643,23 @@
         { "name": "Kindred", "note": "Kites him" },
         { "name": "Graves", "note": "Kites him" }
       ],
-      "strengths": ["CC", "Sustain", "Teamfight"],
+      "strengths": ["CC (E)", "Sustain (W)", "Teamfight (R)"],
       "synergies": ["Teamfight comps"],
-      "avoidSynergies": ["Heavy kite"],
+      "avoidSynergies": ["Heavy kite (e.g., Ezreal, Ashe, Janna)"],
       "pickWhen": [
-        "Need frontline",
-        "Need point-click CC"
+        "Need frontline and point-click CC (R)",
+        "Enemy has immobile carries (e.g., Jinx, Lux)",
+        "Your team has follow-up damage"
       ],
       "avoidWhen": [
-        "Enemy has heavy kite"
+        "Enemy has heavy kite (e.g., Ezreal, Ashe, Janna)",
+        "Your team needs damage",
+        "Enemy has mobile champions"
       ],
       "playstyle": ["tank", "cc", "sustain"],
-      "tips": "Impale key targets. Build tanky."
+      "tips": "Impale (R) key targets. Build tanky.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Look for picks with R. E for slow/stun. Sustain with W."
     },
     {
       "name": "Vi",
@@ -579,28 +667,33 @@
       "primaryRole": "Jungle",
       "secondaryRoles": [],
       "goodAgainst": [
-        { "name": "Lee Sin", "note": "Out-duels him" },
+        { "name": "Lee Sin", "note": "Out-duels him with W passive" },
         { "name": "Jarvan IV", "note": "Out-duels him" },
         { "name": "Xin Zhao", "note": "Out-duels him" },
-        { "name": "Squishy backline", "note": "Ult locks them" }
+        { "name": "Squishy backline", "note": "R locks them down" }
       ],
       "badAgainst": [
         { "name": "Evelynn", "note": "Stealth avoids her" },
         { "name": "Kayn", "note": "Out-mobiles her" },
-        { "name": "Tanks", "note": "Can't kill them" }
+        { "name": "Tanks", "note": "Can't kill them (e.g., Rammus, Malphite)" }
       ],
-      "strengths": ["Ult engage", "Early ganks", "Knockback"],
+      "strengths": ["Ult engage (R)", "Early ganks (Q)", "Knockback (E)"],
       "synergies": ["Dive/engage teams"],
-      "avoidSynergies": ["Kiting", "Disengage"],
+      "avoidSynergies": ["Kiting", "Disengage (e.g., Janna, Gragas)"],
       "pickWhen": [
-        "Need dive engage",
-        "Need gank pressure"
+        "Need dive engage and gank pressure",
+        "Enemy has immobile carries (e.g., Jinx, Lux)",
+        "Your team has follow-up damage"
       ],
       "avoidWhen": [
-        "Enemy has mobile comps"
+        "Enemy has mobile comps (e.g., Ezreal, Akali)",
+        "Enemy has disengage (e.g., Janna, Gragas)",
+        "Your team lacks damage"
       ],
       "playstyle": ["fighter", "engage", "gank"],
-      "tips": "Q + R for engage. Shield passive for sustain."
+      "tips": "Q + R for engage. Shield passive for sustain.",
+      "clearPath": "Red Buff → Raptors → Wolves → Blue Buff → Gromp → Gank/Scuttle",
+      "rotation": "Look for early ganks. Q + R for engage. W for sustained damage."
     },
     {
       "name": "Viego",
@@ -611,26 +704,31 @@
         { "name": "Kindred", "note": "Out-duels her" },
         { "name": "Graves", "note": "Out-duels him" },
         { "name": "Nidalee", "note": "Out-duels her" },
-        { "name": "Clustered fights", "note": "Possession resets" }
+        { "name": "Clustered fights", "note": "Possession resets (passive)" }
       ],
       "badAgainst": [
-        { "name": "Nautilus", "note": "Hard CC stops him" },
+        { "name": "Nautilus", "note": "Hard CC (Q/R) stops him" },
         { "name": "Rammus", "note": "Tanks his damage" },
         { "name": "Amumu", "note": "Tanks his damage" },
-        { "name": "Lockdown CC", "note": "Can't reset" }
+        { "name": "Lockdown CC", "note": "Can't reset (e.g., Lissandra, Leona)" }
       ],
-      "strengths": ["Possession resets", "Sustain", "Scaling"],
+      "strengths": ["Possession resets (passive)", "Sustain (Q)", "Scaling"],
       "synergies": ["Teamfight comps"],
-      "avoidSynergies": ["Vision heavy", "CC lock"],
+      "avoidSynergies": ["Vision heavy", "CC lock (e.g., Lissandra, Leona)"],
       "pickWhen": [
-        "Need scaling carry",
-        "Need possession value"
+        "Need scaling carry and possession value",
+        "Enemy has clustered fights where you can reset",
+        "Your team has frontline"
       ],
       "avoidWhen": [
-        "Enemy has lockdown CC"
+        "Enemy has lockdown CC (e.g., Lissandra, Leona, Nautilus)",
+        "Enemy has heavy vision (control wards)",
+        "Your team lacks frontline"
       ],
       "playstyle": ["fighter", "scaling", "reset"],
-      "tips": "Possess enemies for extra value. Build bruiser."
+      "tips": "Possess enemies for extra value. Build bruiser.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Farm to scale. Look for picks and resets. Possess enemies after kills."
     },
     {
       "name": "Volibear",
@@ -638,29 +736,33 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        { "name": "Xin Zhao", "note": "Out-sustains him" },
+        { "name": "Xin Zhao", "note": "Out-sustains him with W" },
         { "name": "Warwick", "note": "Out-sustains him" },
         { "name": "Olaf", "note": "Out-sustains him" },
-        { "name": "Melee comps", "note": "Sustain + lightning" }
+        { "name": "Melee comps", "note": "Sustain + lightning (E)" }
       ],
       "badAgainst": [
         { "name": "Kindred", "note": "Kites him" },
         { "name": "Graves", "note": "Kites him" },
         { "name": "Nidalee", "note": "Kites him" }
       ],
-      "strengths": ["Sustain", "Lightning", "Frontline"],
+      "strengths": ["Sustain (W)", "Lightning (E)", "Frontline (R)"],
       "synergies": ["Frontline"],
-      "avoidSynergies": ["Heavy kite", "AP"],
+      "avoidSynergies": ["Heavy kite (e.g., Ezreal, Ashe, Janna)", "AP"],
       "pickWhen": [
-        "Need sustain in fights",
-        "Need frontline"
+        "Need sustain in fights and frontline",
+        "Enemy has melee champions you can out-sustain",
+        "Your team needs engage"
       ],
       "avoidWhen": [
-        "Enemy has heavy kite",
-        "Enemy has AP comp"
+        "Enemy has heavy kite (e.g., Ezreal, Ashe, Janna)",
+        "Enemy has AP comp (e.g., Diana, Lillia)",
+        "Your team needs damage"
       ],
       "playstyle": ["fighter", "sustain", "frontline"],
-      "tips": "W for sustain. R for tower disable."
+      "tips": "W for sustain. R for tower disable.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Look for ganks. W for sustain. R to tower dive. E for AoE damage."
     },
     {
       "name": "Warwick",
@@ -668,28 +770,33 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        { "name": "Vi", "note": "Out-sustains her" },
+        { "name": "Vi", "note": "Out-sustains her with Q" },
         { "name": "Jarvan IV", "note": "Out-sustains him" },
         { "name": "Xin Zhao", "note": "Out-sustains him" },
-        { "name": "Low HP targets", "note": "Bloodhunt" }
+        { "name": "Low HP targets", "note": "Bloodhunt (passive)" }
       ],
       "badAgainst": [
         { "name": "Kindred", "note": "Kites him" },
         { "name": "Graves", "note": "Kites him" },
         { "name": "Nidalee", "note": "Kites him" }
       ],
-      "strengths": ["Sustain", "Fear", "Bloodhunt"],
+      "strengths": ["Sustain (Q)", "Fear (E)", "Bloodhunt (passive)"],
       "synergies": ["Any team"],
-      "avoidSynergies": ["Kite comps"],
+      "avoidSynergies": ["Kite comps (e.g., Ezreal, Ashe, Janna)"],
       "pickWhen": [
-        "Need sustain in fights",
-        "Need map pressure"
+        "Need sustain in fights and map pressure",
+        "Enemy has low HP targets (bloodhunt)",
+        "Your team needs engage"
       ],
       "avoidWhen": [
-        "Enemy has heavy kite"
+        "Enemy has heavy kite (e.g., Ezreal, Ashe, Janna)",
+        "Enemy has anti-heal (e.g., Morellonomicon, Executioner's)",
+        "Your team needs range"
       ],
       "playstyle": ["fighter", "sustain", "hunt"],
-      "tips": "Bloodhunt for low enemies. Use R to engage."
+      "tips": "Bloodhunt for low enemies. R to engage.",
+      "clearPath": "Blue Buff → Gromp → Wolves → Raptors → Red Buff → Gank/Scuttle",
+      "rotation": "Look for low HP targets. Q for sustain. R to engage. E for fear."
     },
     {
       "name": "Wukong",
@@ -697,28 +804,33 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        { "name": "Xin Zhao", "note": "Out-trades him" },
+        { "name": "Xin Zhao", "note": "Out-trades him with Q + W" },
         { "name": "Warwick", "note": "Out-trades him" },
         { "name": "Olaf", "note": "Out-trades him" },
-        { "name": "Many melee", "note": "Ult knockup" }
+        { "name": "Many melee", "note": "Ult (R) knockup" }
       ],
       "badAgainst": [
         { "name": "Lee Sin", "note": "Out-duels him" },
         { "name": "Vi", "note": "Out-duels him" },
         { "name": "Kindred", "note": "Kites him" }
       ],
-      "strengths": ["Clone engage", "Teamfight", "Flexibility"],
+      "strengths": ["Clone engage (W)", "Teamfight (R)", "Flexibility"],
       "synergies": ["Teamfight comps"],
-      "avoidSynergies": ["Specific counters"],
+      "avoidSynergies": ["Specific counters (e.g., Lee Sin, Vi)"],
       "pickWhen": [
-        "Need engage",
-        "Need flex pick"
+        "Need engage and flex pick",
+        "Enemy has many melee champions",
+        "Your team has follow-up damage"
       ],
       "avoidWhen": [
-        "Enemy has specific counters"
+        "Enemy has specific counters (e.g., Lee Sin, Vi)",
+        "Your team lacks damage",
+        "Enemy has heavy kite"
       ],
       "playstyle": ["fighter", "engage", "teamfight"],
-      "tips": "Use clone to bait. Ult to knock up enemies."
+      "tips": "Use clone (W) to bait. R to knock up enemies.",
+      "clearPath": "Red Buff → Raptors → Wolves → Blue Buff → Gromp → Gank/Scuttle",
+      "rotation": "Look for ganks. W for clone bait. R for engage and knockup."
     },
     {
       "name": "Xin Zhao",
@@ -726,30 +838,34 @@
       "primaryRole": "Jungle",
       "secondaryRoles": ["Baron"],
       "goodAgainst": [
-        { "name": "Nidalee", "note": "Out-duels her" },
+        { "name": "Nidalee", "note": "Out-duels her with Q" },
         { "name": "Kindred", "note": "Out-duels her" },
         { "name": "Graves", "note": "Out-duels him" },
-        { "name": "Squishy targets", "note": "All-in knockup" }
+        { "name": "Squishy targets", "note": "All-in knockup (Q)" }
       ],
       "badAgainst": [
         { "name": "Rammus", "note": "Tanks his damage" },
         { "name": "Amumu", "note": "Tanks his damage" },
-        { "name": "Nautilus", "note": "CC stops him" },
-        { "name": "Tanks", "note": "Can't kill them" }
+        { "name": "Nautilus", "note": "CC (Q/R) stops him" },
+        { "name": "Tanks", "note": "Can't kill them (e.g., Malphite, Ornn)" }
       ],
-      "strengths": ["Early all-in", "Knockup", "Ganks"],
+      "strengths": ["Early all-in (Q)", "Knockup (Q)", "Ganks (E)"],
       "synergies": ["Dive comps"],
       "avoidSynergies": ["CC heavy comps", "Tanks"],
       "pickWhen": [
-        "Need early pressure",
-        "Need gank potential"
+        "Need early pressure and gank potential",
+        "Enemy has squishy junglers (e.g., Nidalee, Kindred)",
+        "Your team has follow-up damage"
       ],
       "avoidWhen": [
-        "Enemy has tanks",
-        "Enemy has heavy CC"
+        "Enemy has tanks (e.g., Rammus, Amumu)",
+        "Enemy has heavy CC (e.g., Nautilus, Lissandra)",
+        "Your team needs scaling"
       ],
       "playstyle": ["fighter", "early-game", "all-in"],
-      "tips": "Q for knockup. W for slow. R for engage."
+      "tips": "Q for knockup. W for slow. R for engage.",
+      "clearPath": "Red Buff → Raptors → Wolves → Blue Buff → Gromp → Gank/Scuttle",
+      "rotation": "Look for early ganks. Q + W for CC. E for gap close. R for disengage."
     }
   ],
   "draftRules": [
@@ -761,7 +877,7 @@
     {
       "id": "assassin-into-squishy",
       "condition": "enemyMid === 'Lux' || enemyMid === 'Ziggs' || enemyADC === 'Jinx' || enemyADC === 'Zeri'",
-      "text": "Assassins like Eve, Rengar, and Kayn excel against immobile carries. Look for picks."
+      "text": "Assassins like Evelynn, Rengar, and Kayn excel against immobile carries. Look for picks."
     },
     {
       "id": "ap-into-tank",
@@ -797,6 +913,16 @@
       "id": "dragon-control",
       "condition": "allyJungle === 'Shyvana' || allyJungle === 'Vi' || allyJungle === 'Olaf'",
       "text": "Strong dragon control junglers. Prioritize early drakes for team buffs."
+    },
+    {
+      "id": "herald-priority",
+      "condition": "allyJungle === 'Lee Sin' || allyJungle === 'Pantheon' || allyJungle === 'Xin Zhao'",
+      "text": "Early game junglers should prioritize Rift Herald for turret plates and snowball."
+    },
+    {
+      "id": "invade-warning",
+      "condition": "enemyJungle === 'Graves' || enemyJungle === 'Nidalee' || enemyJungle === 'Lee Sin'",
+      "text": "Strong early junglers will invade you. Place wards at your buffs and ask for help from lanes."
     }
   ]
 }
