@@ -1,856 +1,908 @@
 {
-    "meta": {
-      "lastUpdated": "June 2026",
-      "patch": "7.1g",
-      "lane": "Baron Lane (Top)",
-      "description": "Wild Rift Baron Lane champion data based on wildriftcounter.com matchups, tier lists, and community discussions",
-      "dataSource": "wildriftcounter.com, r/wildrift, Core/Fire tier lists"
+  "meta": {
+    "lastUpdated": "June 2026",
+    "patch": "7.1g",
+    "lane": "Baron Lane (Top)",
+    "description": "Wild Rift Baron Lane champion data based on wildriftcounter.com matchups, tier lists, and community discussions",
+    "dataSource": "wildriftcounter.com, r/wildrift, Core/Fire tier lists"
+  },
+  "champions": [
+    {
+      "name": "Ornn",
+      "category": "Tank",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Support"],
+      "goodAgainst": [
+        { "name": "Fiora", "note": "Out-trades with brittle procs (W + auto)" },
+        { "name": "Irelia", "note": "Tanks her burst with W" },
+        { "name": "Darius", "note": "Tanks his damage, E stops his Q heal" },
+        { "name": "Renekton", "note": "Tanks his burst, W negates empowered W" },
+        { "name": "Sett", "note": "Tanks his damage, Q %hp chunks him" }
+      ],
+      "badAgainst": [
+        { "name": "Camille", "note": "True damage melts him (Q2)" },
+        { "name": "Fiora", "note": "True damage melts him (Passive)" },
+        { "name": "Vayne", "note": "Out-ranges and kites (W true damage)" },
+        { "name": "Jayce", "note": "Out-poked and kited (ranged form)" },
+        { "name": "Teemo", "note": "Out-poked and kited (Q blind)" }
+      ],
+      "strengths": ["Tankiness", "Teamfight CC", "Item upgrades for allies", "Brittle debuff"],
+      "synergies": ["Any teamfight comp", "AP/AD mixed damage dealers"],
+      "avoidSynergies": ["Heavy kiting comps", "Split push comps"],
+      "pickWhen": [
+        "Need a safe blind pick - Ornn is one of the safest first picks",
+        "Team needs a front line tank (only tank on team)",
+        "Enemy has multiple AD threats (Darius + Graves jungle)",
+        "Example: Enemy top is Darius or Sett, Ornn is a strong counter"
+      ],
+      "avoidWhen": [
+        "Enemy has strong duelists (Fiora, Camille, Jax)",
+        "Enemy has heavy poke/ranged top (Jayce, Teemo, Vayne)",
+        "Team needs split push pressure (your team has no split pusher)",
+        "Example: Enemy picks Fiora or Camille - avoid Ornn"
+      ],
+      "playstyle": ["tank", "teamfight", "cc"],
+      "tips": "Use passive (P) to upgrade team items. Brittle (W + auto) + CC (E/R) is your engage. Build Sunfire into Iceborn Gauntlet."
     },
-    "champions": [
-      {
-        "name": "Ornn",
-        "category": "Tank",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Support"],
-        "goodAgainst": [
-          { "name": "Fiora", "note": "Out-trades with brittle procs" },
-          { "name": "Irelia", "note": "Tanks her burst" },
-          { "name": "Darius", "note": "Tanks his damage" },
-          { "name": "Renekton", "note": "Tanks his burst" },
-          { "name": "Sett", "note": "Tanks his damage" }
-        ],
-        "badAgainst": [
-          { "name": "Camille", "note": "True damage melts him" },
-          { "name": "Fiora", "note": "True damage melts him" },
-          { "name": "Vayne", "note": "Out-ranges and kites" },
-          { "name": "Jayce", "note": "Out-poked and kited" },
-          { "name": "Teemo", "note": "Out-poked and kited" }
-        ],
-        "strengths": ["Tankiness", "Teamfight CC", "Item upgrades for allies", "Brittle debuff"],
-        "synergies": ["Any teamfight comp", "AP/AD mixed damage dealers"],
-        "avoidSynergies": ["Heavy kiting comps", "Split push comps"],
-        "pickWhen": [
-          "Need a safe blind pick",
-          "Team needs a front line tank",
-          "Enemy has multiple AD threats"
-        ],
-        "avoidWhen": [
-          "Enemy has strong duelists (Fiora, Camille)",
-          "Enemy has heavy poke/ranged top",
-          "Team needs split push pressure"
-        ],
-        "playstyle": ["tank", "teamfight", "cc"],
-        "tips": "Use passive to upgrade team items. Brittle + CC is your engage."
-      },
-      {
-        "name": "Malphite",
-        "category": "Tank",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Support"],
-        "goodAgainst": [
-          { "name": "Darius", "note": "Tanks his damage" },
-          { "name": "Sett", "note": "Tanks his damage" },
-          { "name": "Jax", "note": "AS slow ruins his trades" },
-          { "name": "Tryndamere", "note": "AS slow ruins his damage" },
-          { "name": "Yasuo", "note": "AS slow and armor counters him" },
-          { "name": "Full AD teams", "note": "Massive armor scaling" }
-        ],
-        "badAgainst": [
-          { "name": "Mordekaiser", "note": "AP damage ignores his armor" },
-          { "name": "Gwen", "note": "AP %HP damage" },
-          { "name": "Sylas", "note": "Steals and uses his ult better" },
-          { "name": "Vayne", "note": "True damage and kiting" }
-        ],
-        "strengths": ["Ult engage", "Armor scaling", "Waveclear", "Burst engage"],
-        "synergies": ["Dive/engage junglers (Vi, Jarvan IV)", "AP carries", "AoE comps"],
-        "avoidSynergies": ["Team lacks AD threat", "Team has no follow up engage"],
-        "pickWhen": [
-          "Enemy team is full AD",
-          "Team needs engage",
-          "Need to counter heavy AD top"
-        ],
-        "avoidWhen": [
-          "Enemy has heavy AP damage",
-          "Enemy has mobile champions that can kite"
-        ],
-        "playstyle": ["tank", "engage", "armor-stack"],
-        "tips": "Ult into grouped enemies. Build armor to scale damage."
-      },
-      {
-        "name": "Sion",
-        "category": "Tank",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Support", "Jungle"],
-        "goodAgainst": [
-          { "name": "Darius", "note": "Out-sustains and out-pokes" },
-          { "name": "Sett", "note": "Out-sustains his burst" },
-          { "name": "Garen", "note": "Out-sustains him" },
-          { "name": "Renekton", "note": "Tanks his burst" }
-        ],
-        "badAgainst": [
-          { "name": "Fiora", "note": "Parries his Q" },
-          { "name": "Camille", "note": "Dodges his Q with mobility" },
-          { "name": "Vayne", "note": "True damage and kiting" }
-        ],
-        "strengths": ["Durability", "Poke with Q", "Split pressure", "Infinite scaling HP"],
-        "synergies": ["Teamfight comps", "Frontline enablers"],
-        "avoidSynergies": ["Early all-in comps", "Burst divers"],
-        "pickWhen": [
-          "Need scaling tank",
-          "Team needs split push pressure",
-          "Enemy has low mobility"
-        ],
-        "avoidWhen": [
-          "Enemy has high mobility",
-          "Enemy has true damage champions"
-        ],
-        "playstyle": ["tank", "split-push", "scaling"],
-        "tips": "Passive health stacking. Use Q to zone and poke."
-      },
-      {
-        "name": "Dr. Mundo",
-        "category": "Tank/Juggernaut",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Singed", "note": "Out-sustains his poison" },
-          { "name": "Sett", "note": "Tanks his burst" },
-          { "name": "Garen", "note": "Out-sustains him" }
-        ],
-        "badAgainst": [
-          { "name": "Vayne", "note": "True damage and kiting" },
-          { "name": "Kayle", "note": "True damage and scaling" },
-          { "name": "Camille", "note": "True damage" },
-          { "name": "Gwen", "note": "True damage and kiting" }
-        ],
-        "strengths": ["Sustain", "Run down", "Tankiness", "Scaling"],
-        "synergies": ["Frontline", "Sustain comps"],
-        "avoidSynergies": ["Heavy CC comps", "Kiting comps"],
-        "pickWhen": [
-          "Team needs sustain",
-          "Enemy lacks true damage"
-        ],
-        "avoidWhen": [
-          "Enemy has true damage",
-          "Enemy has heavy poke"
-        ],
-        "playstyle": ["tank", "sustain", "scaling"],
-        "tips": "Use W for tenacity. R for massive regen."
-      },
-      {
-        "name": "Nautilus",
-        "category": "Tank",
-        "primaryRole": "Support",
-        "secondaryRoles": ["Baron", "Jungle"],
-        "goodAgainst": [
-          { "name": "Darius", "note": "CC chain stops him" },
-          { "name": "Sett", "note": "CC chain stops him" },
-          { "name": "Garen", "note": "CC chain stops his spin" }
-        ],
-        "badAgainst": [
-          { "name": "Jayce", "note": "Out-poked and kited" },
-          { "name": "Teemo", "note": "Out-poked and kited" },
-          { "name": "Vayne", "note": "Kited and true damage" }
-        ],
-        "strengths": ["CC chain", "Hook engage", "Root"],
-        "synergies": ["Engage comps", "Hook + follow up"],
-        "avoidSynergies": ["Mobile poke comps"],
-        "pickWhen": [
-          "Team needs hook engage",
-          "Need CC setup"
-        ],
-        "avoidWhen": [
-          "Enemy has mobile pokers",
-          "Enemy can kite easily"
-        ],
-        "playstyle": ["tank", "engage", "cc-chain"],
-        "tips": "Hook + auto root + E slow is your combo."
-      },
-      {
-        "name": "Poppy",
-        "category": "Tank/Fighter",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Support", "Jungle"],
-        "goodAgainst": [
-          { "name": "Camille", "note": "W blocks her dash" },
-          { "name": "Irelia", "note": "W blocks her dashes" },
-          { "name": "Jax", "note": "W blocks his leap" },
-          { "name": "Riven", "note": "W blocks her dashes" },
-          { "name": "Renekton", "note": "W blocks his dash" }
-        ],
-        "badAgainst": [
-          { "name": "Darius", "note": "Out-trades her" },
-          { "name": "Fiora", "note": "Out-duels her" },
-          { "name": "Vayne", "note": "Out-ranges and kites" },
-          { "name": "Teemo", "note": "Out-ranges and kites" }
-        ],
-        "strengths": ["Anti-dash", "Ult displacement", "Teamfight"],
-        "synergies": ["Teamfight comps", "Anti-mobility"],
-        "avoidSynergies": ["Pure tank matchups", "Poke comps"],
-        "pickWhen": [
-          "Enemy has mobile champions (multiple dashes)",
-          "Need anti-dive champion"
-        ],
-        "avoidWhen": [
-          "Enemy has pure tanks",
-          "Enemy has heavy poke"
-        ],
-        "playstyle": ["tank", "anti-mobility", "peel"],
-        "tips": "Use W to block dashes. R can save teammates."
-      },
-      {
-        "name": "Darius",
-        "category": "Juggernaut",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Garen", "note": "Out-trades and out-sustains" },
-          { "name": "Sett", "note": "Out-sustains his burst" },
-          { "name": "Ornn", "note": "True damage on ult" },
-          { "name": "Sion", "note": "True damage on ult" },
-          { "name": "Malphite", "note": "True damage on ult" }
-        ],
-        "badAgainst": [
-          { "name": "Teemo", "note": "Out-ranged and kited" },
-          { "name": "Jayce", "note": "Out-ranged and kited" },
-          { "name": "Vayne", "note": "Out-ranged and kited" },
-          { "name": "Gnar", "note": "Out-ranged and kited" },
-          { "name": "Camille", "note": "Dodges his Q and out-duels" }
-        ],
-        "strengths": ["Pull", "Bleed stacks", "Execute", "Snowball"],
-        "synergies": ["Frontline", "Dive comps"],
-        "avoidSynergies": ["Mobile kiting comps", "Heavy CC"],
-        "pickWhen": [
-          "Enemy has melee low mobility",
-          "Need lane dominance",
-          "Can snowball early"
-        ],
-        "avoidWhen": [
-          "Enemy has ranged top",
-          "Enemy has high mobility",
-          "Enemy has hard CC"
-        ],
-        "playstyle": ["juggernaut", "snowball", "lane-dominant"],
-        "tips": "Stack 5 bleed for ultimate. Play aggressive early."
-      },
-      {
-        "name": "Sett",
-        "category": "Juggernaut",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Support", "Jungle"],
-        "goodAgainst": [
-          { "name": "Darius", "note": "W wins short trades" },
-          { "name": "Garen", "note": "Out-trades him" },
-          { "name": "Renekton", "note": "Out-trades his burst" },
-          { "name": "Irelia", "note": "Out-trades her dashes" }
-        ],
-        "badAgainst": [
-          { "name": "Malphite", "note": "Out-trades and out-sustains" },
-          { "name": "Teemo", "note": "Out-ranged and kited" },
-          { "name": "Vayne", "note": "Out-ranged and kited" },
-          { "name": "Camille", "note": "Dodges his W" }
-        ],
-        "strengths": ["W true damage", "Ult pull", "Teamfight engage"],
-        "synergies": ["Engage comps", "Teamfight comps"],
-        "avoidSynergies": ["Heavy CC", "Kiting comps"],
-        "pickWhen": [
-          "Enemy has melee low mobility",
-          "Need engage"
-        ],
-        "avoidWhen": [
-          "Enemy has tanks (Malphite)",
-          "Enemy has ranged/CC"
-        ],
-        "playstyle": ["juggernaut", "teamfight", "engage"],
-        "tips": "Build grit then W for max true damage. Ult carries."
-      },
-      {
-        "name": "Aatrox",
-        "category": "Juggernaut/Fighter",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Ornn", "note": "Out-sustains his damage" },
-          { "name": "Malphite", "note": "Out-sustains his damage" },
-          { "name": "Sion", "note": "Out-sustains his damage" },
-          { "name": "Darius", "note": "Out-sustains his damage" }
-        ],
-        "badAgainst": [
-          { "name": "Fiora", "note": "Parries his Q" },
-          { "name": "Irelia", "note": "Dodges his Q" },
-          { "name": "Camille", "note": "Dodges his Q" },
-          { "name": "Riven", "note": "Dodges his Q" }
-        ],
-        "strengths": ["Sustain", "Healing", "Engage", "Teamfight"],
-        "synergies": ["Dive comps", "Frontline"],
-        "avoidSynergies": ["Mobile duelists", "Hard CC"],
-        "pickWhen": [
-          "Enemy has low mobility tanks",
-          "Need sustain in teamfights"
-        ],
-        "avoidWhen": [
-          "Enemy has mobile duelist",
-          "Enemy has hard CC"
-        ],
-        "playstyle": ["juggernaut", "sustain", "teamfight"],
-        "tips": "Hit sweet spots of Q. Use E to reposition."
-      },
-      {
-        "name": "Mordekaiser",
-        "category": "Juggernaut",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Sett", "note": "Out-sustains and out-scales" },
-          { "name": "Darius", "note": "Out-scales his damage" },
-          { "name": "Garen", "note": "Out-sustains and out-scales" },
-          { "name": "Jax", "note": "Out-sustains his damage" }
-        ],
-        "badAgainst": [
-          { "name": "Vayne", "note": "Out-ranged and kited" },
-          { "name": "Camille", "note": "Dodges his E and out-duels" },
-          { "name": "Fiora", "note": "Parries his abilities" },
-          { "name": "Olaf", "note": "Ignores his ult with R" }
-        ],
-        "strengths": ["Ult isolation", "Scaling", "1v1 king"],
-        "synergies": ["Any team (1v1 isolation)"],
-        "avoidSynergies": ["Mobile roam comps"],
-        "pickWhen": [
-          "Enemy has squishy carry",
-          "Need to win side lane"
-        ],
-        "avoidWhen": [
-          "Enemy has early snowball",
-          "Enemy can kite easily"
-        ],
-        "playstyle": ["juggernaut", "duelist", "scaling"],
-        "tips": "Ult carries in teamfights. Passive does AOE damage."
-      },
-      {
-        "name": "Camille",
-        "category": "Fighter",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Ornn", "note": "True damage melts him" },
-          { "name": "Sion", "note": "True damage melts him" },
-          { "name": "Malphite", "note": "True damage melts him" },
-          { "name": "Garen", "note": "Out-scales and out-duels" }
-        ],
-        "badAgainst": [
-          { "name": "Teemo", "note": "Out-ranged and kited" },
-          { "name": "Fiora", "note": "Out-duels her" },
-          { "name": "Riven", "note": "Out-bursts her" },
-          { "name": "Poppy", "note": "W blocks her dash" },
-          { "name": "Darius", "note": "Out-trades her early" }
-        ],
-        "strengths": ["True damage", "Mobility", "Dive", "Scaling"],
-        "synergies": ["Engage comps", "Dive comps"],
-        "avoidSynergies": ["Hard CC", "Poke comps"],
-        "pickWhen": [
-          "Enemy has tanks",
-          "Need a skill-based duelist"
-        ],
-        "avoidWhen": [
-          "Enemy has hard CC",
-          "Enemy has ranged poke"
-        ],
-        "playstyle": ["fighter", "duelist", "dive"],
-        "tips": "Second Q does true damage. Ult to lock down carries."
-      },
-      {
-        "name": "Fiora",
-        "category": "Skirmisher",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Ornn", "note": "True damage melts him" },
-          { "name": "Sion", "note": "True damage melts him" },
-          { "name": "Malphite", "note": "True damage melts him" },
-          { "name": "Darius", "note": "Parries his Q" },
-          { "name": "Aatrox", "note": "Parries his Q" }
-        ],
-        "badAgainst": [
-          { "name": "Pantheon", "note": "Out-bursts her" },
-          { "name": "Malphite", "note": "AS slow ruins her DPS" },
-          { "name": "Teemo", "note": "Blind ruins her trades" },
-          { "name": "Poppy", "note": "W blocks her dash" },
-          { "name": "Renekton", "note": "Out-bursts her early" }
-        ],
-        "strengths": ["True damage", "Sustain", "Split pressure", "Duels"],
-        "synergies": ["Split push comps", "Protect comps"],
-        "avoidSynergies": ["Teamfight heavy comps", "No peel"],
-        "pickWhen": [
-          "Need a split pusher",
-          "Enemy has tanks to shred"
-        ],
-        "avoidWhen": [
-          "Enemy has hard CC",
-          "Team needs teamfighter"
-        ],
-        "playstyle": ["skirmisher", "duelist", "split-push"],
-        "tips": "Proc vitals for true damage and healing. Parry key CC."
-      },
-      {
-        "name": "Jax",
-        "category": "Fighter",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Ornn", "note": "Out-scales his damage" },
-          { "name": "Sion", "note": "Out-scales his damage" },
-          { "name": "Malphite", "note": "Out-scales his damage" },
-          { "name": "Tryndamere", "note": "E dodges his autos" }
-        ],
-        "badAgainst": [
-          { "name": "Teemo", "note": "Out-ranged and kited" },
-          { "name": "Jayce", "note": "Out-ranged and kited" },
-          { "name": "Renekton", "note": "Out-bursts him early" },
-          { "name": "Garen", "note": "Out-sustains his damage" },
-          { "name": "Darius", "note": "Out-trades him early" }
-        ],
-        "strengths": ["Scaling", "E dodge", "Split push", "Duelist"],
-        "synergies": ["Any team", "Scaling comps"],
-        "avoidSynergies": ["Early pressure comps"],
-        "pickWhen": [
-          "Game will go late",
-          "Need split push pressure"
-        ],
-        "avoidWhen": [
-          "Enemy has early snowball",
-          "Enemy has heavy CC"
-        ],
-        "playstyle": ["fighter", "scaling", "split-push"],
-        "tips": "Use E to dodge autos. Late game scaling monster."
-      },
-      {
-        "name": "Renekton",
-        "category": "Fighter",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Jax", "note": "Out-bursts him early" },
-          { "name": "Fiora", "note": "Out-bursts her early" },
-          { "name": "Irelia", "note": "Out-bursts her" },
-          { "name": "Camille", "note": "Out-bursts her early" }
-        ],
-        "badAgainst": [
-          { "name": "Garen", "note": "Out-sustains his burst" },
-          { "name": "Darius", "note": "Out-trades him" },
-          { "name": "Olaf", "note": "Out-sustains him" },
-          { "name": "Ornn", "note": "Tanks his burst" },
-          { "name": "Malphite", "note": "Tanks his burst" }
-        ],
-        "strengths": ["Early burst", "Sustain", "Snowball"],
-        "synergies": ["Early gank comps", "Dive comps"],
-        "avoidSynergies": ["Late scaling comps"],
-        "pickWhen": [
-          "Need early pressure",
-          "Enemy is weak early"
-        ],
-        "avoidWhen": [
-          "Enemy has scaling tanks",
-          "Team needs late game"
-        ],
-        "playstyle": ["fighter", "early-game", "snowball"],
-        "tips": "Build fury for empowered abilities. Play aggressive early."
-      },
-      {
-        "name": "Riven",
-        "category": "Fighter",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Jax", "note": "Out-bursts him" },
-          { "name": "Garen", "note": "Out-bursts him" },
-          { "name": "Darius", "note": "Out-bursts him" },
-          { "name": "Sett", "note": "Out-bursts him" }
-        ],
-        "badAgainst": [
-          { "name": "Fiora", "note": "Parries her" },
-          { "name": "Renekton", "note": "Out-bursts her" },
-          { "name": "Teemo", "note": "Blind and poke" },
-          { "name": "Poppy", "note": "W blocks her dashes" }
-        ],
-        "strengths": ["Mobility", "Combos", "Burst", "Scaling"],
-        "synergies": ["Dive comps", "Engage comps"],
-        "avoidSynergies": ["Tanky peel comps"],
-        "pickWhen": [
-          "Need skill-based carry",
-          "Enemy is squishy"
-        ],
-        "avoidWhen": [
-          "Enemy has hard counters",
-          "Team needs frontline"
-        ],
-        "playstyle": ["fighter", "combo-heavy", "snowball"],
-        "tips": "Learn animation cancels. Ult for execute damage."
-      },
-      {
-        "name": "Irelia",
-        "category": "Fighter",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Mid"],
-        "goodAgainst": [
-          { "name": "Sett", "note": "Out-sustains him" },
-          { "name": "Garen", "note": "Out-sustains him" },
-          { "name": "Mordekaiser", "note": "Out-sustains him" },
-          { "name": "Aatrox", "note": "Out-sustains him" }
-        ],
-        "badAgainst": [
-          { "name": "Pantheon", "note": "Hard CC stops her" },
-          { "name": "Darius", "note": "Out-trades her" },
-          { "name": "Camille", "note": "Out-duels her" },
-          { "name": "Fiora", "note": "Out-duels her" },
-          { "name": "Teemo", "note": "Blind ruins her" }
-        ],
-        "strengths": ["Reset dashes", "Sustain", "Scaling"],
-        "synergies": ["Engage comps", "Frontline"],
-        "avoidSynergies": ["Heavy CC", "Kiting comps"],
-        "pickWhen": [
-          "Enemy has melee champions",
-          "Need mobility"
-        ],
-        "avoidWhen": [
-          "Enemy has lockdown CC",
-          "Enemy has hard counters"
-        ],
-        "playstyle": ["fighter", "mobile", "sustain"],
-        "tips": "Stack passive for DPS. Use Q to reset on minions."
-      },
-      {
-        "name": "Gwen",
-        "category": "AP Fighter",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Ornn", "note": "AP %HP damage" },
-          { "name": "Malphite", "note": "AP damage ignores armor" },
-          { "name": "Sion", "note": "AP %HP damage" },
-          { "name": "Mordekaiser", "note": "Out-sustains him" }
-        ],
-        "badAgainst": [
-          { "name": "Darius", "note": "Out-trades her early" },
-          { "name": "Renekton", "note": "Out-bursts her" },
-          { "name": "Fiora", "note": "Out-duels her" },
-          { "name": "Camille", "note": "Out-duels her" }
-        ],
-        "strengths": ["Sustain", "%HP damage", "Scaling"],
-        "synergies": ["Teamfight comps", "Protect comps"],
-        "avoidSynergies": ["Early dive comps"],
-        "pickWhen": [
-          "Enemy has tanks",
-          "Team needs AP damage"
-        ],
-        "avoidWhen": [
-          "Enemy has AD snowball",
-          "Enemy has hard CC"
-        ],
-        "playstyle": ["ap-fighter", "scaling", "teamfight"],
-        "tips": "W gives invulnerability. Q does %HP true damage."
-      },
-      {
-        "name": "Jayce",
-        "category": "Ranged/Fighter",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Mid"],
-        "goodAgainst": [
-          { "name": "Darius", "note": "Out-ranges and pokes" },
-          { "name": "Garen", "note": "Out-ranges and pokes" },
-          { "name": "Sett", "note": "Out-ranges and pokes" },
-          { "name": "Renekton", "note": "Out-ranges and pokes" }
-        ],
-        "badAgainst": [
-          { "name": "Malphite", "note": "Tanks his poke" },
-          { "name": "Ornn", "note": "Tanks his poke" },
-          { "name": "Camille", "note": "Dodges his poke" },
-          { "name": "Fiora", "note": "Parries his Q" }
-        ],
-        "strengths": ["Poke", "Burst forms", "Siege"],
-        "synergies": ["Poke comps", "Siege comps"],
-        "avoidSynergies": ["Tanks", "Close range comps"],
-        "pickWhen": [
-          "Need poke",
-          "Enemy is melee low mobility"
-        ],
-        "avoidWhen": [
-          "Enemy has tanks",
-          "Enemy has hard CC"
-        ],
-        "playstyle": ["ranged", "poke", "hybrid"],
-        "tips": "Use ranged for poke, melee for burst. Combo forms."
-      },
-      {
-        "name": "Gnar",
-        "category": "Ranged/Fighter",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Darius", "note": "Out-ranges and kites" },
-          { "name": "Garen", "note": "Out-ranges and kites" },
-          { "name": "Sett", "note": "Out-ranges and kites" },
-          { "name": "Renekton", "note": "Out-ranges and kites" }
-        ],
-        "badAgainst": [
-          { "name": "Camille", "note": "Dodges his poke" },
-          { "name": "Fiora", "note": "Dodges his poke" },
-          { "name": "Teemo", "note": "Out-pokes him" }
-        ],
-        "strengths": ["Mega form CC", "Poke", "Teamfight"],
-        "synergies": ["Teamfight comps", "Engage comps"],
-        "avoidSynergies": ["Early all-in comps"],
-        "pickWhen": [
-          "Need teamfight setup",
-          "Need safe lane"
-        ],
-        "avoidWhen": [
-          "Enemy has burst before mega",
-          "Enemy can all-in early"
-        ],
-        "playstyle": ["ranged", "teamfight", "cc"],
-        "tips": "Manage rage bar for mega form. Ult into walls."
-      },
-      {
-        "name": "Teemo",
-        "category": "Ranged",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Support"],
-        "goodAgainst": [
-          { "name": "Darius", "note": "Out-ranges and kites" },
-          { "name": "Garen", "note": "Out-ranges and kites" },
-          { "name": "Sett", "note": "Out-ranges and kites" },
-          { "name": "Jax", "note": "Blind ruins his damage" },
-          { "name": "Tryndamere", "note": "Blind ruins his damage" },
-          { "name": "Fiora", "note": "Blind ruins her vitals" }
-        ],
-        "badAgainst": [
-          { "name": "Pantheon", "note": "Out-bursts him" },
-          { "name": "Darius", "note": "If he gets close, you die" },
-          { "name": "Camille", "note": "Can dive and burst him" },
-          { "name": "Irelia", "note": "Can dive and burst him" }
-        ],
-        "strengths": ["Blind", "Poke", "Shroom vision", "Split push"],
-        "synergies": ["Poke comps", "Split push comps"],
-        "avoidSynergies": ["Mobile dive comps"],
-        "pickWhen": [
-          "Enemy is melee",
-          "Need vision control"
-        ],
-        "avoidWhen": [
-          "Enemy has mobile divers",
-          "Enemy has high burst"
-        ],
-        "playstyle": ["ranged", "poke", "vision"],
-        "tips": "Place shrooms for vision and defense. Blind key auto attackers."
-      },
-      {
-        "name": "Kennen",
-        "category": "Ranged",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Mid"],
-        "goodAgainst": [
-          { "name": "Darius", "note": "Out-ranges and kites" },
-          { "name": "Garen", "note": "Out-ranges and kites" },
-          { "name": "Sett", "note": "Out-ranges and kites" },
-          { "name": "Renekton", "note": "Out-ranges and kites" }
-        ],
-        "badAgainst": [],
-        "strengths": ["Ult stun", "Poke", "Teamfight"],
-        "synergies": ["Teamfight comps"],
-        "avoidSynergies": [],
-        "pickWhen": [
-          "Need teamfight ult",
-          "Enemy clumps up"
-        ],
-        "avoidWhen": [
-          "Enemy can disengage easily"
-        ],
-        "playstyle": ["ranged", "teamfight", "cc"],
-        "tips": "Flash ult to stun entire team. Stack passive for stuns."
-      },
-      {
-        "name": "Akali",
-        "category": "Assassin",
-        "primaryRole": "Mid",
-        "secondaryRoles": ["Baron"],
-        "goodAgainst": [
-          { "name": "Garen", "note": "Out-kites him" },
-          { "name": "Sett", "note": "Out-kites him" },
-          { "name": "Darius", "note": "Out-kites him" }
-        ],
-        "badAgainst": [
-          { "name": "Ornn", "note": "Tanks her burst" },
-          { "name": "Malphite", "note": "Tanks her burst" },
-          { "name": "Darius", "note": "Can pull her" },
-          { "name": "Pantheon", "note": "Hard CC burst" }
-        ],
-        "strengths": ["Burst", "Mobility", "Shroud"],
-        "synergies": ["Engage setup comps"],
-        "avoidSynergies": ["Tanky peel comps"],
-        "pickWhen": [
-          "Enemy is squishy",
-          "Need mobile assassin"
-        ],
-        "avoidWhen": [
-          "Enemy has tanks",
-          "Enemy has hard CC"
-        ],
-        "playstyle": ["assassin", "mobile", "burst"],
-        "tips": "Use shroud to outplay. Passive auto for extra damage."
-      },
-      {
-        "name": "Yasuo",
-        "category": "Skirmisher",
-        "primaryRole": "Mid",
-        "secondaryRoles": ["Baron"],
-        "goodAgainst": [
-          { "name": "Teemo", "note": "Windwall blocks his Q" },
-          { "name": "Gnar", "note": "Windwall blocks his Q" },
-          { "name": "Sett", "note": "Out-scales him" }
-        ],
-        "badAgainst": [
-          { "name": "Malphite", "note": "Tanks his damage" },
-          { "name": "Ornn", "note": "Tanks his damage" },
-          { "name": "Darius", "note": "Out-trades him" }
-        ],
-        "strengths": ["Windwall", "Mobility", "Scaling"],
-        "synergies": ["Knockup comps"],
-        "avoidSynergies": ["No knockup setup", "Tanks"],
-        "pickWhen": [
-          "Team has knockups",
-          "Need scaling carry"
-        ],
-        "avoidWhen": [
-          "Enemy has tanks",
-          "No knockup synergy"
-        ],
-        "playstyle": ["skirmisher", "scaling", "mobility"],
-        "tips": "Stack Q for tornado. Ults require knockup setup."
-      },
-      {
-        "name": "Yone",
-        "category": "Skirmisher",
-        "primaryRole": "Mid",
-        "secondaryRoles": ["Baron"],
-        "goodAgainst": [
-          { "name": "Teemo", "note": "Out-sustains him" },
-          { "name": "Gnar", "note": "Out-sustains him" }
-        ],
-        "badAgainst": [
-          { "name": "Malphite", "note": "Tanks his damage" },
-          { "name": "Ornn", "note": "Tanks his damage" },
-          { "name": "Darius", "note": "Out-trades him" }
-        ],
-        "strengths": ["Mobility", "Scaling", "Sustain"],
-        "synergies": ["Knockup comps"],
-        "avoidSynergies": ["No knockup setup", "Tanks"],
-        "pickWhen": [
-          "Team has knockups",
-          "Need scaling carry"
-        ],
-        "avoidWhen": [
-          "Enemy has tanks",
-          "No knockup synergy"
-        ],
-        "playstyle": ["skirmisher", "scaling", "mobility"],
-        "tips": "Second Q knockup. E for engage/disengage."
-      },
-      {
-        "name": "Pantheon",
-        "category": "Fighter/Roam",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Support", "Jungle"],
-        "goodAgainst": [
-          { "name": "Akali", "note": "Out-bursts her" },
-          { "name": "Irelia", "note": "Hard CC stops her" },
-          { "name": "Fiora", "note": "Out-bursts her" },
-          { "name": "Camille", "note": "Out-bursts her early" }
-        ],
-        "badAgainst": [
-          { "name": "Jax", "note": "Out-scales him" },
-          { "name": "Vladimir", "note": "Out-sustains him" },
-          { "name": "Malphite", "note": "Tanks his damage" },
-          { "name": "Ornn", "note": "Tanks his damage" }
-        ],
-        "strengths": ["Early pressure", "Roam", "Stun"],
-        "synergies": ["Early gank comps", "Roam comps"],
-        "avoidSynergies": ["Scaling comps"],
-        "pickWhen": [
-          "Need early game pressure",
-          "Need to roam"
-        ],
-        "avoidWhen": [
-          "Game will go late",
-          "Enemy has tanks"
-        ],
-        "playstyle": ["fighter", "early-game", "roam"],
-        "tips": "Use R to roam. Empowered W gives stun."
-      },
-      {
-        "name": "Wukong",
-        "category": "Fighter",
-        "primaryRole": "Baron",
-        "secondaryRoles": ["Jungle"],
-        "goodAgainst": [
-          { "name": "Darius", "note": "Clone dodges his Q" },
-          { "name": "Garen", "note": "Out-sustains him" },
-          { "name": "Sett", "note": "Out-sustains him" },
-          { "name": "Irelia", "note": "Out-trades her" }
-        ],
-        "badAgainst": [
-          { "name": "Teemo", "note": "Out-ranges and kites" },
-          { "name": "Camille", "note": "Out-duels him" },
-          { "name": "Fiora", "note": "Out-duels him" }
-        ],
-        "strengths": ["Clone", "Engage", "Teamfight", "Flexibility"],
-        "synergies": ["Teamfight comps", "Engage comps"],
-        "avoidSynergies": [],
-        "pickWhen": [
-          "Need engage",
-          "Need flex pick"
-        ],
-        "avoidWhen": [
-          "Enemy has specific counters"
-        ],
-        "playstyle": ["fighter", "engage", "teamfight"],
-        "tips": "Use clone to bait abilities. Ult to knock up."
-      }
-    ],
-    "draftRules": [
-      {
-        "id": "tank-into-ad",
-        "condition": "enemyTop === 'Darius' || enemyTop === 'Sett' || enemyTop === 'Renekton'",
-        "text": "Tanks like Ornn and Malphite are strong into AD bruisers. Build armor and survive the lane."
-      },
-      {
-        "id": "duelist-into-tank",
-        "condition": "enemyTop === 'Ornn' || enemyTop === 'Malphite' || enemyTop === 'Sion'",
-        "text": "Duelists like Fiora and Camille shred tanks with true damage. Win through split push."
-      },
-      {
-        "id": "ranged-into-melee",
-        "condition": "enemyTop === 'Darius' || enemyTop === 'Garen' || enemyTop === 'Sett'",
-        "text": "Ranged champions (Teemo, Jayce, Gnar) can kite melee bruisers. Play safe and poke."
-      },
-      {
-        "id": "full-ad-warning",
-        "condition": "enemyTop === 'Darius' || enemyTop === 'Sett' || enemyTop === 'Garen'",
-        "text": "If your team has multiple AD threats, Malphite is a strong pick against full AD comps."
-      },
-      {
-        "id": "split-push-warning",
-        "condition": "enemyTop === 'Fiora' || enemyTop === 'Jax' || enemyTop === 'Camille'",
-        "text": "Split pushers require team coordination. Match their split with grouped plays or counter-split."
-      },
-      {
-        "id": "counter-mobility",
-        "condition": "enemyTop === 'Camille' || enemyTop === 'Irelia' || enemyTop === 'Riven'",
-        "text": "Poppy's W blocks dashes. Consider Poppy against mobile champions."
-      },
-      {
-        "id": "ap-top-synergy",
-        "condition": "enemyTop === 'Mordekaiser' || enemyTop === 'Gwen'",
-        "text": "AP top laners need MR counter building. Consider picking an AD duelist or buying Hexdrinker."
-      }
-    ]
-  }
+    {
+      "name": "Malphite",
+      "category": "Tank",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Support"],
+      "goodAgainst": [
+        { "name": "Darius", "note": "Tanks his damage, E reduces his AS" },
+        { "name": "Sett", "note": "Tanks his damage, E reduces his AS" },
+        { "name": "Jax", "note": "AS slow (E) ruins his trades" },
+        { "name": "Tryndamere", "note": "AS slow (E) ruins his damage" },
+        { "name": "Yasuo", "note": "AS slow (E) and armor (W) counters him" },
+        { "name": "Full AD teams", "note": "Massive armor scaling (W passive)" }
+      ],
+      "badAgainst": [
+        { "name": "Mordekaiser", "note": "AP damage ignores his armor (passive + Q)" },
+        { "name": "Gwen", "note": "AP %HP damage (Q)" },
+        { "name": "Sylas", "note": "Steals and uses his ult better (R)" },
+        { "name": "Vayne", "note": "True damage (W) and kiting" }
+      ],
+      "strengths": ["Ult engage (R)", "Armor scaling (W)", "Waveclear (E)", "Burst engage"],
+      "synergies": ["Dive/engage junglers (Vi, Jarvan IV)", "AP carries", "AoE comps"],
+      "avoidSynergies": ["Team lacks AD threat", "Team has no follow up engage"],
+      "pickWhen": [
+        "Enemy team is full AD (Darius top + Graves jungle + Zed mid)",
+        "Team needs engage (your team has no engage)",
+        "Need to counter heavy AD top (pick into Darius, Sett, or Tryndamere)",
+        "Example: Enemy top is Darius and jungle is Vi - Malphite is perfect"
+      ],
+      "avoidWhen": [
+        "Enemy has heavy AP damage (Mordekaiser, Gwen, Sylas)",
+        "Enemy has mobile champions that can kite (Vayne, Ezreal)",
+        "Example: Enemy top is Mordekaiser - avoid Malphite"
+      ],
+      "playstyle": ["tank", "engage", "armor-stack"],
+      "tips": "Ult (R) into grouped enemies. Build armor to scale damage (W passive). Combo: R > E > Q > W."
+    },
+    {
+      "name": "Sion",
+      "category": "Tank",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Support", "Jungle"],
+      "goodAgainst": [
+        { "name": "Darius", "note": "Out-sustains and out-pokes with Q" },
+        { "name": "Sett", "note": "Out-sustains his burst with W shield" },
+        { "name": "Garen", "note": "Out-sustains him with passive" },
+        { "name": "Renekton", "note": "Tanks his burst with W" }
+      ],
+      "badAgainst": [
+        { "name": "Fiora", "note": "Parries his Q (W)" },
+        { "name": "Camille", "note": "Dodges his Q with mobility (E)" },
+        { "name": "Vayne", "note": "True damage (W) and kiting" }
+      ],
+      "strengths": ["Durability", "Poke with Q", "Split pressure", "Infinite scaling HP (W)"],
+      "synergies": ["Teamfight comps", "Frontline enablers"],
+      "avoidSynergies": ["Early all-in comps", "Burst divers"],
+      "pickWhen": [
+        "Need scaling tank (your team needs late game frontline)",
+        "Team needs split push pressure (Sion can split with R)",
+        "Enemy has low mobility (Darius, Sett, Garen)",
+        "Example: Enemy top is Darius - Sion can survive and out-scale"
+      ],
+      "avoidWhen": [
+        "Enemy has high mobility (Camille, Fiora, Irelia)",
+        "Enemy has true damage champions (Vayne, Fiora, Camille)",
+        "Example: Enemy picks Fiora or Camille - avoid Sion"
+      ],
+      "playstyle": ["tank", "split-push", "scaling"],
+      "tips": "Passive (P) health stacking from minion kills. Use Q to zone and poke. R for engage or escape."
+    },
+    {
+      "name": "Dr. Mundo",
+      "category": "Tank/Juggernaut",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Singed", "note": "Out-sustains his poison with passive" },
+        { "name": "Sett", "note": "Tanks his burst with R regen" },
+        { "name": "Garen", "note": "Out-sustains him with passive" }
+      ],
+      "badAgainst": [
+        { "name": "Vayne", "note": "True damage (W) and kiting" },
+        { "name": "Kayle", "note": "True damage (E) and scaling" },
+        { "name": "Camille", "note": "True damage (Q2)" },
+        { "name": "Gwen", "note": "True damage (Q) and kiting" }
+      ],
+      "strengths": ["Sustain", "Run down", "Tankiness", "Scaling"],
+      "synergies": ["Frontline", "Sustain comps"],
+      "avoidSynergies": ["Heavy CC comps", "Kiting comps"],
+      "pickWhen": [
+        "Team needs sustain (your team has no frontline sustain)",
+        "Enemy lacks true damage (no Vayne, Fiora, Camille)",
+        "Example: Enemy top is Sett or Garen - Mundo is great"
+      ],
+      "avoidWhen": [
+        "Enemy has true damage (Vayne, Fiora, Camille, Gwen)",
+        "Enemy has heavy poke (Jayce, Teemo)",
+        "Example: Enemy picks Vayne top - avoid Mundo"
+      ],
+      "playstyle": ["tank", "sustain", "scaling"],
+      "tips": "Use W for tenacity. R for massive regen. Q for poke and slow."
+    },
+    {
+      "name": "Nautilus",
+      "category": "Tank",
+      "primaryRole": "Support",
+      "secondaryRoles": ["Baron", "Jungle"],
+      "goodAgainst": [
+        { "name": "Darius", "note": "CC chain (passive + Q + R) stops him" },
+        { "name": "Sett", "note": "CC chain stops his W" },
+        { "name": "Garen", "note": "CC chain stops his spin (E)" }
+      ],
+      "badAgainst": [
+        { "name": "Jayce", "note": "Out-poked and kited" },
+        { "name": "Teemo", "note": "Out-poked and kited" },
+        { "name": "Vayne", "note": "Kited and true damage (W)" }
+      ],
+      "strengths": ["CC chain (passive + Q + R)", "Hook engage (Q)", "Root"],
+      "synergies": ["Engage comps", "Hook + follow up (Lucian, Draven)"],
+      "avoidSynergies": ["Mobile poke comps"],
+      "pickWhen": [
+        "Team needs hook engage (your team has no engage)",
+        "Need CC setup (your team has burst damage)",
+        "Example: Enemy top is Darius - Nautilus can lock him down"
+      ],
+      "avoidWhen": [
+        "Enemy has mobile pokers (Ezreal, Vayne, Jayce)",
+        "Enemy can kite easily (Teemo, Vayne)",
+        "Example: Enemy top is Jayce or Teemo - avoid Nautilus"
+      ],
+      "playstyle": ["tank", "engage", "cc-chain"],
+      "tips": "Hook (Q) > auto (passive root) > E slow > R is your combo. Use passive root on every auto."
+    },
+    {
+      "name": "Poppy",
+      "category": "Tank/Fighter",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Support", "Jungle"],
+      "goodAgainst": [
+        { "name": "Camille", "note": "W blocks her dash (E)" },
+        { "name": "Irelia", "note": "W blocks her dashes (Q)" },
+        { "name": "Jax", "note": "W blocks his leap (Q)" },
+        { "name": "Riven", "note": "W blocks her dashes (Q/E)" },
+        { "name": "Renekton", "note": "W blocks his dash (E)" }
+      ],
+      "badAgainst": [
+        { "name": "Darius", "note": "Out-trades her with passive/bleed" },
+        { "name": "Fiora", "note": "Out-duels her with vitals (passive)" },
+        { "name": "Vayne", "note": "Out-ranges and kites" },
+        { "name": "Teemo", "note": "Out-ranges and kites" }
+      ],
+      "strengths": ["Anti-dash (W)", "Ult displacement (R)", "Teamfight"],
+      "synergies": ["Teamfight comps", "Anti-mobility"],
+      "avoidSynergies": ["Pure tank matchups", "Poke comps"],
+      "pickWhen": [
+        "Enemy has mobile champions with multiple dashes (Camille, Irelia, Riven, Renekton)",
+        "Need anti-dive champion (to protect carries)",
+        "Example: Enemy picks Camille or Irelia - Poppy is a hard counter"
+      ],
+      "avoidWhen": [
+        "Enemy has pure tanks (Ornn, Malphite)",
+        "Enemy has heavy poke (Jayce, Teemo, Vayne)",
+        "Example: Enemy picks Ornn or Malphite - avoid Poppy"
+      ],
+      "playstyle": ["tank", "anti-mobility", "peel"],
+      "tips": "Use W to block dashes. R can save teammates or knock enemies away. E into wall for stun."
+    },
+    {
+      "name": "Darius",
+      "category": "Juggernaut",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Garen", "note": "Out-trades and out-sustains with Q heal" },
+        { "name": "Sett", "note": "Out-sustains his burst with Q" },
+        { "name": "Ornn", "note": "True damage on ult (R)" },
+        { "name": "Sion", "note": "True damage on ult (R)" },
+        { "name": "Malphite", "note": "True damage on ult (R)" }
+      ],
+      "badAgainst": [
+        { "name": "Teemo", "note": "Out-ranged and kited (Q blind)" },
+        { "name": "Jayce", "note": "Out-ranged and kited" },
+        { "name": "Vayne", "note": "Out-ranged and kited (W true damage)" },
+        { "name": "Gnar", "note": "Out-ranged and kited" },
+        { "name": "Camille", "note": "Dodges his Q with E and out-duels" }
+      ],
+      "strengths": ["Pull (E)", "Bleed stacks (passive)", "Execute (R)", "Snowball"],
+      "synergies": ["Frontline", "Dive comps"],
+      "avoidSynergies": ["Mobile kiting comps", "Heavy CC"],
+      "pickWhen": [
+        "Enemy has melee low mobility (Garen, Sett, Ornn)",
+        "Need lane dominance (win early game)",
+        "Can snowball early (your team needs early pressure)",
+        "Example: Enemy picks Garen or Sett - Darius wins lane"
+      ],
+      "avoidWhen": [
+        "Enemy has ranged top (Teemo, Jayce, Vayne, Gnar)",
+        "Enemy has high mobility (Camille, Fiora)",
+        "Enemy has hard CC (can't stack passive)",
+        "Example: Enemy picks Teemo or Vayne - avoid Darius"
+      ],
+      "playstyle": ["juggernaut", "snowball", "lane-dominant"],
+      "tips": "Stack 5 bleed (passive) for ultimate (R) damage. Play aggressive early. Q heals for each enemy hit."
+    },
+    {
+      "name": "Sett",
+      "category": "Juggernaut",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Support", "Jungle"],
+      "goodAgainst": [
+        { "name": "Darius", "note": "W wins short trades with true damage" },
+        { "name": "Garen", "note": "Out-trades him with W" },
+        { "name": "Renekton", "note": "Out-trades his burst with W" },
+        { "name": "Irelia", "note": "Out-trades her dashes with E" }
+      ],
+      "badAgainst": [
+        { "name": "Malphite", "note": "Out-trades and out-sustains (E reduces AS)" },
+        { "name": "Teemo", "note": "Out-ranged and kited (Q blind)" },
+        { "name": "Vayne", "note": "Out-ranged and kited (W true damage)" },
+        { "name": "Camille", "note": "Dodges his W with E" }
+      ],
+      "strengths": ["W true damage", "Ult pull (R)", "Teamfight engage"],
+      "synergies": ["Engage comps", "Teamfight comps"],
+      "avoidSynergies": ["Heavy CC", "Kiting comps"],
+      "pickWhen": [
+        "Enemy has melee low mobility (Darius, Garen, Renekton)",
+        "Need engage (your team has no engage)",
+        "Example: Enemy picks Darius or Garen - Sett wins lane"
+      ],
+      "avoidWhen": [
+        "Enemy has tanks (Malphite, Ornn)",
+        "Enemy has ranged/CC (Teemo, Vayne, Jayce)",
+        "Example: Enemy picks Malphite - avoid Sett"
+      ],
+      "playstyle": ["juggernaut", "teamfight", "engage"],
+      "tips": "Build grit (passive) then W for max true damage. Ult (R) carries into your team. E stuns if enemies are on both sides."
+    },
+    {
+      "name": "Aatrox",
+      "category": "Juggernaut/Fighter",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Ornn", "note": "Out-sustains his damage with E + passive" },
+        { "name": "Malphite", "note": "Out-sustains his damage with E" },
+        { "name": "Sion", "note": "Out-sustains his damage with E" },
+        { "name": "Darius", "note": "Out-sustains his damage with E" }
+      ],
+      "badAgainst": [
+        { "name": "Fiora", "note": "Parries his Q (W)" },
+        { "name": "Irelia", "note": "Dodges his Q with Q dashes" },
+        { "name": "Camille", "note": "Dodges his Q with E" },
+        { "name": "Riven", "note": "Dodges his Q with Q/E" }
+      ],
+      "strengths": ["Sustain", "Healing", "Engage", "Teamfight"],
+      "synergies": ["Dive comps", "Frontline"],
+      "avoidSynergies": ["Mobile duelists", "Hard CC"],
+      "pickWhen": [
+        "Enemy has low mobility tanks (Ornn, Malphite, Sion)",
+        "Need sustain in teamfights (your team needs healing)",
+        "Example: Enemy picks Ornn or Malphite - Aatrox wins"
+      ],
+      "avoidWhen": [
+        "Enemy has mobile duelist (Fiora, Camille, Irelia)",
+        "Enemy has hard CC (can't heal)",
+        "Example: Enemy picks Fiora or Camille - avoid Aatrox"
+      ],
+      "playstyle": ["juggernaut", "sustain", "teamfight"],
+      "tips": "Hit sweet spots of Q (knockup). Use E to reposition Q. R for massive healing and damage."
+    },
+    {
+      "name": "Mordekaiser",
+      "category": "Juggernaut",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Sett", "note": "Out-sustains (W) and out-scales" },
+        { "name": "Darius", "note": "Out-scales his damage with passive" },
+        { "name": "Garen", "note": "Out-sustains and out-scales" },
+        { "name": "Jax", "note": "Out-sustains his damage with W" }
+      ],
+      "badAgainst": [
+        { "name": "Vayne", "note": "Out-ranged and kited (W true damage)" },
+        { "name": "Camille", "note": "Dodges his E and out-duels" },
+        { "name": "Fiora", "note": "Parries his abilities (W)" },
+        { "name": "Olaf", "note": "Ignores his ult with R" }
+      ],
+      "strengths": ["Ult isolation (R)", "Scaling", "1v1 king"],
+      "synergies": ["Any team (1v1 isolation)"],
+      "avoidSynergies": ["Mobile roam comps"],
+      "pickWhen": [
+        "Enemy has squishy carry to isolate (ADC or mid)",
+        "Need to win side lane (split push)",
+        "Example: Enemy has squishy ADC - pick Mordekaiser to ult them"
+      ],
+      "avoidWhen": [
+        "Enemy has early snowball (can't scale)",
+        "Enemy can kite easily (Vayne, Camille)",
+        "Example: Enemy picks Vayne or Fiora - avoid Mordekaiser"
+      ],
+      "playstyle": ["juggernaut", "duelist", "scaling"],
+      "tips": "Ult (R) carries in teamfights. Passive (P) does AOE damage. E pull into Q + auto for damage."
+    },
+    {
+      "name": "Camille",
+      "category": "Fighter",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Ornn", "note": "True damage (Q2) melts him" },
+        { "name": "Sion", "note": "True damage (Q2) melts him" },
+        { "name": "Malphite", "note": "True damage (Q2) melts him" },
+        { "name": "Garen", "note": "Out-scales and out-duels" }
+      ],
+      "badAgainst": [
+        { "name": "Teemo", "note": "Out-ranged and kited (Q blind)" },
+        { "name": "Fiora", "note": "Out-duels her with vitals (passive)" },
+        { "name": "Riven", "note": "Out-bursts her" },
+        { "name": "Poppy", "note": "W blocks her dash (E)" },
+        { "name": "Darius", "note": "Out-trades her early" }
+      ],
+      "strengths": ["True damage (Q2)", "Mobility (E)", "Dive (R)", "Scaling"],
+      "synergies": ["Engage comps", "Dive comps"],
+      "avoidSynergies": ["Hard CC", "Poke comps"],
+      "pickWhen": [
+        "Enemy has tanks (Ornn, Malphite, Sion) - she shreds them",
+        "Need a skill-based duelist (your team needs split push)",
+        "Example: Enemy picks Ornn - Camille is a counter"
+      ],
+      "avoidWhen": [
+        "Enemy has hard CC (can't dive)",
+        "Enemy has ranged poke (Teemo, Jayce, Vayne)",
+        "Example: Enemy picks Teemo or Poppy - avoid Camille"
+      ],
+      "playstyle": ["fighter", "duelist", "dive"],
+      "tips": "Second Q (Q2) does true damage. Ult (R) to lock down carries. E for mobility and stun."
+    },
+    {
+      "name": "Fiora",
+      "category": "Skirmisher",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Ornn", "note": "True damage (passive) melts him" },
+        { "name": "Sion", "note": "True damage (passive) melts him" },
+        { "name": "Malphite", "note": "True damage (passive) melts him" },
+        { "name": "Darius", "note": "Parries his Q (W)" },
+        { "name": "Aatrox", "note": "Parries his Q (W)" }
+      ],
+      "badAgainst": [
+        { "name": "Pantheon", "note": "Out-bursts her (W stun)" },
+        { "name": "Malphite", "note": "AS slow (E) ruins her DPS" },
+        { "name": "Teemo", "note": "Blind (Q) ruins her trades" },
+        { "name": "Poppy", "note": "W blocks her dash (Q)" },
+        { "name": "Renekton", "note": "Out-bursts her early" }
+      ],
+      "strengths": ["True damage (passive)", "Sustain", "Split pressure", "Duels"],
+      "synergies": ["Split push comps", "Protect comps"],
+      "avoidSynergies": ["Teamfight heavy comps", "No peel"],
+      "pickWhen": [
+        "Need a split pusher (your team wants to split push)",
+        "Enemy has tanks to shred (Ornn, Malphite, Sion)",
+        "Example: Enemy picks Ornn or Sion - Fiora is a counter"
+      ],
+      "avoidWhen": [
+        "Enemy has hard CC (can't proc vitals)",
+        "Team needs teamfighter (your team needs 5v5)",
+        "Example: Enemy picks Pantheon or Teemo - avoid Fiora"
+      ],
+      "playstyle": ["skirmisher", "duelist", "split-push"],
+      "tips": "Proc vitals (passive) for true damage and healing. Parry (W) key CC or damage. Q for mobility and damage."
+    },
+    {
+      "name": "Jax",
+      "category": "Fighter",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Ornn", "note": "Out-scales his damage" },
+        { "name": "Sion", "note": "Out-scales his damage" },
+        { "name": "Malphite", "note": "Out-scales his damage" },
+        { "name": "Tryndamere", "note": "E dodges his autos" }
+      ],
+      "badAgainst": [
+        { "name": "Teemo", "note": "Out-ranged and kited (Q blind)" },
+        { "name": "Jayce", "note": "Out-ranged and kited" },
+        { "name": "Renekton", "note": "Out-bursts him early" },
+        { "name": "Garen", "note": "Out-sustains his damage" },
+        { "name": "Darius", "note": "Out-trades him early" }
+      ],
+      "strengths": ["Scaling", "E dodge", "Split push", "Duelist"],
+      "synergies": ["Any team", "Scaling comps"],
+      "avoidSynergies": ["Early pressure comps"],
+      "pickWhen": [
+        "Game will go late (your team has scaling)",
+        "Need split push pressure (your team needs side lane pressure)",
+        "Example: Enemy has tanks - Jax out-scales them"
+      ],
+      "avoidWhen": [
+        "Enemy has early snowball (Renekton, Darius)",
+        "Enemy has heavy CC (can't split)",
+        "Example: Enemy picks Renekton or Teemo - avoid Jax"
+      ],
+      "playstyle": ["fighter", "scaling", "split-push"],
+      "tips": "Use E to dodge autos and stun. Late game scaling monster. Q for mobility."
+    },
+    {
+      "name": "Renekton",
+      "category": "Fighter",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Jax", "note": "Out-bursts him early (W + Q)" },
+        { "name": "Fiora", "note": "Out-bursts her early (W)" },
+        { "name": "Irelia", "note": "Out-bursts her (W)" },
+        { "name": "Camille", "note": "Out-bursts her early (W)" }
+      ],
+      "badAgainst": [
+        { "name": "Garen", "note": "Out-sustains his burst with passive" },
+        { "name": "Darius", "note": "Out-trades him" },
+        { "name": "Olaf", "note": "Out-sustains him" },
+        { "name": "Ornn", "note": "Tanks his burst" },
+        { "name": "Malphite", "note": "Tanks his burst" }
+      ],
+      "strengths": ["Early burst", "Sustain", "Snowball"],
+      "synergies": ["Early gank comps", "Dive comps"],
+      "avoidSynergies": ["Late scaling comps"],
+      "pickWhen": [
+        "Need early pressure (your team needs early game)",
+        "Enemy is weak early (Jax, Fiora, Camille)",
+        "Example: Enemy picks Jax or Fiora - Renekton wins early"
+      ],
+      "avoidWhen": [
+        "Enemy has scaling tanks (Ornn, Malphite)",
+        "Team needs late game (your team scales)",
+        "Example: Enemy picks Ornn - avoid Renekton"
+      ],
+      "playstyle": ["fighter", "early-game", "snowball"],
+      "tips": "Build fury (passive) for empowered abilities (Q/W/E). Play aggressive early. E in > W > Q > E out."
+    },
+    {
+      "name": "Riven",
+      "category": "Fighter",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Jax", "note": "Out-bursts him" },
+        { "name": "Garen", "note": "Out-bursts him" },
+        { "name": "Darius", "note": "Out-bursts him" },
+        { "name": "Sett", "note": "Out-bursts him" }
+      ],
+      "badAgainst": [
+        { "name": "Fiora", "note": "Parries her (W)" },
+        { "name": "Renekton", "note": "Out-bursts her" },
+        { "name": "Teemo", "note": "Blind (Q) and poke" },
+        { "name": "Poppy", "note": "W blocks her dashes" }
+      ],
+      "strengths": ["Mobility (Q/E)", "Combos", "Burst", "Scaling"],
+      "synergies": ["Dive comps", "Engage comps"],
+      "avoidSynergies": ["Tanky peel comps"],
+      "pickWhen": [
+        "Need skill-based carry (you can animation cancel)",
+        "Enemy is squishy (no tanks)",
+        "Example: Enemy picks Jax or Garen - Riven wins"
+      ],
+      "avoidWhen": [
+        "Enemy has hard counters (Fiora, Renekton, Poppy)",
+        "Team needs frontline (your team has no tank)",
+        "Example: Enemy picks Fiora or Renekton - avoid Riven"
+      ],
+      "playstyle": ["fighter", "combo-heavy", "snowball"],
+      "tips": "Learn animation cancels (Q > auto > Q > auto). Ult (R) for execute damage. E for mobility/shield."
+    },
+    {
+      "name": "Irelia",
+      "category": "Fighter",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Mid"],
+      "goodAgainst": [
+        { "name": "Sett", "note": "Out-sustains him" },
+        { "name": "Garen", "note": "Out-sustains him" },
+        { "name": "Mordekaiser", "note": "Out-sustains him" },
+        { "name": "Aatrox", "note": "Out-sustains him" }
+      ],
+      "badAgainst": [
+        { "name": "Pantheon", "note": "Hard CC (W) stops her" },
+        { "name": "Darius", "note": "Out-trades her" },
+        { "name": "Camille", "note": "Out-duels her" },
+        { "name": "Fiora", "note": "Out-duels her" },
+        { "name": "Teemo", "note": "Blind (Q) ruins her" }
+      ],
+      "strengths": ["Reset dashes (Q)", "Sustain", "Scaling"],
+      "synergies": ["Engage comps", "Frontline"],
+      "avoidSynergies": ["Heavy CC", "Kiting comps"],
+      "pickWhen": [
+        "Enemy has melee champions (Sett, Garen, Mordekaiser)",
+        "Need mobility (your team needs engage)",
+        "Example: Enemy picks Sett or Garen - Irelia wins"
+      ],
+      "avoidWhen": [
+        "Enemy has lockdown CC (Pantheon, Lissandra)",
+        "Enemy has hard counters (Darius, Fiora, Camille)",
+        "Example: Enemy picks Darius or Fiora - avoid Irelia"
+      ],
+      "playstyle": ["fighter", "mobile", "sustain"],
+      "tips": "Stack passive (P) for DPS. Use Q to reset on minions. E for stun. R for slow and mark."
+    },
+    {
+      "name": "Gwen",
+      "category": "AP Fighter",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Ornn", "note": "AP %HP damage (Q)" },
+        { "name": "Malphite", "note": "AP damage ignores armor" },
+        { "name": "Sion", "note": "AP %HP damage (Q)" },
+        { "name": "Mordekaiser", "note": "Out-sustains him" }
+      ],
+      "badAgainst": [
+        { "name": "Darius", "note": "Out-trades her early" },
+        { "name": "Renekton", "note": "Out-bursts her" },
+        { "name": "Fiora", "note": "Out-duels her" },
+        { "name": "Camille", "note": "Out-duels her" }
+      ],
+      "strengths": ["Sustain", "%HP damage (Q)", "Scaling"],
+      "synergies": ["Teamfight comps", "Protect comps"],
+      "avoidSynergies": ["Early dive comps"],
+      "pickWhen": [
+        "Enemy has tanks (Ornn, Malphite, Sion) - she shreds them",
+        "Team needs AP damage (your team is AD heavy)",
+        "Example: Enemy picks Ornn or Malphite - Gwen is a counter"
+      ],
+      "avoidWhen": [
+        "Enemy has AD snowball (Darius, Renekton)",
+        "Enemy has hard CC (can't W)",
+        "Example: Enemy picks Darius or Renekton - avoid Gwen"
+      ],
+      "playstyle": ["ap-fighter", "scaling", "teamfight"],
+      "tips": "W gives invulnerability outside mist. Q does %HP true damage in center. E for dash and attack speed."
+    },
+    {
+      "name": "Jayce",
+      "category": "Ranged/Fighter",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Mid"],
+      "goodAgainst": [
+        { "name": "Darius", "note": "Out-ranges and pokes" },
+        { "name": "Garen", "note": "Out-ranges and pokes" },
+        { "name": "Sett", "note": "Out-ranges and pokes" },
+        { "name": "Renekton", "note": "Out-ranges and pokes" }
+      ],
+      "badAgainst": [
+        { "name": "Malphite", "note": "Tanks his poke with W passive" },
+        { "name": "Ornn", "note": "Tanks his poke" },
+        { "name": "Camille", "note": "Dodges his poke with E" },
+        { "name": "Fiora", "note": "Parries his Q (W)" }
+      ],
+      "strengths": ["Poke", "Burst forms", "Siege"],
+      "synergies": ["Poke comps", "Siege comps"],
+      "avoidSynergies": ["Tanks", "Close range comps"],
+      "pickWhen": [
+        "Need poke (your team needs siege damage)",
+        "Enemy is melee low mobility (Darius, Garen, Sett)",
+        "Example: Enemy picks Darius - Jayce can bully him"
+      ],
+      "avoidWhen": [
+        "Enemy has tanks (Malphite, Ornn)",
+        "Enemy has hard CC (can't kite)",
+        "Example: Enemy picks Malphite - avoid Jayce"
+      ],
+      "playstyle": ["ranged", "poke", "hybrid"],
+      "tips": "Use ranged form for poke (Q+E), melee form for burst (Q+W). Combo forms (R)."
+    },
+    {
+      "name": "Gnar",
+      "category": "Ranged/Fighter",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Darius", "note": "Out-ranges and kites" },
+        { "name": "Garen", "note": "Out-ranges and kites" },
+        { "name": "Sett", "note": "Out-ranges and kites" },
+        { "name": "Renekton", "note": "Out-ranges and kites" }
+      ],
+      "badAgainst": [
+        { "name": "Camille", "note": "Dodges his poke with E" },
+        { "name": "Fiora", "note": "Dodges his poke with Q" },
+        { "name": "Teemo", "note": "Out-pokes him" }
+      ],
+      "strengths": ["Mega form CC (R)", "Poke", "Teamfight"],
+      "synergies": ["Teamfight comps", "Engage comps"],
+      "avoidSynergies": ["Early all-in comps"],
+      "pickWhen": [
+        "Need teamfight setup (your team needs engage)",
+        "Need safe lane (survive laning phase)",
+        "Example: Enemy picks Darius - Gnar can kite him"
+      ],
+      "avoidWhen": [
+        "Enemy has burst before mega (can't transform)",
+        "Enemy can all-in early (Camille, Fiora)",
+        "Example: Enemy picks Camille or Fiora - avoid Gnar"
+      ],
+      "playstyle": ["ranged", "teamfight", "cc"],
+      "tips": "Manage rage bar (passive) for mega form. Ult (R) into walls for stun. Q for poke and slow."
+    },
+    {
+      "name": "Teemo",
+      "category": "Ranged",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Support"],
+      "goodAgainst": [
+        { "name": "Darius", "note": "Out-ranges and kites" },
+        { "name": "Garen", "note": "Out-ranges and kites" },
+        { "name": "Sett", "note": "Out-ranges and kites" },
+        { "name": "Jax", "note": "Blind (Q) ruins his damage" },
+        { "name": "Tryndamere", "note": "Blind (Q) ruins his damage" },
+        { "name": "Fiora", "note": "Blind (Q) ruins her vitals" }
+      ],
+      "badAgainst": [
+        { "name": "Pantheon", "note": "Out-bursts him (W stun)" },
+        { "name": "Darius", "note": "If he gets close, you die (E pull)" },
+        { "name": "Camille", "note": "Can dive and burst him" },
+        { "name": "Irelia", "note": "Can dive and burst him" }
+      ],
+      "strengths": ["Blind (Q)", "Poke (E)", "Shroom vision (R)", "Split push"],
+      "synergies": ["Poke comps", "Split push comps"],
+      "avoidSynergies": ["Mobile dive comps"],
+      "pickWhen": [
+        "Enemy is melee (Darius, Garen, Sett, Jax)",
+        "Need vision control (shrooms for objectives)",
+        "Example: Enemy picks Darius or Garen - Teemo is a counter"
+      ],
+      "avoidWhen": [
+        "Enemy has mobile divers (Camille, Irelia, Pantheon)",
+        "Enemy has high burst (can oneshot you)",
+        "Example: Enemy picks Pantheon or Irelia - avoid Teemo"
+      ],
+      "playstyle": ["ranged", "poke", "vision"],
+      "tips": "Place shrooms (R) for vision and defense. Blind (Q) key auto attackers. Passive (P) invisibility for surprise."
+    },
+    {
+      "name": "Kennen",
+      "category": "Ranged",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Mid"],
+      "goodAgainst": [
+        { "name": "Darius", "note": "Out-ranges and kites" },
+        { "name": "Garen", "note": "Out-ranges and kites" },
+        { "name": "Sett", "note": "Out-ranges and kites" },
+        { "name": "Renekton", "note": "Out-ranges and kites" }
+      ],
+      "badAgainst": [],
+      "strengths": ["Ult stun (R)", "Poke", "Teamfight"],
+      "synergies": ["Teamfight comps"],
+      "avoidSynergies": [],
+      "pickWhen": [
+        "Need teamfight ult (your team needs AOE stun)",
+        "Enemy clumps up (teamfight comp)",
+        "Example: Enemy has immobile carries - Kennen R wins fights"
+      ],
+      "avoidWhen": [
+        "Enemy can disengage easily (Janna, Gragas)",
+        "Example: Enemy has Janna or Gragas - avoid Kennen"
+      ],
+      "playstyle": ["ranged", "teamfight", "cc"],
+      "tips": "Flash + Ult (R) to stun entire team. Stack passive (P) for stuns. Q for poke. E for mobility."
+    },
+    {
+      "name": "Akali",
+      "category": "Assassin",
+      "primaryRole": "Mid",
+      "secondaryRoles": ["Baron"],
+      "goodAgainst": [
+        { "name": "Garen", "note": "Out-kites him" },
+        { "name": "Sett", "note": "Out-kites him" },
+        { "name": "Darius", "note": "Out-kites him" }
+      ],
+      "badAgainst": [
+        { "name": "Ornn", "note": "Tanks her burst" },
+        { "name": "Malphite", "note": "Tanks her burst" },
+        { "name": "Darius", "note": "Can pull her (E)" },
+        { "name": "Pantheon", "note": "Hard CC (W) burst" }
+      ],
+      "strengths": ["Burst", "Mobility", "Shroud (W)"],
+      "synergies": ["Engage setup comps"],
+      "avoidSynergies": ["Tanky peel comps"],
+      "pickWhen": [
+        "Enemy is squishy (no tanks)",
+        "Need mobile assassin (your team needs dive)",
+        "Example: Enemy has squishy ADC - Akali can dive them"
+      ],
+      "avoidWhen": [
+        "Enemy has tanks (Ornn, Malphite)",
+        "Enemy has hard CC (Pantheon, Galio)",
+        "Example: Enemy picks Ornn or Malphite - avoid Akali"
+      ],
+      "playstyle": ["assassin", "mobile", "burst"],
+      "tips": "Use shroud (W) to outplay. Passive (P) auto for extra damage. Q for poke. E for reposition."
+    },
+    {
+      "name": "Yasuo",
+      "category": "Skirmisher",
+      "primaryRole": "Mid",
+      "secondaryRoles": ["Baron"],
+      "goodAgainst": [
+        { "name": "Teemo", "note": "Windwall (W) blocks his Q" },
+        { "name": "Gnar", "note": "Windwall (W) blocks his Q" },
+        { "name": "Sett", "note": "Out-scales him" }
+      ],
+      "badAgainst": [
+        { "name": "Malphite", "note": "Tanks his damage" },
+        { "name": "Ornn", "note": "Tanks his damage" },
+        { "name": "Darius", "note": "Out-trades him" }
+      ],
+      "strengths": ["Windwall (W)", "Mobility (E)", "Scaling"],
+      "synergies": ["Knockup comps (Malphite, Gragas)"],
+      "avoidSynergies": ["No knockup setup", "Tanks"],
+      "pickWhen": [
+        "Team has knockups (Malphite, Gragas, Nautilus)",
+        "Need scaling carry (your team needs damage)",
+        "Example: Team has Malphite - Yasuo can combo with R"
+      ],
+      "avoidWhen": [
+        "Enemy has tanks (Malphite, Ornn)",
+        "No knockup synergy (your team lacks knockups)",
+        "Example: Enemy picks Malphite - avoid Yasuo"
+      ],
+      "playstyle": ["skirmisher", "scaling", "mobility"],
+      "tips": "Stack Q for tornado. Ults (R) require knockup setup. Windwall (W) blocks projectiles. E for mobility."
+    },
+    {
+      "name": "Yone",
+      "category": "Skirmisher",
+      "primaryRole": "Mid",
+      "secondaryRoles": ["Baron"],
+      "goodAgainst": [
+        { "name": "Teemo", "note": "Out-sustains him" },
+        { "name": "Gnar", "note": "Out-sustains him" }
+      ],
+      "badAgainst": [
+        { "name": "Malphite", "note": "Tanks his damage" },
+        { "name": "Ornn", "note": "Tanks his damage" },
+        { "name": "Darius", "note": "Out-trades him" }
+      ],
+      "strengths": ["Mobility", "Scaling", "Sustain"],
+      "synergies": ["Knockup comps"],
+      "avoidSynergies": ["No knockup setup", "Tanks"],
+      "pickWhen": [
+        "Team has knockups (Malphite, Gragas, Nautilus)",
+        "Need scaling carry (your team needs damage)",
+        "Example: Team has Malphite - Yone can combo with R"
+      ],
+      "avoidWhen": [
+        "Enemy has tanks (Malphite, Ornn)",
+        "No knockup synergy (your team lacks knockups)",
+        "Example: Enemy picks Malphite - avoid Yone"
+      ],
+      "playstyle": ["skirmisher", "scaling", "mobility"],
+      "tips": "Second Q for knockup. E for engage/disengage. R for multi-target knockup."
+    },
+    {
+      "name": "Pantheon",
+      "category": "Fighter/Roam",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Support", "Jungle", "Mid"],
+      "goodAgainst": [
+        { "name": "Akali", "note": "Out-bursts her (W stun)" },
+        { "name": "Irelia", "note": "Hard CC (W) stops her" },
+        { "name": "Fiora", "note": "Out-bursts her (W)" },
+        { "name": "Camille", "note": "Out-bursts her early (W)" }
+      ],
+      "badAgainst": [
+        { "name": "Jax", "note": "Out-scales him" },
+        { "name": "Vladimir", "note": "Out-sustains him" },
+        { "name": "Malphite", "note": "Tanks his damage" },
+        { "name": "Ornn", "note": "Tanks his damage" }
+      ],
+      "strengths": ["Early pressure", "Roam (R)", "Stun (W)"],
+      "synergies": ["Early gank comps", "Roam comps"],
+      "avoidSynergies": ["Scaling comps"],
+      "pickWhen": [
+        "Need early game pressure (your team needs early lead)",
+        "Need to roam (your team needs map pressure)",
+        "Example: Enemy picks Akali or Irelia - Pantheon counters"
+      ],
+      "avoidWhen": [
+        "Game will go late (enemy scales)",
+        "Enemy has tanks (Malphite, Ornn)",
+        "Example: Enemy picks Malphite - avoid Pantheon"
+      ],
+      "playstyle": ["fighter", "early-game", "roam"],
+      "tips": "Use R to roam. Empowered W gives stun. E for damage block. Q for poke and execute."
+    },
+    {
+      "name": "Wukong",
+      "category": "Fighter",
+      "primaryRole": "Baron",
+      "secondaryRoles": ["Jungle"],
+      "goodAgainst": [
+        { "name": "Darius", "note": "Clone (W) dodges his Q" },
+        { "name": "Garen", "note": "Out-sustains him" },
+        { "name": "Sett", "note": "Out-sustains him" },
+        { "name": "Irelia", "note": "Out-trades her" }
+      ],
+      "badAgainst": [
+        { "name": "Teemo", "note": "Out-ranges and kites (Q blind)" },
+        { "name": "Camille", "note": "Out-duels him" },
+        { "name": "Fiora", "note": "Out-duels him" }
+      ],
+      "strengths": ["Clone (W)", "Engage (R)", "Teamfight", "Flexibility"],
+      "synergies": ["Teamfight comps", "Engage comps"],
+      "avoidSynergies": [],
+      "pickWhen": [
+        "Need engage (your team has no engage)",
+        "Need flex pick (can go jungle or baron)",
+        "Example: Enemy picks Darius - Wukong clone dodges his Q"
+      ],
+      "avoidWhen": [
+        "Enemy has specific counters (Teemo, Camille, Fiora)",
+        "Example: Enemy picks Teemo or Camille - avoid Wukong"
+      ],
+      "playstyle": ["fighter", "engage", "teamfight"],
+      "tips": "Use clone (W) to bait abilities. Ult (R) to knock up. Q for armor shred. E for gap close."
+    }
+  ],
+  "draftRules": [
+    {
+      "id": "tank-into-ad",
+      "condition": "enemyTop === 'Darius' || enemyTop === 'Sett' || enemyTop === 'Renekton'",
+      "text": "Tanks like Ornn and Malphite are strong into AD bruisers. Build armor and survive the lane. Pick Ornn or Malphite."
+    },
+    {
+      "id": "duelist-into-tank",
+      "condition": "enemyTop === 'Ornn' || enemyTop === 'Malphite' || enemyTop === 'Sion'",
+      "text": "Duelists like Fiora and Camille shred tanks with true damage. Win through split push. Pick Fiora or Camille."
+    },
+    {
+      "id": "ranged-into-melee",
+      "condition": "enemyTop === 'Darius' || enemyTop === 'Garen' || enemyTop === 'Sett'",
+      "text": "Ranged champions (Teemo, Jayce, Gnar) can kite melee bruisers. Play safe and poke. Pick Teemo, Jayce, or Gnar."
+    },
+    {
+      "id": "full-ad-warning",
+      "condition": "enemyTop === 'Darius' || enemyTop === 'Sett' || enemyTop === 'Garen'",
+      "text": "If your team has multiple AD threats, Malphite is a strong pick against full AD comps. Pick Malphite."
+    },
+    {
+      "id": "split-push-warning",
+      "condition": "enemyTop === 'Fiora' || enemyTop === 'Jax' || enemyTop === 'Camille'",
+      "text": "Split pushers require team coordination. Match their split with grouped plays or counter-split. Pick a champion that can match their split (Fiora, Jax, Tryndamere)."
+    },
+    {
+      "id": "counter-mobility",
+      "condition": "enemyTop === 'Camille' || enemyTop === 'Irelia' || enemyTop === 'Riven'",
+      "text": "Poppy's W blocks dashes. Consider Poppy against mobile champions. Pick Poppy."
+    },
+    {
+      "id": "ap-top-synergy",
+      "condition": "enemyTop === 'Mordekaiser' || enemyTop === 'Gwen'",
+      "text": "AP top laners need MR counter building. Consider picking an AD duelist (Fiora, Camille) or buying Hexdrinker."
+    }
+  ]
+}

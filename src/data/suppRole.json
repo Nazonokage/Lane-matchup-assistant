@@ -1,2371 +1,1173 @@
 {
   "meta": {
-    "lastUpdated": "2025-06-20",
+    "lastUpdated": "2026-06-23",
     "patch": "7.1g",
     "lane": "Support",
-    "description": "Wild Rift support champion data"
+    "description": "Wild Rift support champion data – updated with QWER skill references and pick/avoid examples"
   },
   "champions": [
     {
       "name": "Alistar",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Tank",
       "archetype": "Engage",
-      "playstyle": [
-        "engage",
-        "peel",
-        "tank"
-      ],
+      "playstyle": ["engage", "peel", "tank"],
       "goodAgainst": [
-        {
-          "name": "Blitzcrank",
-          "note": "Knocks him away from ADC"
-        },
-        {
-          "name": "Leona",
-          "note": "Peels her engage"
-        },
-        {
-          "name": "Thresh",
-          "note": "Peels his hook"
-        }
+        { "name": "Blitzcrank", "note": "Knocks him away from ADC with W" },
+        { "name": "Leona", "note": "Peels her engage with W+Q" },
+        { "name": "Thresh", "note": "Peels his hook with W" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks his combo"
-        },
-        {
-          "name": "Janna",
-          "note": "Interrupts his engage"
-        },
-        {
-          "name": "Brand",
-          "note": "Melted by his passive"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks your combo" },
+        { "name": "Janna", "note": "Interrupts your engage with Q" },
+        { "name": "Brand", "note": "Melted by his passive" }
       ],
-      "synergies": [
-        "Draven",
-        "Tristana",
-        "Samira",
-        "Lucian",
-        "Caitlyn",
-        "Sivir",
-        "Jhin",
-        "Xayah"
-      ],
-      "avoidSynergies": [
-        "Ezreal",
-        "Zeri",
-        "Kog'Maw"
-      ],
-      "caution": "Headbutt + Pulverize is your main engage — don't waste it.",
+      "synergies": ["Draven", "Tristana", "Samira", "Lucian", "Caitlyn", "Sivir", "Jhin", "Xayah"],
+      "avoidSynergies": ["Ezreal", "Zeri", "Kog'Maw"],
+      "caution": "W+Q is your main engage – don't waste it.",
       "tips": "Use Flash + Q for surprise engages. Use R for extra tankiness.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "pickWhen": [
+        "Need a tanky engage support",
+        "Enemy has squishy immobile bot lane (e.g., Senna, Janna)",
+        "Your ADC wants an aggressive lane (e.g., Draven, Samira)"
+      ],
+      "avoidWhen": [
+        "Enemy has Morgana (black shield counters your CC)",
+        "Enemy has heavy poke that can kite you (e.g., Brand, Zyra)",
+        "Your ADC needs sustain (e.g., Kog'Maw)"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Amumu",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Tank",
       "archetype": "Engage",
-      "playstyle": [
-        "engage",
-        "tank",
-        "teamfight"
-      ],
+      "playstyle": ["engage", "tank", "teamfight"],
       "goodAgainst": [
-        {
-          "name": "Thresh",
-          "note": "Can't flay your Q"
-        },
-        {
-          "name": "Blitzcrank",
-          "note": "Body block his hook"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Out-tank his engage"
-        }
+        { "name": "Thresh", "note": "Can't flay your Q" },
+        { "name": "Blitzcrank", "note": "Body block his hook" },
+        { "name": "Nautilus", "note": "Out-tank his engage" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks your CC"
-        },
-        {
-          "name": "Janna",
-          "note": "Tornado cancels your Q"
-        },
-        {
-          "name": "Lulu",
-          "note": "Polymorph stops your engage"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks your CC" },
+        { "name": "Janna", "note": "Tornado (Q) cancels your Q" },
+        { "name": "Lulu", "note": "Polymorph (W) stops your engage" }
       ],
-      "synergies": [
-        "Miss Fortune",
-        "Samira",
-        "Kai'Sa",
-        "Draven"
-      ],
+      "synergies": ["Miss Fortune", "Samira", "Kai'Sa", "Draven"],
       "avoidSynergies": [
-        {
-          "name": "Ezreal",
-          "note": "No follow-up damage"
-        },
-        {
-          "name": "Sivir",
-          "note": "No follow-up damage"
-        }
+        { "name": "Ezreal", "note": "No follow-up damage" },
+        { "name": "Sivir", "note": "No follow-up damage" }
       ],
       "caution": "Your Q has a long CD early. Don't miss it.",
       "tips": "Q for engage. W for damage. R for teamfight CC.",
       "pickWhen": [
-        "Enemy has grouped up",
-        "Teamfight comp"
+        "Team needs AoE CC for teamfights",
+        "Enemy has grouped up (e.g., low mobility comp)",
+        "Your ADC can follow up on your engage (e.g., Samira, Miss Fortune)"
       ],
       "avoidWhen": [
-        "Enemy has disengage",
-        "Need peel support"
+        "Enemy has heavy disengage (e.g., Janna, Morgana)",
+        "Your team needs peel rather than engage",
+        "Enemy has mobile carries that can dodge your Q"
       ],
-      "roles": [
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Bard",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Utility",
       "archetype": "Poke",
-      "playstyle": [
-        "roaming",
-        "utility",
-        "peel"
-      ],
+      "playstyle": ["roaming", "utility", "peel"],
       "goodAgainst": [
-        {
-          "name": "Leona",
-          "note": "Ult to peel her engage"
-        },
-        {
-          "name": "Thresh",
-          "note": "Dodge hook, poke him"
-        },
-        {
-          "name": "Blitzcrank",
-          "note": "Poke him, avoid hook"
-        }
+        { "name": "Leona", "note": "Ult (R) to peel her engage" },
+        { "name": "Thresh", "note": "Dodge hook, poke him with Q" },
+        { "name": "Blitzcrank", "note": "Poke him, avoid hook" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks your CC"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Can't escape his hook"
-        },
-        {
-          "name": "Alistar",
-          "note": "Can't poke through his sustain"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks your CC" },
+        { "name": "Nautilus", "note": "Can't escape his hook" },
+        { "name": "Alistar", "note": "Can't poke through his sustain" }
       ],
-      "synergies": [
-        "Jhin",
-        "Caitlyn",
-        "Ezreal",
-        "Draven",
-        "Lucian"
-      ],
+      "synergies": ["Jhin", "Caitlyn", "Ezreal", "Draven", "Lucian"],
       "avoidSynergies": [
-        {
-          "name": "Vayne",
-          "note": "Need peel, not poke"
-        },
-        {
-          "name": "Kai'Sa",
-          "note": "Need engage support"
-        }
+        { "name": "Vayne", "note": "Need peel, not poke" },
+        { "name": "Kai'Sa", "note": "Need engage support" }
       ],
       "caution": "Roaming leaves your ADC 1v2. Time your roams carefully.",
-      "tips": "Collect chimes for movespeed and mana. R can save teammates.",
+      "tips": "Collect chimes for movespeed and mana. R can save teammates or set up picks.",
       "pickWhen": [
-        "You can roam well",
-        "Enemy has immobile bot lane"
+        "You can roam effectively and your ADC is self-sufficient (e.g., Ezreal)",
+        "Enemy bot lane is immobile and you can poke (e.g., Janna, Sona)",
+        "Your team needs catch potential with R"
       ],
       "avoidWhen": [
-        "Enemy has dive supports",
-        "Your ADC needs protection"
+        "Enemy has heavy dive supports (e.g., Nautilus, Alistar)",
+        "Your ADC needs constant protection (e.g., Kog'Maw, Vayne)",
+        "Enemy has strong sustain that outheals your poke (e.g., Soraka)"
       ],
-      "roles": [
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Blitzcrank",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Tank",
       "archetype": "Hook",
-      "playstyle": [
-        "engage",
-        "pick",
-        "tank"
-      ],
+      "playstyle": ["engage", "pick", "tank"],
       "goodAgainst": [
-        {
-          "name": "Senna",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Sona",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Soraka",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Yuumi",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Janna",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Nami",
-          "note": "Hook oneshots her"
-        }
+        { "name": "Senna", "note": "Hook (Q) oneshots her" },
+        { "name": "Sona", "note": "Hook (Q) oneshots her" },
+        { "name": "Soraka", "note": "Hook (Q) oneshots her" },
+        { "name": "Yuumi", "note": "Hook (Q) oneshots her" },
+        { "name": "Janna", "note": "Hook (Q) oneshots her" },
+        { "name": "Nami", "note": "Hook (Q) oneshots her" }
       ],
       "badAgainst": [
-        {
-          "name": "Alistar",
-          "note": "Knocks him away"
-        },
-        {
-          "name": "Leona",
-          "note": "Engages after his hook"
-        },
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks hook"
-        },
-        {
-          "name": "Zyra",
-          "note": "Plants block his hooks"
-        }
+        { "name": "Alistar", "note": "Knocks you away with W" },
+        { "name": "Leona", "note": "Engages after your hook" },
+        { "name": "Morgana", "note": "Black shield (E) blocks hook" },
+        { "name": "Zyra", "note": "Plants block your hooks" }
       ],
-      "synergies": [
-        "Draven",
-        "Samira",
-        "Kai'Sa",
-        "Tristana",
-        "Jhin",
-        "Lucian",
-        "Caitlyn",
-        "Xayah"
-      ],
-      "avoidSynergies": [
-        "Ezreal",
-        "Kog'Maw",
-        "Zeri"
-      ],
+      "synergies": ["Draven", "Samira", "Kai'Sa", "Tristana", "Jhin", "Lucian", "Caitlyn", "Xayah"],
+      "avoidSynergies": ["Ezreal", "Kog'Maw", "Zeri"],
       "caution": "Missed hook = 15s cooldown. Don't hook tanks into your team.",
       "tips": "W + Flash + E guarantees knockup. Position in bushes for surprise hooks.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "pickWhen": [
+        "Enemy has immobile squishy supports (e.g., Senna, Soraka)",
+        "Your ADC needs early kill pressure (e.g., Draven, Lucian)",
+        "Team needs pick potential"
+      ],
+      "avoidWhen": [
+        "Enemy has Morgana (black shield) or Alistar (peel)",
+        "Enemy has tanky front line that can soak your hook",
+        "Your ADC is weak early (e.g., Vayne, Kog'Maw)"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Brand",
       "primaryRole": "Support",
-      "secondaryRoles": [
-        "Mid"
-      ],
-      "playstyle": [
-        "burst",
-        "AoE",
-        "teamfight"
-      ],
+      "secondaryRoles": ["Mid"],
+      "category": "Mage",
+      "playstyle": ["burst", "AoE", "teamfight"],
       "goodAgainst": [
-        {
-          "name": "Alistar",
-          "note": "Melt his HP"
-        },
-        {
-          "name": "Seraphine",
-          "note": "Out-damages her"
-        },
-        {
-          "name": "Lulu",
-          "note": "Out-damages her"
-        },
-        {
-          "name": "Soraka",
-          "note": "Out-damages her healing"
-        },
-        {
-          "name": "Senna",
-          "note": "Out-damages her"
-        },
-        {
-          "name": "Thresh",
-          "note": "Out-damages him"
-        }
+        { "name": "Alistar", "note": "Melt his HP with passive" },
+        { "name": "Seraphine", "note": "Out-damages her" },
+        { "name": "Lulu", "note": "Out-damages her" },
+        { "name": "Soraka", "note": "Out-damages her healing" },
+        { "name": "Senna", "note": "Out-damages her" },
+        { "name": "Thresh", "note": "Out-damages him" }
       ],
       "badAgainst": [
-        {
-          "name": "Pyke",
-          "note": "Hook oneshots him"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Hook oneshots him"
-        },
-        {
-          "name": "Blitzcrank",
-          "note": "Hook oneshots him"
-        },
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks his burst"
-        },
-        {
-          "name": "Braum",
-          "note": "Blocks his projectiles"
-        }
+        { "name": "Pyke", "note": "Hook (Q) oneshots him" },
+        { "name": "Nautilus", "note": "Hook (Q) oneshots him" },
+        { "name": "Blitzcrank", "note": "Hook (Q) oneshots him" },
+        { "name": "Morgana", "note": "Black shield (E) blocks his burst" },
+        { "name": "Braum", "note": "Blocks his projectiles with E" }
       ],
-      "synergies": [
-        "Caitlyn",
-        "Jhin",
-        "Varus"
-      ],
+      "synergies": ["Caitlyn", "Jhin", "Varus"],
       "avoidSynergies": [],
       "caution": "Very squishy. Needs to position safely.",
       "tips": "Passive detonation does % HP damage. Combo: E > Q > W.",
       "pickWhen": [
-        "Enemy team clumps up",
-        "Your team needs magic damage"
+        "Enemy team clumps up (e.g., engages with multiple melee)",
+        "Your team needs magic damage",
+        "Enemy has low mobility supports that can't dodge your skillshots"
       ],
       "avoidWhen": [
-        "Enemy has mobile divers",
-        "Enemy has multiple spell shields"
+        "Enemy has mobile divers that can jump on you (e.g., Pyke, Leona)",
+        "Enemy has multiple spell shields (e.g., Sivir, Morgana)",
+        "Your team lacks frontline to protect you"
       ],
-      "roles": [
-        "APC",
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Braum",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Tank",
       "archetype": "Enchanter",
-      "playstyle": [
-        "peel",
-        "protect",
-        "tank"
-      ],
+      "playstyle": ["peel", "protect", "tank"],
       "goodAgainst": [
-        {
-          "name": "Lucian",
-          "note": "Blocks his burst"
-        },
-        {
-          "name": "Miss Fortune",
-          "note": "Blocks her ult"
-        },
-        {
-          "name": "Varus",
-          "note": "Blocks his poke"
-        },
-        {
-          "name": "Ezreal",
-          "note": "Blocks his poke"
-        },
-        {
-          "name": "Caitlyn",
-          "note": "Blocks her poke"
-        }
+        { "name": "Lucian", "note": "Blocks his burst with E" },
+        { "name": "Miss Fortune", "note": "Blocks her ult (R) with E" },
+        { "name": "Varus", "note": "Blocks his poke with E" },
+        { "name": "Ezreal", "note": "Blocks his poke with E" },
+        { "name": "Caitlyn", "note": "Blocks her poke with E" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks his stun"
-        },
-        {
-          "name": "Brand",
-          "note": "Blocks his passive"
-        },
-        {
-          "name": "Senna",
-          "note": "Out-ranges him"
-        },
-        {
-          "name": "Lux",
-          "note": "Blocks his engage"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks your stun" },
+        { "name": "Brand", "note": "Blocks his passive? Actually Brand's passive is not a projectile; Braum's E doesn't stop it." },
+        { "name": "Senna", "note": "Out-ranges him" },
+        { "name": "Lux", "note": "Blocks his engage" }
       ],
-      "synergies": [
-        "Lucian",
-        "Ashe",
-        "Jinx",
-        "Kalista",
-        "Vayne",
-        "Ezreal",
-        "Caitlyn",
-        "Jhin",
-        "Tristana"
-      ],
+      "synergies": ["Lucian", "Ashe", "Jinx", "Kalista", "Vayne", "Ezreal", "Caitlyn", "Jhin", "Tristana"],
       "avoidSynergies": [],
-      "caution": "Can't block all projectiles. Unbreakable has cooldown.",
+      "caution": "Can't block all projectiles. Unbreakable (E) has cooldown.",
       "tips": "Stack passive with autos and Q. Use E to block key abilities.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "pickWhen": [
+        "Enemy has heavy projectile poke (e.g., Ezreal, Varus, Miss Fortune)",
+        "Your ADC needs protection and you have follow-up (e.g., Lucian, Ashe)",
+        "Team needs a frontline that can peel"
+      ],
+      "avoidWhen": [
+        "Enemy has high magic damage that bypasses your E (e.g., Brand, Zyra)",
+        "Enemy has strong engage that can ignore your peel (e.g., Alistar, Leona)",
+        "Your team needs engage rather than peel"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Galio",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Tank",
       "archetype": "Engage",
-      "playstyle": [
-        "engage",
-        "peel",
-        "utility"
-      ],
+      "playstyle": ["engage", "peel", "utility"],
       "goodAgainst": [
-        {
-          "name": "Thresh",
-          "note": "Can't CC through your W"
-        },
-        {
-          "name": "Blitzcrank",
-          "note": "Can't hook through your W"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Can't CC through your W"
-        }
+        { "name": "Thresh", "note": "Can't CC through your W" },
+        { "name": "Blitzcrank", "note": "Can't hook through your W" },
+        { "name": "Nautilus", "note": "Can't CC through your W" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks your CC"
-        },
-        {
-          "name": "Lulu",
-          "note": "Polymorph stops your engage"
-        },
-        {
-          "name": "Janna",
-          "note": "Tornado cancels your E"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks your CC" },
+        { "name": "Lulu", "note": "Polymorph (W) stops your engage" },
+        { "name": "Janna", "note": "Tornado (Q) cancels your E" }
       ],
-      "synergies": [
-        "Senna",
-        "Caitlyn",
-        "Jhin",
-        "Ezreal"
-      ],
+      "synergies": ["Senna", "Caitlyn", "Jhin", "Ezreal"],
       "avoidSynergies": [
-        {
-          "name": "Draven",
-          "note": "Need engage, not peel"
-        },
-        {
-          "name": "Samira",
-          "note": "Need engage support"
-        }
+        { "name": "Draven", "note": "Need engage, not peel" },
+        { "name": "Samira", "note": "Need engage support" }
       ],
-      "caution": "Your ult has a long CD. Use it wisely.",
+      "caution": "Your ultimate has a long CD. Use it wisely.",
       "tips": "W for taunt. E for engage. R for global peel.",
       "pickWhen": [
-        "Enemy has AP damage",
-        "Need engage"
+        "Enemy has heavy AP damage (Galio's MR scaling)",
+        "Team needs engage and peel",
+        "Your ADC is immobile and needs protection (e.g., Jinx)"
       ],
       "avoidWhen": [
-        "Enemy has AD heavy",
-        "Need peel support"
+        "Enemy is full AD (Galio's MR is less effective)",
+        "Your team needs pure engage rather than utility",
+        "Enemy has strong disengage (e.g., Janna, Morgana)"
       ],
-      "roles": [
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Janna",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Enchanter",
       "archetype": "Enchanter",
-      "playstyle": [
-        "peel",
-        "disengage",
-        "protect"
-      ],
+      "playstyle": ["peel", "disengage", "protect"],
       "goodAgainst": [
-        {
-          "name": "Alistar",
-          "note": "Interrupts his engage"
-        },
-        {
-          "name": "Leona",
-          "note": "Interrupts her engage"
-        },
-        {
-          "name": "Rakan",
-          "note": "Interrupts his engage"
-        },
-        {
-          "name": "Zac",
-          "note": "Interrupts his jump"
-        }
+        { "name": "Alistar", "note": "Interrupts his engage with Q" },
+        { "name": "Leona", "note": "Interrupts her engage with Q" },
+        { "name": "Rakan", "note": "Interrupts his engage with Q" },
+        { "name": "Zac", "note": "Interrupts his jump with Q" }
       ],
       "badAgainst": [
-        {
-          "name": "Blitzcrank",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Thresh",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Pyke",
-          "note": "Hook oneshots her"
-        }
+        { "name": "Blitzcrank", "note": "Hook (Q) oneshots her" },
+        { "name": "Nautilus", "note": "Hook (Q) oneshots her" },
+        { "name": "Thresh", "note": "Hook (Q) oneshots her" },
+        { "name": "Pyke", "note": "Hook (Q) oneshots her" }
       ],
-      "synergies": [
-        "Jinx",
-        "Vayne",
-        "Kog'Maw",
-        "Twitch",
-        "Zeri"
-      ],
-      "avoidSynergies": [
-        "Draven",
-        "Samira",
-        "Kalista"
-      ],
+      "synergies": ["Jinx", "Vayne", "Kog'Maw", "Twitch", "Zeri"],
+      "avoidSynergies": ["Draven", "Samira", "Kalista"],
       "caution": "Very squishy. One hook and you're dead.",
-      "tips": "Use Q to interrupt engages. Shield ADC before trades.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "tips": "Use Q to interrupt engages. Shield (E) ADC before trades.",
+      "pickWhen": [
+        "Enemy has dive/engage champions you can disengage (e.g., Leona, Alistar)",
+        "Your ADC needs peel and protection (e.g., Vayne, Kog'Maw)",
+        "Team needs disengage to avoid hard engages"
+      ],
+      "avoidWhen": [
+        "Enemy has hook supports that can delete you",
+        "Your team needs engage rather than disengage",
+        "Enemy has heavy poke that outranges you (e.g., Brand, Xerath)"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Karma",
       "primaryRole": "Support",
-      "secondaryRoles": [
-        "Mid"
-      ],
+      "secondaryRoles": ["Mid"],
+      "category": "Mage",
       "archetype": "Poke",
-      "playstyle": [
-        "poke",
-        "shield",
-        "utility"
-      ],
+      "playstyle": ["poke", "shield", "utility"],
       "goodAgainst": [
-        {
-          "name": "Blitzcrank",
-          "note": "Shields hook damage"
-        },
-        {
-          "name": "Thresh",
-          "note": "Shields hook damage"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Shields hook damage"
-        },
-        {
-          "name": "Leona",
-          "note": "Shields her engage"
-        }
+        { "name": "Blitzcrank", "note": "Shields hook damage with E" },
+        { "name": "Thresh", "note": "Shields hook damage with E" },
+        { "name": "Nautilus", "note": "Shields hook damage with E" },
+        { "name": "Leona", "note": "Shields her engage with E" }
       ],
       "badAgainst": [
-        {
-          "name": "Soraka",
-          "note": "Out-sustains her"
-        },
-        {
-          "name": "Sona",
-          "note": "Out-sustains her"
-        },
-        {
-          "name": "Janna",
-          "note": "Out-sustains her"
-        },
-        {
-          "name": "Nami",
-          "note": "Out-sustains her"
-        }
+        { "name": "Soraka", "note": "Out-sustains her" },
+        { "name": "Sona", "note": "Out-sustains her" },
+        { "name": "Janna", "note": "Out-sustains her" },
+        { "name": "Nami", "note": "Out-sustains her" }
       ],
-      "synergies": [
-        "Ezreal",
-        "Jhin",
-        "Lucian",
-        "Varus",
-        "Caitlyn",
-        "Ashe",
-        "Sivir"
+      "synergies": ["Ezreal", "Jhin", "Lucian", "Varus", "Caitlyn", "Ashe", "Sivir"],
+      "avoidSynergies": ["Kog'Maw", "Vayne", "Twitch"],
+      "caution": "Mantra (R) Q is great poke but costs mana. Use wisely.",
+      "tips": "Mantra (R) E gives big shield + move speed. Mantra (R) W roots.",
+      "pickWhen": [
+        "Enemy has immobile bot lane (e.g., Ashe, Sona) and you can poke",
+        "Your ADC benefits from shields and speed (e.g., Ezreal, Jhin)",
+        "Team needs utility and poke"
       ],
-      "avoidSynergies": [
-        "Kog'Maw",
-        "Vayne",
-        "Twitch"
+      "avoidWhen": [
+        "Enemy has sustain that outheals your poke (e.g., Soraka, Nami)",
+        "Your team needs engage rather than poke",
+        "Enemy has dive that can bypass your shields (e.g., Alistar, Rakan)"
       ],
-      "caution": "Mantra Q is great poke but costs mana. Use wisely.",
-      "tips": "Mantra E gives big shield + move speed. Mantra W roots.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Leona",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Tank",
       "archetype": "Engage",
-      "playstyle": [
-        "engage",
-        "tank",
-        "aggressive"
-      ],
+      "playstyle": ["engage", "tank", "aggressive"],
       "goodAgainst": [
-        {
-          "name": "Senna",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Sona",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Soraka",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Yuumi",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Janna",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Nami",
-          "note": "Engage oneshots her"
-        }
+        { "name": "Senna", "note": "Engage (E+Q+R) oneshots her" },
+        { "name": "Sona", "note": "Engage (E+Q+R) oneshots her" },
+        { "name": "Soraka", "note": "Engage (E+Q+R) oneshots her" },
+        { "name": "Yuumi", "note": "Engage (E+Q+R) oneshots her" },
+        { "name": "Janna", "note": "Engage (E+Q+R) oneshots her" },
+        { "name": "Nami", "note": "Engage (E+Q+R) oneshots her" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks her engage"
-        },
-        {
-          "name": "Janna",
-          "note": "Interrupts her engage"
-        },
-        {
-          "name": "Alistar",
-          "note": "Peels her engage"
-        },
-        {
-          "name": "Braum",
-          "note": "Peels her engage"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks her engage" },
+        { "name": "Janna", "note": "Interrupts her engage with Q" },
+        { "name": "Alistar", "note": "Peels her engage with W" },
+        { "name": "Braum", "note": "Peels her engage with E" }
       ],
-      "synergies": [
-        "Samira",
-        "Tristana",
-        "Draven",
-        "Kai'Sa",
-        "Xayah",
-        "Lucian",
-        "Caitlyn",
-        "Jhin",
-        "Sivir",
-        "Kalista"
-      ],
-      "avoidSynergies": [
-        "Ezreal",
-        "Zeri",
-        "Kog'Maw"
-      ],
+      "synergies": ["Samira", "Tristana", "Draven", "Kai'Sa", "Xayah", "Lucian", "Caitlyn", "Jhin", "Sivir", "Kalista"],
+      "avoidSynergies": ["Ezreal", "Zeri", "Kog'Maw"],
       "caution": "E is your engage — if you miss, you're vulnerable.",
       "tips": "E + Q + R is your full combo. Use W before engaging for tankiness.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "pickWhen": [
+        "Enemy has immobile squishy bot lane (e.g., Senna, Sona)",
+        "Your ADC has strong early burst (e.g., Draven, Samira)",
+        "Team needs hard engage"
+      ],
+      "avoidWhen": [
+        "Enemy has Morgana (black shield) or Janna (disengage)",
+        "Your ADC needs peel rather than engage (e.g., Kog'Maw)",
+        "Enemy has heavy poke that can chunk you before you engage (e.g., Brand, Zyra)"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Lulu",
       "primaryRole": "Support",
-      "secondaryRoles": [
-        "Mid"
-      ],
+      "secondaryRoles": ["Mid"],
+      "category": "Enchanter",
       "archetype": "Enchanter",
-      "playstyle": [
-        "peel",
-        "buff",
-        "protect"
-      ],
+      "playstyle": ["peel", "buff", "protect"],
       "goodAgainst": [
-        {
-          "name": "Alistar",
-          "note": "Polymorphs his engage"
-        },
-        {
-          "name": "Leona",
-          "note": "Polymorphs her engage"
-        },
-        {
-          "name": "Rakan",
-          "note": "Polymorphs his engage"
-        }
+        { "name": "Alistar", "note": "Polymorph (W) his engage" },
+        { "name": "Leona", "note": "Polymorph (W) her engage" },
+        { "name": "Rakan", "note": "Polymorph (W) his engage" }
       ],
       "badAgainst": [
-        {
-          "name": "Blitzcrank",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Thresh",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Pyke",
-          "note": "Hook oneshots her"
-        }
+        { "name": "Blitzcrank", "note": "Hook (Q) oneshots her" },
+        { "name": "Nautilus", "note": "Hook (Q) oneshots her" },
+        { "name": "Thresh", "note": "Hook (Q) oneshots her" },
+        { "name": "Pyke", "note": "Hook (Q) oneshots her" }
       ],
-      "synergies": [
-        "Jinx",
-        "Vayne",
-        "Kog'Maw",
-        "Twitch",
-        "Zeri",
-        "Tristana",
-        "Xayah"
-      ],
-      "avoidSynergies": [
-        "Draven",
-        "Samira",
-        "Kalista"
-      ],
+      "synergies": ["Jinx", "Vayne", "Kog'Maw", "Twitch", "Zeri", "Tristana", "Xayah"],
+      "avoidSynergies": ["Draven", "Samira", "Kalista"],
       "caution": "Very squishy. Position behind ADC.",
       "tips": "Use W on ADC for attack speed, on enemy for polymorph. R saves lives.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "pickWhen": [
+        "Your ADC is a hypercarry that needs peel and buffs (e.g., Vayne, Kog'Maw)",
+        "Enemy has engage you can polymorph (e.g., Alistar, Leona)",
+        "Team needs anti-burst protection"
+      ],
+      "avoidWhen": [
+        "Enemy has hook supports that can delete you",
+        "Your ADC is strong early and needs engage (e.g., Draven, Samira)",
+        "Enemy has heavy poke that outranges you (e.g., Brand, Xerath)"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Lux",
       "primaryRole": "Support",
-      "secondaryRoles": [
-        "Mid"
-      ],
+      "secondaryRoles": ["Mid"],
+      "category": "Mage",
       "archetype": "Poke",
-      "playstyle": [
-        "poke",
-        "burst",
-        "utility"
-      ],
+      "playstyle": ["poke", "burst", "utility"],
       "goodAgainst": [
-        {
-          "name": "Janna",
-          "note": "Out-pokes her"
-        },
-        {
-          "name": "Soraka",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Sona",
-          "note": "Out-bursts her"
-        },
-        {
-          "name": "Yuumi",
-          "note": "Out-bursts her"
-        }
+        { "name": "Janna", "note": "Out-pokes her" },
+        { "name": "Soraka", "note": "Out-bursts her" },
+        { "name": "Sona", "note": "Out-bursts her" },
+        { "name": "Yuumi", "note": "Out-bursts her" }
       ],
       "badAgainst": [
-        {
-          "name": "Blitzcrank",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Thresh",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Pyke",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Leona",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Alistar",
-          "note": "Engage oneshots her"
-        }
+        { "name": "Blitzcrank", "note": "Hook (Q) oneshots her" },
+        { "name": "Nautilus", "note": "Hook (Q) oneshots her" },
+        { "name": "Thresh", "note": "Hook (Q) oneshots her" },
+        { "name": "Pyke", "note": "Hook (Q) oneshots her" },
+        { "name": "Leona", "note": "Engage (E+Q) oneshots her" },
+        { "name": "Alistar", "note": "Engage (W+Q) oneshots her" }
       ],
-      "synergies": [
-        "Caitlyn",
-        "Ezreal",
-        "Jhin",
-        "Sivir",
-        "Varus",
-        "Ashe",
-        "Lucian"
-      ],
-      "avoidSynergies": [
-        "Vayne",
-        "Kog'Maw",
-        "Twitch"
-      ],
+      "synergies": ["Caitlyn", "Ezreal", "Jhin", "Sivir", "Varus", "Ashe", "Lucian"],
+      "avoidSynergies": ["Vayne", "Kog'Maw", "Twitch"],
       "caution": "Very squishy. Q is your only self-peel.",
-      "tips": "Q + E + R is your kill combo. Shield before trades.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "tips": "Q + E + R is your kill combo. Shield (W) before trades.",
+      "pickWhen": [
+        "Enemy has immobile bot lane (e.g., Ashe, Sona)",
+        "Your ADC can follow up on your root (e.g., Caitlyn, Jhin)",
+        "Team needs poke and burst"
+      ],
+      "avoidWhen": [
+        "Enemy has hook supports that can delete you",
+        "Enemy has assassins that can dive you",
+        "Your team needs sustain rather than burst"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Morgana",
       "primaryRole": "Support",
-      "secondaryRoles": [
-        "Mid"
-      ],
+      "secondaryRoles": ["Mid"],
+      "category": "Mage",
       "archetype": "Poke",
-      "playstyle": [
-        "peel",
-        "utility",
-        "mage"
-      ],
+      "playstyle": ["peel", "utility", "mage"],
       "goodAgainst": [
-        {
-          "name": "Blitzcrank",
-          "note": "Black shield blocks hook"
-        },
-        {
-          "name": "Thresh",
-          "note": "Black shield blocks hook"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Black shield blocks hook"
-        },
-        {
-          "name": "Leona",
-          "note": "Black shield blocks engage"
-        },
-        {
-          "name": "Alistar",
-          "note": "Black shield blocks engage"
-        },
-        {
-          "name": "Rakan",
-          "note": "Black shield blocks engage"
-        }
+        { "name": "Blitzcrank", "note": "Black shield (E) blocks hook" },
+        { "name": "Thresh", "note": "Black shield (E) blocks hook" },
+        { "name": "Nautilus", "note": "Black shield (E) blocks hook" },
+        { "name": "Leona", "note": "Black shield (E) blocks engage" },
+        { "name": "Alistar", "note": "Black shield (E) blocks engage" },
+        { "name": "Rakan", "note": "Black shield (E) blocks engage" }
       ],
       "badAgainst": [
-        {
-          "name": "Soraka",
-          "note": "Out-sustains her"
-        },
-        {
-          "name": "Janna",
-          "note": "Out-sustains her"
-        },
-        {
-          "name": "Senna",
-          "note": "Out-ranges her"
-        },
-        {
-          "name": "Seraphine",
-          "note": "Out-pokes her"
-        }
+        { "name": "Soraka", "note": "Out-sustains her" },
+        { "name": "Janna", "note": "Out-sustains her" },
+        { "name": "Senna", "note": "Out-ranges her" },
+        { "name": "Seraphine", "note": "Out-pokes her" }
       ],
-      "synergies": [
-        "Caitlyn",
-        "Jhin",
-        "Ashe",
-        "Sivir",
-        "Xayah",
-        "Varus",
-        "Ezreal",
-        "Lucian"
-      ],
-      "avoidSynergies": [
-        "Tristana",
-        "Samira",
-        "Kalista"
-      ],
-      "caution": "Black shield has long cooldown. Use it wisely.",
+      "synergies": ["Caitlyn", "Jhin", "Ashe", "Sivir", "Xayah", "Varus", "Ezreal", "Lucian"],
+      "avoidSynergies": ["Tristana", "Samira", "Kalista"],
+      "caution": "Black shield (E) has long cooldown. Use it wisely.",
       "tips": "Q is a long root — use it to catch enemies. E shields allies.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "pickWhen": [
+        "Enemy has engage/hook supports (e.g., Thresh, Blitz, Leona)",
+        "Your ADC needs spell shield protection (e.g., against hooks)",
+        "Team needs pick potential with root"
+      ],
+      "avoidWhen": [
+        "Enemy has sustain that outlasts your poke (e.g., Soraka, Nami)",
+        "Enemy has long-range poke that outranges you (e.g., Senna, Xerath)",
+        "Your team needs hard engage rather than peel"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Nami",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Enchanter",
       "archetype": "Enchanter",
-      "playstyle": [
-        "poke",
-        "sustain",
-        "utility"
-      ],
+      "playstyle": ["poke", "sustain", "utility"],
       "goodAgainst": [
-        {
-          "name": "Leona",
-          "note": "Bubble interrupts her engage"
-        },
-        {
-          "name": "Alistar",
-          "note": "Bubble interrupts his engage"
-        },
-        {
-          "name": "Rakan",
-          "note": "Bubble interrupts his engage"
-        }
+        { "name": "Leona", "note": "Bubble (Q) interrupts her engage" },
+        { "name": "Alistar", "note": "Bubble (Q) interrupts his engage" },
+        { "name": "Rakan", "note": "Bubble (Q) interrupts his engage" }
       ],
       "badAgainst": [
-        {
-          "name": "Blitzcrank",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Thresh",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Pyke",
-          "note": "Hook oneshots her"
-        }
+        { "name": "Blitzcrank", "note": "Hook (Q) oneshots her" },
+        { "name": "Nautilus", "note": "Hook (Q) oneshots her" },
+        { "name": "Thresh", "note": "Hook (Q) oneshots her" },
+        { "name": "Pyke", "note": "Hook (Q) oneshots her" }
       ],
-      "synergies": [
-        "Lucian",
-        "Draven",
-        "Jhin",
-        "Ashe",
-        "Caitlyn",
-        "Tristana",
-        "Xayah",
-        "Ezreal"
-      ],
-      "avoidSynergies": [
-        "Kog'Maw",
-        "Zeri",
-        "Twitch"
-      ],
-      "caution": "Bubble is your only CC — don't miss it.",
+      "synergies": ["Lucian", "Draven", "Jhin", "Ashe", "Caitlyn", "Tristana", "Xayah", "Ezreal"],
+      "avoidSynergies": ["Kog'Maw", "Zeri", "Twitch"],
+      "caution": "Bubble (Q) is your only CC — don't miss it.",
       "tips": "E on ADC for extra damage + slow. W bounces for heal/poke.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "pickWhen": [
+        "Your ADC has strong early trades (e.g., Lucian, Draven)",
+        "Enemy has engage you can counter with bubble (e.g., Leona, Alistar)",
+        "Team needs sustain and poke"
+      ],
+      "avoidWhen": [
+        "Enemy has hook supports that can delete you",
+        "Your ADC is immobile and needs peel rather than poke (e.g., Kog'Maw)",
+        "Enemy has heavy poke that outranges you (e.g., Brand, Xerath)"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Nasus",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Fighter",
       "archetype": "Engage",
-      "playstyle": [
-        "poke",
-        "utility",
-        "scaling"
-      ],
+      "playstyle": ["poke", "utility", "scaling"],
       "goodAgainst": [
-        {
-          "name": "Thresh",
-          "note": "Wither his engage"
-        },
-        {
-          "name": "Blitzcrank",
-          "note": "Wither him"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Wither him"
-        }
+        { "name": "Thresh", "note": "Wither (W) his engage" },
+        { "name": "Blitzcrank", "note": "Wither (W) him" },
+        { "name": "Nautilus", "note": "Wither (W) him" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks your W"
-        },
-        {
-          "name": "Lulu",
-          "note": "Polymorph stops you"
-        },
-        {
-          "name": "Janna",
-          "note": "Tornado stops you"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks your W" },
+        { "name": "Lulu", "note": "Polymorph (W) stops you" },
+        { "name": "Janna", "note": "Tornado (Q) stops you" }
       ],
-      "synergies": [
-        "Senna",
-        "Caitlyn",
-        "Jhin",
-        "Ezreal"
-      ],
+      "synergies": ["Senna", "Caitlyn", "Jhin", "Ezreal"],
       "avoidSynergies": [
-        {
-          "name": "Draven",
-          "note": "Need engage, not poke"
-        },
-        {
-          "name": "Samira",
-          "note": "Need engage support"
-        }
+        { "name": "Draven", "note": "Need engage, not poke" },
+        { "name": "Samira", "note": "Need engage support" }
       ],
       "caution": "Weak early. Need to scale.",
       "tips": "W for slow. E for armor shred. Farm Q for scaling.",
       "pickWhen": [
-        "Enemy has auto-attack dependent ADC",
-        "Need scaling"
+        "Enemy has auto-attack dependent ADC (e.g., Vayne, Draven) – Wither shuts them down",
+        "Your ADC is self-sufficient and can farm safely (e.g., Ezreal)",
+        "Team needs a scaling utility support"
       ],
       "avoidWhen": [
-        "Enemy has early pressure",
-        "Need engage support"
+        "Enemy has early pressure and can deny your scaling (e.g., Leona, Brand)",
+        "Your team needs engage rather than utility",
+        "Enemy has Morgana (black shield) to negate your W"
       ],
-      "roles": [
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Nautilus",
       "primaryRole": "Support",
-      "secondaryRoles": [
-        "Top"
-      ],
+      "secondaryRoles": ["Top"],
+      "category": "Tank",
       "archetype": "Hook",
-      "playstyle": [
-        "engage",
-        "tank",
-        "pick"
-      ],
+      "playstyle": ["engage", "tank", "pick"],
       "goodAgainst": [
-        {
-          "name": "Senna",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Sona",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Soraka",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Yuumi",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Janna",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Nami",
-          "note": "Hook oneshots her"
-        }
+        { "name": "Senna", "note": "Hook (Q) oneshots her" },
+        { "name": "Sona", "note": "Hook (Q) oneshots her" },
+        { "name": "Soraka", "note": "Hook (Q) oneshots her" },
+        { "name": "Yuumi", "note": "Hook (Q) oneshots her" },
+        { "name": "Janna", "note": "Hook (Q) oneshots her" },
+        { "name": "Nami", "note": "Hook (Q) oneshots her" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks hook"
-        },
-        {
-          "name": "Alistar",
-          "note": "Knocks him away"
-        },
-        {
-          "name": "Janna",
-          "note": "Interrupts his engage"
-        },
-        {
-          "name": "Zyra",
-          "note": "Plants block his hooks"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks hook" },
+        { "name": "Alistar", "note": "Knocks you away with W" },
+        { "name": "Janna", "note": "Interrupts your engage with Q" },
+        { "name": "Zyra", "note": "Plants block your hooks" }
       ],
-      "synergies": [
-        "Samira",
-        "Tristana",
-        "Draven",
-        "Kai'Sa",
-        "Xayah",
-        "Lucian",
-        "Caitlyn",
-        "Jhin",
-        "Sivir",
-        "Kalista"
-      ],
-      "avoidSynergies": [
-        "Ezreal",
-        "Zeri",
-        "Kog'Maw"
-      ],
+      "synergies": ["Samira", "Tristana", "Draven", "Kai'Sa", "Xayah", "Lucian", "Caitlyn", "Jhin", "Sivir", "Kalista"],
+      "avoidSynergies": ["Ezreal", "Zeri", "Kog'Maw"],
       "caution": "Hook is your engage — don't hook tanks into your team.",
-      "tips": "Hook + passive root + E slow is your combo. Ult locks down carries.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "tips": "Hook (Q) + passive root + E slow is your combo. Ult (R) locks down carries.",
+      "pickWhen": [
+        "Enemy has immobile squishy supports (e.g., Senna, Soraka)",
+        "Your ADC needs engage and peel (e.g., Samira, Draven)",
+        "Team needs point-and-click CC (R)"
+      ],
+      "avoidWhen": [
+        "Enemy has Morgana (black shield) or Alistar (peel)",
+        "Enemy has heavy poke that can kite you (e.g., Brand, Zyra)",
+        "Your ADC is weak early and can't follow up (e.g., Kog'Maw)"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Pantheon",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Fighter",
       "archetype": "Engage",
-      "playstyle": [
-        "engage",
-        "roaming",
-        "burst"
-      ],
+      "playstyle": ["engage", "roaming", "burst"],
       "goodAgainst": [
-        {
-          "name": "Thresh",
-          "note": "Block his hook with E"
-        },
-        {
-          "name": "Blitzcrank",
-          "note": "Block his hook with E"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Block his hook with E"
-        }
+        { "name": "Thresh", "note": "Block his hook with E" },
+        { "name": "Blitzcrank", "note": "Block his hook with E" },
+        { "name": "Nautilus", "note": "Block his hook with E" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks your stun"
-        },
-        {
-          "name": "Lulu",
-          "note": "Polymorph stops your engage"
-        },
-        {
-          "name": "Janna",
-          "note": "Tornado cancels your W"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks your stun (W)" },
+        { "name": "Lulu", "note": "Polymorph (W) stops your engage" },
+        { "name": "Janna", "note": "Tornado (Q) cancels your W" }
       ],
-      "synergies": [
-        "Draven",
-        "Samira",
-        "Tristana",
-        "Kai'Sa"
-      ],
+      "synergies": ["Draven", "Samira", "Tristana", "Kai'Sa"],
       "avoidSynergies": [
-        {
-          "name": "Kog'Maw",
-          "note": "You roam and abandon him"
-        },
-        {
-          "name": "Jinx",
-          "note": "You roam and abandon her"
-        }
+        { "name": "Kog'Maw", "note": "You roam and abandon him" },
+        { "name": "Jinx", "note": "You roam and abandon her" }
       ],
       "caution": "Fall off late game. Use early pressure.",
       "tips": "E for block. W for stun. R for roam.",
       "pickWhen": [
-        "Enemy has squishy bot lane",
-        "You need to roam"
+        "Enemy has squishy bot lane you can burst (e.g., Senna, Sona)",
+        "You need to roam and help other lanes (e.g., with R)",
+        "Your ADC can 1v2 while you roam (e.g., Ezreal)"
       ],
       "avoidWhen": [
-        "Enemy has tanky comp",
-        "Need peel support"
+        "Enemy has tanky comp that can survive your burst (e.g., Alistar, Braum)",
+        "Your ADC needs constant peel (e.g., Kog'Maw, Jinx)",
+        "Game is likely to go late"
       ],
-      "roles": [
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Pyke",
       "primaryRole": "Support",
-      "secondaryRoles": [
-        "Mid"
-      ],
+      "secondaryRoles": ["Mid"],
+      "category": "Assassin",
       "archetype": "Hook",
-      "playstyle": [
-        "engage",
-        "pick",
-        "assassin"
-      ],
+      "playstyle": ["engage", "pick", "assassin"],
       "goodAgainst": [
-        {
-          "name": "Senna",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Sona",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Soraka",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Yuumi",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Janna",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Nami",
-          "note": "Hook oneshots her"
-        }
+        { "name": "Senna", "note": "Hook (Q) oneshots her" },
+        { "name": "Sona", "note": "Hook (Q) oneshots her" },
+        { "name": "Soraka", "note": "Hook (Q) oneshots her" },
+        { "name": "Yuumi", "note": "Hook (Q) oneshots her" },
+        { "name": "Janna", "note": "Hook (Q) oneshots her" },
+        { "name": "Nami", "note": "Hook (Q) oneshots her" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks hook"
-        },
-        {
-          "name": "Alistar",
-          "note": "Knocks him away"
-        },
-        {
-          "name": "Leona",
-          "note": "Engages after his hook"
-        },
-        {
-          "name": "Braum",
-          "note": "Peels his engage"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks hook" },
+        { "name": "Alistar", "note": "Knocks you away with W" },
+        { "name": "Leona", "note": "Engages after your hook" },
+        { "name": "Braum", "note": "Peels your engage" }
       ],
-      "synergies": [
-        "Draven",
-        "Samira",
-        "Jhin",
-        "Tristana",
-        "Kai'Sa",
-        "Lucian",
-        "Caitlyn",
-        "Xayah"
-      ],
-      "avoidSynergies": [
-        "Ezreal",
-        "Zeri",
-        "Kog'Maw"
-      ],
+      "synergies": ["Draven", "Samira", "Jhin", "Tristana", "Kai'Sa", "Lucian", "Caitlyn", "Xayah"],
+      "avoidSynergies": ["Ezreal", "Zeri", "Kog'Maw"],
       "caution": "Very squishy. Must land hooks or be useless.",
       "tips": "W gives invisibility and move speed. R executes and resets.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "pickWhen": [
+        "Enemy has immobile squishy supports (e.g., Senna, Soraka)",
+        "Your ADC has early burst (e.g., Draven, Samira)",
+        "Team needs pick and assassination potential"
+      ],
+      "avoidWhen": [
+        "Enemy has Morgana (black shield) or Alistar (peel)",
+        "Enemy has tanks that can survive your burst",
+        "Your ADC is weak early and can't follow up (e.g., Kog'Maw)"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Rakan",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Catcher",
       "archetype": "Engage",
-      "playstyle": [
-        "engage",
-        "peel",
-        "mobile"
-      ],
+      "playstyle": ["engage", "peel", "mobile"],
       "goodAgainst": [
-        {
-          "name": "Senna",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Sona",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Soraka",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Yuumi",
-          "note": "Engage oneshots her"
-        }
+        { "name": "Senna", "note": "Engage (W+Q+E) oneshots her" },
+        { "name": "Sona", "note": "Engage (W+Q+E) oneshots her" },
+        { "name": "Soraka", "note": "Engage (W+Q+E) oneshots her" },
+        { "name": "Yuumi", "note": "Engage (W+Q+E) oneshots her" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks engage"
-        },
-        {
-          "name": "Janna",
-          "note": "Interrupts his engage"
-        },
-        {
-          "name": "Alistar",
-          "note": "Knocks him away"
-        },
-        {
-          "name": "Leona",
-          "note": "Engages after his engage"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks engage" },
+        { "name": "Janna", "note": "Interrupts his engage with Q" },
+        { "name": "Alistar", "note": "Knocks him away with W" },
+        { "name": "Leona", "note": "Engages after his engage" }
       ],
-      "synergies": [
-        "Xayah",
-        "Tristana",
-        "Samira",
-        "Kai'Sa",
-        "Draven",
-        "Lucian",
-        "Caitlyn",
-        "Jhin",
-        "Sivir",
-        "Smolder"
-      ],
-      "avoidSynergies": [
-        "Ezreal",
-        "Zeri",
-        "Kog'Maw"
-      ],
+      "synergies": ["Xayah", "Tristana", "Samira", "Kai'Sa", "Draven", "Lucian", "Caitlyn", "Jhin", "Sivir", "Smolder"],
+      "avoidSynergies": ["Ezreal", "Zeri", "Kog'Maw"],
       "caution": "E is your escape — save it to get out after engaging.",
-      "tips": "W knockup + Q + E back is your poke combo. Ultimate charms enemies.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "tips": "W knockup + Q + E back is your poke combo. Ultimate (R) charms enemies.",
+      "pickWhen": [
+        "You have Xayah as ADC (special synergy)",
+        "Enemy has immobile squishy supports (e.g., Senna, Sona)",
+        "Your ADC has strong follow-up (e.g., Samira, Tristana)"
+      ],
+      "avoidWhen": [
+        "Enemy has Morgana (black shield) or Janna (disengage)",
+        "Enemy has heavy poke that can chunk you before you engage (e.g., Brand, Zyra)",
+        "Your ADC is weak early and can't follow up (e.g., Kog'Maw)"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Rell",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Tank",
       "archetype": "Engage",
-      "playstyle": [
-        "engage",
-        "teamfight",
-        "tank"
-      ],
+      "playstyle": ["engage", "teamfight", "tank"],
       "goodAgainst": [
-        {
-          "name": "Thresh",
-          "note": "Can't flay your R"
-        },
-        {
-          "name": "Leona",
-          "note": "Your R cancels her E"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Pull him in with E"
-        }
+        { "name": "Thresh", "note": "Can't flay your R" },
+        { "name": "Leona", "note": "Your R cancels her E" },
+        { "name": "Nautilus", "note": "Pull him in with E" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks your CC"
-        },
-        {
-          "name": "Janna",
-          "note": "Tornado cancels your W"
-        },
-        {
-          "name": "Braum",
-          "note": "Can block your engage"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks your CC" },
+        { "name": "Janna", "note": "Tornado (Q) cancels your W" },
+        { "name": "Braum", "note": "Can block your engage with E" }
       ],
-      "synergies": [
-        "Samira",
-        "Kai'Sa",
-        "Draven",
-        "Tristana",
-        "Lucian"
-      ],
+      "synergies": ["Samira", "Kai'Sa", "Draven", "Tristana", "Lucian"],
       "avoidSynergies": [
-        {
-          "name": "Ezreal",
-          "note": "No follow-up damage"
-        },
-        {
-          "name": "Sivir",
-          "note": "Need burst for your engage"
-        }
+        { "name": "Ezreal", "note": "No follow-up damage" },
+        { "name": "Sivir", "note": "Need burst for your engage" }
       ],
       "caution": "Your W is slow. Predict enemy movement.",
       "tips": "W for engage, E for stun, R for teamfight CC.",
       "pickWhen": [
-        "Enemy has grouped up",
-        "Teamfight comp"
+        "Enemy has grouped up and you can land multi-target CC",
+        "Your ADC can follow up on your engage (e.g., Samira, Miss Fortune)",
+        "Team needs a tanky engage support"
       ],
       "avoidWhen": [
-        "Enemy has heavy disengage",
-        "Need pick comp"
+        "Enemy has heavy disengage (e.g., Janna, Morgana)",
+        "Your team needs pick potential rather than teamfight engage",
+        "Enemy has mobile carries that can dodge your W"
       ],
-      "roles": [
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Senna",
       "primaryRole": "Support",
       "secondaryRoles": [],
-      "playstyle": [
-        "poke",
-        "scaling",
-        "utility"
-      ],
+      "category": "Marksman",
+      "playstyle": ["poke", "scaling", "utility"],
       "goodAgainst": [
-        {
-          "name": "Seraphine",
-          "note": "Out-pokes her"
-        },
-        {
-          "name": "Sona",
-          "note": "Out-ranges and pokes"
-        },
-        {
-          "name": "Janna",
-          "note": "Out-pokes her"
-        },
-        {
-          "name": "Soraka",
-          "note": "Out-pokes her"
-        },
-        {
-          "name": "Yuumi",
-          "note": "Pokes her off ADC"
-        },
-        {
-          "name": "Nami",
-          "note": "Out-pokes her"
-        }
+        { "name": "Seraphine", "note": "Out-pokes her" },
+        { "name": "Sona", "note": "Out-ranges and pokes" },
+        { "name": "Janna", "note": "Out-pokes her" },
+        { "name": "Soraka", "note": "Out-pokes her" },
+        { "name": "Yuumi", "note": "Pokes her off ADC" },
+        { "name": "Nami", "note": "Out-pokes her" }
       ],
       "badAgainst": [
-        {
-          "name": "Blitzcrank",
-          "note": "Hook destroys her"
-        },
-        {
-          "name": "Leona",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Thresh",
-          "note": "Hook destroys her"
-        },
-        {
-          "name": "Rakan",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Hook destroys her"
-        },
-        {
-          "name": "Braum",
-          "note": "Blocks her poke"
-        }
+        { "name": "Blitzcrank", "note": "Hook (Q) destroys her" },
+        { "name": "Leona", "note": "Engage (E+Q) oneshots her" },
+        { "name": "Thresh", "note": "Hook (Q) destroys her" },
+        { "name": "Rakan", "note": "Engage (W+Q) oneshots her" },
+        { "name": "Nautilus", "note": "Hook (Q) destroys her" },
+        { "name": "Braum", "note": "Blocks her poke with E" }
       ],
-      "synergies": [
-        "Nasus",
-        "Galio",
-        "Seraphine",
-        "Lux",
-        "Karma"
-      ],
+      "synergies": ["Nasus", "Galio", "Seraphine", "Lux", "Karma"],
       "avoidSynergies": [
-        {
-          "name": "Sona",
-          "note": "Double squishy"
-        },
-        {
-          "name": "Soraka",
-          "note": "Double squishy"
-        }
+        { "name": "Sona", "note": "Double squishy" },
+        { "name": "Soraka", "note": "Double squishy" }
       ],
       "caution": "Very squishy. Bad positioning gets you killed instantly.",
       "tips": "Collect souls from poke. Build lethality for damage, enchanter for utility.",
       "pickWhen": [
-        "Enemy has enchanter support",
-        "Your team has frontline"
+        "Enemy has enchanter support you can out-poke (e.g., Soraka, Nami)",
+        "Your team has frontline to protect you",
+        "You need scaling utility (heal, shield, root)"
       ],
       "avoidWhen": [
-        "Enemy has hard engage",
-        "Enemy has multiple assassins"
+        "Enemy has hard engage that can delete you (e.g., Leona, Blitz)",
+        "Enemy has multiple assassins that can dive you",
+        "Your team lacks frontline"
       ],
-      "roles": [
-        "ADC",
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Seraphine",
       "primaryRole": "Support",
-      "secondaryRoles": [
-        "Mid"
-      ],
-      "playstyle": [
-        "utility",
-        "poke",
-        "teamfight"
-      ],
+      "secondaryRoles": ["Mid"],
+      "category": "Mage",
+      "playstyle": ["utility", "poke", "teamfight"],
       "goodAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Out-pokes her"
-        },
-        {
-          "name": "Thresh",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Alistar",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Rakan",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Braum",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Leona",
-          "note": "Out-pokes her"
-        }
+        { "name": "Morgana", "note": "Out-pokes her" },
+        { "name": "Thresh", "note": "Out-pokes him" },
+        { "name": "Alistar", "note": "Out-pokes him" },
+        { "name": "Rakan", "note": "Out-pokes him" },
+        { "name": "Braum", "note": "Out-pokes him" },
+        { "name": "Leona", "note": "Out-pokes her" }
       ],
       "badAgainst": [
-        {
-          "name": "Sona",
-          "note": "Out-sustains her"
-        },
-        {
-          "name": "Soraka",
-          "note": "Out-sustains her"
-        },
-        {
-          "name": "Janna",
-          "note": "Out-sustains her"
-        },
-        {
-          "name": "Senna",
-          "note": "Out-ranges her"
-        },
-        {
-          "name": "Pyke",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Milio",
-          "note": "Out-sustains her"
-        }
+        { "name": "Sona", "note": "Out-sustains her" },
+        { "name": "Soraka", "note": "Out-sustains her" },
+        { "name": "Janna", "note": "Out-sustains her" },
+        { "name": "Senna", "note": "Out-ranges her" },
+        { "name": "Pyke", "note": "Hook (Q) oneshots her" },
+        { "name": "Milio", "note": "Out-sustains her" }
       ],
-      "synergies": [
-        "Senna",
-        "Ezreal",
-        "Ashe",
-        "Jhin"
-      ],
+      "synergies": ["Senna", "Ezreal", "Ashe", "Jhin"],
       "avoidSynergies": [],
       "caution": "Very squishy. Position carefully.",
-      "tips": "Double cast E for root, double cast W for heal. Ultimate is game-changing.",
+      "tips": "Double cast E for root, double cast W for heal. Ultimate (R) is game-changing.",
       "pickWhen": [
-        "Enemy has engage comp you can kite",
-        "Your team needs AP damage"
+        "Enemy has engage comp you can kite (e.g., Alistar, Rakan)",
+        "Your team needs AP damage and utility",
+        "Team needs teamfight control with R"
       ],
       "avoidWhen": [
-        "Enemy has mobile assassins",
-        "Enemy has hook supports"
+        "Enemy has mobile assassins that can dive you (e.g., Pyke, Zed)",
+        "Enemy has hook supports that can delete you",
+        "Your team needs pure engage rather than utility"
       ],
-      "roles": [
-        "APC",
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Sona",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Enchanter",
       "archetype": "Enchanter",
-      "playstyle": [
-        "sustain",
-        "buff",
-        "utility"
-      ],
+      "playstyle": ["sustain", "buff", "utility"],
       "goodAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Out-sustains her"
-        },
-        {
-          "name": "Thresh",
-          "note": "Out-sustains him"
-        },
-        {
-          "name": "Alistar",
-          "note": "Out-sustains him"
-        },
-        {
-          "name": "Rakan",
-          "note": "Out-sustains him"
-        },
-        {
-          "name": "Leona",
-          "note": "Out-sustains her"
-        }
+        { "name": "Morgana", "note": "Out-sustains her" },
+        { "name": "Thresh", "note": "Out-sustains him" },
+        { "name": "Alistar", "note": "Out-sustains him" },
+        { "name": "Rakan", "note": "Out-sustains him" },
+        { "name": "Leona", "note": "Out-sustains her" }
       ],
       "badAgainst": [
-        {
-          "name": "Blitzcrank",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Thresh",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Pyke",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Leona",
-          "note": "Engage oneshots her"
-        },
-        {
-          "name": "Alistar",
-          "note": "Engage oneshots her"
-        }
+        { "name": "Blitzcrank", "note": "Hook (Q) oneshots her" },
+        { "name": "Nautilus", "note": "Hook (Q) oneshots her" },
+        { "name": "Thresh", "note": "Hook (Q) oneshots her" },
+        { "name": "Pyke", "note": "Hook (Q) oneshots her" },
+        { "name": "Leona", "note": "Engage (E+Q) oneshots her" },
+        { "name": "Alistar", "note": "Engage (W+Q) oneshots her" }
       ],
-      "synergies": [
-        "Ezreal",
-        "Zeri",
-        "Smolder",
-        "Kog'Maw",
-        "Twitch",
-        "Vayne"
-      ],
-      "avoidSynergies": [
-        "Draven",
-        "Samira",
-        "Kalista"
-      ],
+      "synergies": ["Ezreal", "Zeri", "Smolder", "Kog'Maw", "Twitch", "Vayne"],
+      "avoidSynergies": ["Draven", "Samira", "Kalista"],
       "caution": "Very squishy. One hook and you're dead.",
-      "tips": "Stack Q for poke, W for sustain, E for speed. Ult is game-changing.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "tips": "Stack Q for poke, W for sustain, E for speed. Ult (R) is game-changing.",
+      "pickWhen": [
+        "Your ADC is a hypercarry that benefits from sustain and buffs (e.g., Vayne, Kog'Maw)",
+        "Enemy lacks hard engage (no hooks/dives)",
+        "Team needs scaling utility and sustain"
+      ],
+      "avoidWhen": [
+        "Enemy has hook supports that can delete you",
+        "Enemy has early kill pressure (e.g., Leona, Draven)",
+        "Your team needs engage rather than sustain"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Soraka",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Enchanter",
       "archetype": "Enchanter",
-      "playstyle": [
-        "sustain",
-        "heal",
-        "utility"
-      ],
+      "playstyle": ["sustain", "heal", "utility"],
       "goodAgainst": [
-        {
-          "name": "Leona",
-          "note": "Out-sustains her engage"
-        },
-        {
-          "name": "Alistar",
-          "note": "Out-sustains his engage"
-        },
-        {
-          "name": "Rakan",
-          "note": "Out-sustains his engage"
-        },
-        {
-          "name": "Thresh",
-          "note": "Out-sustains his poke"
-        }
+        { "name": "Leona", "note": "Out-sustains her engage" },
+        { "name": "Alistar", "note": "Out-sustains his engage" },
+        { "name": "Rakan", "note": "Out-sustains his engage" },
+        { "name": "Thresh", "note": "Out-sustains his poke" }
       ],
       "badAgainst": [
-        {
-          "name": "Blitzcrank",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Pyke",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Leona",
-          "note": "Engage oneshots her"
-        }
+        { "name": "Blitzcrank", "note": "Hook (Q) oneshots her" },
+        { "name": "Nautilus", "note": "Hook (Q) oneshots her" },
+        { "name": "Pyke", "note": "Hook (Q) oneshots her" },
+        { "name": "Leona", "note": "Engage (E+Q) oneshots her" }
       ],
-      "synergies": [
-        "Vayne",
-        "Kog'Maw",
-        "Nilah",
-        "Twitch",
-        "Jinx",
-        "Zeri",
-        "Caitlyn",
-        "Ashe"
-      ],
-      "avoidSynergies": [
-        "Draven",
-        "Samira",
-        "Kalista"
-      ],
+      "synergies": ["Vayne", "Kog'Maw", "Nilah", "Twitch", "Jinx", "Zeri", "Caitlyn", "Ashe"],
+      "avoidSynergies": ["Draven", "Samira", "Kalista"],
       "caution": "Very squishy. Heal uses HP — position safely.",
       "tips": "Use Q to regain HP. Save R for cross-map saves.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "pickWhen": [
+        "Your ADC is a hypercarry that needs sustain (e.g., Vayne, Kog'Maw)",
+        "Enemy has poke you can out-sustain (e.g., Brand, Lux)",
+        "Team needs global healing (R)"
+      ],
+      "avoidWhen": [
+        "Enemy has hook supports that can delete you",
+        "Enemy has burst that can oneshot your ADC before you heal (e.g., Draven, Pyke)",
+        "Your team needs engage rather than sustain"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Taric",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Tank",
       "archetype": "Enchanter",
-      "playstyle": [
-        "heal",
-        "engage",
-        "tank"
-      ],
+      "playstyle": ["heal", "engage", "tank"],
       "goodAgainst": [
-        {
-          "name": "Leona",
-          "note": "Heal through her engage"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Heal through his engage"
-        },
-        {
-          "name": "Alistar",
-          "note": "Heal through his combo"
-        }
+        { "name": "Leona", "note": "Heal through her engage with Q" },
+        { "name": "Nautilus", "note": "Heal through his engage with Q" },
+        { "name": "Alistar", "note": "Heal through his combo with Q" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Can't CC through shield"
-        },
-        {
-          "name": "Lulu",
-          "note": "Can't out-heal polymorph"
-        },
-        {
-          "name": "Janna",
-          "note": "Can't out-heal tornado"
-        }
+        { "name": "Morgana", "note": "Can't CC through shield (E)" },
+        { "name": "Lulu", "note": "Can't out-heal polymorph (W)" },
+        { "name": "Janna", "note": "Can't out-heal tornado (Q)" }
       ],
-      "synergies": [
-        "Lucian",
-        "Vayne",
-        "Kai'Sa",
-        "Samira",
-        "Tristana"
-      ],
+      "synergies": ["Lucian", "Vayne", "Kai'Sa", "Samira", "Tristana"],
       "avoidSynergies": [
-        {
-          "name": "Ezreal",
-          "note": "No follow-up CC"
-        },
-        {
-          "name": "Sivir",
-          "note": "Need burst"
-        }
+        { "name": "Ezreal", "note": "No follow-up CC" },
+        { "name": "Sivir", "note": "Need burst" }
       ],
-      "caution": "Your ultimate has a delay. Predict engages.",
+      "caution": "Your ultimate (R) has a delay. Predict engages.",
       "tips": "Q for heal. W for shield. E for stun. R for invulnerability.",
       "pickWhen": [
-        "Enemy has melee engage",
-        "Need sustain"
+        "Enemy has melee engage you can heal through (e.g., Leona, Alistar)",
+        "Your ADC needs sustain and your team needs frontline",
+        "Team needs invulnerability to counter burst"
       ],
       "avoidWhen": [
-        "Enemy has poke",
-        "Need engage support"
+        "Enemy has heavy poke that can chunk you before you engage (e.g., Brand, Zyra)",
+        "Your team needs hard engage rather than sustain",
+        "Enemy has Morgana (black shield) to block your stun"
       ],
-      "roles": [
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Thresh",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Tank",
       "archetype": "Hook",
-      "playstyle": [
-        "engage",
-        "peel",
-        "utility"
-      ],
+      "playstyle": ["engage", "peel", "utility"],
       "goodAgainst": [
-        {
-          "name": "Senna",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Sona",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Soraka",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Yuumi",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Janna",
-          "note": "Hook oneshots her"
-        },
-        {
-          "name": "Nami",
-          "note": "Hook oneshots her"
-        }
+        { "name": "Senna", "note": "Hook (Q) oneshots her" },
+        { "name": "Sona", "note": "Hook (Q) oneshots her" },
+        { "name": "Soraka", "note": "Hook (Q) oneshots her" },
+        { "name": "Yuumi", "note": "Hook (Q) oneshots her" },
+        { "name": "Janna", "note": "Hook (Q) oneshots her" },
+        { "name": "Nami", "note": "Hook (Q) oneshots her" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Black shield blocks hook"
-        },
-        {
-          "name": "Alistar",
-          "note": "Knocks him away"
-        },
-        {
-          "name": "Janna",
-          "note": "Interrupts his engage"
-        },
-        {
-          "name": "Zyra",
-          "note": "Plants block his hooks"
-        }
+        { "name": "Morgana", "note": "Black shield (E) blocks hook" },
+        { "name": "Alistar", "note": "Knocks you away with W" },
+        { "name": "Janna", "note": "Interrupts your engage with Q" },
+        { "name": "Zyra", "note": "Plants block your hooks" }
       ],
-      "synergies": [
-        "Draven",
-        "Samira",
-        "Kalista",
-        "Kai'Sa",
-        "Tristana",
-        "Lucian",
-        "Caitlyn",
-        "Jhin",
-        "Sivir",
-        "Xayah"
-      ],
-      "avoidSynergies": [
-        "Ezreal",
-        "Zeri",
-        "Kog'Maw"
-      ],
+      "synergies": ["Draven", "Samira", "Kalista", "Kai'Sa", "Tristana", "Lucian", "Caitlyn", "Jhin", "Sivir", "Xayah"],
+      "avoidSynergies": ["Ezreal", "Zeri", "Kog'Maw"],
       "caution": "Hook is your engage — don't hook tanks into your team.",
       "tips": "Use Q to hook, E to flay, R to slow. W saves teammates.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "pickWhen": [
+        "Enemy has immobile squishy supports (e.g., Senna, Soraka)",
+        "Your ADC has strong follow-up (e.g., Draven, Kalista)",
+        "Team needs engage and peel"
+      ],
+      "avoidWhen": [
+        "Enemy has Morgana (black shield) or Alistar (peel)",
+        "Enemy has heavy poke that can kite you (e.g., Brand, Zyra)",
+        "Your ADC is weak early and can't follow up (e.g., Kog'Maw)"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Veigar",
       "primaryRole": "Support",
-      "secondaryRoles": [
-        "Mid"
-      ],
-      "playstyle": [
-        "burst",
-        "scaling",
-        "utility"
-      ],
+      "secondaryRoles": ["Mid"],
+      "category": "Mage",
+      "playstyle": ["burst", "scaling", "utility"],
       "goodAgainst": [
-        {
-          "name": "Tristana",
-          "note": "Traps her jump"
-        },
-        {
-          "name": "Draven",
-          "note": "Traps his aggression"
-        },
-        {
-          "name": "Ezreal",
-          "note": "Traps his blink"
-        },
-        {
-          "name": "Corki",
-          "note": "Out-scales his burst"
-        },
-        {
-          "name": "Rakan",
-          "note": "Traps his engage"
-        },
-        {
-          "name": "Orianna",
-          "note": "Out-ranges her"
-        }
+        { "name": "Tristana", "note": "Traps her jump with E (cage)" },
+        { "name": "Draven", "note": "Traps his aggression with E" },
+        { "name": "Ezreal", "note": "Traps his blink with E" },
+        { "name": "Corki", "note": "Out-scales his burst" },
+        { "name": "Rakan", "note": "Traps his engage with E" },
+        { "name": "Orianna", "note": "Out-ranges her" }
       ],
       "badAgainst": [
-        {
-          "name": "Braum",
-          "note": "Shields his burst"
-        },
-        {
-          "name": "Seraphine",
-          "note": "Out-sustains him"
-        },
-        {
-          "name": "Aphelios",
-          "note": "Out-ranges him"
-        },
-        {
-          "name": "Xayah",
-          "note": "Out-bursts him"
-        },
-        {
-          "name": "Miss Fortune",
-          "note": "Out-ranges him"
-        },
-        {
-          "name": "Lucian",
-          "note": "Out-bursts him early"
-        }
+        { "name": "Braum", "note": "Shields his burst with E" },
+        { "name": "Seraphine", "note": "Out-sustains him" },
+        { "name": "Aphelios", "note": "Out-ranges him" },
+        { "name": "Xayah", "note": "Out-bursts him" },
+        { "name": "Miss Fortune", "note": "Out-ranges him" },
+        { "name": "Lucian", "note": "Out-bursts him early" }
       ],
-      "synergies": [
-        "Leona",
-        "Nautilus",
-        "Thresh",
-        "Alistar"
-      ],
+      "synergies": ["Leona", "Nautilus", "Thresh", "Alistar"],
       "avoidSynergies": [],
       "caution": "Weak early game. Needs to stack AP safely.",
-      "tips": "Use cage to zone and trap. Stack passive on minions and champions.",
+      "tips": "Use cage (E) to zone and trap. Stack passive on minions and champions.",
       "pickWhen": [
-        "Your team needs magic damage",
-        "Enemy has immobile champions"
+        "Your team needs magic damage and scaling",
+        "Enemy has immobile champions you can trap (e.g., Draven, Tristana)",
+        "You can safely stack AP against low-pressure bot lane"
       ],
       "avoidWhen": [
-        "Enemy has Sivir (spellshield)",
-        "Enemy has Olaf (ignores cage)"
+        "Enemy has Sivir (spellshield) or Olaf (ignores cage)",
+        "Enemy has early pressure that can deny your scaling (e.g., Draven, Leona)",
+        "Your team needs engage rather than scaling"
       ],
-      "roles": [
-        "APC",
-        "Support"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Vel'Koz",
       "primaryRole": "Dragon",
       "secondaryRoles": [],
+      "category": "Mage",
       "archetype": "Mage",
-      "playstyle": [
-        "poke",
-        "burst",
-        "utility"
-      ],
+      "playstyle": ["poke", "burst", "utility"],
       "goodAgainst": [
-        {
-          "name": "Thresh",
-          "note": "Poke from range"
-        },
-        {
-          "name": "Blitzcrank",
-          "note": "Poke from range"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Poke from range"
-        }
+        { "name": "Thresh", "note": "Poke from range with Q" },
+        { "name": "Blitzcrank", "note": "Poke from range with Q" },
+        { "name": "Nautilus", "note": "Poke from range with Q" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Shield blocks your CC"
-        },
-        {
-          "name": "Lulu",
-          "note": "Polymorph > CC"
-        },
-        {
-          "name": "Janna",
-          "note": "Tornado > CC"
-        }
+        { "name": "Morgana", "note": "Shield (E) blocks your CC" },
+        { "name": "Lulu", "note": "Polymorph (W) > CC" },
+        { "name": "Janna", "note": "Tornado (Q) > CC" }
       ],
-      "synergies": [
-        "Caitlyn",
-        "Jhin",
-        "Lucian",
-        "Draven",
-        "Ashe"
-      ],
+      "synergies": ["Caitlyn", "Jhin", "Lucian", "Draven", "Ashe"],
       "avoidSynergies": [
-        {
-          "name": "Ezreal",
-          "note": "No follow-up CC"
-        },
-        {
-          "name": "Sivir",
-          "note": "No follow-up CC"
-        }
+        { "name": "Ezreal", "note": "No follow-up CC" },
+        { "name": "Sivir", "note": "No follow-up CC" }
       ],
       "caution": "Squishy and immobile. Position carefully.",
       "tips": "Q for poke. W for waveclear. E for CC. R for true damage burst.",
       "pickWhen": [
-        "Enemy has immobile bot lane",
-        "Need poke"
+        "Enemy has immobile bot lane (e.g., Ashe, Sona)",
+        "Your ADC can follow up on your CC (e.g., Jhin, Caitlyn)",
+        "Team needs poke and true damage"
       ],
       "avoidWhen": [
-        "Enemy has engage supports",
-        "Heavy dive comps"
+        "Enemy has engage supports that can dive you (e.g., Leona, Nautilus)",
+        "Enemy has mobile assassins that can jump on you",
+        "Your team lacks frontline"
       ],
-      "roles": [
-        "Support",
-        "APC"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Xerath",
       "primaryRole": "Dragon",
       "secondaryRoles": [],
+      "category": "Mage",
       "archetype": "Mage",
-      "playstyle": [
-        "poke",
-        "burst",
-        "utility"
-      ],
+      "playstyle": ["poke", "burst", "utility"],
       "goodAgainst": [
-        {
-          "name": "Thresh",
-          "note": "Poke from range"
-        },
-        {
-          "name": "Blitzcrank",
-          "note": "Poke from range"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Poke from range"
-        }
+        { "name": "Thresh", "note": "Poke from range with Q" },
+        { "name": "Blitzcrank", "note": "Poke from range with Q" },
+        { "name": "Nautilus", "note": "Poke from range with Q" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Shield blocks your CC"
-        },
-        {
-          "name": "Lulu",
-          "note": "Polymorph > CC"
-        },
-        {
-          "name": "Janna",
-          "note": "Tornado > CC"
-        }
+        { "name": "Morgana", "note": "Shield (E) blocks your CC" },
+        { "name": "Lulu", "note": "Polymorph (W) > CC" },
+        { "name": "Janna", "note": "Tornado (Q) > CC" }
       ],
-      "synergies": [
-        "Caitlyn",
-        "Jhin",
-        "Lucian",
-        "Draven",
-        "Ashe"
-      ],
+      "synergies": ["Caitlyn", "Jhin", "Lucian", "Draven", "Ashe"],
       "avoidSynergies": [
-        {
-          "name": "Ezreal",
-          "note": "No follow-up CC"
-        },
-        {
-          "name": "Sivir",
-          "note": "No follow-up CC"
-        }
+        { "name": "Ezreal", "note": "No follow-up CC" },
+        { "name": "Sivir", "note": "No follow-up CC" }
       ],
       "caution": "Squishy and immobile. Position is crucial.",
       "tips": "Q for poke. W for slow. E for stun. R for burst.",
       "pickWhen": [
-        "Enemy has immobile bot lane",
-        "Need poke"
+        "Enemy has immobile bot lane (e.g., Ashe, Sona)",
+        "Your ADC can follow up on your CC (e.g., Jhin, Caitlyn)",
+        "Team needs long-range poke and burst"
       ],
       "avoidWhen": [
-        "Enemy has engage supports",
-        "Heavy dive comps"
+        "Enemy has engage supports that can dive you (e.g., Leona, Nautilus)",
+        "Enemy has mobile assassins that can jump on you",
+        "Your team lacks frontline"
       ],
-      "roles": [
-        "Support",
-        "APC"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Yuumi",
       "primaryRole": "Support",
       "secondaryRoles": [],
+      "category": "Enchanter",
       "archetype": "Enchanter",
-      "playstyle": [
-        "sustain",
-        "buff",
-        "utility"
-      ],
+      "playstyle": ["sustain", "buff", "utility"],
       "goodAgainst": [
-        {
-          "name": "Leona",
-          "note": "Attached, can't be engaged"
-        },
-        {
-          "name": "Alistar",
-          "note": "Attached, can't be engaged"
-        },
-        {
-          "name": "Rakan",
-          "note": "Attached, can't be engaged"
-        },
-        {
-          "name": "Thresh",
-          "note": "Attached, can't be hooked"
-        },
-        {
-          "name": "Blitzcrank",
-          "note": "Attached, can't be hooked"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Attached, can't be hooked"
-        }
+        { "name": "Leona", "note": "Attached, can't be engaged" },
+        { "name": "Alistar", "note": "Attached, can't be engaged" },
+        { "name": "Rakan", "note": "Attached, can't be engaged" },
+        { "name": "Thresh", "note": "Attached, can't be hooked" },
+        { "name": "Blitzcrank", "note": "Attached, can't be hooked" },
+        { "name": "Nautilus", "note": "Attached, can't be hooked" }
       ],
       "badAgainst": [
-        {
-          "name": "Senna",
-          "note": "Pokes her off ADC"
-        },
-        {
-          "name": "Soraka",
-          "note": "Out-sustains her"
-        },
-        {
-          "name": "Sona",
-          "note": "Out-sustains her"
-        }
+        { "name": "Senna", "note": "Pokes her off ADC" },
+        { "name": "Soraka", "note": "Out-sustains her" },
+        { "name": "Sona", "note": "Out-sustains her" }
       ],
-      "synergies": [
-        "Ezreal",
-        "Zeri",
-        "Jinx",
-        "Kog'Maw",
-        "Twitch",
-        "Vayne",
-        "Smolder",
-        "Sivir"
-      ],
-      "avoidSynergies": [
-        "Jhin",
-        "Draven",
-        "Samira",
-        "Kalista"
-      ],
+      "synergies": ["Ezreal", "Zeri", "Jinx", "Kog'Maw", "Twitch", "Vayne", "Smolder", "Sivir"],
+      "avoidSynergies": ["Jhin", "Draven", "Samira", "Kalista"],
       "caution": "You are your ADC's item. If they die, you die.",
-      "tips": "Attach to your ADC. Heal with E, poke with Q, ult to win.",
-      "pickWhen": [],
-      "avoidWhen": [],
-      "roles": [
-        "Support"
-      ]
+      "tips": "Attach to your ADC. Heal with E, poke with Q, ult (R) to win.",
+      "pickWhen": [
+        "Your ADC is self-sufficient and benefits from sustain (e.g., Ezreal, Zeri)",
+        "Enemy has engage you can dodge by attaching",
+        "Team needs scaling utility and heals"
+      ],
+      "avoidWhen": [
+        "Your ADC is weak early and needs peel (e.g., Vayne, Kog'Maw)",
+        "Enemy has heavy poke that can force you off your ADC (e.g., Senna, Brand)",
+        "Your team needs engage rather than sustain"
+      ],
+      "roles": ["Support"]
     },
     {
       "name": "Zilean",
       "primaryRole": "Dragon",
       "secondaryRoles": [],
+      "category": "Utility",
       "archetype": "Mage",
-      "playstyle": [
-        "poke",
-        "utility",
-        "revive"
-      ],
+      "playstyle": ["poke", "utility", "revive"],
       "goodAgainst": [
-        {
-          "name": "Thresh",
-          "note": "Speed to dodge hooks"
-        },
-        {
-          "name": "Blitzcrank",
-          "note": "Speed to dodge hooks"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Speed to dodge hooks"
-        }
+        { "name": "Thresh", "note": "Speed (E) to dodge hooks" },
+        { "name": "Blitzcrank", "note": "Speed (E) to dodge hooks" },
+        { "name": "Nautilus", "note": "Speed (E) to dodge hooks" }
       ],
       "badAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Can't CC through shield"
-        },
-        {
-          "name": "Lulu",
-          "note": "Can't out-speed polymorph"
-        },
-        {
-          "name": "Janna",
-          "note": "Can't out-speed tornado"
-        }
+        { "name": "Morgana", "note": "Can't CC through shield (E)" },
+        { "name": "Lulu", "note": "Can't out-speed polymorph (W)" },
+        { "name": "Janna", "note": "Can't out-speed tornado (Q)" }
       ],
-      "synergies": [
-        "Ezreal",
-        "Caitlyn",
-        "Jhin",
-        "Draven",
-        "Lucian"
-      ],
+      "synergies": ["Ezreal", "Caitlyn", "Jhin", "Draven", "Lucian"],
       "avoidSynergies": [
-        {
-          "name": "Vayne",
-          "note": "Need peel, not speed"
-        },
-        {
-          "name": "Kog'Maw",
-          "note": "Need more sustain"
-        }
+        { "name": "Vayne", "note": "Need peel, not speed" },
+        { "name": "Kog'Maw", "note": "Need more sustain" }
       ],
       "caution": "Squishy. Position carefully.",
       "tips": "Q for stun. W for CD reset. E for speed. R for revive.",
       "pickWhen": [
-        "Enemy has engage supports",
-        "Need speed and utility"
+        "Enemy has engage supports you can speed away from (e.g., Blitz, Nautilus)",
+        "Your ADC benefits from movespeed (e.g., Ezreal, Lucian)",
+        "Team needs revive utility to counter burst"
       ],
       "avoidWhen": [
-        "Enemy has poke",
-        "Need engage support"
+        "Enemy has heavy poke that can outrange you (e.g., Brand, Xerath)",
+        "Your team needs engage rather than utility",
+        "Enemy has Morgana (black shield) to block your Q stun"
       ],
-      "roles": [
-        "Support",
-        "APC"
-      ]
+      "roles": ["Support"]
     },
     {
       "name": "Zyra",
       "primaryRole": "Support",
-      "secondaryRoles": [
-        "Mid"
-      ],
-      "playstyle": [
-        "poke",
-        "zone-control",
-        "teamfight"
-      ],
+      "secondaryRoles": ["Mid"],
+      "category": "Mage",
+      "playstyle": ["poke", "zone-control", "teamfight"],
       "goodAgainst": [
-        {
-          "name": "Morgana",
-          "note": "Out-pokes her"
-        },
-        {
-          "name": "Thresh",
-          "note": "Plants block his hooks"
-        },
-        {
-          "name": "Alistar",
-          "note": "Out-pokes him"
-        },
-        {
-          "name": "Nautilus",
-          "note": "Plants block his hooks"
-        },
-        {
-          "name": "Blitzcrank",
-          "note": "Plants block his hooks"
-        },
-        {
-          "name": "Leona",
-          "note": "Out-pokes her"
-        }
+        { "name": "Morgana", "note": "Out-pokes her" },
+        { "name": "Thresh", "note": "Plants block his hooks" },
+        { "name": "Alistar", "note": "Out-pokes him" },
+        { "name": "Nautilus", "note": "Plants block his hooks" },
+        { "name": "Blitzcrank", "note": "Plants block his hooks" },
+        { "name": "Leona", "note": "Out-pokes her" }
       ],
       "badAgainst": [
-        {
-          "name": "Soraka",
-          "note": "Out-sustains her poke"
-        },
-        {
-          "name": "Janna",
-          "note": "Out-sustains her poke"
-        },
-        {
-          "name": "Nami",
-          "note": "Out-sustains her poke"
-        },
-        {
-          "name": "Sona",
-          "note": "Out-sustains her poke"
-        }
+        { "name": "Soraka", "note": "Out-sustains her poke" },
+        { "name": "Janna", "note": "Out-sustains her poke" },
+        { "name": "Nami", "note": "Out-sustains her poke" },
+        { "name": "Sona", "note": "Out-sustains her poke" }
       ],
-      "synergies": [
-        "Caitlyn",
-        "Jhin",
-        "Ezreal",
-        "Ashe"
-      ],
+      "synergies": ["Caitlyn", "Jhin", "Ezreal", "Ashe"],
       "avoidSynergies": [
-        {
-          "name": "Lux",
-          "note": "Steals her plant farm"
-        },
-        {
-          "name": "Xerath",
-          "note": "Steals her plant farm"
-        }
+        { "name": "Lux", "note": "Steals her plant farm" },
+        { "name": "Xerath", "note": "Steals her plant farm" }
       ],
       "caution": "Rooted while using abilities. Position safely.",
       "tips": "Place plants in hook paths to block skillshots. E + W + Q is your poke combo.",
       "pickWhen": [
-        "Enemy has engage supports (plants counter hooks)",
-        "Your team needs AP damage"
+        "Enemy has engage supports (plants counter hooks) (e.g., Thresh, Blitz)",
+        "Your team needs AP damage and zone control",
+        "Enemy has immobile bot lane that can't dodge plants"
       ],
       "avoidWhen": [
-        "Enemy has sustain supports",
-        "Enemy can kill plants easily"
+        "Enemy has sustain that outheals your poke (e.g., Soraka, Nami)",
+        "Enemy has champions that can kill plants easily (e.g., Miss Fortune, Lucian)",
+        "Your team lacks frontline and you get dived"
       ],
-      "roles": [
-        "APC",
-        "Support"
-      ]
+      "roles": ["Support"]
     }
   ]
 }
