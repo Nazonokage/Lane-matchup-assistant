@@ -5,7 +5,8 @@ import {
 } from "../lib/engine.js";
 import ChampionDetail from "./ChampionDetail.jsx";
 import LaneChips from "./LaneChips.jsx";
-import { FlexBadge, RoleBadge } from "./ui.jsx";
+import { ChampionIcon, FlexBadge, RoleBadge } from "./ui.jsx";
+
 
 export default function AlmanacPanel({
   activeLane,
@@ -82,8 +83,13 @@ export default function AlmanacPanel({
                 <RoleBadge champ={champ} />
                 <span className="card-name">{champ.name}</span>
                 <FlexBadge champ={champ} activeLane={activeLane} />
+                <span className="tag" style={{ padding: "1px 4px" }}>
+                  <ChampionIcon name={champ.name} alt={champ.name} size={14} />
+                </span>
+
                 <span className="chevron">{open ? "▾" : "▸"}</span>
               </button>
+
               {open ? (
                 <ChampionDetail champ={champ} activeLane={activeLane} draft={draft} />
               ) : null}

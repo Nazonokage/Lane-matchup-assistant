@@ -1,5 +1,5 @@
 import { getMatchups, getRulesForChampion } from "../lib/engine.js";
-import { ConditionsBlock, FlexBadge, MatchupList, RoleBadge } from "./ui.jsx";
+import { ConditionsBlock, FlexBadge, MatchupList, RoleBadge, ChampionIcon } from "./ui.jsx";
 
 export default function ChampionDetail({ champ, activeLane, draft }) {
   const m = getMatchups(champ, activeLane);
@@ -9,6 +9,7 @@ export default function ChampionDetail({ champ, activeLane, draft }) {
     <div className="detail-panel">
       <div className="detail-header">
         <RoleBadge champ={champ} />
+
         {champ.archetype ? <span className="badge badge-archetype">{champ.archetype}</span> : null}
         {champ.category ? <span className="tag">{champ.category}</span> : null}
         <FlexBadge champ={champ} activeLane={activeLane} />

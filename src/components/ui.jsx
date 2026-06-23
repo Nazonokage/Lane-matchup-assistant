@@ -61,6 +61,37 @@ export function IntelChip({ champ }) {
   );
 }
 
+function normalizeChampionIconName(name) {
+  return (name || "").trim();
+}
+
+export function ChampionIcon({ name, alt, size = 28 }) {
+  const displayName = normalizeChampionIconName(name);
+  const safeAlt = alt || displayName || "Champion";
+
+  // Files are stored under src/assets/league_champion_icons/<ChampionName>.png
+  // Example: src/assets/league_champion_icons/Aurelion_Sol.png
+  // Vite will bundle these when referenced via relative import URLs.
+  const iconSrc = new URL(`../assets/league_champion_icons/${encodeURIComponent(displayName)}.png`, import.meta.url).toString();
+  const fallbackSrc = new URL(`../assets/league_champion_icons/default.png`, import.meta.url).toString();
+
+
+  return (
+    <img
+      className="champ-icon"
+      src={iconSrc}
+      alt={safeAlt}
+      width={size}
+      height={size}
+      loading="lazy"
+      onError={(e) => {
+        e.currentTarget.onerror = null;
+        e.currentTarget.src = fallbackSrc;
+      }}
+    />
+  );
+}
+
 export function CopyButton({ name }) {
   const [label, setLabel] = useState("Copy pick name");
   const timerRef = useRef(null);

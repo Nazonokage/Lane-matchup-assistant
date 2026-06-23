@@ -18,6 +18,7 @@ import {
 import ChampionDetail from "./ChampionDetail.jsx";
 import LaneChips from "./LaneChips.jsx";
 import {
+  ChampionIcon,
   CopyButton,
   FlexBadge,
   IntelChip,
@@ -57,6 +58,9 @@ function DraftContextStrip({ draft, lane }) {
                 <div className="context-card-head">
                   <RoleBadge champ={champ} />
                   <strong>{champ.name}</strong>
+                  <span className="tag" style={{ padding: "1px 4px" }}>
+                    <ChampionIcon name={champ.name} alt={champ.name} size={14} />
+                  </span>
                   <FlexBadge champ={champ} activeLane={lane} />
                 </div>
                 {(champ.playstyle || []).length ? (
@@ -187,10 +191,13 @@ function RecommendationsPanel({ draft, lane, recommendationsOpen, expandedPick, 
     const scoreCls = score > 0 ? "pos" : score < 0 ? "neg" : "neutral";
     return (
       <article key={champ.name} className={`rec-card ${open ? "open" : ""}`}>
-        <button type="button" className="rec-head" onClick={() => onTogglePick(champ.name)}>
+                <button type="button" className="rec-head" onClick={() => onTogglePick(champ.name)}>
           <div className="rec-title">
             <RoleBadge champ={champ} />
             <span className="rec-name">{champ.name}</span>
+            <span className="tag" style={{ padding: "1px 4px" }}>
+              <ChampionIcon name={champ.name} alt={champ.name} size={14} />
+            </span>
           </div>
           <span className={`score score-${scoreCls}`}>{score > 0 ? "+" : ""}{score}</span>
         </button>

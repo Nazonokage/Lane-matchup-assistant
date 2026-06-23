@@ -415,6 +415,28 @@ export function getRecommendations(draft, lane) {
     .slice(0, 8);
 }
 
+function lanePriorityIndexFromRole(role) {
+  // Desired: Support, Dragon(ADC/APC), Mid, Jungle, Baron
+  switch (role) {
+    case "Support": return 0;
+    case "ADC":
+    case "APC": return 1;
+    case "Mid": return 2;
+    case "Jungle": return 3;
+    case "Baron": return 4;
+    default: return 99;
+  }
+}
+
+function compareByLanePriorityThenName(a, b) {
+  const ra = primaryRole(a);
+  const rb = primaryRole(b);
+  const ia = lanePriorityIndexFromRole(ra);
+  const ib = lanePriorityIndexFromRole(rb);
+  if (ia !== ib) return ia - ib;
+  return a.name.localeCompare(b.name);
+}
+
 export function filterAlmanac({ activeLane, roleFilter, playstyleFilter, search }) {
   let list = getChampionsByLane(activeLane);
 
@@ -432,8 +454,9 @@ export function filterAlmanac({ activeLane, roleFilter, playstyleFilter, search 
     );
   }
 
-  return list.sort((a, b) => a.name.localeCompare(b.name));
+  return list.sort(compareByLanePriorityThenName);
 }
+
 
 export function getSubRoleFilters(activeLane) {
   if (activeLane === "Dragon") return ["All", "ADC", "APC"];
