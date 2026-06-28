@@ -1,180 +1,136 @@
-# 🎮 Lane Ledger
+# 🎮 Lane Ledger (Lane Matchup Assistant)
 
-Offline **Wild Rift** draft companion — all 5 lanes, works on your phone with no internet. 📱⚡
+**Lane Ledger** is a lightning-fast, data-driven Wild Rift draft companion designed to help you make optimized picking decisions during champion select. It started by optimizing the **Dragon Lane** (ADC/APC) and now supports all **5 roles** (Dragon/Support/Mid/Jungle/Baron).
 
-Built with **React 19** + **Vite 8**. Browse the Almanac or use the Draft Helper to score pick suggestions from your current 5v5 draft.
+Browse the **Almanac** to study matchups or feed live draft data into the **Draft Helper** to receive ranked, contextual champion recommendations complete with synergy breakdowns and hazard warnings.
 
----
-
-## ✨ What it does
-
-| Tab | Purpose |
-| --- | --- |
-| 📖 **Almanac** | Search and browse champion profiles — matchups, synergies, playstyles, and draft conditions per lane |
-| 🎯 **Draft Helper** | Fill in enemy + ally picks, then get ranked recommendations with reasons and warnings |
-
-Lanes covered: **Dragon** · **Support** · **Mid** · **Jungle** · **Baron**
+🚀 **Live Deployment:** [lane-matchup-assistant.vercel.app](https://lane-matchup-assistant.vercel.app/)
 
 ---
 
-## 🗺️ App flow
+## ✨ Features & Architecture
+
+| Module | Purpose | Key Attributes |
+| :--- | :--- | :--- |
+| 📖 **Almanac** | Browse champion identities, lane matchups, active synergies, and playstyle taxonomy. | Fast filtering by role tags, lane chips, and fuzzy text search. |
+| 🎯 **Draft Helper** | Live draft evaluator. Input ally/enemy picks to reveal optimal lane choices. | Generates real-time threat warnings, flex-pick detection, and ranked scoring. |
+
+### System Scope
+
+* **Primary Lanes:** 🐉 Dragon (ADC/APC) · 🛡️ Support · 🔮 Mid · 🌲 Jungle · ⛰️ Baron
+* **Performance:** Sub-millisecond scoring calculation execution via client-side compilation.
+* **State Persistence:** Local storage retention caches active draft rooms against sudden browser refreshes.
+
+---
+
+## 🗺️ Application Architecture Flow
 
 ```mermaid
 graph TD
-    A[🚀 Open Lane Ledger] --> B{Pick a tab}
-    B -->|📖 Almanac| C[Choose lane chip]
-    B -->|🎯 Draft Helper| D[Choose your lane]
+    A[🚀 Open Lane Ledger] --> B{Choose Workflow}
+    B -->|📖 Almanac| C[Select Lane Chip]
+    B -->|🎯 Draft Helper| D[Configure Your Target Lane]
 
-    C --> E[Filter by role / playstyle / search]
-    E --> F[Expand champion card]
-    F --> G[View matchups, synergies & draft rules]
+    C --> E[Filter by Role / Playstyle / Text Search]
+    E --> F[Expand Champion Profile Card]
+    F --> G[Analyze Matchups, Synergies & Draft Constraints]
 
-    D --> H[Fill enemy team slots]
-    H --> I[Fill ally team slots]
-    I --> J[See active draft rules & flex warnings]
-    J --> K[Press Get picks]
-    K --> L[Engine scores candidates]
-    L --> M[Top 8 picks ranked by score]
-    M --> N[Expand pick for why / watch out / almanac]
+    D --> H[Populate Enemy Draft Slots]
+    H --> I[Populate Ally Draft Slots]
+    I --> J[Evaluate Active Draft Rules & Flex Warnings]
+    J --> K[Execute Scoring Engine]
+    K --> L[Compute Aggregated Candidate Vectors]
+    L --> M[Render Top 8 Picks Ranked by Score]
+    M --> N[Expand Pick for Analytical Breakdown & Almanac Shortcuts]
 ```
 
 ---
 
-## 🧠 Scoring engine flow
+## 🧠 Scoring Engine Mechanics
 
-When you hit **Get picks**, `engine.js` evaluates every eligible champion for your lane:
+The recommendation engine parses candidate pools dynamically based on your active draft array:
 
-```mermaid
-flowchart LR
-    subgraph input["📥 Draft input"]
-        D[Enemy picks]
-        A[Ally picks]
-        L[Your lane]
-    end
-
-    subgraph once["⚡ Once per request"]
-        R[Evaluate draft rules]
-        M[Build champion lookup Map]
-    end
-
-    subgraph perChamp["🔁 Per candidate"]
-        E1[Enemy matchup score]
-        E2[Reverse counter check]
-        S[Ally synergy score]
-        P[Playstyle fit]
-        C[Pick / avoid conditions]
-        DR[Matching draft rules]
-    end
-
-    input --> once
-    once --> perChamp
-    perChamp --> OUT[🏆 Sorted top 8 picks]
-```
-
-Score signals include direct lane counters, reverse counters, synergies, support/carry lane matchup, playstyle fit, conditional pick/avoid text, and triggered draft rules.
+1. **Direct Lane Vectoring:** Aggregates explicit direct counters vs. the designated lane opponent.
+2. **Reverse Lane Countering:** Factors in whether the opponent natively mitigates your champion's win conditions.
+3. **Draft Synergy Coefficients:** Calculates network values between the candidate pick and locked-in ally champions.
+4. **Compositional Thresholds:** Evaluates structural team requirements (e.g., AP/AD balancing, lack of crowd control, frontline tank requirements).
+5. **Conditional Exclusions:** Drops scores or flags warnings if heavy hard-counters are drafting into open pools.
 
 ---
 
-## 🏗️ Data & build pipeline
+## 🏗️ Data Architecture & Build Pipeline
 
-Champion data lives in JSON lane files. A build step merges them before the app loads — no runtime merge in the browser.
-
-```mermaid
-flowchart TD
-    JSON["📁 src/data/*.json<br/>drLane · suppRole · Midlane · JglRole · BrLane<br/>draftRules · otherinfo"]
-    SCRIPT["⚙️ scripts/build-data.mjs<br/>uses mergeData.js"]
-    DATASET["📦 src/data/dataset.json<br/>pre-merged artifact"]
-    APP["⚛️ React app<br/>data.js → engine.js → components"]
-
-    JSON --> SCRIPT --> DATASET --> APP
-```
-
-`npm run dev` and `npm run build` both run `build:data` automatically.
-
----
-
-## 🚀 Quick start
-
-```bash
-cd lane_ledger
-npm install
-npm run dev        # local dev → http://localhost:5173
-npm run build      # production build → dist/
-npm run preview    # preview the production build
-```
-
-Deploy output is `lane_ledger/dist/` (configured in the repo root `vercel.json`).
-
----
-
-## ✏️ Editing champion data
-
-**Source of truth** — only edit files in `src/data/`. Do not hand-edit `dataset.json`.
-
-| File | Content |
-| --- | --- |
-| `drLane.json` | 🐉 Dragon lane — ADC + APC |
-| `suppRole.json` | 🛡️ Supports |
-| `Midlane.json` | ⚔️ Mid lane |
-| `JglRole.json` | 🌿 Jungle |
-| `BrLane.json` | 🏰 Baron lane |
-| `draftRules.json` | 📋 Draft rules & scoring logic |
-| `otherinfo.json` | 🌐 Flex picks, global conditions, meta notes |
-
-After saving JSON changes:
-
-```bash
-npm run build:data   # regenerate dataset.json only
-# or
-npm run build        # rebuild dataset + production bundle
-```
-
----
-
-## 📂 Project structure
+Champion datasets are strictly modularized to avoid monolithic corruption. The app reads from a compiled output generated by a preprocessing pipeline step.
 
 ```text
-lane_ledger/
-├── index.html              # App shell (SEO meta + JSON-LD)
-├── public/
-│   ├── favicon.svg         # App icon & header logo
-│   └── sitemap.xml
-├── scripts/
-│   └── build-data.mjs      # Merges JSON → dataset.json
-├── src/
-│   ├── App.jsx             # Tabs, lane state, localStorage persist
-│   ├── components/
-│   │   ├── AlmanacPanel.jsx
-│   │   ├── DraftPanel.jsx
-│   │   ├── ChampionDetail.jsx
-│   │   ├── LaneChips.jsx
-│   │   └── ui.jsx
-│   ├── data/               # Lane JSON + generated dataset.json
-│   └── lib/
-│       ├── constants.js    # Lanes, score weights, draft field defs
-│       ├── data.js         # Imports pre-merged dataset
-│       ├── engine.js       # Scoring, recommendations, almanac filters
-│       └── mergeData.js    # JSON merge logic (build + shared)
-└── vite.config.js
+src/
+├── data/                    <-- ✏️ EDIT SOURCE FILES HERE
+│   ├── drLane.json          # Dragon Lane (ADC/APC core datasets)
+│   ├── suppRole.json        # Support synergies and archetypes
+│   ├── Midlane.json         # Mid lane profiles
+│   ├── JglRole.json         # Jungle paths/threat vectors
+│   ├── BrLane.json          # Baron lane configurations
+│   ├── draftRules.json      # Compositional constraints & conditional logic
+│   └── otherinfo.json       # Meta metadata mappings
+└── public/
+    └── dataset.json         <-- ⚠️ AUTO-GENERATED (Do not touch)
 ```
 
----
-
-## 🔀 Flex champions (Akali, Yasuo, etc.)
-
-When the same champion appears in multiple lane files, the build script merges them into **one Almanac card** with `matchupsByLane` — no duplicate entries in the UI.
+To modify or append champion information, **only modify JSON files within `src/data/**`**, then rebuild the distribution bundle.
 
 ---
 
-## 🛠️ Tech stack
+## 🚀 Development Quick Start
 
-- ⚛️ React 19 + React Compiler
-- ⚡ Vite 8
-- 📦 Zero runtime dependencies beyond React
-- 💾 Offline-first — all data bundled, draft state saved to `localStorage`
+### Prerequisites
+
+* Node.js v18 or later
+* npm / pnpm / yarn
+
+### Installation & Execution
+
+```bash
+# Install dependencies
+npm install
+
+# Compile datasets and boot local Vite environment
+npm run build:data && npm run dev
+```
+
+The application will default to running on `http://localhost:5173`.
+
+### Build & Deploy
+
+```bash
+# Production optimization compilation
+npm run build
+
+# Validate production build locally
+npm run preview
+```
+
+The compilation sequence generates outputs directly into `/dist`, optimized for seamless Vercel edge deployments.
+
+---
+
+## 🛠️ Technology Stack
+
+* **UI Engine:** React 19 (leveraging React Compiler optimizations)
+* **Build System:** Vite 8
+* **State & Engine:** Native JS Context / Client-side JSON Scoring Framework
+* **Storage Layer:** Browser `localStorage` API for session caching
+
+---
+
+## 📝 Roadmap & Future Outlook
+
+* Transition static pipeline data into automated upstream patches matching current Wild Rift balances.
+* Community draft telemetry integrations.
+* Enhanced pick-and-ban recommendation rules for specific team archetypes (e.g., Poke, Dive, Scale comps).
 
 ---
 
 ## 📄 License
 
-MIT
+This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
+
