@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lane-matchup-assistant.vercel.app/sitemap.xml

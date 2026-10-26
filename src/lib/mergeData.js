@@ -17,7 +17,8 @@ const ROLE_TO_LANE = {
   Support: "Support",
   Mid: "Mid",
   Jungle: "Jungle",
-  Baron: "Baron"
+  Baron: "Baron",
+  Top: "Baron"
 };
 
 function normalizeEntry(entry) {
@@ -101,6 +102,7 @@ function normalizeChampion(champ, fileLane, sourceFile) {
 
   return {
     name: champ.name,
+    coverage: champ.coverage || "legacy",
     primaryRole: roles[0] === "APC" ? "APC" : roles[0] === "ADC" ? "ADC" : primaryLane,
     roles,
     secondaryRoles: secondary,

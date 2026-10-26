@@ -5,23 +5,6 @@ export const DRAFT_KEYS = [
   "allyTop", "allyJungle", "allyMid", "allyADC", "allySupport"
 ];
 
-export const SCORE = {
-  goodAgainst: 3,
-  badAgainst: -2,
-  synergy: 2,
-  avoidSynergy: -2,
-  reverseCounter: 3,
-  reverseWeak: -2,
-  supLaneGood: 2,
-  supLaneBad: -2,
-  playstyle: 1,
-  conditionGreen: 1,
-  conditionRed: -1,
-  draftRule: 2,
-  directOpponent: 1,
-  lanePartner: 1
-};
-
 export const ROLE_COLORS = {
   ADC: "adc",
   APC: "apc",
@@ -50,7 +33,7 @@ export const LANE_CONFIG = {
     hiddenAlly: "allyADC",
     directOpponent: "enemyADC",
     lanePartner: "allySupport",
-    desc: "You're ADC — fill in the 5v5 draft, then get picks.",
+    desc: "You're ADC — fill in the draft to see suggestions below.",
     pickLane: "Dragon",
     isPick: (c) => c.roles?.includes("ADC") || c.roles?.includes("APC")
   },
@@ -59,7 +42,7 @@ export const LANE_CONFIG = {
     hiddenAlly: "allySupport",
     directOpponent: "enemySupport",
     lanePartner: "allyADC",
-    desc: "You're Support — fill in the 5v5 draft, then get picks.",
+    desc: "You're Support — fill in the draft to see suggestions below.",
     pickLane: "Support",
     isPick: (c) => c.playableLanes?.includes("Support") || c.roles?.includes("Support")
   },
@@ -68,16 +51,16 @@ export const LANE_CONFIG = {
     hiddenAlly: "allyMid",
     directOpponent: "enemyMid",
     lanePartner: null,
-    desc: "You're Mid — fill in the 5v5 draft, then get picks.",
+    desc: "You're Mid — fill in the draft to see suggestions below.",
     pickLane: "Mid",
     isPick: (c) => c.playableLanes?.includes("Mid")
   },
   Jungle: {
     draftLabel: "Jungle",
     hiddenAlly: "allyJungle",
-    directOpponent: null,
+    directOpponent: "enemyJungle",
     lanePartner: null,
-    desc: "You're Jungle — fill in the 5v5 draft, then get picks.",
+    desc: "You're Jungle — fill in the draft to see suggestions below.",
     pickLane: "Jungle",
     isPick: (c) => c.playableLanes?.includes("Jungle")
   },
@@ -86,7 +69,7 @@ export const LANE_CONFIG = {
     hiddenAlly: "allyTop",
     directOpponent: "enemyTop",
     lanePartner: null,
-    desc: "You're Top — fill in the 5v5 draft, then get picks.",
+    desc: "You're Top — fill in the draft to see suggestions below.",
     pickLane: "Baron",
     isPick: (c) => c.playableLanes?.includes("Baron")
   }

@@ -1,0 +1,858 @@
+[
+  {
+    "name": "Garen",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Cho'Gath",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Gangplank",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Illaoi",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "K'Sante",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Kled",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Quinn",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Shen",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Tahm Kench",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Trundle",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Tryndamere",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Urgot",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Yorick",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Zaahen",
+    "primaryRole": "Baron",
+    "roles": [
+      "Baron"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "BrLane.json"
+  },
+  {
+    "name": "Bel'Veth",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Briar",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Elise",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Fiddlesticks",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Hecarim",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Ivern",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Kha'Zix",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Nocturne",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Rek'Sai",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Sejuani",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Shaco",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Udyr",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Zac",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Anivia",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Hwei",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "LeBlanc",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Lissandra",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Locke",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Malzahar",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Mel",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Naafiri",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Neeko",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Norra",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Qiyana",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Sylas",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Taliyah",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Viktor",
+    "primaryRole": "Mid",
+    "roles": [
+      "Mid"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "Midlane.json"
+  },
+  {
+    "name": "Milio",
+    "primaryRole": "Support",
+    "roles": [
+      "Support"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "suppRole.json"
+  },
+  {
+    "name": "Renata Glasc",
+    "primaryRole": "Support",
+    "roles": [
+      "Support"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "caution": "Roster entry only. Lane assignment is editorial; matchup and build guidance still needs review.",
+    "tips": "",
+    "pickWhen": [],
+    "avoidWhen": [],
+    "coverage": "roster-only",
+    "sourceFile": "suppRole.json"
+  },
+  {
+    "name": "Maokai",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [
+      "Support",
+      "Baron"
+    ],
+    "playstyle": [
+      "engage",
+      "tank"
+    ],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  },
+  {
+    "name": "Nunu & Willump",
+    "primaryRole": "Jungle",
+    "roles": [
+      "Jungle"
+    ],
+    "secondaryRoles": [],
+    "playstyle": [
+      "engage",
+      "tank"
+    ],
+    "goodAgainst": [],
+    "badAgainst": [],
+    "synergies": [],
+    "avoidSynergies": [],
+    "coverage": "roster-only",
+    "sourceFile": "JglRole.json"
+  }
+]

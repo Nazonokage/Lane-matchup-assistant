@@ -1,0 +1,1213 @@
+{
+  "Aatrox": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Aatrox.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Aatrox's attacks are very telegraphed, so use the time to dodge the hit zones.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Akshan": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Akshan.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Akali": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Akali.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Akali can still be hit by area effect spells while obscured inside Twilight Shroud.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Alistar": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Alistar.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Alistar is very disruptive but very tough - try to target more fragile damage dealers.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Ambessa": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Ambessa.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Anivia": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Anivia.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Try to gank Anivia when she's laning.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Aphelios": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Aphelios.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Each of Aphelios' weapons have different weaknesses, try to exploit the ones that work best for your champion.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Annie": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Annie.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Annie's summoned bear, Tibbers, burns opposing units around himself.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Ashe": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Ashe.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Ashe has very few defensive options, and she's a good target to gank.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Aurelion Sol": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/AurelionSol.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Aurora": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Aurora.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Azir": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Azir.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Azir relies on his soldiers to deal damage and can only move them so often.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Bard": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Bard.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Bard's opponents can also travel through his Magical Journey doorways.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Bel'Veth": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Belveth.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Brand": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Brand.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Brand must land an ability before his combo is able to get started.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Braum": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Braum.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Braum must land Winter's Bite or a basic attack to start Concussive Blows.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Briar": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Briar.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Caitlyn": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Caitlyn.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Keep behind allied minions if Caitlyn is harassing you with Piltover Peacemaker (it deals less damage with each subsequent target).",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Ahri": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Ahri.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Ahri's survivability is dramatically reduced when her Ultimate, Spirit Rush, is down.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Camille": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Camille.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Camille's shield only works against one damage type, so hit her when she's vulnerable to your damage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Cassiopeia": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Cassiopeia.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Be wary of Cassiopeia's damage potential with Twin Fang when she has you poisoned.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Amumu": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Amumu.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Avoid bunching up with other allies when Amumu has his ultimate available.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Cho'Gath": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Chogath.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Purchasing a few HP items decreases the chances of Cho'Gath killing you quickly.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Darius": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Darius.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "When Darius's axe grab is on cooldown, he is vulnerable to harassment attacks.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Draven": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Draven.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Launch skillshots toward the landing position of Draven's Spinning Axes.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Dr. Mundo": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/DrMundo.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Try to coordinate high-damage abilities with your allies right after Dr.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Ekko": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Ekko.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Ekko is significantly weaker when his ultimate is down.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Blitzcrank": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Blitzcrank.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Blitzcrank's passive Mana Barrier grants him a shield when he is low on health.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Evelynn": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Evelynn.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Purchasing Vision Wards can help you detect Evelynn's location in order to prepare for her ambushes.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Corki": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Corki.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Watch out for Corki's Missile Barrage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Ezreal": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Ezreal.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Ezreal is a very fragile champion so take the fight to him.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Diana": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Diana.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Dodge Crescent Strike, or move to safety if you are affected by Moonlight.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Fiora": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiora.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Duelist's Dance shows you where Fiora will try to attack from, so be ready to punish her when she tries.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Fizz": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fizz.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Galio": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Galio.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Galio moves slower when he is charging Shield of Durand.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Garen": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Garen.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Stack armor items to lower the large amount of physical damage that Garen deals out.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Gnar": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Gnar.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Gnar can't gain Rage for 15 seconds after he turns from big to little.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Elise": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Elise.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Rappel will only move Elise straight up and down unless she can descend upon an enemy unit.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Graves": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Graves.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Graves deals mostly physical damage so Armor is an effective counter.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Gangplank": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Gangplank.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Parrrley deals a high amount of physical damage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Hecarim": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Hecarim.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Hecarim gains life from nearby enemies with Spirit of Dread but lacks durability, use burst damage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Fiddlesticks": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiddlesticks.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Hwei": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Hwei.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Hwei needs to predict your positioning and take time to cast, catch him by surprise.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Illaoi": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Illaoi.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Killing Tentacles whenever possible will make it much easier to win a fight against Illaoi.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Irelia": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Irelia.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Pay attention to Ionian Fervor stacks and try to engage Irelia when it is down.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Gragas": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Gragas.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Gragas can knock everybody away with his ultimate.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Ivern": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Ivern.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Be careful chasing him too far.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Janna": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Janna.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Save an interrupt ability for when Janna uses her ultimate.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Gwen": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Gwen.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Gwen's Hallowed Mist shroud will only follow her once, after that it will dissipate when she leaves.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Jax": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Jax.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Try to engage him in short bursts instead of going toe-to-toe with him.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Jayce": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Jayce.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Jayce can attack in melee or at range.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Jhin": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Jhin.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Deadly Flourish only roots those hit by one of Jhin's basic attacks, traps, or allies within the last 4 seconds.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Jarvan IV": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/JarvanIV.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Keep out of the path between Jarvan IV and his Demacian Standard to avoid being knocked up in the air.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Jinx": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Jinx.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Jinx's minigun takes time to ramp up.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Kalista": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kalista.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Kalista's mobility is dependent upon attacking.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Kai'Sa": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kaisa.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Kai'Sa is very good at picking off isolated enemies.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Karthus": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Karthus.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Karthus can cast spells for a short duration after he is killed.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Heimerdinger": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Heimerdinger.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Be wary of Heimerdinger's Upgrade!!!, as he can use it to find an answer to most trouble he gets into.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Katarina": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Katarina.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Katarina's abilities deal magic damage, so even if she's building Attack Damage items, get magic resistance to counter her.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Kayn": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kayn.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Umbral Trespass requires Kayn to damage a target first.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Kayle": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kayle.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Divine Judgment only grants Kayle or her allies immunity to damage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Kha'Zix": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Khazix.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Taste Their Fear deals bonus damage to targets that are isolated.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Kindred": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kindred.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Kindred is fragile - turn the pressure up on her, and she will be forced to play cautiously.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Kled": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kled.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Kled generates courage by damaging enemies with his Pocket Pistol and basic attacks, killing minions, and attacking structures or epic monsters.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Karma": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Karma.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Karma's passive lowers her Mantra cooldown when she hits enemy champions with abilities and basic attacks.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Kog'Maw": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/KogMaw.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Kog'Maw doesn't have a good escape ability, so he is especially prone to ganks.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "LeBlanc": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Leblanc.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "LeBlanc's ultimate can create fake LeBlancs during her spellcast or, rarely, at a distant position.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "K'Sante": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/KSante.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Stay spread out to minimize the impact of Lee Sin's ultimate, Dragon's Rage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Lee Sin": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/LeeSin.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Stay spread out to minimize the impact of Lee Sin's ultimate, Dragon's Rage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Kassadin": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kassadin.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "If he's doing well consider buying magic resist items like Mercury's Treads and Banshee's Veil.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Leona": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Leona.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "When Leona activates Eclipse, you have three seconds to get away from her before she deals damage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Lissandra": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Lissandra.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "The best way to stop Lissandra from moving using her Glacial Path is to immobilize her before she reactivates it.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Lillia": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Lillia.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Lulu": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Lulu.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "The shots from Lulu's faerie can be intercepted - hide behind your minions to avoid the additional Faerie attacks.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Lucian": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Lucian.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Lucian has strong burst, but little sustained damage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Lux": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Lux.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Lux has powerful zone control abilities.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Malzahar": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Malzahar.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "When Malzahar hits a spell on enemies affected by Malefic Visions, the Visions are refreshed.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Kennen": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kennen.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Consider playing a bit more cautiously around Kennen when you have a Mark of the Storm debuff.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Master Yi": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/MasterYi.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Although Master Yi cannot be slowed while using Highlander, other disables can stop him in his tracks.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Locke": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Locke.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Milio": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Milio.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Milio's movement abilities forecast their destination.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Malphite": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Malphite.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "If you're a physical damage character stay behind your allies when fighting Malphite.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Miss Fortune": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/MissFortune.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Miss Fortune's speed boost is removed if she is damaged by an enemy.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Mordekaiser": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Mordekaiser.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Mordekaiser builds up a powerful damage aura when fighting champions, so keep your distance.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Morgana": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Morgana.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Tormented Shadow deals tons of damage to units missing large amounts of Health.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Maokai": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Maokai.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Be especially careful around brush sapling, as they are much more dangerous.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Naafiri": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Naafiri.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Nami": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Nami.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Aqua Prison is a very powerful ability with a long cooldown, take advantage of the situation if Nami misses this ability.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Mel": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Mel.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Mel can reflect enemy projectiles, including powerful spells.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Nautilus": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Nautilus.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "If Nautilus uses Riptide right next to you, hold in place until the ripple effect finishes before running.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Nidalee": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Nidalee.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Nidalee's Hunt debuff is only applied with Javelin Toss and Bushwhack.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Neeko": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Neeko.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Standing behind minions against Neeko is very dangerous as Tangle-Barbs become stronger.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Nilah": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Nilah.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Nocturne": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Nocturne.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Stay close to your allies when Paranoia is cast - there is strength in numbers!",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Olaf": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Olaf.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Olaf becomes more dangerous the lower life he is.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Nunu & Willump": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Nunu.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Interrupting the charge up on Absolute Zero will lower the amount of damage your team takes.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Ornn": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Ornn.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Try to stay away from walls.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Orianna": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Orianna.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Orianna can only affect the area the Ball is around.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Pantheon": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Pantheon.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Pantheon's Aegis Assault makes him invulnerable from the front.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Wukong": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/MonkeyKing.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Wukong will often use Decoy after Nimbus Strike.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Pyke": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Pyke.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Pyke regenerates a significant amount of damage he has taken from enemy champions, but only when you can't see him!",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Qiyana": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Qiyana.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Quinn": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Quinn.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "After being marked, move away from Quinn so she can't take advantage of it.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Rakan": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rakan.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Rakan's movement abilities forecast their destination.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Nasus": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Nasus.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "While transformed by his ultimate, Nasus is stronger than most champions in the League.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Rek'Sai": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/RekSai.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "If you see one of Rek'Sai's tunnels, briefly stand on one of the entrances to destroy it.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Renata Glasc": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Renata.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Renekton": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Renekton.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Pay close attention to Renekton's Fury gauge as that will usually signify when he is about to attack.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Rell": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rell.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Riven": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Riven.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Riven has a great deal of mobility but she cannot move very far with any one skill.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Rengar": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rengar.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Rengar gains an empowered ability when his resource bar is full.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Rumble": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rumble.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "If you see him Overheat, go in for the kill while his skills are disabled.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Poppy": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Poppy.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Poppy can stop nearby enemies from dashing with Steadfast Presence.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Sejuani": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Sejuani.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Dodging Arctic Assault and Glacial Prison can give you a huge advantage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Samira": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Samira.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Senna": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Senna.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Seraphine": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Seraphine.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Sett": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Sett.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Rammus": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rammus.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Pay particular attention to when his Defensive Ball Curl is off.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Shen": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Shen.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Be ready to dodge Shen's taunt and punish him if he misses.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Shaco": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Shaco.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "If Shaco is doing well early-game, it is worth the investment to place Stealth Wards near his Jungle camps.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Singed": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Singed.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Keep your distance to avoid being Flung back into Singed's allies.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Sivir": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Sivir.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Boomerang Blade costs a lot of mana to cast, so dodging it sets Sivir back.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Sion": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Sion.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Even if Sion still hits a Decimating Smash, making him release the charge earlier reduces its impact.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Ryze": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Ryze.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Ryze is especially dangerous to opponents that are marked with Flux.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Smolder": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Smolder.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Smolder relies on his team for safety.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Shyvana": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Shyvana.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "A significant portion of Shyvana's power is generated through aggression, making her weak against opponents who are able to keep their distance.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Swain": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Swain.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Swain's passive is very potent if you are immobilized.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Skarner": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Skarner.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Ixtal's Impact can be stopped by any stun, root, or knock-up.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Sylas": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Sylas.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Sylas's healthbar can be deceptive, watch out for his Kingslayer!",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Syndra": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Syndra.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Get boots early when playing against Syndra, they'll help you avoid many of her spells.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Tahm Kench": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/TahmKench.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "He will also not accumulate new gray health until Thick Skin comes off cooldown.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Taliyah": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Taliyah.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "When Taliyah casts Unraveled Earth in the lane, be on the lookout for Seismic Shove.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Talon": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Talon.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Talon's attacks are all physical damage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Soraka": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Soraka.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Focus on attacking Soraka when she ever ventures to the frontline to heal her allies.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Sona": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Sona.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Spread out when you see Sona so she can't make your entire team dance.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Tristana": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Tristana.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "If you see Tristana activate Rapid Fire in a fight, stun her and try to back off until the spell dissipates.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Thresh": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Thresh.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Thresh's Death Sentence has a long cast time.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Tryndamere": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Tryndamere.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Try harassing Tryndamere early so he can't kill minions and heal with Bloodlust.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Twisted Fate": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/TwistedFate.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Focus on dodging Wild Cards early when your champion doesn't have the hit points to afford getting hit.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Twitch": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Twitch.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Work with teammates to focus on him when you're able to catch him out of Camouflage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Teemo": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Teemo.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Teemo's Toxic Shot punishes players who get hit and back out, so stay at a safe range until you're ready to commit.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Taric": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Taric.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Taric's ultimate, Cosmic Radiance, has a long delay before its effect.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Urgot": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Urgot.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Urgot can deal and absorb tremendous amounts of damage with Purge, but slows himself while firing.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Varus": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Varus.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "If you are affected by Blight, Varus' abilities will deal extra damage to you.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Trundle": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Trundle.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Trundle is very powerful at location-based combat.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Vayne": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Vayne.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Vayne is fragile - turn the pressure up on her and she will be forced to play cautiously.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Veigar": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Veigar.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Dark Matter deals very high damage, but it can be avoided.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Vex": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Vex.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Vi": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Vi.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "A fully charged Vault breaker deals double damage.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Viego": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Viego.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Viktor": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Viktor.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Be careful about how close you let Viktor get to you.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Volibear": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Volibear.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Vladimir": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Vladimir.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Try to take Vladimir down before Hemoplague detonates, as it will heal him for each afflicted enemy Champion.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Udyr": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Udyr.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Udyr has limited ranged options, try to keep distance.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Warwick": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Warwick.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Warwick's attacks heal him at low health.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Xayah": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Xayah.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Xayah's Bladecaller will only root targets hit by 3 or more returning Feathers.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Xerath": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Xerath.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Xerath's range can be intimidating, but most champions who close distance with him can trade favorably.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Yasuo": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yasuo.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "When Yasuo lands two Steel Tempests in a row, his next will fire a tornado.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Xin Zhao": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/XinZhao.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Xin Zhao is a powerful initiator with both his charge and ultimate dealing damage to all units around him.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Yorick": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yorick.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "You can cast Smite on Mist Walkers and the Maiden of the Mist to damage or kill them.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Yunara": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yunara.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Yone": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yone.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Zaahen": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zaahen.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Yuumi": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yuumi.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Zed": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zed.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Zed receives bonus effect from Attack Damage items he purchases, so Armor is super effective against him.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Zac": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zac.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Zac heals from the goo that separates from him.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Ziggs": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Ziggs.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "They'll slow you and make it much easier for him to hit you with his other abiltiies.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Zoe": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zoe.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Zoe's Paddle Star deals more damage the further it has flown.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Zilean": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zilean.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Zilean is fragile if a team focuses on him, but otherwise he's very difficult to kill.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Vel'Koz": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Velkoz.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Vel'Koz is very dangerous if left alone in a fight.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Zyra": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zyra.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "Zyra's seeds can be destroyed by stepping on them.",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  },
+  "Zeri": {
+    "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zeri.json",
+    "version": "16.21.1",
+    "checkedAt": "2026-10-25",
+    "officialEnemyTip": "",
+    "sourceKind": "Official PC kit reference; not matchup statistics"
+  }
+}

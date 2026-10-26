@@ -1,0 +1,51 @@
+{
+  "reviewedAt": "2026-10-25",
+  "methodology": "Every listed champion has editorial solo-queue guidance, counterplay and a cooldown/resource to track. Role plans and selected interactions explain opportunities, not measured counters. Scores reflect shown team composition, not win probabilities. PC kit references and game-specific patch summaries are separate from strategic inference. Named matchup coverage remains limited; unlisted matchups are unknown, not neutral. Legacy 7.1g rules are no longer used.",
+  "games": {
+    "pc": {
+      "label": "League PC", "patch": "26.21", "publishedAt": "2026-10-20",
+      "source": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-21-notes/",
+      "summary": "Caitlyn and Jinx lose scaling power; Miss Fortune receives compensation buffs. Ranged Hubris and Gluttonous Greaves are nerfed. Includes the October 22 Varus hotfix. Summoner’s Rift only.",
+      "changes": {
+        "Caitlyn": "Less late-game Headshot damage; higher Q base damage at later ranks.",
+        "Jinx": "Lower starting health and attack damage growth.",
+        "Miss Fortune": "More E damage and stronger ultimate critical damage.",
+        "Varus": "October 22: Q multi-target bug fixed; passive scaling and minimum Q damage increased.",
+        "Azir": "Higher mana growth.", "Darius": "Shorter Q cooldown at maximum rank.",
+        "Lee Sin": "Longer W cooldown and lower ultimate damage.",
+        "Locke": "Mana and sustain adjustments alongside stronger E scaling.",
+        "Nidalee": "Lower cougar W damage and E attack speed.",
+        "Nunu & Willump": "Higher ultimate base damage.",
+        "Orianna": "Higher Q and W ability power ratios.",
+        "Qiyana": "Lower Q base damage.", "Rammus": "Lower W resistances."
+      }
+    },
+    "wr": {
+      "label": "Wild Rift", "patch": "7.3b", "publishedAt": "2026-10-14",
+      "source": "https://wildrift.leagueoflegends.com/en-us/news/game-updates/wild-rift-patch-notes-7-3b/",
+      "summary": "Jhin gets earlier damage; Yunara and Senna lose damage. Cheaper Statikk Shiv and Yun Tal change purchase timings. Tank supports gain a cheaper, healthier Locket. Changes alone do not establish the best picks.",
+      "changes": {
+        "Jhin": "Higher standard critical damage; missing-health damage caps at level 10 instead of 15.",
+        "Yunara": "Lower first-ability damage; longer ultimate cooldown at later ranks.",
+        "Senna": "Lower critical damage, attack damage per soul and first-ability base damage.",
+        "Volibear": "More second-ability attack damage scaling and empowered healing.",
+        "Tryndamere": "Consistent critical chance per Fury and higher Spinning Slash damage.",
+        "Hwei": "Reduced passive damage, shielding and some spell damage/range.",
+        "Nocturne": "Lower health growth, reduced early first-ability damage and longer ultimate cooldown.",
+        "Yasuo": "Higher critical damage and stronger scaling shield."
+      }
+    }
+  },
+  "draftChecklist": [
+    "Choose the game first: champion availability, items, runes and balance differ.",
+    "Judge the full bot duo: range, engage, sustain, wave control and jungle pressure.",
+    "Plan your first purchase and power spike; avoid copying timings between games.",
+    "Check team damage mix, frontline and peel before locking a carry.",
+    "Prefer a practiced champion when matchup evidence is limited."
+  ],
+  "nextDataPriorities": [
+    "Matchup samples with game, patch, rank, region, role, games played and win rate.",
+    "Reviewed duo synergies, first-item spikes and lane trading plans.",
+    "Per-role confidence and review dates; separate blind-pick safety from counterpick value."
+  ]
+}

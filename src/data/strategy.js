@@ -1,0 +1,132 @@
+export const strategyMeta = {
+  writtenAt: '2026-10-25', audience: 'General ranked / solo queue',
+  basis: 'Editorial kit and team-composition analysis. No rank-specific win rates, statistical counter claims or guaranteed builds. Role lists are conservative supported roles, not all possible off-meta choices.',
+  references: {
+    pc: 'https://www.leagueoflegends.com/en-us/how-to-play/',
+    wr: 'https://wildrift.leagueoflegends.com/en-us/game-overview/'
+  }
+};
+
+export const lanePlans = {
+  Dragon: { label: 'Bot / Dragon', plan: 'Judge both enemy laners together. Trade when your partner can follow, protect your health before a reset and avoid pushing blind.', objective: 'Reset for your purchase before the next contest; arrive through vision with your support rather than face-checking alone.' },
+  Support: { label: 'Support', plan: 'Match your carry’s wave state. Contest space when they can trade; roam after a safe crash or recall rather than leaving them under a stacked wave.', objective: 'Establish vision with a teammate before the objective. Save one useful control or protection tool for the main threat.' },
+  Mid: { label: 'Mid', plan: 'Use wave priority to decide whether you can move first. Ping missing enemies and compare the cost of a roam with the wave you would lose.', objective: 'Clear safely before rotating and approach from a route your team can cover; do not assume a missing opponent stayed in lane.' },
+  Jungle: { label: 'Jungle', plan: 'Choose your route around nearby lane pressure and likely enemy movement. Take supported ganks; do not repeatedly abandon camps for low-probability plays.', objective: 'Check lane priority, health, vision and your secure tool before starting. A cross-map trade can be better than a blind contest.' },
+  Baron: { label: 'Top / Baron', plan: 'Trade with the wave and your escape route in mind. Track the enemy jungler before extending, and do not spend all your health for a small farm lead.', objective: 'Choose whether to group or pressure a side lane before the objective spawns. Communicate and watch how many enemies can answer you.' }
+};
+
+export const traitLabels = {
+  frontline: 'frontline', sustain: 'self-sustain', pick: 'catch setup', mobile: 'mobility',
+  dive: 'backline access', engage: 'engage', peel: 'peel', knockup: 'knockup setup',
+  waveclear: 'wave clear', immobile: 'limited mobility', scaling: 'scaling', sustained: 'sustained damage',
+  early: 'early pressure', poke: 'poke', split: 'side-lane pressure', antiTank: 'anti-tank tools',
+  reset: 'takedown resets', heal: 'ally healing', shield: 'ally shielding'
+};
+
+export function itemPlan(guide, lane) {
+  if (lane === 'Support' && (guide.traits.includes('heal') || guide.traits.includes('shield'))) return 'Prioritize affordable protection and utility that your carry can use. Do not delay essential vision and defensive purchases for a greedy damage build.';
+  if (guide.category === 'tank') return 'Choose health and resistances against the enemies actually threatening you. Add utility your team lacks; defensive value depends on damage type and enemy penetration.';
+  if (guide.category === 'marksman') return 'Choose a coherent crit, on-hit or ability-focused path that fits this champion. Add penetration against armor or a defensive purchase when survival is preventing damage.';
+  if (guide.category === 'assassin') return 'Build for your actual damage pattern and target. If the enemy groups with protection, consider survival and map pressure instead of blindly adding burst.';
+  if (guide.category === 'mage') return 'Balance your spell damage with the resources needed to cast safely. Consider penetration against resistance and a defensive option if dives are stopping your damage.';
+  if (guide.category === 'support') return 'Choose utility around the ally you need to protect. Check whether your team needs healing, shielding, movement or a defensive response before buying more damage.';
+  return 'Balance damage with enough durability to survive your intended trade. Choose penetration into resistance; a defensive component can be more valuable than a greedy damage spike.';
+}
+
+export function spikePlan(guide, game) {
+  const ultimate = game === 'pc' ? 'Most champions unlock their ultimate at level 6' : 'Most champions unlock their ultimate at level 5';
+  const style = guide.traits.includes('scaling')
+    ? 'Prioritize safe experience and completed-item windows; scaling is not a reason to concede every objective.'
+    : guide.traits.includes('early')
+      ? 'Use an early health or wave advantage before it disappears, then reset to spend your gold.'
+      : 'Look for a fight after a useful purchase and with your important cooldowns ready.';
+  return `${style} ${ultimate}; confirm your champion’s exceptions and the opponent’s level before committing. Timings and items are game-specific.`;
+}
+
+// Explicit pairs: carry, support, explanation. These are opportunities, not win-rate claims.
+export const duoPairs = [
+  ['Lucian', 'Braum', 'Lucian’s repeated attacks can help finish Braum’s passive after the first mark. Commit only when both players can reach the same target.'],
+  ['Kalista', 'Braum', 'Repeated attacks help build passive control, while Braum can protect Kalista’s attack space. Slows and enemy control still threaten the pair.'],
+  ['Jinx', 'Janna', 'Keep disengage for threats entering Jinx’s space, giving her time to attack toward a reset. Avoid spending all protection for lane poke.'],
+  ['Vayne', 'Janna', 'Disengage can buy the repeated attack windows Vayne needs. The duo still has to manage early wave pressure.'],
+  ['Tristana', 'Lulu', 'Protection can support Tristana’s short commit, but keep a return route. Do not assume a buff makes an unsupported jump safe.'],
+  ['Caitlyn', 'Karma', 'Ranged pressure can help contest the wave together. Preserve protection and vision before using that pressure to push farther.'],
+  ['Ashe', 'Braum', 'Ashe can help complete Braum’s passive with repeated attacks if both can safely reach the target.'],
+  ['Ashe', 'Milio', 'Extra reach and protection can help Ashe maintain a safe kiting position.'],
+  ['Caitlyn', 'Lux', 'A landed binding can create time to place a trap; minions and enemy disengage still matter.'],
+  ['Caitlyn', 'Morgana', 'Binding can set up a trap, while a well-timed shield can protect the trade.'],
+  ['Jinx', 'Lulu', 'Protection and attack support can help Jinx survive until a takedown opens a reset.'],
+  ['Jinx', 'Thresh', 'Lantern offers a repositioning option when Jinx cannot safely walk out.'],
+  ['Miss Fortune', 'Leona', 'Lockdown can hold targets in Bullet Time if Miss Fortune has a safe angle.'],
+  ['Miss Fortune', 'Nautilus', 'A reachable engage can create an ultimate window; wait out enemy interrupts.'],
+  ['Ezreal', 'Karma', 'Ranged pressure and protection support short trades without forcing a deep all-in.'],
+  ['Lucian', 'Nami', 'Coordinate empowered attacks with a short burst trade instead of spending buffs without follow-up.'],
+  ['Xayah', 'Rakan', 'An engage can help line up feathers; Rakan can also return to protect Xayah.'],
+  ["Kai'Sa", 'Nautilus', 'Crowd control supplies setup for a safe follow-up; do not dive beyond allied reach.'],
+  ["Kai'Sa", 'Leona', 'Repeated control can create a close-range damage window if the wave and jungle position allow it.'],
+  ['Vayne', 'Lulu', 'Peel and protection buy room for repeated attacks in an extended fight.'],
+  ['Draven', 'Leona', 'Lockdown can create an early axe-damage window when both players can commit.'],
+  ['Jhin', 'Zyra', 'Ranged damage can set up Jhin’s root; preserve control for the enemy’s response.'],
+  ['Sivir', 'Karma', 'Wave pressure and movement tools can support a shared reset, chase or disengage.'],
+  ["Kog'Maw", 'Lulu', 'Protection helps an immobile sustained-damage carry use an attack window.'],
+  ["Kog'Maw", 'Braum', 'A defensive frontline and attack-followed stuns can make extended fights safer.'],
+  ['Twitch', 'Lulu', 'Protection can help Twitch keep firing after revealing; choose the opening angle carefully.'],
+  ['Samira', 'Nautilus', 'Control can create an entry window, but Samira should still wait for dangerous interrupts.'],
+  ['Samira', 'Leona', 'A committed support engage can give Samira room to build her combo.'],
+  ['Aphelios', 'Thresh', 'Lantern gives an immobile carry an exit; weapon state still determines the best trade.'],
+  ['Aphelios', 'Lulu', 'Protection supports extended damage when the current weapons suit the fight.'],
+  ['Kalista', 'Thresh', 'Coordinated commits and rescue options reward a partner who communicates the plan.'],
+  ['Tristana', 'Leona', 'Lockdown can help complete a charge, but a jump should have a credible reset or exit.'],
+  ['Varus', 'Braum', 'Peel helps an immobile carry maintain spacing; choose a build that fits the enemy team.'],
+  ['Zeri', 'Lulu', 'Protection can extend the long fight Zeri wants, provided she avoids hard control.'],
+  ['Yunara', 'Milio', 'Extra reach and protection can help create a sustained attack window.'],
+  ['Smolder', 'Braum', 'Defensive control can protect early farming without forcing unnecessary fights.'],
+  ['Nilah', 'Soraka', 'Healing can support a close-range lane, but the pair still needs a safe way to start trades.'],
+  ['Ziggs', 'Nautilus', 'Control can set up spell damage and help protect a wave-pressure plan.'],
+  ['Yasuo', 'Alistar', 'Knockup setup can enable Yasuo’s ultimate when both can safely follow the entry.']
+];
+
+// Small, explicit lane interaction set. Neither win rates nor unconditional counters.
+// Candidate and opponent get opposite perspectives; the engine counts each interaction once.
+export const laneInteractions = [
+  { games: ['pc', 'wr'], lane: 'Mid', favored: 'Ahri', challenged: 'Diana', edge: 'Hold Charm for a visible dash toward you, with a clear projectile path. Correct timing can interrupt the entry; a missed Charm leaves Diana room to commit.', response: 'Bait Charm or approach with minion cover before dashing. Do not assume a mark makes the follow-up safe when Ahri still has control and an escape.' },
+  { games: ['pc'], lane: 'Baron', favored: 'Shen', challenged: 'Tryndamere', edge: 'Trade around the spirit blade and reserve Spirit’s Refuge for repeated attacks. Leave a retreat route before Tryndamere uses his ultimate; the zone is a brief defensive window.', response: 'Move out of the protected area or wait for it to expire before spending your attack window. Track Shen’s blade rather than chasing directly into the zone.' },
+  { games: ['pc'], lane: 'Baron', favored: 'Jax', challenged: 'Warwick', edge: 'Use Counter Strike during an attack commitment and keep room to disengage afterward. Do not treat the dodge as protection from every spell or suppression.', response: 'Stop feeding attacks into the dodge window and hold your next commitment until its stun threat is resolved. Low health alone is not a safe reason to chase Jax.' },
+  { games: ['pc'], lane: 'Baron', favored: 'Gragas', challenged: 'Jax', edge: 'Use your control and displacement to end a trade when Jax wants to keep attacking. Preserve spacing during Counter Strike instead of stepping into its stun for one extra hit.', response: 'Draw out Body Slam before committing Leap Strike. Use a fresh approach after displacement rather than spending all movement at once.' },
+  { games: ['pc'], lane: 'Jungle', favored: 'Olaf', challenged: 'Rammus', edge: 'Once Ragnarok is available, control immunity offers a window to keep moving through Rammus’s lockdown. Check health, allied support and reflected damage before committing attacks.', response: 'Avoid spending your entire control chain into active Ragnarok. Give ground, protect another target and re-engage when the immunity ends; the early jungle is a separate contest.' },
+  { games: ['pc'], lane: 'Jungle', favored: 'Olaf', challenged: 'Amumu', edge: 'Preserve Ragnarok for the fight where Amumu’s control would otherwise stop your follow-up. Stay near enough to your allies that they are not left trapped behind you.', response: 'Control Olaf’s teammates while his immunity is active, or disengage and wait. Do not assume a successful engage lets your whole team stand in his attack range.' },
+  { games: ['pc', 'wr'], lane: 'Jungle', favored: 'Poppy', challenged: 'Xin Zhao', edge: 'Keep your dash-denial area for Xin Zhao’s committed entry near an ally. The stopped dash creates space but does not prevent him from walking in and attacking.', response: 'Bait the denial window or choose a target outside Poppy’s protection. Check nearby lane movement before turning a stopped entry into a prolonged fight.' },
+  { games: ['pc'], lane: 'Mid', favored: 'Gragas', challenged: 'Katarina', edge: 'Hold a control spell for Katarina’s committed channel and keep within a useful response distance. A displacement should end her damage window without delivering her into another ally.', response: 'Bait Gragas’s control before entering and use a different angle if he is waiting beside your target. Do not channel in reach while all his interrupts are ready.' },
+  { games: ['pc', 'wr'], lane: 'Mid', favored: 'Ahri', challenged: 'Irelia', edge: 'Reserve Charm for a predictable dash toward you and account for intervening minions. Maintain spacing; the possibility of landing Charm does not grant free wave priority.', response: 'Use the wave to obscure your approach and bait Charm before committing. Avoid an obvious dash line toward Ahri when she has a clear shot.' },
+  { games: ['pc'], lane: 'Mid', favored: 'Veigar', challenged: 'Ahri', edge: 'Place Event Horizon across a likely dash route. Its boundary creates a stun threat; an enemy already inside the cage can still move within it.', response: 'Do not dash through an active cage wall. Bait the cage, wait for it to expire or change the angle; Veigar is much less protected after spending it.' },
+  { games: ['pc'], lane: 'Mid', favored: 'Taliyah', challenged: 'Yasuo', edge: 'Place Unraveled Earth across a likely dash route and keep room to cast. It punishes a dash through the field, not every approach.', response: 'Walk around the prepared field or wait for it to expire before using your minion dash route. Do not assume mobility alone closes the gap safely.' },
+  { games: ['pc'], lane: 'Jungle', favored: 'Taliyah', challenged: 'Lee Sin', edge: 'Prepare the minefield before a visible dash commitment near your team. Lane priority and clear tempo still determine whether you can contest river.', response: 'Check the minefield before following a mark. Approach from another angle or wait out the zone rather than dashing through it.' },
+  { games: ['pc', 'wr'], lane: 'Baron', favored: 'Poppy', challenged: 'Irelia', edge: 'Position your dash-denial area across Irelia’s approach and hold it for her committed movement. Respect her passive stacks and ordinary attacks.', response: 'Bait the denial window before dashing through minions near Poppy. Preserve a walking retreat instead of relying only on resets.' },
+  { games: ['pc', 'wr'], lane: 'Baron', favored: 'Poppy', challenged: 'Jax', edge: 'Hold dash denial for Leap Strike when its route enters your area. Keep distance during Counter Strike rather than treating the stopped jump as a free duel.', response: 'Walk into threat range or bait Steadfast Presence before jumping. Preserve your defensive window for the trade that follows.' },
+  { games: ['pc'], lane: 'Baron', favored: 'Jax', challenged: 'Irelia', edge: 'Counter Strike can deny an attack-heavy commitment. Watch the minion wave so Irelia cannot easily leave your stun area and return afterward.', response: 'Use available minion routes to disengage during Counter Strike. Re-enter after the dodge and stun threat end rather than spending attacks into them.' },
+  { games: ['pc'], lane: 'Baron', favored: 'Fiora', challenged: 'Aatrox', edge: 'A visible blade-edge knockup offers a parry window. Aim the returning stab and avoid spending Riposte before the threatening swing.', response: 'Vary blade timing and spacing to bait Riposte. Avoid giving Fiora the same predictable knockup timing in every trade.' },
+  { games: ['pc', 'wr'], lane: 'Mid', favored: 'Vex', challenged: 'Irelia', edge: 'Keep fear available when Irelia has a minion path into you. Her dashes create opportunities only if you maintain safe spacing and can respond.', response: 'Track Vex’s fear and avoid needless dashes nearby. Look for a trade when the empowered spell has already been spent.' },
+  { games: ['pc', 'wr'], lane: 'Mid', favored: 'Lissandra', challenged: 'Katarina', edge: 'Hold targeted ultimate control for Katarina’s committed channel when she is in range. Do not spend every defensive tool on the wave.', response: 'Wait for Frozen Tomb to be used elsewhere before committing your channel. An unexpected angle does not remove its threat if Lissandra is ready.' },
+  { games: ['pc'], lane: 'Support', favored: 'Janna', challenged: 'Rell', edge: 'Preserve disengage for Rell’s entry and avoid clustering with your carry. Correct timing matters more than simply having a defensive kit.', response: 'Force Janna’s defensive spells before committing or approach from fog. A visible entry into ready disengage gives her time to respond.' },
+  { games: ['pc'], lane: 'Support', favored: 'Morgana', challenged: 'Nautilus', edge: 'Protect the intended control target before impact and track damage that can break Black Shield. One shield cannot protect both laners at once.', response: 'Bait Black Shield and switch targets or coordinate damage before your control chain. Do not assume every hook leads to follow-up lockdown.' },
+  { games: ['pc', 'wr'], lane: 'Baron', favored: 'Poppy', challenged: 'Riven', edge: 'Hold Steadfast Presence for a committed dash instead of using it only for movement. Fight within its protection.', response: 'Draw out dash denial before spending your movement chain. Walking out and resetting is better than forcing the combo.' },
+  { games: ['pc', 'wr'], lane: 'Jungle', favored: 'Poppy', challenged: 'Lee Sin', edge: 'Reserve dash denial to protect an ally from a reachable entry. This does not establish a winning jungle clear or invade.', response: 'Check Poppy’s position and dash-denial cooldown before following your mark into her team.' },
+  { games: ['pc', 'wr'], lane: 'Jungle', favored: 'Rammus', challenged: 'Master Yi', edge: 'Hold taunt and defensive tools for Yi’s committed attack window. Coordinate damage with allies; do not assume a free solo duel.', response: 'Avoid feeding attacks into active defensive curl. Wait for taunt to be spent and choose an accessible damage target.' },
+  { games: ['pc'], lane: 'Baron', favored: 'Jax', challenged: 'Tryndamere', edge: 'Counter Strike creates a defensive window against repeated attacks. Preserve an exit for Tryndamere’s ultimate.', response: 'Disengage from Counter Strike and re-enter after its stun threat ends. Do not spend your full damage window into the dodge.' },
+  { games: ['pc'], lane: 'Baron', favored: 'Fiora', challenged: 'Sion', edge: 'A readable charged knockup offers a Riposte opportunity, but Sion can release early or bait it.', response: 'Vary your charge timing and bait Riposte before committing control. Avoid granting a predictable parry every trade.' },
+  { games: ['pc'], lane: 'Mid', favored: 'Malzahar', challenged: 'Katarina', edge: 'Save suppression for Katarina’s committed entry when allies can follow. Check whether you can channel safely.', response: 'Track suppression before entering. Pressure from another angle or wait for it to be committed elsewhere.' },
+  { games: ['pc', 'wr'], lane: 'Mid', favored: 'Vex', challenged: 'Yasuo', edge: 'Preserve fear for a dash into your space. A spent fear window gives Yasuo a much safer approach.', response: 'Watch Vex’s fear state and avoid unnecessary dashes near her. Trade after that defensive window is spent.' },
+  { games: ['pc'], lane: 'Mid', favored: 'Galio', challenged: 'Katarina', edge: 'Hold nearby control for a committed entry instead of using every spell to clear. Do not follow her roam without checking the wave.', response: 'Wait for Galio’s control to be used before committing your channel. A flank can be safer than entering through him.' },
+  { games: ['pc', 'wr'], lane: 'Mid', favored: 'Lissandra', challenged: 'Zed', edge: 'Preserve defensive ultimate options for Zed’s committed burst. Check energy, wave size and allied follow-up before turning.', response: 'Bait Lissandra’s defensive tools or pressure a different target. An available ultimate can interrupt your planned burst window.' },
+  { games: ['pc', 'wr'], lane: 'Support', favored: 'Morgana', challenged: 'Leona', edge: 'Save Black Shield for the ally Leona can reach. The shield must survive the relevant magic damage to keep protecting against control.', response: 'Bait the shield or coordinate damage to break it before relying on follow-up control. Changing targets can create a cleaner entry.' },
+  { games: ['pc'], lane: 'Support', favored: 'Janna', challenged: 'Alistar', edge: 'Preserve disengage for Alistar’s committed entry and keep your carry within protection range.', response: 'Force Janna’s defensive tools before the full commit, or attack from an angle that separates her from the carry.' },
+  { games: ['pc'], lane: 'Support', favored: 'Braum', challenged: 'Blitzcrank', edge: 'Stand where you can protect the carry and punish a hook commitment with allied attacks. Being hooked yourself is not automatically safe.', response: 'Seek an isolated target rather than pulling Braum into an allied damage window. Respect passive stacks after a missed hook.' },
+  { games: ['pc'], lane: 'Dragon', favored: 'Sivir', challenged: 'Caitlyn', edge: 'Reserve spell shield for a predictable spell or trap exposure and use wave control to reduce forced trades. It does not remove Caitlyn’s attack-range pressure.', response: 'Pressure with spacing and attacks; bait spell shield before relying on a spell combination. Do not assume a trap alone secures the trade.' },
+  { games: ['pc'], lane: 'Dragon', favored: 'Xayah', challenged: 'Samira', edge: 'Keep feathers and your defensive ultimate for Samira’s committed entry. Root setup depends on feather angles.', response: 'Read the feather line and force Xayah’s escape before fully committing. Avoid chasing through an obvious recall path.' },
+  { games: ['pc', 'wr'], lane: 'Dragon', favored: 'Caitlyn', challenged: 'Vayne', edge: 'Use range to contest Vayne’s early last hits while your support can cover you.', response: 'Caitlyn can pressure early last hits. Preserve health, manage the wave and wait for support or jungle setup.' },
+  { games: ['pc', 'wr'], lane: 'Dragon', favored: 'Ashe', challenged: 'Vayne', edge: 'Repeated slows and ranged trades can pressure Vayne before she finds a close-range all-in.', response: 'Ashe’s slows make retreating from a bad trade difficult. Avoid long exposed chases.' },
+  { games: ['pc', 'wr'], lane: 'Baron', favored: 'Poppy', challenged: 'Camille', edge: 'Save dash denial for Camille’s entry; it is useful only when available and correctly positioned.', response: 'Bait Poppy’s dash denial before committing your movement. Do not assume your entry will complete.' },
+  { games: ['pc', 'wr'], lane: 'Support', favored: 'Morgana', challenged: 'Blitzcrank', edge: 'A correctly timed protective shield can deny a hook follow-up; baiting the shield creates counterplay.', response: 'Track Morgana’s shield and pressure a different target or wait for its cooldown.' },
+  { games: ['pc', 'wr'], lane: 'Support', favored: 'Braum', challenged: 'Nautilus', edge: 'A defensive formation can punish a committed entry if your carry can attack safely.', response: 'Avoid an unsupported engage into Braum’s protected carry; look for a separated target.' },
+  { games: ['pc', 'wr'], lane: 'Dragon', favored: 'Draven', challenged: 'Jinx', edge: 'Use safe early axe trades before Jinx obtains more space and damage; respect her support’s setup.', response: 'Avoid matching early axe trades without a clear support advantage. Preserve health and reset safely.' }
+];

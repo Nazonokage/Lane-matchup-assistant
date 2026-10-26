@@ -18,7 +18,6 @@
       ],
       "badAgainst": [
         { "name": "Draven", "note": "Can't trade early; loses all-ins" },
-        { "name": "Vayne", "note": "Condemn (E) cancels your Q" },
         { "name": "Kai'Sa", "note": "Can't match her mobility and burst" }
       ],
       "synergies": ["Thresh", "Nautilus", "Leona", "Braum", "Lulu"],
@@ -48,7 +47,6 @@
       "goodAgainst": [
         { "name": "Zeri", "note": "Outranges and slows her down with W" },
         { "name": "Kai'Sa", "note": "Pokes her before she can engage with W" },
-        { "name": "Varus", "note": "Sustains through his poke" },
         { "name": "Miss Fortune", "note": "Interrupts her ult with R (arrow)" },
         { "name": "Xayah", "note": "Outranges and kites her" },
         { "name": "Vayne", "note": "Pokes her out early with W" }

@@ -1,5 +1,28 @@
 /* Lane Ledger — dark tactical theme */
 
+.game-switch { display: flex; gap: 6px; margin-bottom: 12px; }
+.game-switch button { flex: 1; min-height: 44px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-card); color: var(--text); font: inherit; cursor: pointer; }
+.game-switch button.active { background: #193b3a; border-color: var(--teal); }
+.game-switch button:active { background: #26504e; }
+button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid var(--teal); outline-offset: 3px; }
+.meta-panel { margin: 0 0 16px; padding: 14px; border: 1px solid var(--border); border-radius: 10px; background: var(--bg-panel); font-size: .875rem; }
+.meta-heading { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; color: var(--teal); }
+.meta-panel p { margin: 8px 0; }
+.meta-panel summary { cursor: pointer; padding: 8px 0; font-weight: 600; }
+.meta-panel li { margin-bottom: 8px; }
+.meta-panel ul { padding-left: 20px; }
+.meta-panel a, .site-info a { color: var(--teal); text-underline-offset: 3px; }
+.coverage-note { color: #b6c2d0; font-size: .8125rem; }
+.patch-note { border-left: 3px solid var(--teal); padding-left: 10px; font-size: .875rem; }
+.guide-sections { margin: 14px 0; font-size: .875rem; }
+.guide-sections h4 { margin: 14px 0 4px; color: var(--teal); }
+.guide-sections p { margin: 0; }
+.guide-evidence { margin-top: 16px; font-size: .8125rem; color: #b6c2d0; }
+.guide-evidence summary { cursor: pointer; padding: 8px 0; }
+.guide-evidence a { color: var(--teal); }
+.site-info { max-width: 520px; margin: 24px auto; padding: 0 14px 24px; color: var(--muted); font-size: .875rem; }
+.site-info h2 { color: var(--text); font-size: 1.125rem; }
+
 :root {
   --bg: #0d1117;
   --bg-panel: #161b22;
@@ -535,22 +558,10 @@ body {
   background: rgba(63, 185, 176, 0.12);
 }
 
-.btn-reveal {
-  width: 100%;
-  padding: 14px;
-  border: 1px solid var(--gold);
-  border-radius: var(--radius);
-  background: rgba(212, 168, 83, 0.1);
-  color: var(--gold);
-  font-size: 1rem;
-  font-weight: 700;
-  cursor: pointer;
-  letter-spacing: 0.02em;
-}
-
-.btn-reveal:active {
-  background: rgba(212, 168, 83, 0.2);
-}
+.rec-list { margin: 20px 0 24px; }
+.rec-list > h3, .rec-list > p { margin: 0; }
+.rec-list > details { margin: 0 0 4px; }
+.rec-list > details summary { cursor: pointer; }
 
 .context-strip {
   margin-bottom: 16px;
@@ -734,6 +745,282 @@ body {
 
 .global-cond h3 {
   color: var(--teal);
+}
+
+.pick-preview {
+  padding: 0 16px 16px;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.pick-preview p { margin: 0 0 10px; }
+.pick-preview > button { margin-top: 4px; }
+
+@keyframes animationIn {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+    filter: blur(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.animate-on-scroll {
+  animation: animationIn 0.55s ease-out both;
+  animation-play-state: paused;
+}
+
+.animate-on-scroll.animate {
+  animation-play-state: running;
+}
+
+.almanac-masthead {
+  margin: 0 0 16px;
+}
+
+.almanac-kicker {
+  margin: 0 0 4px;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.almanac-masthead-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.almanac-title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.almanac-panel .result-count {
+  margin: 0;
+}
+
+.almanac-panel .search-row {
+  margin-top: 4px;
+}
+
+.almanac-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 16px;
+  border-top: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+}
+
+.almanac-empty {
+  grid-column: 1 / -1;
+  margin: 0;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.almanac-cell {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  margin: 0;
+  padding: 12px;
+  border: none;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.almanac-cell .champ-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.almanac-cell-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  width: 100%;
+}
+
+.almanac-cell-name {
+  display: block;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.almanac-cell-role {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.almanac-cell-role.badge-adc { color: var(--adc); background: none; }
+.almanac-cell-role.badge-support { color: var(--support); background: none; }
+.almanac-cell-role.badge-apc { color: var(--apc); background: none; }
+.almanac-cell-role.badge-mid { color: #d29922; background: none; }
+.almanac-cell-role.badge-jungle { color: #a371f7; background: none; }
+.almanac-cell-role.badge-baron { color: #f85149; background: none; }
+
+.almanac-cell:hover,
+.almanac-cell:focus-visible {
+  background: var(--bg-hover);
+}
+
+.almanac-cell.open {
+  background: var(--bg-card);
+}
+
+.almanac-cell.open .almanac-cell-name {
+  color: var(--teal);
+}
+
+.almanac-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 12px 12px calc(12px + var(--safe-bottom));
+  background: rgba(5, 8, 12, 0.72);
+}
+
+.almanac-modal {
+  display: flex;
+  flex-direction: column;
+  width: min(720px, 100%);
+  max-height: min(88dvh, 900px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-panel);
+  color: var(--text);
+}
+
+.almanac-modal-head {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.almanac-modal-head .champ-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+}
+
+.almanac-modal-titles {
+  min-width: 0;
+}
+
+.almanac-modal-kicker {
+  margin: 0 0 2px;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.almanac-modal-titles h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.almanac-modal-close {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-card);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.8125rem;
+  cursor: pointer;
+}
+
+.almanac-modal-close:hover,
+.almanac-modal-close:focus-visible {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+
+.almanac-modal-body {
+  overflow: auto;
+  padding: 4px 16px 20px;
+}
+
+.almanac-modal .detail-panel {
+  padding: 0;
+  border-top: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-scroll {
+    animation: none;
+    filter: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rec-grid { display: grid; gap: 16px; align-items: start; }
+.rec-grid > .rec-card { min-width: 0; margin: 0; }
+.draft-teams { display: grid; gap: 20px; }
+.draft-teams > .draft-group { min-width: 0; }
+.pick-preview, .rec-body { overflow-wrap: anywhere; text-wrap: pretty; }
+
+@media (min-width: 900px) {
+  .app, .site-info { max-width: 1180px; padding-left: 28px; padding-right: 28px; }
+  .app { padding-top: 28px; }
+  .header { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+  .header h1 { font-size: 2rem; }
+  .almanac-title { font-size: 2.25rem; }
+  .almanac-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .almanac-cell { padding: 16px; }
+  .almanac-modal-backdrop { align-items: center; padding: 28px; }
+  .almanac-modal-head { padding: 18px 20px; }
+  .almanac-modal-body { padding: 4px 20px 24px; }
+  .game-switch { max-width: 440px; }
+  .draft-teams, .rec-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+  .draft-group { padding: 20px; background: var(--bg-panel); border: 1px solid var(--border); border-radius: var(--radius); }
+  .draft-group-title { margin-top: 0; }
+  .field select { min-height: 46px; font-size: 1rem; }
+  .pick-preview, .guide-sections, .rec-body { font-size: 0.9375rem; }
+  .rec-head { padding: 20px; }
+  .pick-preview { padding: 0 20px 20px; }
+  .rec-grid > .rec-card.open { grid-column: 1 / -1; }
+  .context-cards { flex-direction: row; }
+  .context-slot { flex: 1; min-width: 0; }
 }
 
 @media (min-width: 480px) {
