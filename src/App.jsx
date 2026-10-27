@@ -21,9 +21,7 @@ export default function App() {
 
 function GameApp({ game, onGameChange }) {
   const [tab, setTab] = useState("almanac");
-  const [activeLane, setActiveLane] = useState(
-    "Dragon"
-  );
+  const [activeLane, setActiveLane] = useState("All");
   const [search, setSearch] = useState("");
   const [roleFilter, setRoleFilter] = useState("All");
   const [playstyleFilter, setPlaystyleFilter] = useState("All");
