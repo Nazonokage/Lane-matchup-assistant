@@ -41,6 +41,16 @@ for (const game of ['pc', 'wr']) {
       assert(slice.lanePressure?.risk?.length > 20, `${game}: missing lane pressure for ${champion.name}/${lane}`);
       assert(slice.lanePressure?.response?.length > 20, `${game}: missing pressure response for ${champion.name}/${lane}`);
       assert.equal(engine.getMatchups(champion, lane).lanePressure, slice.lanePressure);
+      const plan = draftPickPlan(champion, EMPTY_DRAFT, lane, engine.byName);
+      for (const field of ['approach', 'risk', 'lanePlan', 'objective', 'purchases', 'timing']) {
+        assert(plan[field]?.length > 20, `${game}: missing draft ${field} for ${champion.name}/${lane}`);
+      }
+      for (const entry of [...slice.goodAgainst, ...slice.badAgainst]) {
+        assert(entry.note?.length > 20, `${game}: missing matchup advice for ${champion.name}/${lane}/${entry.name}`);
+        const matchupPlan = draftPickPlan(champion, { ...EMPTY_DRAFT, [LANE_CONFIG[lane].directOpponent]: entry.name }, lane, engine.byName);
+        assert.equal(matchupPlan.opponent.interaction, entry.note);
+        assert(matchupPlan.opponent.counterplay && matchupPlan.opponent.track);
+      }
       for (const entry of slice.goodAgainst) {
         assert(engine.byName(entry.name).playableLanes.includes(lane), `${game}: opponent outside ${lane}`);
         assert(engine.getMatchups(engine.byName(entry.name), lane).badAgainst.some(e => e.name === champion.name), `${champion.name}/${entry.name}: reciprocal matchup`);
@@ -161,7 +171,8 @@ assert.equal(wr.scoreChampion(wr.byName('Olaf'), { ...EMPTY_DRAFT, enemyJungle: 
 assert(wr.scoreChampion(wr.byName('Ahri'), { ...EMPTY_DRAFT, enemyMid: 'Irelia' }, 'Mid').matchupKnown);
 const unknown = pc.getRecommendationReport({ ...EMPTY_DRAFT, enemyTop: 'Garen' }, 'Mid');
 for (const engine of [pc, wr]) {
-  for (const [lane, slot] of [['Mid', 'enemyMid'], ['Baron', 'enemyTop'], ['Jungle', 'enemyJungle']]) {
+  for (const lane of LANES) {
+    const slot = LANE_CONFIG[lane].directOpponent;
     for (const enemy of engine.getChampionsByLane(lane)) {
       const picks = engine.getRecommendations({ ...EMPTY_DRAFT, [slot]: enemy.name }, lane);
       assert(picks.some(p => p.score > 0), `${lane} against ${enemy.name}: no positive conditional options`);
