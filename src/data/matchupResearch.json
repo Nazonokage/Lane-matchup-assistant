@@ -1,0 +1,8854 @@
+{
+  "checkedAt": "2026-10-27",
+  "sourceGame": "wr",
+  "basis": "Third-party matchup ideas, not measured win rates or PC evidence.",
+  "champions": [
+    {
+      "name": "Aatrox",
+      "source": "https://wildriftcounter.com/champions/aatrox/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Dr. Mundo",
+            "Yone",
+            "Sion",
+            "Olaf",
+            "Jayce",
+            "Shen"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Irelia",
+            "Darius",
+            "Jax",
+            "Sett",
+            "Riven"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Diana",
+            "Twisted Fate",
+            "Yone",
+            "Fizz",
+            "Yasuo"
+          ],
+          "badAgainst": [
+            "Vex",
+            "Akali",
+            "Ahri",
+            "Galio",
+            "Irelia",
+            "Zed"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ahri",
+      "source": "https://wildriftcounter.com/champions/ahri/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Gragas",
+            "Katarina",
+            "Brand",
+            "Lux",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Ekko",
+            "Diana",
+            "Irelia",
+            "Zed",
+            "Kassadin"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Katarina",
+            "Riven",
+            "Akali",
+            "Rengar",
+            "Annie",
+            "Nasus"
+          ],
+          "badAgainst": [
+            "Olaf",
+            "Teemo",
+            "Darius",
+            "Fiora",
+            "Ornn",
+            "Sett"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Ashe",
+            "Caitlyn",
+            "Draven",
+            "Jinx",
+            "Zeri",
+            "Miss Fortune"
+          ],
+          "badAgainst": [
+            "Samira",
+            "Nilah",
+            "Xayah",
+            "Ezreal",
+            "Tristana",
+            "Sivir"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Nautilus",
+            "Zyra",
+            "Janna",
+            "Soraka",
+            "Rakan",
+            "Leona"
+          ],
+          "badAgainst": [
+            "Blitzcrank",
+            "Lux",
+            "Morgana",
+            "Sona",
+            "Lulu",
+            "Karma"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Rammus",
+            "Gwen",
+            "Nunu & Willump",
+            "Xin Zhao",
+            "Jarvan IV",
+            "Master Yi"
+          ],
+          "badAgainst": [
+            "Vi",
+            "Zac",
+            "Warwick",
+            "Rengar",
+            "Hecarim",
+            "Graves"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Akali",
+      "source": "https://wildriftcounter.com/champions/akali/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Yasuo",
+            "Ziggs",
+            "Twisted Fate",
+            "Veigar",
+            "Katarina",
+            "Orianna"
+          ],
+          "badAgainst": [
+            "Kassadin",
+            "Galio",
+            "Annie",
+            "Veigar",
+            "Akshan",
+            "Vex"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Teemo",
+            "Yone",
+            "Jax",
+            "Olaf",
+            "Kayle",
+            "Gragas"
+          ],
+          "badAgainst": [
+            "Rengar",
+            "Shen",
+            "Riven",
+            "Urgot",
+            "Pantheon",
+            "Singed"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Jinx",
+            "Zeri",
+            "Sivir",
+            "Twitch",
+            "Ashe",
+            "Miss Fortune"
+          ],
+          "badAgainst": [
+            "Aphelios",
+            "Samira",
+            "Lucian",
+            "Xayah",
+            "Vayne",
+            "Tristana"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Rengar",
+            "Ekko",
+            "Nunu & Willump",
+            "Master Yi",
+            "Evelynn",
+            "Xin Zhao"
+          ],
+          "badAgainst": [
+            "Viego",
+            "Zac",
+            "Kayn",
+            "Hecarim",
+            "Graves",
+            "Lee Sin"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Zyra",
+            "Lux",
+            "Thresh",
+            "Lulu",
+            "Alistar",
+            "Senna"
+          ],
+          "badAgainst": [
+            "Morgana",
+            "Nami",
+            "Blitzcrank",
+            "Rakan",
+            "Braum",
+            "Janna"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Akshan",
+      "source": "https://wildriftcounter.com/champions/akshan/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Kai'Sa",
+            "Corki",
+            "Akali",
+            "Lux",
+            "Katarina",
+            "Lucian"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Irelia",
+            "Lissandra",
+            "Veigar",
+            "Zed",
+            "Fizz"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Caitlyn",
+            "Lucian",
+            "Ashe",
+            "Ezreal",
+            "Draven",
+            "Nilah"
+          ],
+          "badAgainst": [
+            "Jinx",
+            "Jhin",
+            "Vayne",
+            "Xayah",
+            "Miss Fortune",
+            "Kalista"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Alistar",
+      "source": "https://wildriftcounter.com/champions/alistar/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Blitzcrank",
+            "Leona",
+            "Braum",
+            "Nami",
+            "Senna",
+            "Yuumi"
+          ],
+          "badAgainst": [
+            "Janna",
+            "Morgana",
+            "Thresh",
+            "Zyra",
+            "Lulu",
+            "Rakan"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Aphelios",
+            "Samira",
+            "Kai'Sa",
+            "Jinx",
+            "Zeri",
+            "Twitch"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Tristana",
+            "Varus",
+            "Lucian",
+            "Caitlyn",
+            "Ashe"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Riven",
+            "Irelia",
+            "Garen",
+            "Yasuo",
+            "Tryndamere",
+            "Sion"
+          ],
+          "badAgainst": [
+            "Galio",
+            "Dr. Mundo",
+            "Renekton",
+            "Gragas",
+            "Urgot",
+            "Vayne"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ambessa",
+      "source": "https://wildriftcounter.com/champions/ambessa/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Gwen",
+            "Yasuo",
+            "Jax",
+            "Irelia",
+            "Vladimir",
+            "Teemo"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Riven",
+            "Darius",
+            "Garen",
+            "Jayce",
+            "Poppy"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Rammus",
+            "Gragas",
+            "Kindred",
+            "Lillia",
+            "Master Yi",
+            "Jarvan IV"
+          ],
+          "badAgainst": [
+            "Shyvana",
+            "Kha'Zix",
+            "Wukong",
+            "Viego",
+            "Fiddlesticks",
+            "Warwick"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Zed",
+            "Fizz",
+            "Talon",
+            "Akali",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Ziggs",
+            "Lux",
+            "Syndra",
+            "Ahri",
+            "Veigar",
+            "Zoe"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Amumu",
+      "source": "https://wildriftcounter.com/champions/amumu/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Yasuo",
+            "Olaf",
+            "Diana",
+            "Jax",
+            "Gragas",
+            "Rammus"
+          ],
+          "badAgainst": [
+            "Shyvana",
+            "Lee Sin",
+            "Vi",
+            "Warwick",
+            "Kha'Zix",
+            "Volibear"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jax",
+            "Riven",
+            "Tryndamere",
+            "Shen",
+            "Akali",
+            "Gwen"
+          ],
+          "badAgainst": [
+            "Vi",
+            "Garen",
+            "Pantheon",
+            "Malphite",
+            "Renekton",
+            "Jayce"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Annie",
+      "source": "https://wildriftcounter.com/champions/annie/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Akali",
+            "Ahri",
+            "Katarina",
+            "Kayle",
+            "Zed",
+            "Irelia"
+          ],
+          "badAgainst": [
+            "Kassadin",
+            "Brand",
+            "Orianna",
+            "Fizz",
+            "Veigar",
+            "Lux"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Darius",
+            "Renekton",
+            "Yasuo",
+            "Shen",
+            "Akali",
+            "Zed"
+          ],
+          "badAgainst": [
+            "Malphite",
+            "Garen",
+            "Katarina",
+            "Wukong",
+            "Swain",
+            "Kassadin"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Thresh",
+            "Braum",
+            "Lucian",
+            "Lulu",
+            "Soraka",
+            "Kai'Sa"
+          ],
+          "badAgainst": [
+            "Karma",
+            "Ashe",
+            "Leona",
+            "Caitlyn",
+            "Morgana",
+            "Tristana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Aphelios",
+      "source": "https://wildriftcounter.com/champions/aphelios/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Vayne",
+            "Xayah",
+            "Kai'Sa",
+            "Zeri",
+            "Sivir"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Jhin",
+            "Tristana",
+            "Draven",
+            "Varus",
+            "Samira"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Zoe",
+            "Yone",
+            "Katarina",
+            "Irelia",
+            "Akali",
+            "Galio"
+          ],
+          "badAgainst": [
+            "Ahri",
+            "Twisted Fate",
+            "Lux",
+            "Syndra",
+            "Fizz",
+            "Zed"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ashe",
+      "source": "https://wildriftcounter.com/champions/ashe/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Zeri",
+            "Kai'Sa",
+            "Varus",
+            "Miss Fortune",
+            "Xayah",
+            "Vayne"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Draven",
+            "Jhin",
+            "Tristana",
+            "Ezreal",
+            "Lucian"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Braum",
+            "Nami",
+            "Karma",
+            "Alistar",
+            "Janna",
+            "Soraka"
+          ],
+          "badAgainst": [
+            "Blitzcrank",
+            "Nautilus",
+            "Seraphine",
+            "Thresh",
+            "Leona",
+            "Sona"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Darius",
+            "Kayle",
+            "Gwen",
+            "Akali",
+            "Renekton",
+            "Volibear"
+          ],
+          "badAgainst": [
+            "Jax",
+            "Shen",
+            "Ornn",
+            "Warwick",
+            "Vladimir",
+            "Olaf"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Corki",
+            "Irelia",
+            "Akali",
+            "Aurelion Sol",
+            "Malphite",
+            "Galio"
+          ],
+          "badAgainst": [
+            "Ahri",
+            "Kassadin",
+            "Talon",
+            "Lux",
+            "Zed",
+            "Fizz"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Aurelion Sol",
+      "source": "https://wildriftcounter.com/champions/aurelion-sol/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Annie",
+            "Katarina",
+            "Irelia",
+            "Orianna",
+            "Diana",
+            "Brand"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Zed",
+            "Yasuo",
+            "Katarina",
+            "Karma",
+            "Galio"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Riven",
+            "Nasus",
+            "Fiora",
+            "Garen",
+            "Malphite",
+            "Dr. Mundo"
+          ],
+          "badAgainst": [
+            "Darius",
+            "Kennen",
+            "Pantheon",
+            "Tryndamere",
+            "Jayce",
+            "Kassadin"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Aurora",
+      "source": "https://wildriftcounter.com/champions/aurora/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Yone",
+            "Ryze",
+            "Corki",
+            "Lissandra",
+            "Viktor",
+            "Kassadin"
+          ],
+          "badAgainst": [
+            "Vex",
+            "Talon",
+            "Kayle",
+            "Ekko",
+            "Zoe",
+            "Katarina"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Kalista",
+            "Aphelios",
+            "Xayah",
+            "Ezreal",
+            "Nilah",
+            "Ashe"
+          ],
+          "badAgainst": [
+            "Tristana",
+            "Lucian",
+            "Sivir",
+            "Ziggs",
+            "Draven",
+            "Vayne"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Brand",
+            "Blitzcrank",
+            "Senna",
+            "Lissandra",
+            "Leona",
+            "Braum"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Zyra",
+            "Yuumi",
+            "Seraphine",
+            "Morgana",
+            "Nautilus"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bard",
+      "source": "https://wildriftcounter.com/champions/bard/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Lux",
+            "Pyke",
+            "Seraphine",
+            "Senna",
+            "Rakan",
+            "Zyra"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Zilean",
+            "Nami",
+            "Janna",
+            "Morgana",
+            "Soraka"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Annie",
+            "Zoe",
+            "Aurelion Sol",
+            "Varus",
+            "Ryze"
+          ],
+          "badAgainst": [
+            "Kassadin",
+            "Veigar",
+            "Lissandra",
+            "Corki",
+            "Ekko",
+            "LeBlanc"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Blitzcrank",
+      "source": "https://wildriftcounter.com/champions/blitzcrank/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Sona",
+            "Soraka",
+            "Nami",
+            "Lulu",
+            "Yuumi",
+            "Janna"
+          ],
+          "badAgainst": [
+            "Leona",
+            "Alistar",
+            "Morgana",
+            "Thresh",
+            "Braum",
+            "Rakan"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Draven",
+            "Varus",
+            "Ashe",
+            "Jinx",
+            "Nilah"
+          ],
+          "badAgainst": [
+            "Ezreal",
+            "Lucian",
+            "Tristana",
+            "Caitlyn",
+            "Jhin"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Renekton",
+            "Wukong",
+            "Jax",
+            "Nasus",
+            "Fiora",
+            "Teemo"
+          ],
+          "badAgainst": [
+            "Garen",
+            "Darius",
+            "Yasuo",
+            "Zac",
+            "Dr. Mundo"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Orianna",
+            "Veigar",
+            "Annie",
+            "Akali",
+            "Talon"
+          ],
+          "badAgainst": [
+            "Lux",
+            "Zed",
+            "Gragas",
+            "Ekko",
+            "Jayce",
+            "Yasuo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Brand",
+      "source": "https://wildriftcounter.com/champions/brand/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Annie",
+            "Ziggs",
+            "Akali",
+            "Katarina",
+            "Akshan",
+            "Corki"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Galio",
+            "Lux",
+            "Zed",
+            "Corki",
+            "Ekko"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Rammus",
+            "Gragas",
+            "Graves",
+            "Jax",
+            "Amumu",
+            "Jarvan IV"
+          ],
+          "badAgainst": [
+            "Rengar",
+            "Kha'Zix",
+            "Viego",
+            "Kayn",
+            "Diana",
+            "Evelynn"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Alistar",
+            "Seraphine",
+            "Lulu",
+            "Soraka",
+            "Senna",
+            "Thresh"
+          ],
+          "badAgainst": [
+            "Maokai",
+            "Pyke",
+            "Nautilus",
+            "Blitzcrank",
+            "Morgana",
+            "Braum"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Braum",
+      "source": "https://wildriftcounter.com/champions/braum/",
+      "lanes": {}
+    },
+    {
+      "name": "Caitlyn",
+      "source": "https://wildriftcounter.com/champions/caitlyn/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Zeri",
+            "Aphelios",
+            "Xayah",
+            "Kai'Sa",
+            "Lucian",
+            "Sivir"
+          ],
+          "badAgainst": [
+            "Jhin",
+            "Ezreal",
+            "Miss Fortune",
+            "Nilah",
+            "Twitch",
+            "Jinx"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Annie",
+            "Twisted Fate",
+            "Akali",
+            "Ziggs",
+            "Orianna",
+            "Ahri"
+          ],
+          "badAgainst": [
+            "Diana",
+            "Jayce",
+            "Irelia",
+            "Lux",
+            "Fizz",
+            "Yasuo"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Ashe",
+            "Renekton",
+            "Jax",
+            "Nasus",
+            "Draven",
+            "Yasuo"
+          ],
+          "badAgainst": [
+            "Darius",
+            "Jinx",
+            "Teemo",
+            "Fiora",
+            "Zed",
+            "Vayne"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Morgana",
+            "Leona",
+            "Zyra",
+            "Rakan",
+            "Lulu",
+            "Senna"
+          ],
+          "badAgainst": [
+            "Blitzcrank",
+            "Soraka",
+            "Nautilus",
+            "Nami",
+            "Thresh",
+            "Sona"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Camille",
+      "source": "https://wildriftcounter.com/champions/camille/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Garen",
+            "Yone",
+            "Wukong",
+            "Ornn",
+            "Irelia",
+            "Aatrox"
+          ],
+          "badAgainst": [
+            "Renekton",
+            "Darius",
+            "Fiora",
+            "Riven",
+            "Nasus",
+            "Shen"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Lucian",
+            "Fizz",
+            "Syndra",
+            "Yasuo",
+            "Orianna",
+            "Akshan"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Kayle",
+            "Ahri",
+            "Malphite",
+            "Gragas",
+            "Vex"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Shyvana",
+            "Kha'Zix",
+            "Evelynn",
+            "Viego",
+            "Vi",
+            "Jarvan IV"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Zac",
+            "Gragas",
+            "Hecarim",
+            "Warwick",
+            "Xin Zhao"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cassiopeia",
+      "source": "https://wildriftcounter.com/champions/cassiopeia/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Varus",
+            "Orianna",
+            "Lux",
+            "Yasuo",
+            "Yone",
+            "Katarina"
+          ],
+          "badAgainst": [
+            "Zoe",
+            "Zed",
+            "Akshan",
+            "Twisted Fate",
+            "Akali",
+            "Irelia"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Vayne",
+            "Renekton",
+            "Kayle",
+            "Garen",
+            "Yone",
+            "Malphite"
+          ],
+          "badAgainst": [
+            "Jayce",
+            "Sett",
+            "Akali",
+            "Camille",
+            "Fiora",
+            "Nasus"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Ashe",
+            "Jinx",
+            "Vayne",
+            "Miss Fortune",
+            "Jhin",
+            "Samira"
+          ],
+          "badAgainst": [
+            "Draven",
+            "Caitlyn",
+            "Lucian",
+            "Xayah",
+            "Tristana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cho'Gath",
+      "source": "https://wildriftcounter.com/champions/chogath/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Sion",
+            "Riven",
+            "Jax",
+            "Tryndamere",
+            "Pantheon",
+            "Renekton"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Camille",
+            "Sett",
+            "Shen",
+            "Singed",
+            "Darius"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Corki",
+      "source": "https://wildriftcounter.com/champions/corki/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Ziggs",
+            "Katarina",
+            "Akali",
+            "Orianna",
+            "Yasuo",
+            "Ekko"
+          ],
+          "badAgainst": [
+            "Zed",
+            "Fizz",
+            "Lux",
+            "Ahri",
+            "Brand",
+            "Syndra"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Tristana",
+            "Vayne",
+            "Ezreal",
+            "Jinx",
+            "Miss Fortune",
+            "Nilah"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Draven",
+            "Ashe",
+            "Varus",
+            "Lucian",
+            "Sivir"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Blitzcrank",
+            "Seraphine",
+            "Nami",
+            "Senna",
+            "Yuumi",
+            "Soraka"
+          ],
+          "badAgainst": [
+            "Rakan",
+            "Leona",
+            "Braum",
+            "Thresh",
+            "Lulu",
+            "Alistar"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Riven",
+            "Nunu & Willump",
+            "Pantheon",
+            "Garen",
+            "Yasuo",
+            "Rammus"
+          ],
+          "badAgainst": [
+            "Nasus",
+            "Jax",
+            "Teemo",
+            "Wukong",
+            "Zed",
+            "Maokai"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Nunu & Willump",
+            "Amumu",
+            "Evelynn",
+            "Gragas",
+            "Jarvan IV",
+            "Xin Zhao"
+          ],
+          "badAgainst": [
+            "Lee Sin",
+            "Hecarim",
+            "Warwick",
+            "Viego",
+            "Master Yi",
+            "Kayn"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Darius",
+      "source": "https://wildriftcounter.com/champions/darius/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Garen",
+            "Renekton",
+            "Yasuo",
+            "Akali",
+            "Sion",
+            "Fiora"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Ornn",
+            "Kayle",
+            "Dr. Mundo",
+            "Jayce",
+            "Urgot"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Jax",
+            "Warwick",
+            "Rammus",
+            "Gragas",
+            "Shyvana",
+            "Jarvan IV"
+          ],
+          "badAgainst": [
+            "Wukong",
+            "Nunu & Willump",
+            "Master Yi",
+            "Ekko",
+            "Evelynn",
+            "Viego"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Lux",
+            "Veigar",
+            "Nasus",
+            "Vladimir",
+            "Vex",
+            "Aurelion Sol"
+          ],
+          "badAgainst": [
+            "Katarina",
+            "Twisted Fate",
+            "Ahri",
+            "Fizz",
+            "Ekko",
+            "Viktor"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Twitch",
+            "Samira",
+            "Draven",
+            "Ezreal",
+            "Zeri",
+            "Xayah"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Tristana",
+            "Lucian",
+            "Jhin",
+            "Nilah",
+            "Ziggs"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Lulu",
+            "Seraphine",
+            "Thresh",
+            "Sona",
+            "Senna",
+            "Nautilus"
+          ],
+          "badAgainst": [
+            "Veigar",
+            "Morgana",
+            "Zyra",
+            "Braum",
+            "Karma",
+            "Nami"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Diana",
+      "source": "https://wildriftcounter.com/champions/diana/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Akali",
+            "Ahri",
+            "Twisted Fate",
+            "Orianna",
+            "Katarina",
+            "Ezreal"
+          ],
+          "badAgainst": [
+            "Kayle",
+            "Fizz",
+            "Pantheon",
+            "Gragas",
+            "Ekko",
+            "Jayce"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Teemo",
+            "Singed",
+            "Olaf",
+            "Darius",
+            "Zac",
+            "Sion"
+          ],
+          "badAgainst": [
+            "Irelia",
+            "Jax",
+            "Nasus",
+            "Tryndamere",
+            "Kayle"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Tryndamere",
+            "Rammus",
+            "Lee Sin",
+            "Xin Zhao",
+            "Rengar",
+            "Master Yi"
+          ],
+          "badAgainst": [
+            "Amumu",
+            "Warwick",
+            "Gragas",
+            "Graves",
+            "Ekko",
+            "Hecarim"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dr. Mundo",
+      "source": "https://wildriftcounter.com/champions/dr-mundo/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Wukong",
+            "Irelia",
+            "Jax",
+            "Singed",
+            "Renekton",
+            "Tryndamere"
+          ],
+          "badAgainst": [
+            "Darius",
+            "Vayne",
+            "Gwen",
+            "Fiora",
+            "Camille",
+            "Zac"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Amumu",
+            "Olaf",
+            "Jax",
+            "Shyvana",
+            "Diana",
+            "Wukong"
+          ],
+          "badAgainst": [
+            "Gragas",
+            "Xin Zhao",
+            "Kayn",
+            "Viego",
+            "Lillia",
+            "Ekko"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Akali",
+            "Zed",
+            "Yone",
+            "Irelia",
+            "Jayce",
+            "Caitlyn",
+            "Jinx",
+            "Ezreal",
+            "Jhin",
+            "Senna",
+            "Sivir"
+          ],
+          "badAgainst": [
+            "Annie",
+            "Katarina",
+            "Karma",
+            "Ahri",
+            "Ekko",
+            "Fizz",
+            "Vayne",
+            "Lucian",
+            "Ashe",
+            "Xayah",
+            "Kai'Sa",
+            "Zeri"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Thresh",
+            "Sona",
+            "Nami",
+            "Shen",
+            "Yuumi",
+            "Senna"
+          ],
+          "badAgainst": [
+            "Lulu",
+            "Leona",
+            "Zyra",
+            "Brand",
+            "Alistar",
+            "Rakan"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Draven",
+      "source": "https://wildriftcounter.com/champions/draven/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Sivir",
+            "Zeri",
+            "Varus",
+            "Kai'Sa",
+            "Kalista",
+            "Caitlyn"
+          ],
+          "badAgainst": [
+            "Senna",
+            "Jhin",
+            "Ashe",
+            "Nilah",
+            "Twitch",
+            "Aphelios"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Nasus",
+            "Renekton",
+            "Fiora",
+            "Dr. Mundo",
+            "Darius",
+            "Vladimir"
+          ],
+          "badAgainst": [
+            "Urgot",
+            "Kennen",
+            "Malphite",
+            "Sett",
+            "Camille",
+            "Shen"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Ekko",
+            "Aatrox",
+            "Vladimir",
+            "Galio",
+            "Swain",
+            "Fizz"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Irelia",
+            "Diana",
+            "Annie",
+            "Syndra",
+            "Katarina"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ekko",
+      "source": "https://wildriftcounter.com/champions/ekko/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Twisted Fate",
+            "Veigar",
+            "Katarina",
+            "Corki",
+            "Annie"
+          ],
+          "badAgainst": [
+            "Galio",
+            "Swain",
+            "Irelia",
+            "Kassadin",
+            "Yasuo",
+            "Akali"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Tryndamere",
+            "Darius",
+            "Teemo",
+            "Shen",
+            "Malphite",
+            "Gwen"
+          ],
+          "badAgainst": [
+            "Nasus",
+            "Riven",
+            "Wukong",
+            "Garen",
+            "Sett",
+            "Jax"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Lee Sin",
+            "Jarvan IV",
+            "Xin Zhao",
+            "Graves",
+            "Master Yi",
+            "Zac"
+          ],
+          "badAgainst": [
+            "Kha'Zix",
+            "Rengar",
+            "Amumu",
+            "Vi",
+            "Nunu & Willump",
+            "Talon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Evelynn",
+      "source": "https://wildriftcounter.com/champions/evelynn/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Graves",
+            "Dr. Mundo",
+            "Jarvan IV",
+            "Amumu",
+            "Wukong",
+            "Gragas"
+          ],
+          "badAgainst": [
+            "Kha'Zix",
+            "Xin Zhao",
+            "Lee Sin",
+            "Master Yi",
+            "Rengar",
+            "Fiddlesticks"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ezreal",
+      "source": "https://wildriftcounter.com/champions/ezreal/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ashe",
+            "Varus",
+            "Miss Fortune",
+            "Lucian",
+            "Kai'Sa",
+            "Zeri"
+          ],
+          "badAgainst": [
+            "Nilah",
+            "Vayne",
+            "Draven",
+            "Tristana",
+            "Aphelios",
+            "Kalista"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Syndra",
+            "Ziggs",
+            "Brand",
+            "Twisted Fate",
+            "Vex"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Lux",
+            "Zed",
+            "Ekko",
+            "Jayce",
+            "Zoe"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fiddlesticks",
+      "source": "https://wildriftcounter.com/champions/fiddlesticks/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Kayn",
+            "Jarvan IV",
+            "Wukong",
+            "Lee Sin",
+            "Jax",
+            "Rammus"
+          ],
+          "badAgainst": [
+            "Shyvana",
+            "Vi",
+            "Evelynn",
+            "Ekko",
+            "Xin Zhao",
+            "Zac"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Shen",
+            "Vayne",
+            "Gragas",
+            "Nasus",
+            "Camille",
+            "Teemo"
+          ],
+          "badAgainst": [
+            "Kennen",
+            "Ornn",
+            "Dr. Mundo",
+            "Yasuo",
+            "Tryndamere",
+            "Zac"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Lux",
+            "Vladimir",
+            "Katarina",
+            "Akali",
+            "Zed",
+            "Brand"
+          ],
+          "badAgainst": [
+            "Diana",
+            "Pantheon",
+            "Veigar",
+            "Galio",
+            "Zoe",
+            "Fizz"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Seraphine",
+            "Leona",
+            "Karma",
+            "Lulu",
+            "Braum",
+            "Sona"
+          ],
+          "badAgainst": [
+            "Thresh",
+            "Blitzcrank",
+            "Soraka",
+            "Nami",
+            "Rakan",
+            "Zyra"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fiora",
+      "source": "https://wildriftcounter.com/champions/fiora/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Sion",
+            "Dr. Mundo",
+            "Nasus",
+            "Rengar",
+            "Irelia",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Warwick",
+            "Vayne",
+            "Pantheon",
+            "Darius",
+            "Renekton",
+            "Malphite"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Ekko",
+            "Xin Zhao",
+            "Viego",
+            "Shyvana",
+            "Rammus",
+            "Brand"
+          ],
+          "badAgainst": [
+            "Lillia",
+            "Zac",
+            "Kha'Zix",
+            "Graves",
+            "Shyvana",
+            "Jarvan IV"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Irelia",
+            "Galio",
+            "Ekko",
+            "Riven",
+            "Yasuo"
+          ],
+          "badAgainst": [
+            "Garen",
+            "Tristana",
+            "Vladimir",
+            "Malphite",
+            "Jayce",
+            "Zoe"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Jhin",
+            "Twitch",
+            "Ziggs",
+            "Aphelios",
+            "Ezreal",
+            "Miss Fortune"
+          ],
+          "badAgainst": [
+            "Jinx",
+            "Caitlyn",
+            "Sivir",
+            "Draven",
+            "Vayne",
+            "Varus"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Senna",
+            "Morgana",
+            "Seraphine",
+            "Thresh",
+            "Lux",
+            "Sona"
+          ],
+          "badAgainst": [
+            "Zyra",
+            "Rakan",
+            "Braum",
+            "Leona",
+            "Lulu",
+            "Soraka"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fizz",
+      "source": "https://wildriftcounter.com/champions/fizz/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Twisted Fate",
+            "Brand",
+            "Syndra",
+            "Aurelion Sol",
+            "Katarina",
+            "Zoe"
+          ],
+          "badAgainst": [
+            "Diana",
+            "Gragas",
+            "Kassadin",
+            "Akali",
+            "Kayle",
+            "Annie"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Karma",
+            "Jayce",
+            "Nasus",
+            "Swain",
+            "Kennen",
+            "Ornn"
+          ],
+          "badAgainst": [
+            "Dr. Mundo",
+            "Darius",
+            "Olaf",
+            "Tryndamere",
+            "Sett",
+            "Wukong"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Miss Fortune",
+            "Jinx",
+            "Kalista",
+            "Zeri",
+            "Samira",
+            "Jhin"
+          ],
+          "badAgainst": [
+            "Draven",
+            "Ziggs",
+            "Vayne",
+            "Aphelios",
+            "Tristana",
+            "Nilah"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Braum",
+            "Senna",
+            "Leona",
+            "Nautilus",
+            "Maokai",
+            "Nami"
+          ],
+          "badAgainst": [
+            "Rakan",
+            "Lulu",
+            "Lux",
+            "Thresh",
+            "Janna",
+            "Sona"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Ekko",
+            "Fiddlesticks",
+            "Shyvana",
+            "Volibear",
+            "Xin Zhao",
+            "Lee Sin"
+          ],
+          "badAgainst": [
+            "Kayn",
+            "Evelynn",
+            "Vi",
+            "Warwick",
+            "Kha'Zix",
+            "Master Yi"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Galio",
+      "source": "https://wildriftcounter.com/champions/galio/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Brand",
+            "Malphite",
+            "Veigar",
+            "Katarina",
+            "Fizz",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Akali",
+            "Orianna",
+            "Ahri",
+            "Vex",
+            "Syndra"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Singed",
+            "Renekton",
+            "Teemo",
+            "Kennen",
+            "Kayle"
+          ],
+          "badAgainst": [
+            "Malphite",
+            "Jax",
+            "Riven",
+            "Pantheon",
+            "Sett",
+            "Urgot"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Thresh",
+            "Morgana",
+            "Sona",
+            "Soraka",
+            "Seraphine",
+            "Blitzcrank"
+          ],
+          "badAgainst": [
+            "Alistar",
+            "Lulu",
+            "Janna",
+            "Braum",
+            "Zyra",
+            "Lux"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Garen",
+      "source": "https://wildriftcounter.com/champions/garen/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Nasus",
+            "Akali",
+            "Irelia",
+            "Jax",
+            "Dr. Mundo",
+            "Yasuo"
+          ],
+          "badAgainst": [
+            "Darius",
+            "Camille",
+            "Kayle",
+            "Fiora",
+            "Shen",
+            "Ornn"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Shyvana",
+            "Wukong",
+            "Hecarim",
+            "Nunu & Willump",
+            "Viego",
+            "Amumu"
+          ],
+          "badAgainst": [
+            "Rengar",
+            "Fiddlesticks",
+            "Zac",
+            "Master Yi",
+            "Jarvan IV",
+            "Kayn"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Galio",
+            "Diana",
+            "Ekko",
+            "Zed",
+            "Yasuo",
+            "Aurelion Sol"
+          ],
+          "badAgainst": [
+            "Swain",
+            "Aatrox",
+            "Annie",
+            "Malphite",
+            "Orianna",
+            "Veigar"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Miss Fortune",
+            "Nilah",
+            "Xayah",
+            "Samira",
+            "Ashe",
+            "Jhin"
+          ],
+          "badAgainst": [
+            "Draven",
+            "Swain",
+            "Vayne",
+            "Lucian",
+            "Jinx",
+            "Zeri"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Braum",
+            "Rakan",
+            "Pyke",
+            "Blitzcrank",
+            "Alistar",
+            "Leona"
+          ],
+          "badAgainst": [
+            "Morgana",
+            "Soraka",
+            "Nami",
+            "Lulu",
+            "Nautilus",
+            "Thresh"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gnar",
+      "source": "https://wildriftcounter.com/champions/gnar/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Sion",
+            "Garen",
+            "Olaf",
+            "Sett",
+            "Gwen",
+            "Aatrox"
+          ],
+          "badAgainst": [
+            "Irelia",
+            "Darius",
+            "Olaf",
+            "Renekton",
+            "Nasus",
+            "Camille"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Lux",
+            "Akali",
+            "Malphite",
+            "Fizz",
+            "Orianna",
+            "Twisted Fate"
+          ],
+          "badAgainst": [
+            "Galio",
+            "Zed",
+            "Ekko",
+            "Zoe",
+            "Yasuo",
+            "Vladimir"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Vi",
+            "Diana",
+            "Hecarim",
+            "Shyvana",
+            "Jarvan IV",
+            "Dr. Mundo"
+          ],
+          "badAgainst": [
+            "Lillia",
+            "Viego",
+            "Zac",
+            "Kayn",
+            "Pantheon",
+            "Master Yi"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gragas",
+      "source": "https://wildriftcounter.com/champions/gragas/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Malphite",
+            "Riven",
+            "Shen",
+            "Ornn",
+            "Wukong",
+            "Sion"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Aatrox",
+            "Jax",
+            "Darius",
+            "Kennen",
+            "Garen"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Xin Zhao",
+            "Lillia",
+            "Talon",
+            "Jarvan IV",
+            "Nunu & Willump",
+            "Master Yi"
+          ],
+          "badAgainst": [
+            "Lee Sin",
+            "Rengar",
+            "Kha'Zix",
+            "Viego",
+            "Evelynn",
+            "Diana"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Katarina",
+            "Kayle",
+            "Ziggs",
+            "Zed",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Ahri",
+            "Fizz",
+            "Akali",
+            "Lux",
+            "Kassadin"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Samira",
+            "Ashe",
+            "Jinx",
+            "Zeri",
+            "Varus",
+            "Ezreal"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Aphelios",
+            "Kalista",
+            "Jhin",
+            "Twitch",
+            "Kai'Sa"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Thresh",
+            "Sona",
+            "Seraphine",
+            "Soraka",
+            "Zyra",
+            "Blitzcrank"
+          ],
+          "badAgainst": [
+            "Morgana",
+            "Alistar",
+            "Janna",
+            "Nautilus",
+            "Leona",
+            "Lulu"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Graves",
+      "source": "https://wildriftcounter.com/champions/graves/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Master Yi",
+            "Wukong",
+            "Jarvan IV",
+            "Lee Sin",
+            "Hecarim",
+            "Amumu"
+          ],
+          "badAgainst": [
+            "Evelynn",
+            "Vi",
+            "Rengar",
+            "Kha'Zix",
+            "Rammus",
+            "Fiddlesticks"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Annie",
+            "Galio",
+            "Talon",
+            "Akali",
+            "Kassadin",
+            "Katarina"
+          ],
+          "badAgainst": [
+            "Zed",
+            "Irelia",
+            "Jayce",
+            "Fizz",
+            "Vex",
+            "Aurelion Sol"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Darius",
+            "Riven",
+            "Vayne",
+            "Garen",
+            "Nasus",
+            "Nunu & Willump"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Renekton",
+            "Gwen",
+            "Wukong",
+            "Pantheon",
+            "Camille"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Varus",
+            "Ezreal",
+            "Vayne",
+            "Ashe",
+            "Lucian",
+            "Jinx"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Miss Fortune",
+            "Draven",
+            "Tristana",
+            "Jhin",
+            "Samira"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gwen",
+      "source": "https://wildriftcounter.com/champions/gwen/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Shyvana",
+            "Dr. Mundo",
+            "Shen",
+            "Teemo",
+            "Sion",
+            "Ornn"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Jax",
+            "Riven",
+            "Darius",
+            "Nasus",
+            "Tryndamere"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Zoe",
+            "Ekko",
+            "Talon",
+            "Orianna",
+            "Veigar",
+            "Aurelion Sol"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Riven",
+            "Kayle",
+            "Jayce",
+            "Zed",
+            "Swain"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Olaf",
+            "Fiddlesticks",
+            "Rammus",
+            "Amumu",
+            "Lillia",
+            "Jarvan IV"
+          ],
+          "badAgainst": [
+            "Rengar",
+            "Kha'Zix",
+            "Evelynn",
+            "Master Yi",
+            "Lee Sin",
+            "Warwick"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hecarim",
+      "source": "https://wildriftcounter.com/champions/hecarim/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Diana",
+            "Shyvana",
+            "Rammus",
+            "Wukong",
+            "Lee Sin",
+            "Nunu & Willump"
+          ],
+          "badAgainst": [
+            "Master Yi",
+            "Evelynn",
+            "Warwick",
+            "Vi",
+            "Jarvan IV",
+            "Graves"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Zac",
+            "Shen",
+            "Riven",
+            "Yone",
+            "Kayle",
+            "Fiora"
+          ],
+          "badAgainst": [
+            "Renekton",
+            "Camille",
+            "Darius",
+            "Akali",
+            "Jayce",
+            "Sett"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Heimerdinger",
+      "source": "https://wildriftcounter.com/champions/heimerdinger/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Teemo",
+            "Yone",
+            "Akali",
+            "Jayce",
+            "Yasuo",
+            "Gragas"
+          ],
+          "badAgainst": [
+            "Nasus",
+            "Irelia",
+            "Camille",
+            "Garen",
+            "Fiora",
+            "Renekton"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Malphite",
+            "Yone",
+            "Vex",
+            "Irelia",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Zoe",
+            "Veigar",
+            "Ekko",
+            "Syndra",
+            "Lux",
+            "Zed"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Alistar",
+            "Pyke",
+            "Senna",
+            "Morgana",
+            "Karma",
+            "Blitzcrank"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Seraphine",
+            "Soraka",
+            "Nami",
+            "Brand",
+            "Janna"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Jinx",
+            "Samira",
+            "Miss Fortune",
+            "Varus",
+            "Nilah",
+            "Twitch"
+          ],
+          "badAgainst": [
+            "Jhin",
+            "Vayne",
+            "Ashe",
+            "Caitlyn",
+            "Tristana",
+            "Xayah"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hwei",
+      "source": "https://wildriftcounter.com/champions/hwei/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Mel",
+            "Orianna",
+            "Ryze",
+            "Vladimir",
+            "Aurelion Sol",
+            "Swain"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Zoe",
+            "Kassadin",
+            "Ahri",
+            "Vel'Koz",
+            "Katarina"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Irelia",
+      "source": "https://wildriftcounter.com/champions/irelia/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Corki",
+            "Syndra",
+            "Fizz",
+            "Zed",
+            "Twisted Fate",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Zoe",
+            "Vex",
+            "Annie",
+            "Ahri",
+            "Yasuo"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Vayne",
+            "Yone",
+            "Aatrox",
+            "Vladimir",
+            "Jayce",
+            "Dr. Mundo"
+          ],
+          "badAgainst": [
+            "Garen",
+            "Darius",
+            "Renekton",
+            "Malphite",
+            "Nasus",
+            "Sett"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Ziggs",
+            "Miss Fortune",
+            "Zeri",
+            "Aphelios",
+            "Varus",
+            "Vayne"
+          ],
+          "badAgainst": [
+            "Tristana",
+            "Samira",
+            "Nilah",
+            "Twitch",
+            "Sivir",
+            "Ashe"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Nami",
+            "Seraphine",
+            "Soraka",
+            "Janna",
+            "Karma",
+            "Lux"
+          ],
+          "badAgainst": [
+            "Thresh",
+            "Blitzcrank",
+            "Morgana",
+            "Alistar",
+            "Braum",
+            "Leona"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Shyvana",
+            "Lee Sin",
+            "Evelynn",
+            "Diana",
+            "Jarvan IV",
+            "Wukong"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Amumu",
+            "Lillia",
+            "Ekko",
+            "Viego",
+            "Kayn"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Janna",
+      "source": "https://wildriftcounter.com/champions/janna/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Kennen",
+            "Alistar",
+            "Leona",
+            "Morgana",
+            "Thresh",
+            "Nunu & Willump"
+          ],
+          "badAgainst": [
+            "Nami",
+            "Blitzcrank",
+            "Lux",
+            "Sona",
+            "Soraka",
+            "Senna"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Varus",
+            "Ezreal",
+            "Vayne",
+            "Twitch",
+            "Ashe",
+            "Jinx"
+          ],
+          "badAgainst": [
+            "Nilah",
+            "Aphelios",
+            "Miss Fortune",
+            "Zeri",
+            "Lucian",
+            "Caitlyn"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jarvan IV",
+      "source": "https://wildriftcounter.com/champions/jarvan-iv/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Malphite",
+            "Evelynn",
+            "Olaf",
+            "Kha'Zix",
+            "Maokai",
+            "Rengar"
+          ],
+          "badAgainst": [
+            "Vi",
+            "Lee Sin",
+            "Xin Zhao",
+            "Nunu & Willump",
+            "Ekko",
+            "Gwen"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Teemo",
+            "Kayle",
+            "Riven",
+            "Jayce",
+            "Nasus",
+            "Kennen"
+          ],
+          "badAgainst": [
+            "Shen",
+            "Renekton",
+            "Jax",
+            "Pantheon",
+            "Fiora",
+            "Darius"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jax",
+      "source": "https://wildriftcounter.com/champions/jax/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Yasuo",
+            "Wukong",
+            "Irelia",
+            "Kayle",
+            "Gwen",
+            "Volibear"
+          ],
+          "badAgainst": [
+            "Renekton",
+            "Garen",
+            "Pantheon",
+            "Urgot",
+            "Dr. Mundo",
+            "Singed"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Master Yi",
+            "Xin Zhao",
+            "Olaf",
+            "Amumu",
+            "Wukong",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Kha'Zix",
+            "Kayn",
+            "Rammus",
+            "Fiddlesticks",
+            "Evelynn",
+            "Lillia"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Veigar",
+            "Corki",
+            "Galio",
+            "Twisted Fate",
+            "Kassadin",
+            "Yasuo"
+          ],
+          "badAgainst": [
+            "Vladimir",
+            "Kennen",
+            "Orianna",
+            "Syndra",
+            "Annie",
+            "Camille"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Miss Fortune",
+            "Varus",
+            "Vayne",
+            "Sivir",
+            "Jhin",
+            "Aphelios"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Nilah",
+            "Xayah",
+            "Samira",
+            "Kalista",
+            "Lucian"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Seraphine",
+            "Lux",
+            "Blitzcrank",
+            "Janna",
+            "Sona",
+            "Nautilus"
+          ],
+          "badAgainst": [
+            "Lulu",
+            "Zyra",
+            "Rakan",
+            "Alistar",
+            "Thresh",
+            "Brand"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jayce",
+      "source": "https://wildriftcounter.com/champions/jayce/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Singed",
+            "Akali",
+            "Volibear",
+            "Teemo",
+            "Darius",
+            "Kayle"
+          ],
+          "badAgainst": [
+            "Olaf",
+            "Rengar",
+            "Renekton",
+            "Fiora",
+            "Wukong",
+            "Pantheon"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Fizz",
+            "Katarina",
+            "Akali",
+            "Yone",
+            "Karma",
+            "Talon"
+          ],
+          "badAgainst": [
+            "Brand",
+            "Annie",
+            "Galio",
+            "Zoe",
+            "Diana",
+            "Vex"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Kalista",
+            "Miss Fortune",
+            "Ezreal",
+            "Lucian",
+            "Zeri",
+            "Varus"
+          ],
+          "badAgainst": [
+            "Senna",
+            "Sivir",
+            "Nilah",
+            "Draven",
+            "Tristana",
+            "Jhin"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Zyra",
+            "Soraka",
+            "Rakan",
+            "Morgana",
+            "Leona",
+            "Nami"
+          ],
+          "badAgainst": [
+            "Senna",
+            "Alistar",
+            "Pyke",
+            "Thresh",
+            "Blitzcrank",
+            "Braum"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Maokai",
+            "Jarvan IV",
+            "Hecarim",
+            "Fiddlesticks",
+            "Evelynn",
+            "Vi"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Zac",
+            "Viego",
+            "Master Yi",
+            "Gragas",
+            "Lee Sin"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jhin",
+      "source": "https://wildriftcounter.com/champions/jhin/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Xayah",
+            "Caitlyn",
+            "Varus",
+            "Kalista",
+            "Aphelios",
+            "Ezreal"
+          ],
+          "badAgainst": [
+            "Lucian",
+            "Vayne",
+            "Tristana",
+            "Nilah",
+            "Twitch",
+            "Jinx"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Kassadin",
+            "Annie",
+            "Zoe",
+            "Lux",
+            "Jayce",
+            "Aurelion Sol"
+          ],
+          "badAgainst": [
+            "Syndra",
+            "Tristana",
+            "Yasuo",
+            "Galio",
+            "Zed",
+            "Diana"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Maokai",
+            "Morgana",
+            "Braum",
+            "Alistar",
+            "Janna",
+            "Nami"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Seraphine",
+            "Leona",
+            "Rakan",
+            "Soraka",
+            "Nautilus"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Hecarim",
+            "Shyvana",
+            "Nunu & Willump",
+            "Master Yi",
+            "Viego",
+            "Graves"
+          ],
+          "badAgainst": [
+            "Vi",
+            "Zac",
+            "Kindred",
+            "Kha'Zix",
+            "Rengar",
+            "Gragas"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Gwen",
+            "Olaf",
+            "Pantheon",
+            "Irelia",
+            "Riven",
+            "Sett"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Camille",
+            "Wukong",
+            "Yasuo",
+            "Volibear",
+            "Vayne"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jinx",
+      "source": "https://wildriftcounter.com/champions/jinx/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Samira",
+            "Kai'Sa",
+            "Aphelios",
+            "Varus",
+            "Caitlyn"
+          ],
+          "badAgainst": [
+            "Draven",
+            "Tristana",
+            "Xayah",
+            "Twitch",
+            "Nilah",
+            "Senna"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Annie",
+            "Zoe",
+            "Veigar",
+            "Karma",
+            "Twisted Fate",
+            "Ezreal"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Yasuo",
+            "Corki",
+            "Ziggs",
+            "Vladimir",
+            "Lucian"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Ornn",
+            "Gwen",
+            "Wukong",
+            "Darius",
+            "Sett",
+            "Camille"
+          ],
+          "badAgainst": [
+            "Tryndamere",
+            "Yone",
+            "Jayce",
+            "Brand",
+            "Jax",
+            "Master Yi"
+          ]
+        }
+      }
+    },
+    {
+      "name": "K'Sante",
+      "source": "https://wildriftcounter.com/champions/ksante/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Vladimir",
+            "Ambessa",
+            "Camille",
+            "Yone",
+            "Nasus",
+            "Poppy"
+          ],
+          "badAgainst": [
+            "Riven",
+            "Urgot",
+            "Jayce",
+            "Renekton",
+            "Kennen",
+            "Fiora"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kai'Sa",
+      "source": "https://wildriftcounter.com/champions/kaisa/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Tristana",
+            "Zeri",
+            "Aphelios",
+            "Varus",
+            "Kalista",
+            "Jinx"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Xayah",
+            "Ezreal",
+            "Sivir",
+            "Lucian",
+            "Caitlyn"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Lux",
+            "Akshan",
+            "Kassadin",
+            "Veigar",
+            "Katarina",
+            "Zoe"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Zed",
+            "Irelia",
+            "Yone",
+            "Ekko",
+            "Akali"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Janna",
+            "Lulu",
+            "Soraka",
+            "Thresh",
+            "Braum",
+            "Alistar"
+          ],
+          "badAgainst": [
+            "Seraphine",
+            "Zyra",
+            "Blitzcrank",
+            "Nautilus",
+            "Morgana",
+            "Rakan"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Xin Zhao",
+            "Jarvan IV",
+            "Shyvana",
+            "Hecarim",
+            "Lee Sin",
+            "Evelynn"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Rengar",
+            "Vi",
+            "Kha'Zix",
+            "Amumu",
+            "Viego"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Singed",
+            "Ornn",
+            "Sion",
+            "Nasus",
+            "Garen",
+            "Darius"
+          ],
+          "badAgainst": [
+            "Jayce",
+            "Riven",
+            "Irelia",
+            "Vladimir",
+            "Jax",
+            "Urgot"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kalista",
+      "source": "https://wildriftcounter.com/champions/kalista/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Senna",
+            "Ezreal",
+            "Varus",
+            "Jhin",
+            "Sivir",
+            "Aphelios"
+          ],
+          "badAgainst": [
+            "Nilah",
+            "Xayah",
+            "Lucian",
+            "Twitch",
+            "Ashe",
+            "Zeri"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Brand",
+            "Thresh",
+            "Leona",
+            "Rakan",
+            "Janna",
+            "Nami"
+          ],
+          "badAgainst": [
+            "Morgana",
+            "Sona",
+            "Seraphine",
+            "Karma",
+            "Lulu",
+            "Blitzcrank"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jayce",
+            "Garen",
+            "Kayle",
+            "Irelia",
+            "Sion",
+            "Volibear"
+          ],
+          "badAgainst": [
+            "Camille",
+            "Sett",
+            "Riven",
+            "Zac",
+            "Olaf",
+            "Pantheon"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Varus",
+            "Lux",
+            "Yasuo",
+            "Galio",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Lucian",
+            "Talon",
+            "Zoe",
+            "Malphite",
+            "Veigar",
+            "Aurelion Sol"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Karma",
+      "source": "https://wildriftcounter.com/champions/karma/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Fizz",
+            "Diana",
+            "Katarina",
+            "Zed",
+            "Akali",
+            "Ezreal"
+          ],
+          "badAgainst": [
+            "Veigar",
+            "Lux",
+            "Orianna",
+            "Ahri",
+            "Yasuo",
+            "Ekko"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Pantheon",
+            "Jax",
+            "Singed",
+            "Aatrox",
+            "Swain",
+            "Sett"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Olaf",
+            "Nasus",
+            "Vladimir",
+            "Irelia",
+            "Yone"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Leona",
+            "Braum",
+            "Annie",
+            "Janna",
+            "Thresh",
+            "Alistar"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Lulu",
+            "Blitzcrank",
+            "Zyra",
+            "Rakan",
+            "Morgana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kassadin",
+      "source": "https://wildriftcounter.com/champions/kassadin/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Brand",
+            "Veigar",
+            "Ahri",
+            "Annie",
+            "Zoe"
+          ],
+          "badAgainst": [
+            "Zed",
+            "Yasuo",
+            "Riven",
+            "Yone",
+            "Ekko",
+            "Jayce"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Fizz",
+            "Diana",
+            "Singed",
+            "Jax",
+            "Shen",
+            "Garen"
+          ],
+          "badAgainst": [
+            "Irelia",
+            "Yasuo",
+            "Fiora",
+            "Vi",
+            "Riven",
+            "Wukong"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Katarina",
+      "source": "https://wildriftcounter.com/champions/katarina/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Veigar",
+            "Lux",
+            "Akali",
+            "Morgana",
+            "Brand",
+            "Orianna"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Kayle",
+            "Yasuo",
+            "Pantheon",
+            "Annie",
+            "Ahri"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Darius",
+            "Amumu",
+            "Teemo",
+            "Nasus",
+            "Renekton",
+            "Nunu & Willump"
+          ],
+          "badAgainst": [
+            "Annie",
+            "Riven",
+            "Ahri",
+            "Vi",
+            "Irelia",
+            "Pantheon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kayle",
+      "source": "https://wildriftcounter.com/champions/kayle/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Darius",
+            "Olaf",
+            "Singed",
+            "Fiora",
+            "Garen",
+            "Gwen"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Riven",
+            "Jax",
+            "Wukong",
+            "Jayce",
+            "Vladimir"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Fizz",
+            "Zed",
+            "Yasuo",
+            "Katarina",
+            "Talon",
+            "Aurelion Sol"
+          ],
+          "badAgainst": [
+            "Annie",
+            "Orianna",
+            "Ziggs",
+            "Syndra",
+            "Zoe",
+            "Twisted Fate"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Aphelios",
+            "Kalista",
+            "Varus",
+            "Ezreal",
+            "Corki",
+            "Xayah"
+          ],
+          "badAgainst": [
+            "Lucian",
+            "Vayne",
+            "Tristana",
+            "Sivir",
+            "Caitlyn",
+            "Samira"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Leona",
+            "Soraka",
+            "Rakan",
+            "Janna",
+            "Seraphine",
+            "Lulu"
+          ],
+          "badAgainst": [
+            "Zyra",
+            "Karma",
+            "Nautilus",
+            "Nami",
+            "Morgana",
+            "Lux"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kayn",
+      "source": "https://wildriftcounter.com/champions/kayn/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Rammus",
+            "Diana",
+            "Jarvan IV",
+            "Lee Sin",
+            "Wukong",
+            "Gwen"
+          ],
+          "badAgainst": [
+            "Vi",
+            "Rengar",
+            "Shyvana",
+            "Evelynn",
+            "Master Yi",
+            "Xin Zhao"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kennen",
+      "source": "https://wildriftcounter.com/champions/kennen/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Riven",
+            "Renekton",
+            "Darius",
+            "Yone",
+            "Jax",
+            "Aatrox"
+          ],
+          "badAgainst": [
+            "Nasus",
+            "Irelia",
+            "Dr. Mundo",
+            "Olaf",
+            "Vladimir",
+            "Kayle"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Akali",
+            "Zed",
+            "Yasuo",
+            "Aurelion Sol",
+            "Orianna"
+          ],
+          "badAgainst": [
+            "Diana",
+            "Ahri",
+            "Vladimir",
+            "Annie",
+            "Galio",
+            "Brand"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Leona",
+            "Braum",
+            "Seraphine",
+            "Blitzcrank",
+            "Rakan",
+            "Senna"
+          ],
+          "badAgainst": [
+            "Janna",
+            "Lulu",
+            "Morgana",
+            "Soraka",
+            "Nami",
+            "Alistar"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Draven",
+            "Aphelios",
+            "Xayah",
+            "Kalista",
+            "Kai'Sa",
+            "Jinx"
+          ],
+          "badAgainst": [
+            "Ashe",
+            "Ezreal",
+            "Samira",
+            "Sivir",
+            "Nilah",
+            "Tristana"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Rammus",
+            "Kha'Zix",
+            "Rengar",
+            "Evelynn",
+            "Master Yi",
+            "Kayn"
+          ],
+          "badAgainst": [
+            "Jarvan IV",
+            "Gragas",
+            "Lee Sin",
+            "Amumu",
+            "Viego",
+            "Pantheon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kha'Zix",
+      "source": "https://wildriftcounter.com/champions/khazix/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Evelynn",
+            "Amumu",
+            "Master Yi",
+            "Jarvan IV",
+            "Xin Zhao",
+            "Viego"
+          ],
+          "badAgainst": [
+            "Rengar",
+            "Vi",
+            "Lee Sin",
+            "Volibear",
+            "Warwick",
+            "Rammus"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Akali",
+            "Twisted Fate",
+            "Lux",
+            "Veigar",
+            "Ezreal",
+            "Aurelion Sol"
+          ],
+          "badAgainst": [
+            "Diana",
+            "Kayle",
+            "Orianna",
+            "Galio",
+            "Lucian",
+            "Fizz"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kindred",
+      "source": "https://wildriftcounter.com/champions/kindred/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Nunu & Willump",
+            "Shyvana",
+            "Viego",
+            "Rengar",
+            "Jarvan IV",
+            "Ekko"
+          ],
+          "badAgainst": [
+            "Lee Sin",
+            "Gragas",
+            "Master Yi",
+            "Evelynn",
+            "Kha'Zix",
+            "Vi"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Jinx",
+            "Kai'Sa",
+            "Lucian",
+            "Senna",
+            "Zeri",
+            "Sivir"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Tristana",
+            "Nilah",
+            "Ashe",
+            "Samira",
+            "Caitlyn"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Veigar",
+            "Irelia",
+            "Yone",
+            "Malphite",
+            "Syndra",
+            "Katarina"
+          ],
+          "badAgainst": [
+            "Talon",
+            "Zoe",
+            "Fizz",
+            "Orianna",
+            "Corki",
+            "Pantheon"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Nami",
+            "Sona",
+            "Seraphine",
+            "Yuumi",
+            "Lulu",
+            "Soraka"
+          ],
+          "badAgainst": [
+            "Alistar",
+            "Blitzcrank",
+            "Nautilus",
+            "Rakan",
+            "Janna",
+            "Malphite"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kog'Maw",
+      "source": "https://wildriftcounter.com/champions/kogmaw/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Corki",
+            "Xayah",
+            "Varus",
+            "Samira",
+            "Tristana",
+            "Ezreal"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Draven",
+            "Miss Fortune",
+            "Twitch",
+            "Ashe",
+            "Jinx"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Ekko",
+            "Vladimir",
+            "Orianna",
+            "Annie",
+            "Ahri",
+            "Galio"
+          ],
+          "badAgainst": [
+            "Evelynn",
+            "Jayce",
+            "Aurelion Sol",
+            "Veigar",
+            "LeBlanc",
+            "Syndra"
+          ]
+        }
+      }
+    },
+    {
+      "name": "LeBlanc",
+      "source": "https://wildriftcounter.com/champions/leblanc/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Akali",
+            "Twisted Fate",
+            "Zed",
+            "Orianna",
+            "Syndra"
+          ],
+          "badAgainst": [
+            "Ahri",
+            "Vex",
+            "Diana",
+            "Yasuo",
+            "Galio",
+            "Kassadin"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Ashe",
+            "Lucian",
+            "Miss Fortune",
+            "Nilah",
+            "Varus",
+            "Jinx"
+          ],
+          "badAgainst": [
+            "Sivir",
+            "Caitlyn",
+            "Corki",
+            "Twitch",
+            "Tristana",
+            "Ezreal"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Brand",
+            "Alistar",
+            "Janna",
+            "Karma",
+            "Lux",
+            "Pyke"
+          ],
+          "badAgainst": [
+            "Nautilus",
+            "Morgana",
+            "Sona",
+            "Yuumi",
+            "Senna",
+            "Rakan"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Tryndamere",
+            "Wukong",
+            "Shen",
+            "Ornn",
+            "Jayce",
+            "Aatrox"
+          ],
+          "badAgainst": [
+            "Zac",
+            "Urgot",
+            "Riven",
+            "Irelia",
+            "Pantheon",
+            "Sion"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Lee Sin",
+            "Shyvana",
+            "Jarvan IV",
+            "Rammus",
+            "Xin Zhao",
+            "Master Yi"
+          ],
+          "badAgainst": [
+            "Kindred",
+            "Viego",
+            "Lillia",
+            "Kayn",
+            "Diana",
+            "Kha'Zix"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lee Sin",
+      "source": "https://wildriftcounter.com/champions/lee-sin/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Jarvan IV",
+            "Rengar",
+            "Xin Zhao",
+            "Master Yi",
+            "Kha'Zix",
+            "Evelynn"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Vi",
+            "Wukong",
+            "Fiddlesticks",
+            "Warwick",
+            "Zac"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Tryndamere",
+            "Rengar",
+            "Akali",
+            "Irelia",
+            "Kayle",
+            "Teemo"
+          ],
+          "badAgainst": [
+            "Garen",
+            "Sett",
+            "Dr. Mundo",
+            "Renekton",
+            "Darius",
+            "Nasus"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Aurelion Sol",
+            "Akali",
+            "Katarina",
+            "Orianna",
+            "Zoe",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Vex",
+            "Jayce",
+            "Ahri",
+            "Malphite",
+            "Swain"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Leona",
+      "source": "https://wildriftcounter.com/champions/leona/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Blitzcrank",
+            "Sona",
+            "Lulu",
+            "Nami",
+            "Nautilus",
+            "Soraka"
+          ],
+          "badAgainst": [
+            "Morgana",
+            "Alistar",
+            "Janna",
+            "Karma",
+            "Braum",
+            "Thresh"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Draven",
+            "Varus",
+            "Twitch",
+            "Jinx",
+            "Ezreal",
+            "Aphelios"
+          ],
+          "badAgainst": [
+            "Samira",
+            "Lucian",
+            "Jhin",
+            "Zeri",
+            "Vayne",
+            "Caitlyn"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lillia",
+      "source": "https://wildriftcounter.com/champions/lillia/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Rammus",
+            "Wukong",
+            "Shyvana",
+            "Nunu & Willump",
+            "Warwick",
+            "Kha'Zix"
+          ],
+          "badAgainst": [
+            "Rengar",
+            "Ekko",
+            "Diana",
+            "Master Yi",
+            "Evelynn",
+            "Jarvan IV"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Gragas",
+            "Akali",
+            "Malphite",
+            "Shen",
+            "Nasus",
+            "Renekton"
+          ],
+          "badAgainst": [
+            "Irelia",
+            "Kayle",
+            "Jayce",
+            "Fiora",
+            "Rengar",
+            "Teemo"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Ahri",
+            "Shen",
+            "Akali",
+            "Lux",
+            "Yasuo",
+            "Corki"
+          ],
+          "badAgainst": [
+            "Diana",
+            "Orianna",
+            "Aurelion Sol",
+            "Ziggs",
+            "Malphite",
+            "Kassadin"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lissandra",
+      "source": "https://wildriftcounter.com/champions/lissandra/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Yone",
+            "Akshan",
+            "Twisted Fate",
+            "Yasuo",
+            "Katarina",
+            "Fizz"
+          ],
+          "badAgainst": [
+            "Vex",
+            "Lux",
+            "Malphite",
+            "Zed",
+            "Kassadin",
+            "Varus"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Singed",
+            "Gwen",
+            "Dr. Mundo",
+            "Ornn",
+            "Riven",
+            "Aatrox"
+          ],
+          "badAgainst": [
+            "Olaf",
+            "Jayce",
+            "Vladimir",
+            "Shen",
+            "Mordekaiser",
+            "Aurelion Sol"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Pyke",
+            "Leona",
+            "Alistar",
+            "Sona",
+            "Zyra",
+            "Braum"
+          ],
+          "badAgainst": [
+            "Karma",
+            "Lulu",
+            "Senna",
+            "Nami",
+            "Janna",
+            "Yuumi"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lucian",
+      "source": "https://wildriftcounter.com/champions/lucian/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Varus",
+            "Miss Fortune",
+            "Ezreal",
+            "Kalista",
+            "Vayne",
+            "Aphelios"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Ashe",
+            "Nilah",
+            "Caitlyn",
+            "Twitch",
+            "Tristana"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Ezreal",
+            "Diana",
+            "Akali",
+            "Yone",
+            "Veigar",
+            "Kassadin"
+          ],
+          "badAgainst": [
+            "Brand",
+            "Galio",
+            "Annie",
+            "Aurelion Sol",
+            "Fizz",
+            "Yasuo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lulu",
+      "source": "https://wildriftcounter.com/champions/lulu/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Thresh",
+            "Nami",
+            "Alistar",
+            "Morgana",
+            "Janna",
+            "Braum"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Soraka",
+            "Blitzcrank",
+            "Rakan",
+            "Karma",
+            "Leona"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Akali",
+            "Zed",
+            "Fizz",
+            "Kassadin",
+            "Syndra"
+          ],
+          "badAgainst": [
+            "Vex",
+            "Yasuo",
+            "Diana",
+            "Brand",
+            "Annie",
+            "Ekko"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lux",
+      "source": "https://wildriftcounter.com/champions/lux/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Brand",
+            "Annie",
+            "Orianna",
+            "Corki",
+            "Irelia",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Kassadin",
+            "Ahri",
+            "Yasuo",
+            "Aurelion Sol",
+            "Karma"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Alistar",
+            "Senna",
+            "Nautilus",
+            "Rakan",
+            "Braum",
+            "Lulu"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Blitzcrank",
+            "Soraka",
+            "Janna",
+            "Zyra",
+            "Leona"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Malphite",
+      "source": "https://wildriftcounter.com/champions/malphite/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Tryndamere",
+            "Teemo",
+            "Jax",
+            "Yasuo",
+            "Jayce",
+            "Irelia"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Olaf",
+            "Darius",
+            "Garen",
+            "Shen",
+            "Dr. Mundo"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Lux",
+            "Katarina",
+            "Orianna",
+            "Yasuo",
+            "Veigar",
+            "Galio"
+          ],
+          "badAgainst": [
+            "Diana",
+            "Annie",
+            "Morgana",
+            "Fizz",
+            "Ekko",
+            "Kassadin"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Jarvan IV",
+            "Tryndamere",
+            "Lee Sin",
+            "Kha'Zix",
+            "Shyvana",
+            "Rammus"
+          ],
+          "badAgainst": [
+            "Amumu",
+            "Volibear",
+            "Rengar",
+            "Graves",
+            "Vi",
+            "Zac"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Ashe",
+            "Vayne",
+            "Nami",
+            "Jinx",
+            "Varus",
+            "Jhin"
+          ],
+          "badAgainst": [
+            "Sivir",
+            "Samira",
+            "Kai'Sa",
+            "Ezreal",
+            "Tristana",
+            "Lucian"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Zyra",
+            "Janna",
+            "Lulu",
+            "Braum",
+            "Leona",
+            "Nami"
+          ],
+          "badAgainst": [
+            "Morgana",
+            "Sona",
+            "Senna",
+            "Rakan",
+            "Thresh",
+            "Nautilus"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Maokai",
+      "source": "https://wildriftcounter.com/champions/maokai/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Pyke",
+            "Rakan",
+            "Lux",
+            "Sona",
+            "Senna",
+            "Seraphine"
+          ],
+          "badAgainst": [
+            "Braum",
+            "Alistar",
+            "Janna",
+            "Thresh",
+            "Lulu",
+            "Zyra"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Varus",
+            "Xayah",
+            "Aphelios",
+            "Jhin",
+            "Caitlyn",
+            "Samira"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Tristana",
+            "Draven",
+            "Zeri",
+            "Jinx",
+            "Sivir"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jayce",
+            "Gragas",
+            "Akali",
+            "Darius",
+            "Irelia",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Garen",
+            "Dr. Mundo",
+            "Nasus",
+            "Sett",
+            "Camille",
+            "Fiora"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Diana",
+            "Gragas",
+            "Graves",
+            "Kha'Zix",
+            "Talon",
+            "Xin Zhao"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Warwick",
+            "Jarvan IV",
+            "Nunu & Willump",
+            "Rengar",
+            "Lillia"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Master Yi",
+      "source": "https://wildriftcounter.com/champions/master-yi/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Evelynn",
+            "Jarvan IV",
+            "Lee Sin",
+            "Xin Zhao",
+            "Rengar",
+            "Olaf"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Vi",
+            "Amumu",
+            "Kha'Zix",
+            "Warwick",
+            "Kayn"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Nasus",
+            "Fizz",
+            "Riven",
+            "Jayce",
+            "Yone",
+            "Irelia"
+          ],
+          "badAgainst": [
+            "Jax",
+            "Teemo",
+            "Pantheon",
+            "Tryndamere",
+            "Renekton",
+            "Fiora"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Lux",
+            "Twisted Fate",
+            "Katarina",
+            "Akali",
+            "Ahri",
+            "Orianna"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Annie",
+            "Diana",
+            "Pantheon",
+            "Karma",
+            "Kayle"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Ashe",
+            "Kai'Sa",
+            "Jinx",
+            "Twitch",
+            "Annie",
+            "Zeri"
+          ],
+          "badAgainst": [
+            "Aphelios",
+            "Xayah",
+            "Varus",
+            "Vayne",
+            "Jhin",
+            "Kalista"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Thresh",
+            "Senna",
+            "Janna",
+            "Lulu",
+            "Soraka",
+            "Nami"
+          ],
+          "badAgainst": [
+            "Blitzcrank",
+            "Sona",
+            "Seraphine",
+            "Alistar",
+            "Nautilus",
+            "Karma"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mel",
+      "source": "https://wildriftcounter.com/champions/mel/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Ahri",
+            "Lux",
+            "Yone",
+            "Orianna",
+            "Zed",
+            "Vladimir"
+          ],
+          "badAgainst": [
+            "Aurelion Sol",
+            "Kassadin",
+            "Kayle",
+            "Fizz",
+            "Syndra",
+            "Ziggs"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Draven",
+            "Varus",
+            "Aphelios",
+            "Twitch",
+            "Ezreal",
+            "Jhin"
+          ],
+          "badAgainst": [
+            "Corki",
+            "Samira",
+            "Kai'Sa",
+            "Ziggs",
+            "Vayne",
+            "Kog'Maw"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Blitzcrank",
+            "Leona",
+            "Lux",
+            "Zyra",
+            "Thresh",
+            "Seraphine"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Janna",
+            "Karma",
+            "Leona",
+            "Soraka",
+            "Zilean"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Milio",
+      "source": "https://wildriftcounter.com/champions/milio/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Seraphine",
+            "Soraka",
+            "Rakan",
+            "Leona",
+            "Janna",
+            "Nami"
+          ],
+          "badAgainst": [
+            "Blitzcrank",
+            "Thresh",
+            "Pyke",
+            "Nautilus",
+            "Senna",
+            "Lux"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Miss Fortune",
+      "source": "https://wildriftcounter.com/champions/miss-fortune/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Varus",
+            "Kai'Sa",
+            "Vayne",
+            "Jinx",
+            "Samira",
+            "Aphelios"
+          ],
+          "badAgainst": [
+            "Tristana",
+            "Draven",
+            "Caitlyn",
+            "Lucian",
+            "Senna",
+            "Twitch"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Karma",
+            "Vladimir",
+            "Syndra",
+            "Swain",
+            "Zoe",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Lucian",
+            "Talon",
+            "Galio",
+            "Yasuo",
+            "Zed"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Soraka",
+            "Yuumi",
+            "Pyke",
+            "Morgana",
+            "Zyra",
+            "Sona"
+          ],
+          "badAgainst": [
+            "Malphite",
+            "Braum",
+            "Nautilus",
+            "Rakan",
+            "Blitzcrank",
+            "Alistar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mordekaiser",
+      "source": "https://wildriftcounter.com/champions/mordekaiser/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Sion",
+            "Sett",
+            "Garen",
+            "Akali",
+            "Shen",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Olaf",
+            "Fiora",
+            "Warwick",
+            "Riven",
+            "Jax",
+            "Gwen"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Rammus",
+            "Diana",
+            "Graves",
+            "Shyvana",
+            "Lee Sin",
+            "Evelynn"
+          ],
+          "badAgainst": [
+            "Master Yi",
+            "Warwick",
+            "Lillia",
+            "Ekko",
+            "Pantheon",
+            "Gragas"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Veigar",
+            "Yasuo",
+            "Varus",
+            "Zed",
+            "Lux",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Ahri",
+            "Irelia",
+            "Vex",
+            "Kassadin",
+            "Jayce",
+            "Veigar"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Morgana",
+            "Sona",
+            "Alistar",
+            "Soraka",
+            "Zyra",
+            "Braum"
+          ],
+          "badAgainst": [
+            "Soraka",
+            "Karma",
+            "Pyke",
+            "Nami",
+            "Seraphine",
+            "Blitzcrank"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Nilah",
+            "Samira",
+            "Kai'Sa",
+            "Ezreal",
+            "Lucian",
+            "Ashe"
+          ],
+          "badAgainst": [
+            "Xayah",
+            "Kalista",
+            "Vayne",
+            "Zeri",
+            "Twitch",
+            "Sivir"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Morgana",
+      "source": "https://wildriftcounter.com/champions/morgana/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Leona",
+            "Braum",
+            "Blitzcrank",
+            "Nami",
+            "Alistar",
+            "Rakan"
+          ],
+          "badAgainst": [
+            "Karma",
+            "Janna",
+            "Sona",
+            "Soraka",
+            "Yuumi",
+            "Lulu"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Annie",
+            "Akali",
+            "Fizz",
+            "Veigar",
+            "Yasuo",
+            "Irelia"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Katarina",
+            "Zed",
+            "Seraphine",
+            "Tristana",
+            "Lissandra"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nami",
+      "source": "https://wildriftcounter.com/champions/nami/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Janna",
+            "Thresh",
+            "Karma",
+            "Braum",
+            "Soraka",
+            "Rakan"
+          ],
+          "badAgainst": [
+            "Lulu",
+            "Blitzcrank",
+            "Morgana",
+            "Leona",
+            "Alistar",
+            "Sona"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nasus",
+      "source": "https://wildriftcounter.com/champions/nasus/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Irelia",
+            "Zed",
+            "Wukong",
+            "Kayle",
+            "Jax",
+            "Shen"
+          ],
+          "badAgainst": [
+            "Darius",
+            "Teemo",
+            "Pantheon",
+            "Olaf",
+            "Garen",
+            "Camille"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Yasuo",
+            "Corki",
+            "Ekko",
+            "Zoe",
+            "Irelia",
+            "Kassadin"
+          ],
+          "badAgainst": [
+            "Akali",
+            "Zed",
+            "Fizz",
+            "Aurelion Sol",
+            "Ahri",
+            "Orianna"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nautilus",
+      "source": "https://wildriftcounter.com/champions/nautilus/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Yuumi",
+            "Thresh",
+            "Karma",
+            "Lux",
+            "Brand",
+            "Maokai"
+          ],
+          "badAgainst": [
+            "Morgana",
+            "Janna",
+            "Alistar",
+            "Rakan",
+            "Seraphine",
+            "Lulu"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Malphite",
+            "Teemo",
+            "Jayce",
+            "Sett",
+            "Yasuo",
+            "Jax"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Shen",
+            "Darius",
+            "Kayle",
+            "Gragas",
+            "Camille"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nidalee",
+      "source": "https://wildriftcounter.com/champions/nidalee/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Pantheon",
+            "Zac",
+            "Nunu & Willump",
+            "Wukong",
+            "Graves",
+            "Gragas"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Warwick",
+            "Amumu",
+            "Master Yi",
+            "Ekko",
+            "Nocturne"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nilah",
+      "source": "https://wildriftcounter.com/champions/nilah/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Vayne",
+            "Kalista",
+            "Aphelios",
+            "Samira",
+            "Miss Fortune",
+            "Varus"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Xayah",
+            "Sivir",
+            "Draven",
+            "Jinx",
+            "Ashe"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Aurelion Sol",
+            "Veigar",
+            "Zed",
+            "Ahri",
+            "Kassadin"
+          ],
+          "badAgainst": [
+            "Annie",
+            "Ekko",
+            "Lux",
+            "Fizz",
+            "Yasuo",
+            "Katarina"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Irelia",
+            "Riven",
+            "Teemo",
+            "Ornn",
+            "Aatrox",
+            "Jax"
+          ],
+          "badAgainst": [
+            "Shen",
+            "Garen",
+            "Jayce",
+            "Renekton",
+            "Nasus",
+            "Sett"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nocturne",
+      "source": "https://wildriftcounter.com/champions/nocturne/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Kha'Zix",
+            "Viego",
+            "Gwen",
+            "Gragas",
+            "Amumu",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Kindred",
+            "Ekko",
+            "Zac",
+            "Jarvan IV",
+            "Rammus",
+            "Master Yi"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Gwen",
+            "Vayne",
+            "Yone",
+            "Jax",
+            "Xin Zhao",
+            "Malphite"
+          ],
+          "badAgainst": [
+            "Tryndamere",
+            "Sett",
+            "Darius",
+            "Vladimir",
+            "Pantheon",
+            "Poppy"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Norra",
+      "source": "https://wildriftcounter.com/champions/norra/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Annie",
+            "Aurelion Sol",
+            "Morgana",
+            "Syndra",
+            "Teemo"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Zoe",
+            "Rengar",
+            "Malphite",
+            "Nocturne",
+            "Ahri"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nunu & Willump",
+      "source": "https://wildriftcounter.com/champions/nunu-willump/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Wukong",
+            "Shyvana",
+            "Jax",
+            "Graves",
+            "Rammus",
+            "Amumu"
+          ],
+          "badAgainst": [
+            "Lee Sin",
+            "Vi",
+            "Kha'Zix",
+            "Diana",
+            "Evelynn",
+            "Gragas"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jax",
+            "Teemo",
+            "Renekton",
+            "Singed",
+            "Fiora",
+            "Rammus"
+          ],
+          "badAgainst": [
+            "Riven",
+            "Nasus",
+            "Tryndamere",
+            "Master Yi",
+            "Shen",
+            "Yasuo"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Zed",
+            "Kennen",
+            "Veigar",
+            "Fizz",
+            "Talon",
+            "Katarina"
+          ],
+          "badAgainst": [
+            "Twisted Fate",
+            "Galio",
+            "Irelia",
+            "Zoe",
+            "Ziggs",
+            "Brand"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Vayne",
+            "Draven",
+            "Jinx",
+            "Corki",
+            "Varus",
+            "Twitch"
+          ],
+          "badAgainst": [
+            "Nilah",
+            "Aphelios",
+            "Xayah",
+            "Samira",
+            "Lucian",
+            "Jhin"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Sona",
+            "Soraka",
+            "Nautilus",
+            "Braum",
+            "Leona",
+            "Nami"
+          ],
+          "badAgainst": [
+            "Morgana",
+            "Lux",
+            "Karma",
+            "Seraphine",
+            "Zyra",
+            "Lulu"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Olaf",
+      "source": "https://wildriftcounter.com/champions/olaf/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Irelia",
+            "Nasus",
+            "Renekton",
+            "Malphite",
+            "Jayce",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Kennen",
+            "Volibear",
+            "Jax",
+            "Pantheon",
+            "Kayle",
+            "Sett"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Nunu & Willump",
+            "Lillia",
+            "Zac",
+            "Evelynn",
+            "Amumu",
+            "Xin Zhao"
+          ],
+          "badAgainst": [
+            "Gragas",
+            "Jarvan IV",
+            "Warwick",
+            "Rengar",
+            "Fiddlesticks",
+            "Master Yi"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Veigar",
+            "Akali",
+            "Zed",
+            "Fizz",
+            "Riven",
+            "Morgana"
+          ],
+          "badAgainst": [
+            "Brand",
+            "Zoe",
+            "Kayle",
+            "Lucian",
+            "Annie",
+            "Akshan"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Orianna",
+      "source": "https://wildriftcounter.com/champions/orianna/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Annie",
+            "Lux",
+            "Kayle",
+            "Fizz",
+            "Akali",
+            "Yasuo"
+          ],
+          "badAgainst": [
+            "Diana",
+            "Gragas",
+            "Ziggs",
+            "Ahri",
+            "Zed",
+            "Syndra"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Varus",
+            "Aatrox",
+            "Urgot",
+            "Yone",
+            "Kennen",
+            "Nasus"
+          ],
+          "badAgainst": [
+            "Ornn",
+            "Wukong",
+            "Jax",
+            "Riven",
+            "Sett",
+            "Garen"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Ashe",
+            "Aphelios",
+            "Jinx",
+            "Twitch",
+            "Varus"
+          ],
+          "badAgainst": [
+            "Miss Fortune",
+            "Tristana",
+            "Lucian",
+            "Jhin",
+            "Draven",
+            "Caitlyn"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Braum",
+            "Karma",
+            "Lux",
+            "Nautilus",
+            "Seraphine",
+            "Lulu"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Rakan",
+            "Alistar",
+            "Thresh",
+            "Zyra",
+            "Pyke"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ornn",
+      "source": "https://wildriftcounter.com/champions/ornn/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Sion",
+            "Renekton",
+            "Jayce",
+            "Sett",
+            "Jax",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Shen",
+            "Olaf",
+            "Camille",
+            "Riven",
+            "Vayne"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Ahri",
+            "Katarina",
+            "Malphite",
+            "Irelia",
+            "Twisted Fate",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Vex",
+            "Lux",
+            "Galio",
+            "Kayle",
+            "Swain",
+            "Fizz"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Jarvan IV",
+            "Rengar",
+            "Wukong",
+            "Hecarim",
+            "Talon",
+            "Warwick"
+          ],
+          "badAgainst": [
+            "Vi",
+            "Zac",
+            "Volibear",
+            "Shyvana",
+            "Graves",
+            "Master Yi"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Alistar",
+            "Seraphine",
+            "Blitzcrank",
+            "Soraka",
+            "Braum",
+            "Nautilus"
+          ],
+          "badAgainst": [
+            "Rakan",
+            "Sona",
+            "Maokai",
+            "Pyke",
+            "Nami",
+            "Brand"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Caitlyn",
+            "Ezreal",
+            "Jhin",
+            "Sivir",
+            "Jinx",
+            "Lucian"
+          ],
+          "badAgainst": [
+            "Kai'Sa",
+            "Kalista",
+            "Vayne",
+            "Ashe",
+            "Tristana",
+            "Aphelios"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Pantheon",
+      "source": "https://wildriftcounter.com/champions/pantheon/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Riven",
+            "Teemo",
+            "Jax",
+            "Yasuo",
+            "Yone",
+            "Gwen"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Malphite",
+            "Camille",
+            "Olaf",
+            "Shen",
+            "Jayce"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Nunu & Willump",
+            "Master Yi",
+            "Jarvan IV",
+            "Jax",
+            "Xin Zhao",
+            "Lee Sin"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Vi",
+            "Diana",
+            "Rengar",
+            "Zac",
+            "Shyvana"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Fizz",
+            "Galio",
+            "Yasuo",
+            "Yone",
+            "Zed",
+            "Irelia"
+          ],
+          "badAgainst": [
+            "Orianna",
+            "Ahri",
+            "Zoe",
+            "Syndra",
+            "Jayce",
+            "Swain"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Poppy",
+      "source": "https://wildriftcounter.com/champions/poppy/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Yone",
+            "Irelia",
+            "Jayce",
+            "Akali",
+            "Teemo",
+            "Fiora"
+          ],
+          "badAgainst": [
+            "Shen",
+            "Darius",
+            "Garen",
+            "Camille",
+            "Malphite",
+            "Olaf"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Rammus",
+            "Diana",
+            "Warwick",
+            "Wukong",
+            "Gwen",
+            "Master Yi"
+          ],
+          "badAgainst": [
+            "Xin Zhao",
+            "Amumu",
+            "Vi",
+            "Graves",
+            "Lillia",
+            "Gragas"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Pantheon",
+            "Ashe",
+            "Alistar",
+            "Leona",
+            "Lux",
+            "Seraphine"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Janna",
+            "Rakan",
+            "Senna",
+            "Yuumi",
+            "Soraka"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Annie",
+            "Jayce",
+            "Katarina",
+            "Orianna",
+            "Kennen",
+            "Fizz"
+          ],
+          "badAgainst": [
+            "Kassadin",
+            "Zoe",
+            "Lissandra",
+            "Corki",
+            "Diana",
+            "Viktor"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Pyke",
+      "source": "https://wildriftcounter.com/champions/pyke/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Seraphine",
+            "Soraka",
+            "Sona",
+            "Karma",
+            "Senna",
+            "Lulu"
+          ],
+          "badAgainst": [
+            "Rakan",
+            "Blitzcrank",
+            "Leona",
+            "Maokai",
+            "Braum",
+            "Morgana"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Kai'Sa",
+            "Twisted Fate",
+            "Corki",
+            "Irelia",
+            "Lux"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Ahri",
+            "Akali",
+            "Katarina",
+            "Vladimir",
+            "Malphite"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Teemo",
+            "Shen",
+            "Renekton",
+            "Yasuo",
+            "Jax",
+            "Jayce"
+          ],
+          "badAgainst": [
+            "Garen",
+            "Pantheon",
+            "Riven",
+            "Dr. Mundo",
+            "Tryndamere",
+            "Nasus"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Qiyana",
+      "source": "https://wildriftcounter.com/champions/qiyana/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Aurelion Sol",
+            "Aurora",
+            "Annie",
+            "Zed",
+            "Mel",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Swain",
+            "Kennen",
+            "Morgana",
+            "Vex",
+            "Zoe",
+            "Malphite"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Pantheon",
+            "Vi",
+            "Viego",
+            "Ambessa",
+            "Master Yi",
+            "Evelynn"
+          ],
+          "badAgainst": [
+            "Warwick",
+            "Rammus",
+            "Amumu",
+            "Hecarim",
+            "Fiddlesticks",
+            "Dr. Mundo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rakan",
+      "source": "https://wildriftcounter.com/champions/rakan/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Nami",
+            "Blitzcrank",
+            "Lucian",
+            "Soraka",
+            "Miss Fortune",
+            "Thresh"
+          ],
+          "badAgainst": [
+            "Lulu",
+            "Leona",
+            "Janna",
+            "Alistar",
+            "Karma",
+            "Veigar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rammus",
+      "source": "https://wildriftcounter.com/champions/rammus/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Tryndamere",
+            "Master Yi",
+            "Xin Zhao",
+            "Graves",
+            "Lee Sin",
+            "Jarvan IV"
+          ],
+          "badAgainst": [
+            "Fiddlesticks",
+            "Evelynn",
+            "Lillia",
+            "Amumu",
+            "Nunu & Willump",
+            "Zac"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jax",
+            "Pantheon",
+            "Rengar",
+            "Jayce",
+            "Yasuo",
+            "Tryndamere"
+          ],
+          "badAgainst": [
+            "Darius",
+            "Shen",
+            "Vi",
+            "Riven",
+            "Renekton",
+            "Volibear"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rek'Sai",
+      "source": "https://wildriftcounter.com/champions/reksai/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Kindred",
+            "Diana",
+            "Qiyana",
+            "Viego",
+            "Kha'Zix",
+            "Lee Sin"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Lillia",
+            "Vi",
+            "Jarvan IV",
+            "Master Yi",
+            "Fiddlesticks"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rell",
+      "source": "https://wildriftcounter.com/champions/rell/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Rakan",
+            "Pyke",
+            "Yuumi",
+            "Nautilus",
+            "Leona",
+            "Lulu"
+          ],
+          "badAgainst": [
+            "Janna",
+            "Sona",
+            "Nami",
+            "Morgana",
+            "Seraphine",
+            "Zyra"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Gwen",
+            "Malphite",
+            "Yasuo",
+            "Jax",
+            "Viego",
+            "Riven"
+          ],
+          "badAgainst": [
+            "Shen",
+            "Xin Zhao",
+            "Olaf",
+            "Sett",
+            "Fiora",
+            "Sion"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Renekton",
+      "source": "https://wildriftcounter.com/champions/renekton/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Riven",
+            "Irelia",
+            "Fiora",
+            "Jax",
+            "Akali",
+            "Tryndamere"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Garen",
+            "Olaf",
+            "Kayle",
+            "Teemo",
+            "Pantheon"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Fizz",
+            "Vladimir",
+            "Annie",
+            "Gragas",
+            "Galio",
+            "Karma"
+          ],
+          "badAgainst": [
+            "Jayce",
+            "Lux",
+            "Ekko",
+            "Tristana",
+            "Diana",
+            "Pantheon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rengar",
+      "source": "https://wildriftcounter.com/champions/rengar/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Kha'Zix",
+            "Kennen",
+            "Graves",
+            "Lillia",
+            "Kindred",
+            "Lee Sin"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Amumu",
+            "Jarvan IV",
+            "Warwick",
+            "Zac",
+            "Master Yi"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Vladimir",
+            "Jayce",
+            "Vayne",
+            "Yone",
+            "Yasuo",
+            "Gwen"
+          ],
+          "badAgainst": [
+            "Tryndamere",
+            "Pantheon",
+            "Darius",
+            "Renekton",
+            "Urgot",
+            "Fiora"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Riven",
+      "source": "https://wildriftcounter.com/champions/riven/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Vi",
+            "Dr. Mundo",
+            "Nasus",
+            "Lee Sin",
+            "Rengar",
+            "Irelia"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Garen",
+            "Renekton",
+            "Kennen",
+            "Pantheon",
+            "Darius"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Fizz",
+            "Zed",
+            "Akali",
+            "Kassadin",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Lux",
+            "Ahri",
+            "Galio",
+            "Ekko",
+            "Jayce",
+            "Corki"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Hecarim",
+            "Nunu & Willump",
+            "Kayn",
+            "Viego",
+            "Diana",
+            "Xin Zhao"
+          ],
+          "badAgainst": [
+            "Amumu",
+            "Zac",
+            "Vi",
+            "Gragas",
+            "Fiddlesticks",
+            "Rammus"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Ashe",
+            "Tristana",
+            "Xayah",
+            "Kalista",
+            "Twitch",
+            "Jinx"
+          ],
+          "badAgainst": [
+            "Aphelios",
+            "Zeri",
+            "Draven",
+            "Vayne",
+            "Caitlyn",
+            "Varus"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Sona",
+            "Karma",
+            "Nami",
+            "Seraphine",
+            "Yuumi",
+            "Blitzcrank"
+          ],
+          "badAgainst": [
+            "Alistar",
+            "Braum",
+            "Nautilus",
+            "Lulu",
+            "Janna",
+            "Leona"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rumble",
+      "source": "https://wildriftcounter.com/champions/rumble/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Yone",
+            "Sett",
+            "Teemo",
+            "Irelia",
+            "Wukong",
+            "Malphite"
+          ],
+          "badAgainst": [
+            "Garen",
+            "Jayce",
+            "Sion",
+            "Shen",
+            "Camille",
+            "Tryndamere"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Orianna",
+            "Zoe",
+            "Yasuo",
+            "Akali",
+            "Talon"
+          ],
+          "badAgainst": [
+            "Syndra",
+            "Kennen",
+            "Annie",
+            "Lux",
+            "Ahri",
+            "Galio"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ryze",
+      "source": "https://wildriftcounter.com/champions/ryze/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Akali",
+            "Fizz",
+            "Kassadin",
+            "LeBlanc",
+            "Vex",
+            "Katarina"
+          ],
+          "badAgainst": [
+            "Swain",
+            "Annie",
+            "Jayce",
+            "Yasuo",
+            "Irelia",
+            "Orianna"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Viktor",
+            "Singed",
+            "Heimerdinger",
+            "Wukong",
+            "Rumble",
+            "Kennen",
+            "Sylas",
+            "Hwei",
+            "Rek'Sai"
+          ],
+          "badAgainst": [
+            "Jayce",
+            "Olaf",
+            "Vayne",
+            "Urgot",
+            "Pantheon",
+            "Irelia"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Samira",
+      "source": "https://wildriftcounter.com/champions/samira/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Akshan",
+            "Aphelios",
+            "Kai'Sa",
+            "Varus",
+            "Ezreal",
+            "Kalista"
+          ],
+          "badAgainst": [
+            "Draven",
+            "Miss Fortune",
+            "Senna",
+            "Nilah",
+            "Jinx",
+            "Xayah"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Corki",
+            "Brand",
+            "Zoe",
+            "Akshan",
+            "Kassadin",
+            "Katarina"
+          ],
+          "badAgainst": [
+            "Lucian",
+            "Vex",
+            "Irelia",
+            "Syndra",
+            "Ekko",
+            "Yasuo"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jayce",
+            "Vayne",
+            "Volibear",
+            "Shen",
+            "Ornn",
+            "Kayle"
+          ],
+          "badAgainst": [
+            "Kennen",
+            "Yasuo",
+            "Urgot",
+            "Sett",
+            "Pantheon",
+            "Dr. Mundo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Senna",
+      "source": "https://wildriftcounter.com/champions/senna/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Seraphine",
+            "Sona",
+            "Janna",
+            "Soraka",
+            "Yuumi",
+            "Nami"
+          ],
+          "badAgainst": [
+            "Blitzcrank",
+            "Rakan",
+            "Leona",
+            "Thresh",
+            "Braum",
+            "Nautilus"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Jinx",
+            "Draven",
+            "Kai'Sa",
+            "Sivir",
+            "Ashe",
+            "Zeri"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Jhin",
+            "Ezreal",
+            "Kalista",
+            "Lucian",
+            "Vayne"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Seraphine",
+      "source": "https://wildriftcounter.com/champions/seraphine/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Karma",
+            "Lux",
+            "Annie",
+            "Corki",
+            "Twisted Fate"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Ziggs",
+            "Irelia",
+            "Katarina",
+            "Kayle",
+            "Zed"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Morgana",
+            "Thresh",
+            "Alistar",
+            "Rakan",
+            "Braum",
+            "Leona"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Soraka",
+            "Janna",
+            "Senna",
+            "Pyke",
+            "Milio"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sett",
+      "source": "https://wildriftcounter.com/champions/sett/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Yasuo",
+            "Fiora",
+            "Rengar",
+            "Irelia",
+            "Jayce",
+            "Teemo"
+          ],
+          "badAgainst": [
+            "Malphite",
+            "Renekton",
+            "Garen",
+            "Pantheon",
+            "Singed",
+            "Volibear"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Rengar",
+            "Shyvana",
+            "Ekko",
+            "Fiddlesticks",
+            "Diana",
+            "Wukong"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Kayn",
+            "Master Yi",
+            "Kha'Zix",
+            "Lillia",
+            "Zac"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Diana",
+            "Katarina",
+            "Ekko",
+            "Yone",
+            "Akali",
+            "Yasuo"
+          ],
+          "badAgainst": [
+            "Swain",
+            "Zoe",
+            "Ahri",
+            "Ziggs",
+            "Veigar",
+            "Vladimir"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Zeri",
+            "Draven",
+            "Lucian",
+            "Miss Fortune",
+            "Varus",
+            "Caitlyn",
+            "Nami",
+            "Blitzcrank",
+            "Yuumi",
+            "Nautilus",
+            "Sona",
+            "Katarina"
+          ],
+          "badAgainst": [
+            "Sivir",
+            "Twitch",
+            "Jhin",
+            "Vayne",
+            "Tristana",
+            "Kai'Sa",
+            "Karma",
+            "Seraphine",
+            "Janna",
+            "Sona",
+            "Leona",
+            "Senna"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shen",
+      "source": "https://wildriftcounter.com/champions/shen/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Pantheon",
+            "Malphite",
+            "Fiora",
+            "Renekton",
+            "Riven",
+            "Jarvan IV"
+          ],
+          "badAgainst": [
+            "Darius",
+            "Teemo",
+            "Sett",
+            "Kayle",
+            "Olaf",
+            "Gwen"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Blitzcrank",
+            "Seraphine",
+            "Nautilus",
+            "Nami",
+            "Rakan",
+            "Soraka"
+          ],
+          "badAgainst": [
+            "Leona",
+            "Braum",
+            "Alistar",
+            "Morgana",
+            "Lux",
+            "Janna"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Zoe",
+            "Vladimir",
+            "Orianna",
+            "Vex",
+            "Fizz",
+            "Syndra"
+          ],
+          "badAgainst": [
+            "Brand",
+            "Jayce",
+            "Veigar",
+            "Galio",
+            "Lux",
+            "Ryze"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shyvana",
+      "source": "https://wildriftcounter.com/champions/shyvana/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Amumu",
+            "Rammus",
+            "Jarvan IV",
+            "Rengar",
+            "Master Yi",
+            "Evelynn"
+          ],
+          "badAgainst": [
+            "Vi",
+            "Lee Sin",
+            "Kha'Zix",
+            "Gragas",
+            "Volibear",
+            "Gwen"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Renekton",
+            "Dr. Mundo",
+            "Riven",
+            "Wukong",
+            "Nasus",
+            "Jax"
+          ],
+          "badAgainst": [
+            "Olaf",
+            "Darius",
+            "Pantheon",
+            "Teemo",
+            "Tryndamere",
+            "Shen"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Singed",
+      "source": "https://wildriftcounter.com/champions/singed/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Jax",
+            "Lee Sin",
+            "Tryndamere",
+            "Wukong",
+            "Irelia",
+            "Sion"
+          ],
+          "badAgainst": [
+            "Kennen",
+            "Riven",
+            "Fiora",
+            "Urgot",
+            "Warwick",
+            "Darius"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sion",
+      "source": "https://wildriftcounter.com/champions/sion/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Tryndamere",
+            "Teemo",
+            "Irelia",
+            "Malphite",
+            "Kennen",
+            "Vladimir"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Garen",
+            "Nasus",
+            "Darius",
+            "Riven",
+            "Jax"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Maokai",
+            "Lux",
+            "Leona",
+            "Senna",
+            "Karma",
+            "Nami"
+          ],
+          "badAgainst": [
+            "Morgana",
+            "Janna",
+            "Braum",
+            "Thresh",
+            "Alistar",
+            "Lulu"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Annie",
+            "Akali",
+            "Katarina",
+            "Irelia",
+            "Talon",
+            "Zed"
+          ],
+          "badAgainst": [
+            "Morgana",
+            "Ahri",
+            "Swain",
+            "Aatrox",
+            "Brand",
+            "Aurelion Sol"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Kindred",
+            "Amumu",
+            "Warwick",
+            "Lee Sin",
+            "Viego",
+            "Zac"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Hecarim",
+            "Gragas",
+            "Lillia",
+            "Jarvan IV",
+            "Rammus"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sivir",
+      "source": "https://wildriftcounter.com/champions/sivir/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Draven",
+            "Tristana",
+            "Lucian",
+            "Xayah",
+            "Varus"
+          ],
+          "badAgainst": [
+            "Jhin",
+            "Jinx",
+            "Kai'Sa",
+            "Miss Fortune",
+            "Vayne",
+            "Ashe"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Galio",
+            "Vladimir",
+            "Swain",
+            "Zoe",
+            "Ziggs",
+            "Fizz"
+          ],
+          "badAgainst": [
+            "Annie",
+            "Akali",
+            "Diana",
+            "Lux",
+            "Twisted Fate",
+            "Katarina"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Sett",
+            "Shen",
+            "Yone",
+            "Teemo",
+            "Aatrox",
+            "Jayce"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Kennen",
+            "Pantheon",
+            "Darius",
+            "Kayle",
+            "Jax"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Nami",
+            "Nautilus",
+            "Blitzcrank",
+            "Pyke",
+            "Brand",
+            "Rakan"
+          ],
+          "badAgainst": [
+            "Senna",
+            "Zyra",
+            "Leona",
+            "Karma",
+            "Thresh",
+            "Lux"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Fiddlesticks",
+            "Gragas"
+          ],
+          "badAgainst": [
+            "Viego",
+            "Kayn",
+            "Kha'Zix",
+            "Graves",
+            "Jarvan IV",
+            "Gragas"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Skarner",
+      "source": "https://wildriftcounter.com/champions/skarner/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Nidalee",
+            "Warwick",
+            "Volibear",
+            "Nocturne",
+            "Jax",
+            "Kindred"
+          ],
+          "badAgainst": [
+            "Ambessa",
+            "Vi",
+            "Jarvan IV",
+            "Zac",
+            "Evelynn",
+            "Viego"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Olaf",
+            "Teemo",
+            "Tryndamere",
+            "Camille",
+            "Dr. Mundo",
+            "K'Sante"
+          ],
+          "badAgainst": [
+            "Maokai",
+            "Riven",
+            "Ryze",
+            "Vayne",
+            "Poppy",
+            "Vladimir"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Smolder",
+      "source": "https://wildriftcounter.com/champions/smolder/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Corki",
+            "Kalista",
+            "Varus",
+            "Ezreal",
+            "Xayah",
+            "Zeri",
+            "Sylas",
+            "Hwei",
+            "Rek'Sai"
+          ],
+          "badAgainst": [
+            "Kog'Maw",
+            "Yasuo",
+            "Ziggs",
+            "Caitlyn",
+            "Tristana",
+            "Swain"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sona",
+      "source": "https://wildriftcounter.com/champions/sona/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Morgana",
+            "Lulu",
+            "Nami",
+            "Janna",
+            "Yuumi",
+            "Soraka"
+          ],
+          "badAgainst": [
+            "Blitzcrank",
+            "Leona",
+            "Thresh",
+            "Nautilus",
+            "Zyra",
+            "Alistar"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Vayne",
+            "Jinx",
+            "Kalista",
+            "Draven",
+            "Miss Fortune",
+            "Kai'Sa"
+          ],
+          "badAgainst": [
+            "Miss Fortune",
+            "Caitlyn",
+            "Ezreal",
+            "Jhin",
+            "Varus",
+            "Ashe"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Veigar",
+            "Lux",
+            "Akali",
+            "Morgana",
+            "Zed",
+            "Fizz"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Kayle",
+            "Yasuo",
+            "Pantheon",
+            "Annie",
+            "Ahri"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Soraka",
+      "source": "https://wildriftcounter.com/champions/soraka/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Braum",
+            "Lulu",
+            "Nunu & Willump",
+            "Rakan",
+            "Milio",
+            "Brand"
+          ],
+          "badAgainst": [
+            "Blitzcrank",
+            "Thresh",
+            "Leona",
+            "Pyke",
+            "Nautilus",
+            "Alistar"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Kalista",
+            "Jinx",
+            "Zeri",
+            "Kai'Sa",
+            "Ezreal",
+            "Nilah"
+          ],
+          "badAgainst": [
+            "Lucian",
+            "Caitlyn",
+            "Samira",
+            "Jhin",
+            "Aphelios",
+            "Ashe"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Swain",
+      "source": "https://wildriftcounter.com/champions/swain/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Akali",
+            "Vex",
+            "Talon",
+            "Kayle",
+            "Kassadin",
+            "Katarina"
+          ],
+          "badAgainst": [
+            "Ahri",
+            "Jayce",
+            "Akshan",
+            "Fizz",
+            "Yone",
+            "Galio"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Sion",
+            "Teemo",
+            "Irelia",
+            "Malphite",
+            "Ornn",
+            "Volibear"
+          ],
+          "badAgainst": [
+            "Vladimir",
+            "Olaf",
+            "Singed",
+            "Sett",
+            "Wukong",
+            "Dr. Mundo"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Rakan",
+            "Pantheon",
+            "Seraphine",
+            "Alistar",
+            "Senna",
+            "Leona"
+          ],
+          "badAgainst": [
+            "Brand",
+            "Lux",
+            "Lulu",
+            "Morgana",
+            "Janna",
+            "Sona"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Lucian",
+            "Jhin",
+            "Ezreal",
+            "Kai'Sa",
+            "Aphelios",
+            "Sivir"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Xayah",
+            "Jinx",
+            "Varus",
+            "Twitch",
+            "Kalista"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sylas",
+      "source": "https://wildriftcounter.com/champions/sylas/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Twisted Fate",
+            "Akali",
+            "Ekko",
+            "Irelia",
+            "Varus",
+            "Ahri"
+          ],
+          "badAgainst": [
+            "Vex",
+            "Galio",
+            "Kassadin",
+            "Yasuo",
+            "Taliyah",
+            "Hwei"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Lillia",
+            "Diana",
+            "Malphite",
+            "Jax",
+            "Qiyana",
+            "Nasus"
+          ],
+          "badAgainst": [
+            "Vi",
+            "Evelynn",
+            "Warwick",
+            "Wukong",
+            "Jarvan IV",
+            "Nunu & Willump"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Syndra",
+      "source": "https://wildriftcounter.com/champions/syndra/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Zoe",
+            "Orianna",
+            "Akshan",
+            "Yone",
+            "Jayce",
+            "Brand"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Kassadin",
+            "Lux",
+            "Yasuo",
+            "Kayle",
+            "Talon"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Gragas",
+            "Sett",
+            "Yone",
+            "Jayce",
+            "Pantheon",
+            "Singed"
+          ],
+          "badAgainst": [
+            "Shen",
+            "Fiora",
+            "Teemo",
+            "Tryndamere",
+            "Kayle",
+            "Yasuo"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Jinx",
+            "Lucian",
+            "Kai'Sa",
+            "Miss Fortune",
+            "Xayah",
+            "Varus"
+          ],
+          "badAgainst": [
+            "Ashe",
+            "Jhin",
+            "Varus",
+            "Caitlyn",
+            "Tristana",
+            "Ezreal"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Alistar",
+            "Senna",
+            "Yuumi",
+            "Brand",
+            "Rakan",
+            "Sona"
+          ],
+          "badAgainst": [
+            "Braum",
+            "Nautilus",
+            "Blitzcrank",
+            "Lulu",
+            "Janna",
+            "Seraphine"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Taliyah",
+      "source": "https://wildriftcounter.com/champions/taliyah/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Malphite",
+            "Pantheon",
+            "Amumu",
+            "Jax",
+            "Zac",
+            "Volibear"
+          ],
+          "badAgainst": [
+            "Evelynn",
+            "Rammus",
+            "Master Yi",
+            "Fiddlesticks",
+            "Kindred",
+            "Dr. Mundo"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Smolder",
+            "Vex",
+            "Ryze",
+            "Qiyana",
+            "Orianna",
+            "Aurora",
+            "Sylas",
+            "Hwei",
+            "Rek'Sai"
+          ],
+          "badAgainst": [
+            "Katarina",
+            "Kassadin",
+            "Zed",
+            "Fizz",
+            "Annie",
+            "Veigar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Talon",
+      "source": "https://wildriftcounter.com/champions/talon/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Lux",
+            "Ziggs",
+            "Annie",
+            "Twisted Fate",
+            "Ahri",
+            "Zoe"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Vex",
+            "Veigar",
+            "Fizz",
+            "Kassadin",
+            "Katarina"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Master Yi",
+            "Zac",
+            "Evelynn",
+            "Jax",
+            "Kayn",
+            "Nunu & Willump"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Xin Zhao",
+            "Amumu",
+            "Diana",
+            "Fiddlesticks",
+            "Jarvan IV"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Shen",
+            "Teemo",
+            "Kayle",
+            "Malphite",
+            "Akali",
+            "Olaf"
+          ],
+          "badAgainst": [
+            "Tryndamere",
+            "Yasuo",
+            "Volibear",
+            "Fiora",
+            "Gwen",
+            "Gragas"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Samira",
+            "Ashe",
+            "Caitlyn",
+            "Ezreal"
+          ],
+          "badAgainst": [
+            "Draven",
+            "Kai'Sa",
+            "Twitch",
+            "Jhin",
+            "Jinx",
+            "Zeri"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Lulu",
+            "Sona",
+            "Blitzcrank",
+            "Seraphine"
+          ],
+          "badAgainst": [
+            "Nami",
+            "Janna",
+            "Morgana",
+            "Leona",
+            "Braum",
+            "Alistar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Teemo",
+      "source": "https://wildriftcounter.com/champions/teemo/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Dr. Mundo",
+            "Garen",
+            "Darius",
+            "Kayle",
+            "Jax",
+            "Tryndamere"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Jayce",
+            "Ornn",
+            "Malphite",
+            "Riven",
+            "Irelia"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Gragas",
+            "Amumu",
+            "Kayn",
+            "Wukong",
+            "Rammus",
+            "Shyvana"
+          ],
+          "badAgainst": [
+            "Xin Zhao",
+            "Kha'Zix",
+            "Warwick",
+            "Fiddlesticks",
+            "Zac",
+            "Evelynn"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Diana",
+            "Ahri",
+            "Akali",
+            "Zed",
+            "Katarina",
+            "Yasuo"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Lux",
+            "Karma",
+            "Galio",
+            "Zoe",
+            "Vex"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Varus",
+            "Twitch",
+            "Zeri",
+            "Vayne",
+            "Ashe",
+            "Kai'Sa"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Jhin",
+            "Lucian",
+            "Jinx",
+            "Tristana",
+            "Miss Fortune"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Alistar",
+            "Blitzcrank",
+            "Janna",
+            "Nami",
+            "Lulu",
+            "Rakan"
+          ],
+          "badAgainst": [
+            "Senna",
+            "Soraka",
+            "Leona",
+            "Thresh",
+            "Sona",
+            "Seraphine"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Thresh",
+      "source": "https://wildriftcounter.com/champions/thresh/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Blitzcrank",
+            "Leona",
+            "Sona",
+            "Soraka",
+            "Nautilus",
+            "Rakan"
+          ],
+          "badAgainst": [
+            "Lulu",
+            "Morgana",
+            "Janna",
+            "Nami",
+            "Zyra",
+            "Seraphine"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Tristana",
+      "source": "https://wildriftcounter.com/champions/tristana/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Miss Fortune",
+            "Varus",
+            "Ezreal",
+            "Graves",
+            "Xayah",
+            "Kai'Sa"
+          ],
+          "badAgainst": [
+            "Draven",
+            "Sivir",
+            "Lucian",
+            "Caitlyn",
+            "Nilah",
+            "Vayne"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Karma",
+            "Irelia",
+            "Yone",
+            "Katarina",
+            "Kassadin",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Annie",
+            "Malphite",
+            "Vex",
+            "Zoe",
+            "Diana"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Brand",
+            "Senna",
+            "Soraka",
+            "Sona",
+            "Janna",
+            "Morgana"
+          ],
+          "badAgainst": [
+            "Alistar",
+            "Lux",
+            "Leona",
+            "Thresh",
+            "Braum",
+            "Seraphine"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Xin Zhao",
+            "Jarvan IV",
+            "Warwick",
+            "Master Yi",
+            "Zac",
+            "Volibear"
+          ],
+          "badAgainst": [
+            "Vi",
+            "Kayn",
+            "Kha'Zix",
+            "Rengar",
+            "Gragas",
+            "Graves"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Fiora",
+            "Ornn",
+            "Jayce",
+            "Olaf",
+            "Tryndamere",
+            "Irelia"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Dr. Mundo",
+            "Gwen",
+            "Darius",
+            "Kennen",
+            "Camille"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Tryndamere",
+      "source": "https://wildriftcounter.com/champions/tryndamere/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Sion",
+            "Irelia",
+            "Olaf",
+            "Jayce",
+            "Dr. Mundo",
+            "Ornn"
+          ],
+          "badAgainst": [
+            "Malphite",
+            "Teemo",
+            "Darius",
+            "Renekton",
+            "Camille",
+            "Sett"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Katarina",
+            "Irelia",
+            "Yone",
+            "Zed",
+            "Syndra",
+            "Yasuo"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Kayle",
+            "Ekko",
+            "Zoe",
+            "Gragas",
+            "Lux"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Rengar",
+            "Shyvana",
+            "Jax",
+            "Kha'Zix",
+            "Hecarim",
+            "Wukong"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Diana",
+            "Evelynn",
+            "Kindred",
+            "Warwick",
+            "Pantheon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Twisted Fate",
+      "source": "https://wildriftcounter.com/champions/twisted-fate/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Evelynn",
+            "Ziggs",
+            "Annie",
+            "Karma",
+            "Zoe",
+            "Orianna"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Diana",
+            "Ahri",
+            "Yasuo",
+            "Akali",
+            "Veigar"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Lucian",
+            "Ezreal",
+            "Tristana",
+            "Draven",
+            "Twitch",
+            "Ashe"
+          ],
+          "badAgainst": [
+            "Nilah",
+            "Tristana",
+            "Miss Fortune",
+            "Xayah",
+            "Jinx",
+            "Kai'Sa"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Dr. Mundo",
+            "Jax",
+            "Riven",
+            "Zac",
+            "Gragas",
+            "Shyvana"
+          ],
+          "badAgainst": [
+            "Brand",
+            "Kha'Zix",
+            "Rengar",
+            "Pantheon",
+            "Warwick",
+            "Jarvan IV"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Twitch",
+      "source": "https://wildriftcounter.com/champions/twitch/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Vayne",
+            "Jinx",
+            "Varus",
+            "Ashe",
+            "Ezreal",
+            "Miss Fortune"
+          ],
+          "badAgainst": [
+            "Jhin",
+            "Tristana",
+            "Kai'Sa",
+            "Draven",
+            "Xayah",
+            "Samira"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Nunu & Willump",
+            "Graves",
+            "Amumu",
+            "Brand",
+            "Zac",
+            "Fiddlesticks"
+          ],
+          "badAgainst": [
+            "Vi",
+            "Kha'Zix",
+            "Rengar",
+            "Evelynn",
+            "Lee Sin",
+            "Kayn"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Urgot",
+      "source": "https://wildriftcounter.com/champions/urgot/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Riven",
+            "Jayce",
+            "Tryndamere",
+            "Gragas",
+            "Akali",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Dr. Mundo",
+            "Kayle",
+            "Teemo",
+            "Olaf",
+            "Garen",
+            "Ornn"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Ziggs",
+            "Katarina",
+            "Viktor",
+            "Galio",
+            "Akali",
+            "Zed"
+          ],
+          "badAgainst": [
+            "Lucian",
+            "Ekko",
+            "Lux",
+            "Syndra",
+            "Zoe",
+            "Kennen"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Xayah",
+            "Ashe",
+            "Varus",
+            "Zeri",
+            "Aphelios",
+            "Kai'Sa"
+          ],
+          "badAgainst": [
+            "Draven",
+            "Miss Fortune",
+            "Vayne",
+            "Twisted Fate",
+            "Jinx",
+            "Kalista"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Yuumi",
+            "Blitzcrank",
+            "Leona",
+            "Senna",
+            "Braum",
+            "Nautilus"
+          ],
+          "badAgainst": [
+            "Shen",
+            "Sona",
+            "Nami",
+            "Katarina",
+            "Janna",
+            "Rakan"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Fiddlesticks",
+            "Warwick",
+            "Wukong",
+            "Kha'Zix",
+            "Talon",
+            "Rengar"
+          ],
+          "badAgainst": [
+            "Hecarim",
+            "Amumu",
+            "Kindred",
+            "Nunu & Willump",
+            "Vi",
+            "Graves"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Varus",
+      "source": "https://wildriftcounter.com/champions/varus/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Kalista",
+            "Aphelios",
+            "Zeri",
+            "Nilah",
+            "Xayah",
+            "Ashe"
+          ],
+          "badAgainst": [
+            "Twitch",
+            "Jinx",
+            "Miss Fortune",
+            "Sivir",
+            "Samira",
+            "Jhin"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Sona",
+            "Senna",
+            "Nami",
+            "Lulu",
+            "Rakan",
+            "Soraka"
+          ],
+          "badAgainst": [
+            "Alistar",
+            "Braum",
+            "Thresh",
+            "Brand",
+            "Soraka",
+            "Zyra"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Diana",
+            "Corki",
+            "Lux",
+            "Kassadin",
+            "Kayle",
+            "Vladimir"
+          ],
+          "badAgainst": [
+            "Annie",
+            "Zoe",
+            "Jayce",
+            "Yasuo",
+            "Katarina",
+            "Yone"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Dr. Mundo",
+            "Evelynn",
+            "Wukong",
+            "Amumu",
+            "Fiddlesticks",
+            "Ekko"
+          ],
+          "badAgainst": [
+            "Master Yi",
+            "Lee Sin",
+            "Kayn",
+            "Xin Zhao",
+            "Jarvan IV",
+            "Rammus"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Darius",
+            "Dr. Mundo",
+            "Teemo",
+            "Volibear",
+            "Olaf",
+            "Gwen"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Tryndamere",
+            "Camille",
+            "Jax",
+            "Zac",
+            "Malphite"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Vayne",
+      "source": "https://wildriftcounter.com/champions/vayne/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Renekton",
+            "Darius",
+            "Nasus",
+            "Garen",
+            "Shen",
+            "Riven"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Teemo",
+            "Malphite",
+            "Akshan",
+            "Jayce",
+            "Vladimir"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Jhin",
+            "Miss Fortune",
+            "Xayah",
+            "Kalista",
+            "Kai'Sa"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Draven",
+            "Varus",
+            "Ashe",
+            "Tristana",
+            "Graves"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Alistar",
+            "Braum",
+            "Shen",
+            "Leona",
+            "Nautilus",
+            "Blitzcrank"
+          ],
+          "badAgainst": [
+            "Soraka",
+            "Sona",
+            "Senna",
+            "Janna",
+            "Morgana",
+            "Thresh"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Xin Zhao",
+            "Maokai",
+            "Nunu & Willump",
+            "Jarvan IV",
+            "Volibear",
+            "Vi"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Master Yi",
+            "Kha'Zix",
+            "Rengar",
+            "Kayn",
+            "Evelynn"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Kassadin",
+            "Irelia",
+            "Nasus",
+            "Sett",
+            "Galio",
+            "Gragas"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Malphite",
+            "Veigar",
+            "Tristana",
+            "Zoe",
+            "Ahri"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Veigar",
+      "source": "https://wildriftcounter.com/champions/veigar/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Twisted Fate",
+            "Ziggs",
+            "Ryze",
+            "Vladimir",
+            "Yone",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Zed",
+            "Katarina",
+            "Zoe",
+            "Ekko",
+            "Ahri",
+            "Talon"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Tristana",
+            "Draven",
+            "Ezreal",
+            "Corki",
+            "Rakan",
+            "Orianna"
+          ],
+          "badAgainst": [
+            "Braum",
+            "Seraphine",
+            "Aphelios",
+            "Xayah",
+            "Miss Fortune",
+            "Lucian"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Vel'Koz",
+      "source": "https://wildriftcounter.com/champions/velkoz/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Twisted Fate",
+            "Veigar",
+            "Corki",
+            "Lux",
+            "Ryze",
+            "Viktor"
+          ],
+          "badAgainst": [
+            "Yone",
+            "Irelia",
+            "Zed",
+            "Kassadin",
+            "Fizz",
+            "Ekko"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Brand",
+            "Alistar",
+            "Yuumi",
+            "Soraka",
+            "Rakan",
+            "Braum",
+            "Sylas",
+            "Hwei",
+            "Rek'Sai"
+          ],
+          "badAgainst": [
+            "Seraphine",
+            "Sona",
+            "Morgana",
+            "Karma",
+            "Lulu",
+            "Zyra"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Vex",
+      "source": "https://wildriftcounter.com/champions/vex/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Annie",
+            "Varus",
+            "Fizz",
+            "Orianna",
+            "Lux",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Galio",
+            "Veigar",
+            "Kassadin",
+            "Katarina",
+            "Kayle"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Vi",
+      "source": "https://wildriftcounter.com/champions/vi/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Jarvan IV",
+            "Shyvana",
+            "Amumu",
+            "Master Yi",
+            "Wukong",
+            "Evelynn"
+          ],
+          "badAgainst": [
+            "Lee Sin",
+            "Xin Zhao",
+            "Kha'Zix",
+            "Warwick",
+            "Viego",
+            "Diana"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Malphite",
+            "Nasus",
+            "Jayce",
+            "Jarvan IV",
+            "Renekton",
+            "Vladimir"
+          ],
+          "badAgainst": [
+            "Riven",
+            "Pantheon",
+            "Teemo",
+            "Darius",
+            "Jax",
+            "Olaf"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Viego",
+      "source": "https://wildriftcounter.com/champions/viego/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Kayn",
+            "Graves",
+            "Jarvan IV",
+            "Diana",
+            "Shyvana",
+            "Xin Zhao"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Zac",
+            "Evelynn",
+            "Warwick",
+            "Vi",
+            "Amumu"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Gragas",
+            "Yasuo",
+            "Teemo",
+            "Sett",
+            "Sion",
+            "Rengar"
+          ],
+          "badAgainst": [
+            "Olaf",
+            "Nasus",
+            "Tryndamere",
+            "Shen",
+            "Riven",
+            "Camille"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Malphite",
+            "Fizz",
+            "Vex",
+            "Veigar",
+            "Kassadin",
+            "Ekko"
+          ],
+          "badAgainst": [
+            "Syndra",
+            "Aurelion Sol",
+            "Veigar",
+            "Twisted Fate",
+            "Lux",
+            "Vladimir"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Viktor",
+      "source": "https://wildriftcounter.com/champions/viktor/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Varus",
+            "Vex",
+            "Yasuo",
+            "Katarina",
+            "Twisted Fate",
+            "Veigar"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Fizz",
+            "Zed",
+            "Kassadin",
+            "Ambessa",
+            "Akali"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Yasuo",
+            "Teemo",
+            "Kayle",
+            "Yone",
+            "Dr. Mundo",
+            "Vayne"
+          ],
+          "badAgainst": [
+            "Renekton",
+            "Shen",
+            "Riven",
+            "Garen",
+            "Vayne",
+            "Jax"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Vladimir",
+      "source": "https://wildriftcounter.com/champions/vladimir/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Teemo",
+            "Jayce",
+            "Akali",
+            "Jax",
+            "Darius",
+            "Kayle"
+          ],
+          "badAgainst": [
+            "Kennen",
+            "Camille",
+            "Irelia",
+            "Riven",
+            "Darius",
+            "Yone"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Varus",
+            "Yasuo",
+            "Vex",
+            "Irelia",
+            "Katarina",
+            "Lux"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Kassadin",
+            "Zed",
+            "Ahri",
+            "Orianna",
+            "Ziggs"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Volibear",
+      "source": "https://wildriftcounter.com/champions/volibear/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Warwick",
+            "Nunu & Willump",
+            "Graves",
+            "Lee Sin",
+            "Evelynn",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Master Yi",
+            "Amumu",
+            "Rengar",
+            "Lillia",
+            "Fiddlesticks",
+            "Graves"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Sett",
+            "Yasuo",
+            "Renekton",
+            "Riven",
+            "Irelia",
+            "Tryndamere"
+          ],
+          "badAgainst": [
+            "Jayce",
+            "Vayne",
+            "Teemo",
+            "Darius",
+            "Kayle",
+            "Jax"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Akali",
+            "Katarina",
+            "Zed",
+            "Yone",
+            "Yasuo",
+            "Talon"
+          ],
+          "badAgainst": [
+            "Syndra",
+            "Corki",
+            "Swain",
+            "Ahri",
+            "Zoe",
+            "Lux"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Warwick",
+      "source": "https://wildriftcounter.com/champions/warwick/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Master Yi",
+            "Lee Sin",
+            "Shyvana",
+            "Kha'Zix",
+            "Gragas",
+            "Xin Zhao"
+          ],
+          "badAgainst": [
+            "Evelynn",
+            "Nunu & Willump",
+            "Rengar",
+            "Maokai",
+            "Rammus",
+            "Vi"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Nasus",
+            "Akali",
+            "Gwen",
+            "Fiora",
+            "Sett",
+            "Wukong"
+          ],
+          "badAgainst": [
+            "Kayle",
+            "Olaf",
+            "Urgot",
+            "Singed",
+            "Darius",
+            "Nasus"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Wukong",
+      "source": "https://wildriftcounter.com/champions/wukong/",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Zed",
+            "Jayce",
+            "Teemo",
+            "Pantheon",
+            "Irelia",
+            "Jax"
+          ],
+          "badAgainst": [
+            "Lee Sin",
+            "Darius",
+            "Garen",
+            "Nasus",
+            "Olaf",
+            "Pantheon"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Kha'Zix",
+            "Fiddlesticks",
+            "Maokai",
+            "Pantheon",
+            "Nunu & Willump",
+            "Warwick"
+          ],
+          "badAgainst": [
+            "Lee Sin",
+            "Amumu",
+            "Jarvan IV",
+            "Evelynn",
+            "Vi",
+            "Shyvana"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Ahri",
+            "Yasuo",
+            "Veigar",
+            "Akali",
+            "Annie",
+            "Vex"
+          ],
+          "badAgainst": [
+            "Morgana",
+            "Fizz",
+            "Diana",
+            "Jayce",
+            "Brand",
+            "Vladimir"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Xayah",
+      "source": "https://wildriftcounter.com/champions/xayah/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ashe",
+            "Vayne",
+            "Zeri",
+            "Aphelios",
+            "Kai'Sa",
+            "Samira"
+          ],
+          "badAgainst": [
+            "Miss Fortune",
+            "Tristana",
+            "Varus",
+            "Caitlyn",
+            "Kalista",
+            "Draven"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Xin Zhao",
+      "source": "https://wildriftcounter.com/champions/xin-zhao/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Vi",
+            "Jarvan IV",
+            "Evelynn",
+            "Nunu & Willump",
+            "Fiddlesticks",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Malphite",
+            "Rammus",
+            "Lee Sin",
+            "Evelynn",
+            "Ekko",
+            "Master Yi"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jayce",
+            "Kayle",
+            "Darius",
+            "Riven",
+            "Vi",
+            "Zed"
+          ],
+          "badAgainst": [
+            "Jax",
+            "Pantheon",
+            "Teemo",
+            "Fiora",
+            "Malphite",
+            "Shen"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Yasuo",
+      "source": "https://wildriftcounter.com/champions/yasuo/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Ahri",
+            "Twisted Fate",
+            "Veigar",
+            "Corki",
+            "Katarina",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Renekton",
+            "Annie",
+            "Vex",
+            "Vladimir",
+            "Swain"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Akali",
+            "Vayne",
+            "Teemo",
+            "Jayce",
+            "Irelia",
+            "Kennen"
+          ],
+          "badAgainst": [
+            "Renekton",
+            "Nasus",
+            "Tryndamere",
+            "Garen",
+            "Camille",
+            "Darius"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Aphelios",
+            "Tristana",
+            "Miss Fortune",
+            "Caitlyn",
+            "Kai'Sa",
+            "Jhin"
+          ],
+          "badAgainst": [
+            "Nilah",
+            "Kalista",
+            "Samira",
+            "Jinx",
+            "Zeri",
+            "Lucian"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Blitzcrank",
+            "Morgana",
+            "Alistar",
+            "Lulu",
+            "Braum",
+            "Seraphine"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Leona",
+            "Nautilus",
+            "Nami",
+            "Zyra",
+            "Janna"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Ekko",
+            "Shyvana",
+            "Vi",
+            "Gragas",
+            "Kayn",
+            "Lee Sin"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Amumu",
+            "Kindred",
+            "Fiddlesticks",
+            "Pantheon",
+            "Nunu & Willump"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Yone",
+      "source": "https://wildriftcounter.com/champions/yone/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Corki",
+            "Twisted Fate",
+            "Irelia",
+            "Yasuo",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Fizz",
+            "Viego",
+            "Ahri",
+            "Annie",
+            "Zed"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jayce",
+            "Sion",
+            "Gwen",
+            "Dr. Mundo",
+            "Singed",
+            "Tryndamere"
+          ],
+          "badAgainst": [
+            "Pantheon",
+            "Gragas",
+            "Riven",
+            "Fiora",
+            "Garen",
+            "Sett"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Yunara",
+      "source": "https://wildriftcounter.com/champions/yunara/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Varus",
+            "Kai'Sa",
+            "Sivir",
+            "Akali",
+            "Mel",
+            "Smolder"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Nilah",
+            "Ashe",
+            "Tristana",
+            "Jhin",
+            "Senna"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Yuumi",
+      "source": "https://wildriftcounter.com/champions/yuumi/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Seraphine",
+            "Brand",
+            "Braum",
+            "Lux",
+            "Thresh",
+            "Senna"
+          ],
+          "badAgainst": [
+            "Leona",
+            "Alistar",
+            "Rakan",
+            "Blitzcrank",
+            "Soraka",
+            "Sona"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zac",
+      "source": "https://wildriftcounter.com/champions/zac/",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Gragas",
+            "Rammus",
+            "Lee Sin"
+          ],
+          "badAgainst": [
+            "Jarvan IV",
+            "Shyvana",
+            "Vi",
+            "Lillia",
+            "Evelynn",
+            "Kayn"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Akali",
+            "Nasus",
+            "Singed",
+            "Jax",
+            "Garen"
+          ],
+          "badAgainst": [
+            "Gragas",
+            "Yone",
+            "Renekton",
+            "Darius",
+            "Shen",
+            "Camille"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Irelia",
+            "Ahri",
+            "Galio",
+            "Lux",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Vex",
+            "Twisted Fate",
+            "Kassadin",
+            "Malphite",
+            "Katarina"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Alistar",
+            "Pyke",
+            "Ashe",
+            "Leona",
+            "Blitzcrank",
+            "Yuumi"
+          ],
+          "badAgainst": [
+            "Brand",
+            "Morgana",
+            "Nami",
+            "Janna",
+            "Soraka",
+            "Lux"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zed",
+      "source": "https://wildriftcounter.com/champions/zed/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Veigar",
+            "Ziggs",
+            "Orianna",
+            "Corki",
+            "Kassadin",
+            "Aurelion Sol"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Ekko",
+            "Vladimir",
+            "Ahri",
+            "Kayle",
+            "Galio"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Darius",
+            "Teemo",
+            "Riven",
+            "Jayce",
+            "Yasuo",
+            "Gwen"
+          ],
+          "badAgainst": [
+            "Kayle",
+            "Jax",
+            "Irelia",
+            "Wukong",
+            "Nasus",
+            "Tryndamere"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Caitlyn",
+            "Miss Fortune",
+            "Varus",
+            "Draven",
+            "Zeri",
+            "Jinx"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Lucian",
+            "Ashe",
+            "Samira",
+            "Kalista",
+            "Tristana"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Lulu",
+            "Zyra",
+            "Rakan",
+            "Blitzcrank",
+            "Lux",
+            "Senna"
+          ],
+          "badAgainst": [
+            "Leona",
+            "Alistar",
+            "Maokai",
+            "Janna",
+            "Soraka",
+            "Sona"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Graves",
+            "Jarvan IV",
+            "Xin Zhao",
+            "Gragas",
+            "Lee Sin",
+            "Talon"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Amumu",
+            "Kindred",
+            "Rengar",
+            "Kayn",
+            "Master Yi"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zeri",
+      "source": "https://wildriftcounter.com/champions/zeri/",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Miss Fortune",
+            "Ezreal",
+            "Xayah",
+            "Kai'Sa",
+            "Jinx",
+            "Ashe"
+          ],
+          "badAgainst": [
+            "Draven",
+            "Tristana",
+            "Jhin",
+            "Caitlyn",
+            "Vayne",
+            "Samira"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Malphite",
+            "Irelia",
+            "Zoe",
+            "Vladimir",
+            "Pantheon",
+            "Karma",
+            "Zed",
+            "Kha'Zix",
+            "Rengar",
+            "Lee Sin",
+            "Master Yi",
+            "Diana",
+            "Fizz",
+            "Akali",
+            "Katarina",
+            "Ahri",
+            "Amumu",
+            "Leona",
+            "Nautilus"
+          ],
+          "badAgainst": [
+            "Veigar",
+            "Ziggs",
+            "Brand",
+            "Vex",
+            "Talon",
+            "Ahri"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ziggs",
+      "source": "https://wildriftcounter.com/champions/ziggs/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Corki",
+            "Veigar",
+            "Lux",
+            "Ezreal",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Kayle",
+            "Talon",
+            "Brand",
+            "Ahri",
+            "LeBlanc",
+            "Jayce"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Jinx",
+            "Miss Fortune",
+            "Xayah",
+            "Aphelios",
+            "Tristana",
+            "Varus"
+          ],
+          "badAgainst": [
+            "Caitlyn",
+            "Samira",
+            "Zeri",
+            "Kai'Sa",
+            "Jhin",
+            "Varus"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zilean",
+      "source": "https://wildriftcounter.com/champions/zilean/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Seraphine",
+            "Brand",
+            "Blitzcrank",
+            "Nautilus",
+            "Sona",
+            "Alistar"
+          ],
+          "badAgainst": [
+            "Yuumi",
+            "Maokai",
+            "Lulu",
+            "Leona",
+            "Karma",
+            "Pyke"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Fizz",
+            "Orianna",
+            "Lux",
+            "Twisted Fate",
+            "Talon",
+            "Ryze",
+            "Sylas",
+            "Hwei",
+            "Rek'Sai"
+          ],
+          "badAgainst": [
+            "Vex",
+            "Ekko",
+            "Kassadin",
+            "Kayle",
+            "Akshan",
+            "Tristana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zoe",
+      "source": "https://wildriftcounter.com/champions/zoe/",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Akshan",
+            "Irelia",
+            "Orianna",
+            "Fizz",
+            "Lux",
+            "Yasuo"
+          ],
+          "badAgainst": [
+            "Veigar",
+            "Ahri",
+            "Kassadin",
+            "Twisted Fate",
+            "Akali",
+            "Zed"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Gwen",
+            "Darius",
+            "Kennen",
+            "Renekton",
+            "Teemo",
+            "Vayne"
+          ],
+          "badAgainst": [
+            "Urgot",
+            "Sion",
+            "Tryndamere",
+            "Malphite",
+            "Pantheon",
+            "Gragas"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Veigar",
+            "Alistar",
+            "Lux",
+            "Morgana",
+            "Senna",
+            "Yuumi"
+          ],
+          "badAgainst": [
+            "Soraka",
+            "Blitzcrank",
+            "Pyke",
+            "Nami",
+            "Yuumi",
+            "Sona"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zyra",
+      "source": "https://wildriftcounter.com/champions/zyra/",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Yuumi",
+            "Seraphine",
+            "Senna",
+            "Karma",
+            "Lulu",
+            "Braum"
+          ],
+          "badAgainst": [
+            "Janna",
+            "Sona",
+            "Blitzcrank",
+            "Morgana",
+            "Alistar",
+            "Soraka"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Corki",
+            "Veigar",
+            "Zoe",
+            "Aurelion Sol",
+            "Orianna",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Ziggs",
+            "Heimerdinger",
+            "Katarina",
+            "Zed",
+            "Fizz",
+            "Brand"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Jinx",
+            "Ezreal",
+            "Zeri",
+            "Kai'Sa",
+            "Xayah",
+            "Ashe"
+          ],
+          "badAgainst": [
+            "Miss Fortune",
+            "Caitlyn",
+            "Jhin",
+            "Tristana",
+            "Twitch",
+            "Vayne"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Gragas",
+            "Amumu",
+            "Zac",
+            "Fiddlesticks",
+            "Lillia",
+            "Rammus"
+          ],
+          "badAgainst": [
+            "Kha'Zix",
+            "Rengar",
+            "Ekko",
+            "Wukong",
+            "Talon",
+            "Xin Zhao"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Darius",
+            "Garen",
+            "Aatrox",
+            "Kayle",
+            "Volibear",
+            "Gwen"
+          ],
+          "badAgainst": [
+            "Rengar",
+            "Wukong",
+            "Irelia",
+            "Nasus",
+            "Pantheon",
+            "Jayce"
+          ]
+        }
+      }
+    }
+  ],
+  "failures": []
+}

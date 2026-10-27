@@ -1,5 +1,5 @@
 import { useEngine } from "../lib/gameContext.js";
-import { ConditionsBlock, FlexBadge, MatchupList, RoleBadge } from "./ui.jsx";
+import { ChampionIcon, ConditionsBlock, FlexBadge, MatchupList, RoleBadge } from "./ui.jsx";
 
 export default function ChampionDetail({ champ, activeLane, draft }) {
   const { getMatchups, getRulesForChampion } = useEngine();
@@ -21,8 +21,27 @@ export default function ChampionDetail({ champ, activeLane, draft }) {
           <span key={p} className="tag">{p}</span>
         ))}
       </div>
-      {champ.caution ? <p className="caution">⚠ {champ.caution}</p> : null}
       {champ.tips ? <p className="tips">💡 {champ.tips}</p> : null}
+      {m.badAgainst?.length ? (
+        <div className="avoid-summary-box">
+          <div className="avoid-summary-title">
+            <span className="avoid-summary-badge">Avoid vs</span>
+            <span className="avoid-summary-sub">Challenging lane matchups to respect:</span>
+          </div>
+          <div className="avoid-summary-chips">
+            {m.badAgainst.map((item) => {
+              const isEnemyDrafted = draft && Object.entries(draft).some(([k, v]) => k.startsWith('enemy') && v === item.name);
+              return (
+                <div key={item.name} className={`avoid-champ-tag ${isEnemyDrafted ? "draft-active" : ""}`} title={item.note || item.name}>
+                  <ChampionIcon name={item.name} alt={item.name} size={20} />
+                  <span>{item.name}</span>
+                  {isEnemyDrafted ? <span className="avoid-draft-pill">In enemy draft</span> : null}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      ) : null}
       <div className="guide-sections">
         <h4>Playing against {champ.name}</h4><p>{champ.counterplay}</p>
         <h4>Cooldown or resource to track</h4><p>{champ.keyWindow}</p>
@@ -36,7 +55,17 @@ export default function ChampionDetail({ champ, activeLane, draft }) {
       ) : null}
       <div className="detail-grid">
         <div><h4>Lane opportunities ({activeLane})</h4><MatchupList items={m.goodAgainst} cls="good" /></div>
-        <div><h4>Lane pressure to respect</h4><MatchupList items={m.badAgainst} cls="bad" /></div>
+        <div>
+          <h4>Lane pressure to respect</h4>
+          {m.badAgainst?.length ? <MatchupList items={m.badAgainst} cls="bad" /> : (
+            <p className="muted">General champion and role guidance. Named opponents for this role have not been reviewed yet.</p>
+          )}
+          <details>
+            <summary>General pressure guidance</summary>
+            <p className="caution"><strong>What punishes {champ.name}:</strong> {m.lanePressure?.risk || champ.caution}</p>
+            <p><strong>How to respond:</strong> {m.lanePressure?.response || m.lanePlan}</p>
+          </details>
+        </div>
         {m.synergies?.length ? <div><h4>Partner plans for this role</h4><MatchupList items={m.synergies} cls="good" /></div> : null}
       </div>
       <details className="guide-evidence"><summary>Sources & confidence</summary>

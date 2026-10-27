@@ -40,8 +40,9 @@ export function suggestChampion(champ, draft, lane, byName) {
     const favorable = slice?.goodAgainst.find(e => e.name === opponent.name);
     const difficult = slice?.badAgainst.find(e => e.name === opponent.name);
     // A conflict is not evidence for either direction. Never count the reverse entry twice.
-    if (favorable && !difficult) add('lane-interaction', 1, 'Lane opportunity', favorable.note, 'Editorial lane interaction');
-    if (difficult && !favorable) add('lane-interaction', -1, 'Lane pressure', difficult.note, 'Editorial lane interaction');
+    const matchupEvidence = entry => entry.evidence === 'source-matchup' ? 'Source-suggested matchup; general play notes' : 'Editorial lane interaction';
+    if (favorable && !difficult) add('lane-interaction', 1, 'Lane opportunity', favorable.note, matchupEvidence(favorable));
+    if (difficult && !favorable) add('lane-interaction', -1, 'Lane pressure', difficult.note, matchupEvidence(difficult));
   }
 
   const partner = cfg.lanePartner ? byName(draft[cfg.lanePartner]) : null;

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "audit:data": "npm run build:data && node scripts/audit-data.mjs",
-    "build:data": "node scripts/build-data.mjs",
+    "build:data": "node scripts/compile-matchup-research.mjs && node scripts/build-data.mjs",
     "test": "npm run build:data && node scripts/validate-data.mjs",
     "dev": "npm run build:data && vite",
     "build": "npm run build:data && vite build",

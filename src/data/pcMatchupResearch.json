@@ -1,0 +1,4823 @@
+{
+  "checkedAt": "2026-10-27",
+  "sourceGame": "pc",
+  "basis": "Third-party matchup suggestions; percentages and rankings are not imported.",
+  "champions": [
+    {
+      "name": "Aatrox",
+      "source": "https://www.counterstats.net/league-of-legends/aatrox",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Vladimir",
+            "Rumble",
+            "Olaf",
+            "Dr. Mundo",
+            "Cho'Gath",
+            "K'Sante"
+          ],
+          "badAgainst": [
+            "Heimerdinger",
+            "Singed",
+            "Quinn",
+            "Malphite",
+            "Ornn",
+            "Kled"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ahri",
+      "source": "https://www.counterstats.net/league-of-legends/ahri",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Galio",
+            "Azir",
+            "Ryze",
+            "Cassiopeia",
+            "Naafiri",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Vladimir",
+            "Diana",
+            "Annie",
+            "Akshan",
+            "Lux",
+            "Veigar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Akali",
+      "source": "https://www.counterstats.net/league-of-legends/akali",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Irelia",
+            "Viktor",
+            "Locke",
+            "Mel",
+            "Qiyana",
+            "Naafiri"
+          ],
+          "badAgainst": [
+            "Lissandra",
+            "Taliyah",
+            "Kassadin",
+            "Annie",
+            "LeBlanc",
+            "Talon"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Gwen",
+            "Vladimir",
+            "Volibear",
+            "Gnar",
+            "Trundle",
+            "Olaf"
+          ],
+          "badAgainst": [
+            "Nasus",
+            "Shen",
+            "Riven",
+            "Pantheon",
+            "Tahm Kench",
+            "Dr. Mundo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Akshan",
+      "source": "https://www.counterstats.net/league-of-legends/akshan",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Sylas",
+            "Zed",
+            "Zoe",
+            "Yone",
+            "Viktor",
+            "Ekko"
+          ],
+          "badAgainst": [
+            "Vladimir",
+            "Veigar",
+            "Annie",
+            "Diana",
+            "Twisted Fate",
+            "Yasuo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Alistar",
+      "source": "https://www.counterstats.net/league-of-legends/alistar",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Camille",
+            "Yuumi",
+            "Nautilus",
+            "Blitzcrank",
+            "Sona",
+            "Amumu"
+          ],
+          "badAgainst": [
+            "Zilean",
+            "Brand",
+            "Janna",
+            "Karma",
+            "Nami",
+            "Senna"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ambessa",
+      "source": "https://www.counterstats.net/league-of-legends/ambessa",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Rumble",
+            "K'Sante",
+            "Sion",
+            "Gragas",
+            "Jax",
+            "Dr. Mundo"
+          ],
+          "badAgainst": [
+            "Teemo",
+            "Zaahen",
+            "Renekton",
+            "Shen",
+            "Camille",
+            "Cho'Gath"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Amumu",
+      "source": "https://www.counterstats.net/league-of-legends/amumu",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Nidalee",
+            "Qiyana",
+            "Kindred",
+            "Nocturne",
+            "Nunu & Willump",
+            "Zed"
+          ],
+          "badAgainst": [
+            "Shaco",
+            "Zac",
+            "Shyvana",
+            "Lillia",
+            "Rammus",
+            "Cho'Gath"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Lulu",
+            "Yuumi",
+            "Blitzcrank",
+            "Seraphine",
+            "Thresh",
+            "Senna"
+          ],
+          "badAgainst": [
+            "Leona",
+            "Alistar",
+            "Milio",
+            "Morgana",
+            "Nami",
+            "Pyke"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Anivia",
+      "source": "https://www.counterstats.net/league-of-legends/anivia",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Zoe",
+            "Mel",
+            "Qiyana",
+            "Sylas",
+            "Lissandra",
+            "Vladimir"
+          ],
+          "badAgainst": [
+            "Veigar",
+            "Vex",
+            "Malzahar",
+            "Syndra",
+            "Xerath",
+            "Fizz"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Annie",
+      "source": "https://www.counterstats.net/league-of-legends/annie",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Qiyana",
+            "Irelia",
+            "Yone",
+            "Akali",
+            "Akshan",
+            "Katarina"
+          ],
+          "badAgainst": [
+            "Hwei",
+            "Veigar",
+            "Galio",
+            "Malzahar",
+            "Orianna",
+            "Ekko"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Aphelios",
+      "source": "https://www.counterstats.net/league-of-legends/aphelios",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Kalista",
+            "Vayne",
+            "Smolder",
+            "Kai'Sa",
+            "Lucian"
+          ],
+          "badAgainst": [
+            "Nilah",
+            "Twitch",
+            "Kog'Maw",
+            "Miss Fortune",
+            "Veigar",
+            "Viktor"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ashe",
+      "source": "https://www.counterstats.net/league-of-legends/ashe",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Draven",
+            "Ezreal",
+            "Sivir",
+            "Vayne",
+            "Corki",
+            "Kalista"
+          ],
+          "badAgainst": [
+            "Kog'Maw",
+            "Ziggs",
+            "Tristana",
+            "Twitch",
+            "Miss Fortune",
+            "Yunara"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Aurelion Sol",
+      "source": "https://www.counterstats.net/league-of-legends/aurelion-sol",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Mel",
+            "Yasuo",
+            "Ryze",
+            "Viktor",
+            "Malzahar",
+            "Galio"
+          ],
+          "badAgainst": [
+            "Vladimir",
+            "Kassadin",
+            "Yone",
+            "Diana",
+            "Sylas",
+            "Lissandra"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Tristana",
+            "Kai'Sa",
+            "Jhin",
+            "Miss Fortune",
+            "Caitlyn"
+          ],
+          "badAgainst": [
+            "Jinx",
+            "Caitlyn",
+            "Miss Fortune",
+            "Jhin",
+            "Kai'Sa",
+            "Tristana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Aurora",
+      "source": "https://www.counterstats.net/league-of-legends/aurora",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Mel",
+            "Ryze",
+            "Irelia",
+            "Sylas",
+            "Locke",
+            "Twisted Fate"
+          ],
+          "badAgainst": [
+            "Veigar",
+            "Ekko",
+            "Diana",
+            "Fizz",
+            "Qiyana",
+            "Zed"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Azir",
+      "source": "https://www.counterstats.net/league-of-legends/azir",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Akshan",
+            "Orianna",
+            "Yasuo",
+            "Mel",
+            "Ryze",
+            "Irelia"
+          ],
+          "badAgainst": [
+            "Veigar",
+            "Xerath",
+            "Zoe",
+            "Ekko",
+            "Vladimir",
+            "Diana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bard",
+      "source": "https://www.counterstats.net/league-of-legends/bard",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Xerath",
+            "Camille",
+            "Vel'Koz",
+            "Poppy",
+            "Yuumi",
+            "Neeko"
+          ],
+          "badAgainst": [
+            "Maokai",
+            "Braum",
+            "Tahm Kench",
+            "Taric",
+            "Leona",
+            "Milio"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bel'Veth",
+      "source": "https://www.counterstats.net/league-of-legends/belveth",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Nunu & Willump",
+            "Nidalee",
+            "Qiyana",
+            "Zed",
+            "Viego",
+            "Nocturne"
+          ],
+          "badAgainst": [
+            "Udyr",
+            "Elise",
+            "Rammus",
+            "Cho'Gath",
+            "Wukong",
+            "Amumu"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Blitzcrank",
+      "source": "https://www.counterstats.net/league-of-legends/blitzcrank",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Camille",
+            "Lux",
+            "Karma",
+            "Vel'Koz",
+            "Bard"
+          ],
+          "badAgainst": [
+            "Taric",
+            "Amumu",
+            "Braum",
+            "Alistar",
+            "Rell",
+            "Poppy"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Brand",
+      "source": "https://www.counterstats.net/league-of-legends/brand",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Pantheon",
+            "Neeko",
+            "Alistar",
+            "Swain",
+            "Renata Glasc",
+            "Braum"
+          ],
+          "badAgainst": [
+            "Janna",
+            "Karma",
+            "Milio",
+            "Yuumi",
+            "Xerath",
+            "Maokai"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Braum",
+      "source": "https://www.counterstats.net/league-of-legends/braum",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Camille",
+            "Renata Glasc",
+            "Yuumi",
+            "Poppy",
+            "Nautilus",
+            "Pantheon"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Senna",
+            "Soraka",
+            "Vel'Koz",
+            "Zilean",
+            "Brand"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Briar",
+      "source": "https://www.counterstats.net/league-of-legends/briar",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Qiyana",
+            "Rengar",
+            "Kha'Zix",
+            "Sylas",
+            "Karthus",
+            "Evelynn"
+          ],
+          "badAgainst": [
+            "Rek'Sai",
+            "Bel'Veth",
+            "Trundle",
+            "Sejuani",
+            "Skarner",
+            "Cho'Gath"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Caitlyn",
+      "source": "https://www.counterstats.net/league-of-legends/caitlyn",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Aurelion Sol",
+            "Kalista",
+            "Draven",
+            "Lucian",
+            "Viktor",
+            "Corki"
+          ],
+          "badAgainst": [
+            "Karthus",
+            "Veigar",
+            "Kog'Maw",
+            "Sivir",
+            "Nilah",
+            "Miss Fortune"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Camille",
+      "source": "https://www.counterstats.net/league-of-legends/camille",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "K'Sante",
+            "Gragas",
+            "Ambessa",
+            "Yasuo",
+            "Olaf",
+            "Irelia"
+          ],
+          "badAgainst": [
+            "Urgot",
+            "Vladimir",
+            "Shen",
+            "Malphite",
+            "Kled",
+            "Warwick"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Karma",
+            "Pantheon",
+            "Seraphine",
+            "Leona",
+            "Yuumi",
+            "Pyke"
+          ],
+          "badAgainst": [
+            "Braum",
+            "Blitzcrank",
+            "Thresh",
+            "Poppy",
+            "Alistar",
+            "Lux"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cassiopeia",
+      "source": "https://www.counterstats.net/league-of-legends/cassiopeia",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Yasuo",
+            "Sylas",
+            "Katarina",
+            "Yone",
+            "Lissandra",
+            "Twisted Fate"
+          ],
+          "badAgainst": [
+            "Malzahar",
+            "Xerath",
+            "Hwei",
+            "Veigar",
+            "Vladimir",
+            "Syndra"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Teemo"
+          ],
+          "badAgainst": [
+            "Teemo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cho'Gath",
+      "source": "https://www.counterstats.net/league-of-legends/chogath",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Qiyana",
+            "Zed",
+            "Hecarim",
+            "Volibear",
+            "Lee Sin",
+            "Rengar"
+          ],
+          "badAgainst": [
+            "Taliyah",
+            "Gwen",
+            "Lillia",
+            "Xin Zhao",
+            "Quinn",
+            "Ivern"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Gragas",
+            "Rumble",
+            "Kennen",
+            "Riven",
+            "Ambessa",
+            "Jayce"
+          ],
+          "badAgainst": [
+            "Dr. Mundo",
+            "Ornn",
+            "Illaoi",
+            "Aatrox",
+            "Gwen",
+            "Kled"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Corki",
+      "source": "https://www.counterstats.net/league-of-legends/corki",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Varus",
+            "Kalista",
+            "Lucian",
+            "Draven",
+            "Yunara",
+            "Samira"
+          ],
+          "badAgainst": [
+            "Smolder",
+            "Sivir",
+            "Xayah",
+            "Vayne",
+            "Twitch",
+            "Jinx"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Darius",
+      "source": "https://www.counterstats.net/league-of-legends/darius",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Udyr",
+            "Yasuo",
+            "Poppy",
+            "Sion",
+            "K'Sante",
+            "Trundle"
+          ],
+          "badAgainst": [
+            "Vladimir",
+            "Teemo",
+            "Jax",
+            "Ornn",
+            "Kled",
+            "Kennen"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Diana",
+      "source": "https://www.counterstats.net/league-of-legends/diana",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Vi",
+            "Qiyana",
+            "Lee Sin",
+            "Karthus",
+            "Rengar",
+            "Naafiri"
+          ],
+          "badAgainst": [
+            "Taliyah",
+            "Zyra",
+            "Briar",
+            "Amumu",
+            "Udyr",
+            "Sejuani"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Azir",
+            "Qiyana",
+            "Zed",
+            "Aurelion Sol",
+            "Akshan"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Yasuo",
+            "Taliyah",
+            "Galio",
+            "Yone",
+            "Kassadin"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dr. Mundo",
+      "source": "https://www.counterstats.net/league-of-legends/dr-mundo",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Jayce",
+            "Cho'Gath",
+            "Pantheon",
+            "K'Sante",
+            "Jax",
+            "Renekton"
+          ],
+          "badAgainst": [
+            "Gwen",
+            "Warwick",
+            "Zaahen",
+            "Yorick",
+            "Kayle",
+            "Aatrox"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Draven",
+      "source": "https://www.counterstats.net/league-of-legends/draven",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Vayne",
+            "Kalista",
+            "Lucian",
+            "Kai'Sa",
+            "Aphelios"
+          ],
+          "badAgainst": [
+            "Veigar",
+            "Kog'Maw",
+            "Xayah",
+            "Nilah",
+            "Samira",
+            "Miss Fortune"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ekko",
+      "source": "https://www.counterstats.net/league-of-legends/ekko",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Azir",
+            "Qiyana",
+            "Talon",
+            "Orianna",
+            "Zoe",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Vladimir",
+            "Akshan",
+            "Kassadin",
+            "Yone",
+            "Yasuo",
+            "Fizz"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Naafiri",
+            "Zac",
+            "Ivern",
+            "Karthus",
+            "Nidalee",
+            "Zed"
+          ],
+          "badAgainst": [
+            "Cho'Gath",
+            "Amumu",
+            "Bel'Veth",
+            "Elise",
+            "Rek'Sai",
+            "Shaco"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Elise",
+      "source": "https://www.counterstats.net/league-of-legends/elise",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Rengar",
+            "Lee Sin",
+            "Viego",
+            "Master Yi",
+            "Zed",
+            "Nidalee"
+          ],
+          "badAgainst": [
+            "Sejuani",
+            "Zyra",
+            "Shaco",
+            "Nocturne",
+            "Talon",
+            "Warwick"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Evelynn",
+      "source": "https://www.counterstats.net/league-of-legends/evelynn",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Zed",
+            "Nidalee",
+            "Qiyana",
+            "Lee Sin",
+            "Viego",
+            "Udyr"
+          ],
+          "badAgainst": [
+            "Quinn",
+            "Fiddlesticks",
+            "Briar",
+            "Volibear",
+            "Rammus",
+            "Xin Zhao"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ezreal",
+      "source": "https://www.counterstats.net/league-of-legends/ezreal",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Caitlyn",
+            "Corki",
+            "Varus",
+            "Karthus",
+            "Viktor",
+            "Yunara"
+          ],
+          "badAgainst": [
+            "Aurelion Sol",
+            "Nilah",
+            "Veigar",
+            "Xayah",
+            "Smolder",
+            "Sivir"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fiddlesticks",
+      "source": "https://www.counterstats.net/league-of-legends/fiddlesticks",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Evelynn",
+            "Qiyana",
+            "Rengar",
+            "Kindred",
+            "Talon",
+            "Naafiri"
+          ],
+          "badAgainst": [
+            "Bel'Veth",
+            "Xin Zhao",
+            "Amumu",
+            "Briar",
+            "Wukong",
+            "Shyvana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fiora",
+      "source": "https://www.counterstats.net/league-of-legends/fiora",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "K'Sante",
+            "Kled",
+            "Kennen",
+            "Gragas",
+            "Dr. Mundo",
+            "Cho'Gath"
+          ],
+          "badAgainst": [
+            "Malphite",
+            "Warwick",
+            "Sett",
+            "Kayle",
+            "Heimerdinger",
+            "Teemo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fizz",
+      "source": "https://www.counterstats.net/league-of-legends/fizz",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Naafiri",
+            "Mel",
+            "Syndra",
+            "Zoe",
+            "Katarina",
+            "Malzahar"
+          ],
+          "badAgainst": [
+            "Vex",
+            "Lissandra",
+            "Diana",
+            "Talon",
+            "Vladimir",
+            "Galio"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Galio",
+      "source": "https://www.counterstats.net/league-of-legends/galio",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Irelia",
+            "Qiyana",
+            "Mel",
+            "Katarina",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Kassadin",
+            "Taliyah",
+            "Veigar",
+            "Ahri",
+            "Lissandra",
+            "Aurelion Sol"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gangplank",
+      "source": "https://www.counterstats.net/league-of-legends/gangplank",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Rumble",
+            "Ambessa",
+            "Yasuo",
+            "Gragas",
+            "Heimerdinger",
+            "Pantheon"
+          ],
+          "badAgainst": [
+            "Kayle",
+            "Sion",
+            "Mordekaiser",
+            "Ornn",
+            "Zaahen",
+            "Tryndamere"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Garen",
+      "source": "https://www.counterstats.net/league-of-legends/garen",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Heimerdinger",
+            "Warwick",
+            "K'Sante",
+            "Jax",
+            "Riven",
+            "Gwen"
+          ],
+          "badAgainst": [
+            "Kayle",
+            "Kled",
+            "Teemo",
+            "Trundle",
+            "Tryndamere",
+            "Camille"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gnar",
+      "source": "https://www.counterstats.net/league-of-legends/gnar",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "K'Sante",
+            "Sett",
+            "Jax",
+            "Yone",
+            "Rumble",
+            "Gragas"
+          ],
+          "badAgainst": [
+            "Singed",
+            "Malphite",
+            "Ornn",
+            "Zaahen",
+            "Kayle",
+            "Akali"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gragas",
+      "source": "https://www.counterstats.net/league-of-legends/gragas",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Jayce",
+            "Tryndamere",
+            "Riven",
+            "K'Sante",
+            "Yone",
+            "Renekton"
+          ],
+          "badAgainst": [
+            "Ornn",
+            "Kayle",
+            "Cho'Gath",
+            "Camille",
+            "Yasuo",
+            "Kennen"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Graves",
+      "source": "https://www.counterstats.net/league-of-legends/graves",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Zed",
+            "Qiyana",
+            "Rengar",
+            "Nunu & Willump",
+            "Jayce",
+            "Karthus"
+          ],
+          "badAgainst": [
+            "Zyra",
+            "Rek'Sai",
+            "Sejuani",
+            "Skarner",
+            "Naafiri",
+            "Volibear"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gwen",
+      "source": "https://www.counterstats.net/league-of-legends/gwen",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Dr. Mundo",
+            "Yorick",
+            "Illaoi",
+            "Cho'Gath",
+            "Gnar",
+            "Sion"
+          ],
+          "badAgainst": [
+            "Akali",
+            "Garen",
+            "Singed",
+            "Sett",
+            "Tryndamere",
+            "Kayle"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Qiyana",
+            "Sylas",
+            "Lillia",
+            "Cho'Gath",
+            "Briar",
+            "Shyvana"
+          ],
+          "badAgainst": [
+            "Kayn",
+            "Viego",
+            "Kha'Zix",
+            "Wukong",
+            "Jarvan IV",
+            "Graves"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hecarim",
+      "source": "https://www.counterstats.net/league-of-legends/hecarim",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Naafiri",
+            "Qiyana",
+            "Jayce",
+            "Karthus",
+            "Rengar",
+            "Talon"
+          ],
+          "badAgainst": [
+            "Cho'Gath",
+            "Trundle",
+            "Ivern",
+            "Shyvana",
+            "Lillia",
+            "Briar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Heimerdinger",
+      "source": "https://www.counterstats.net/league-of-legends/heimerdinger",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Pantheon",
+            "Illaoi",
+            "Aatrox",
+            "Shen",
+            "Irelia",
+            "Fiora"
+          ],
+          "badAgainst": [
+            "Sion",
+            "Garen",
+            "Yasuo",
+            "Nasus",
+            "Ornn",
+            "Gangplank"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hwei",
+      "source": "https://www.counterstats.net/league-of-legends/hwei",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Cassiopeia",
+            "Sylas",
+            "Ryze",
+            "Annie",
+            "Talon",
+            "Kassadin"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Vel'Koz",
+            "Vladimir",
+            "Xerath",
+            "Aurora",
+            "Fizz"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Illaoi",
+      "source": "https://www.counterstats.net/league-of-legends/illaoi",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Renekton",
+            "Zaahen",
+            "Tahm Kench",
+            "Jax",
+            "K'Sante",
+            "Volibear"
+          ],
+          "badAgainst": [
+            "Mordekaiser",
+            "Heimerdinger",
+            "Teemo",
+            "Singed",
+            "Gwen",
+            "Gangplank"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Irelia",
+      "source": "https://www.counterstats.net/league-of-legends/irelia",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Jayce",
+            "Rumble",
+            "Dr. Mundo",
+            "Yone",
+            "Ambessa",
+            "Kennen"
+          ],
+          "badAgainst": [
+            "Shen",
+            "Jax",
+            "Trundle",
+            "Malphite",
+            "Singed",
+            "Sett"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Zed",
+            "Mel",
+            "Twisted Fate",
+            "Qiyana",
+            "Orianna",
+            "Akshan"
+          ],
+          "badAgainst": [
+            "Akali",
+            "Annie",
+            "Lissandra",
+            "Vladimir",
+            "Galio",
+            "Malzahar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ivern",
+      "source": "https://www.counterstats.net/league-of-legends/ivern",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Hecarim",
+            "Kha'Zix",
+            "Sylas",
+            "Vi",
+            "Lee Sin",
+            "Lillia"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Shaco",
+            "Shyvana",
+            "Briar",
+            "Rengar",
+            "Talon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Janna",
+      "source": "https://www.counterstats.net/league-of-legends/janna",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Pantheon",
+            "Poppy",
+            "Neeko",
+            "Morgana",
+            "Swain",
+            "Taric"
+          ],
+          "badAgainst": [
+            "Renata Glasc",
+            "Zilean",
+            "Senna",
+            "Sona",
+            "Blitzcrank",
+            "Vel'Koz"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jarvan IV",
+      "source": "https://www.counterstats.net/league-of-legends/jarvan-iv",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Qiyana",
+            "Naafiri",
+            "Quinn",
+            "Fiddlesticks",
+            "Zed",
+            "Rengar"
+          ],
+          "badAgainst": [
+            "Nunu & Willump",
+            "Udyr",
+            "Master Yi",
+            "Shyvana",
+            "Amumu",
+            "Wukong"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jax",
+      "source": "https://www.counterstats.net/league-of-legends/jax",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Volibear",
+            "Irelia",
+            "Trundle",
+            "Yasuo",
+            "Yone",
+            "Kayle"
+          ],
+          "badAgainst": [
+            "Poppy",
+            "Singed",
+            "Vladimir",
+            "Garen",
+            "Quinn",
+            "Illaoi"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jayce",
+      "source": "https://www.counterstats.net/league-of-legends/jayce",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "K'Sante",
+            "Vayne",
+            "Rumble",
+            "Volibear",
+            "Singed",
+            "Darius"
+          ],
+          "badAgainst": [
+            "Quinn",
+            "Dr. Mundo",
+            "Tahm Kench",
+            "Urgot",
+            "Ornn",
+            "Kled"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Zed",
+            "Lee Sin",
+            "Sylas",
+            "Xin Zhao",
+            "Nocturne",
+            "Ekko"
+          ],
+          "badAgainst": [
+            "Kayn",
+            "Shaco",
+            "Master Yi",
+            "Viego",
+            "Briar",
+            "Vi"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jhin",
+      "source": "https://www.counterstats.net/league-of-legends/jhin",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Viktor",
+            "Ezreal",
+            "Draven",
+            "Caitlyn",
+            "Varus",
+            "Aphelios"
+          ],
+          "badAgainst": [
+            "Aurelion Sol",
+            "Sivir",
+            "Karthus",
+            "Twitch",
+            "Kai'Sa",
+            "Kog'Maw"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jinx",
+      "source": "https://www.counterstats.net/league-of-legends/jinx",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Aurelion Sol",
+            "Vayne",
+            "Kalista",
+            "Viktor",
+            "Samira",
+            "Draven"
+          ],
+          "badAgainst": [
+            "Karthus",
+            "Veigar",
+            "Ziggs",
+            "Twitch",
+            "Miss Fortune",
+            "Xayah"
+          ]
+        }
+      }
+    },
+    {
+      "name": "K'Sante",
+      "source": "https://www.counterstats.net/league-of-legends/ksante",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Warwick",
+            "Akali",
+            "Gangplank",
+            "Nasus",
+            "Irelia",
+            "Cho'Gath"
+          ],
+          "badAgainst": [
+            "Kayle",
+            "Sion",
+            "Tahm Kench",
+            "Garen",
+            "Camille",
+            "Fiora"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kai'Sa",
+      "source": "https://www.counterstats.net/league-of-legends/kaisa",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Viktor",
+            "Corki",
+            "Jhin",
+            "Ziggs",
+            "Caitlyn"
+          ],
+          "badAgainst": [
+            "Karthus",
+            "Kog'Maw",
+            "Nilah",
+            "Aurelion Sol",
+            "Xayah",
+            "Zeri"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kalista",
+      "source": "https://www.counterstats.net/league-of-legends/kalista",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ziggs",
+            "Ezreal",
+            "Lucian",
+            "Varus",
+            "Jhin",
+            "Kai'Sa"
+          ],
+          "badAgainst": [
+            "Kog'Maw",
+            "Xayah",
+            "Jinx",
+            "Corki",
+            "Zeri",
+            "Yunara"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Karma",
+      "source": "https://www.counterstats.net/league-of-legends/karma",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Brand",
+            "Swain",
+            "Renata Glasc",
+            "Zoe",
+            "Morgana"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Camille",
+            "Braum",
+            "Rakan",
+            "Zilean",
+            "Nautilus"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Karthus",
+      "source": "https://www.counterstats.net/league-of-legends/karthus",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Qiyana",
+            "Sylas",
+            "Rengar",
+            "Shaco",
+            "Vi",
+            "Lee Sin"
+          ],
+          "badAgainst": [
+            "Shyvana",
+            "Briar",
+            "Nocturne",
+            "Ekko",
+            "Diana",
+            "Cho'Gath"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Miss Fortune",
+            "Kai'Sa",
+            "Jinx",
+            "Caitlyn",
+            "Jhin",
+            "Ezreal"
+          ],
+          "badAgainst": [
+            "Ezreal",
+            "Jhin",
+            "Caitlyn",
+            "Jinx",
+            "Kai'Sa",
+            "Miss Fortune"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kassadin",
+      "source": "https://www.counterstats.net/league-of-legends/kassadin",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Ryze",
+            "Galio",
+            "Aurelion Sol",
+            "Akali",
+            "Azir",
+            "Mel"
+          ],
+          "badAgainst": [
+            "Zed",
+            "Hwei",
+            "Yone",
+            "Xerath",
+            "Qiyana",
+            "Yasuo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Katarina",
+      "source": "https://www.counterstats.net/league-of-legends/katarina",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Taliyah",
+            "Locke",
+            "Orianna",
+            "Talon",
+            "Zed",
+            "Syndra"
+          ],
+          "badAgainst": [
+            "Vladimir",
+            "Annie",
+            "Fizz",
+            "Galio",
+            "Vel'Koz",
+            "Kassadin"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kayle",
+      "source": "https://www.counterstats.net/league-of-legends/kayle",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "K'Sante",
+            "Gragas",
+            "Volibear",
+            "Renekton",
+            "Singed",
+            "Gangplank"
+          ],
+          "badAgainst": [
+            "Tahm Kench",
+            "Tryndamere",
+            "Jax",
+            "Malphite",
+            "Nasus",
+            "Trundle"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kayn",
+      "source": "https://www.counterstats.net/league-of-legends/kayn",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Jayce",
+            "Naafiri",
+            "Qiyana",
+            "Nidalee",
+            "Zac",
+            "Gwen"
+          ],
+          "badAgainst": [
+            "Zyra",
+            "Master Yi",
+            "Rammus",
+            "Fiddlesticks",
+            "Wukong",
+            "Bel'Veth"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kennen",
+      "source": "https://www.counterstats.net/league-of-legends/kennen",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Pantheon",
+            "Gragas",
+            "Akali",
+            "Renekton",
+            "Sett",
+            "Tryndamere"
+          ],
+          "badAgainst": [
+            "Sion",
+            "Ornn",
+            "Yorick",
+            "Mordekaiser",
+            "Nasus",
+            "Olaf"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kha'Zix",
+      "source": "https://www.counterstats.net/league-of-legends/khazix",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Volibear",
+            "Zed",
+            "Taliyah",
+            "Viego",
+            "Vi",
+            "Evelynn"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Briar",
+            "Ivern",
+            "Cho'Gath",
+            "Sejuani",
+            "Rek'Sai"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kindred",
+      "source": "https://www.counterstats.net/league-of-legends/kindred",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Rengar",
+            "Nunu & Willump",
+            "Qiyana",
+            "Lee Sin",
+            "Jarvan IV",
+            "Zed"
+          ],
+          "badAgainst": [
+            "Xin Zhao",
+            "Amumu",
+            "Shyvana",
+            "Zyra",
+            "Zac",
+            "Sejuani"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kled",
+      "source": "https://www.counterstats.net/league-of-legends/kled",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Jayce",
+            "Yorick",
+            "Irelia",
+            "Olaf",
+            "Tryndamere",
+            "Shen"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Ornn",
+            "Teemo",
+            "Volibear",
+            "Zaahen",
+            "Pantheon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kog'Maw",
+      "source": "https://www.counterstats.net/league-of-legends/kogmaw",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ashe",
+            "Zeri",
+            "Lucian",
+            "Kalista",
+            "Draven",
+            "Kai'Sa"
+          ],
+          "badAgainst": [
+            "Smolder",
+            "Xayah",
+            "Jinx",
+            "Miss Fortune",
+            "Tristana",
+            "Twitch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "LeBlanc",
+      "source": "https://www.counterstats.net/league-of-legends/leblanc",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Ryze",
+            "Qiyana",
+            "Akali",
+            "Veigar",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Vex",
+            "Malzahar",
+            "Naafiri",
+            "Lissandra",
+            "Vel'Koz",
+            "Aurora"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lee Sin",
+      "source": "https://www.counterstats.net/league-of-legends/lee-sin",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Rengar",
+            "Zed",
+            "Talon",
+            "Qiyana",
+            "Karthus",
+            "Graves"
+          ],
+          "badAgainst": [
+            "Naafiri",
+            "Rek'Sai",
+            "Zyra",
+            "Cho'Gath",
+            "Zac",
+            "Taliyah"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Leona",
+      "source": "https://www.counterstats.net/league-of-legends/leona",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Zoe",
+            "Yuumi",
+            "Neeko",
+            "Pantheon",
+            "Maokai"
+          ],
+          "badAgainst": [
+            "Rell",
+            "Taric",
+            "Vel'Koz",
+            "Zilean",
+            "Seraphine",
+            "Morgana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lillia",
+      "source": "https://www.counterstats.net/league-of-legends/lillia",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Naafiri",
+            "Zac",
+            "Zed",
+            "Skarner",
+            "Warwick",
+            "Hecarim"
+          ],
+          "badAgainst": [
+            "Volibear",
+            "Ivern",
+            "Gwen",
+            "Nunu & Willump",
+            "Udyr",
+            "Master Yi"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lissandra",
+      "source": "https://www.counterstats.net/league-of-legends/lissandra",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Mel",
+            "Akali",
+            "Irelia",
+            "Yasuo",
+            "Naafiri",
+            "Galio"
+          ],
+          "badAgainst": [
+            "Xerath",
+            "Vel'Koz",
+            "Lux",
+            "Anivia",
+            "Malzahar",
+            "Diana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Locke",
+      "source": "https://www.counterstats.net/league-of-legends/locke",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Mel",
+            "Orianna",
+            "Xerath",
+            "Viktor",
+            "Veigar",
+            "Taliyah"
+          ],
+          "badAgainst": [
+            "Katarina",
+            "Ekko",
+            "Aurelion Sol",
+            "Yasuo",
+            "Akali",
+            "Aurora"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lucian",
+      "source": "https://www.counterstats.net/league-of-legends/lucian",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Sivir",
+            "Vayne",
+            "Zeri",
+            "Tristana",
+            "Jhin"
+          ],
+          "badAgainst": [
+            "Kog'Maw",
+            "Xayah",
+            "Samira",
+            "Corki",
+            "Miss Fortune",
+            "Viktor"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lulu",
+      "source": "https://www.counterstats.net/league-of-legends/lulu",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Poppy",
+            "Neeko",
+            "Camille",
+            "Swain",
+            "Taric"
+          ],
+          "badAgainst": [
+            "Amumu",
+            "Sona",
+            "Braum",
+            "Senna",
+            "Leona",
+            "Blitzcrank"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lux",
+      "source": "https://www.counterstats.net/league-of-legends/lux",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Camille",
+            "Brand",
+            "Swain",
+            "Neeko",
+            "Tahm Kench"
+          ],
+          "badAgainst": [
+            "Blitzcrank",
+            "Vel'Koz",
+            "Janna",
+            "Rell",
+            "Taric",
+            "Nami"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Qiyana",
+            "Cassiopeia",
+            "Akali",
+            "Orianna",
+            "Viktor",
+            "Azir"
+          ],
+          "badAgainst": [
+            "Vel'Koz",
+            "Ziggs",
+            "Ekko",
+            "Twisted Fate",
+            "Yasuo",
+            "Aurelion Sol"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Malphite",
+      "source": "https://www.counterstats.net/league-of-legends/malphite",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Vayne",
+            "Quinn",
+            "Trundle",
+            "Zaahen",
+            "Irelia",
+            "Tryndamere"
+          ],
+          "badAgainst": [
+            "Shen",
+            "Dr. Mundo",
+            "Mordekaiser",
+            "Singed",
+            "Cho'Gath",
+            "Nasus"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Malzahar",
+      "source": "https://www.counterstats.net/league-of-legends/malzahar",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Mel",
+            "Cassiopeia",
+            "Vladimir",
+            "Qiyana",
+            "Azir",
+            "Anivia"
+          ],
+          "badAgainst": [
+            "Naafiri",
+            "Ziggs",
+            "Xerath",
+            "Aurelion Sol",
+            "Fizz",
+            "Talon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Maokai",
+      "source": "https://www.counterstats.net/league-of-legends/maokai",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Pantheon",
+            "Bard",
+            "Pyke",
+            "Brand",
+            "Nami",
+            "Karma"
+          ],
+          "badAgainst": [
+            "Vel'Koz",
+            "Leona",
+            "Braum",
+            "Milio",
+            "Zyra",
+            "Alistar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Master Yi",
+      "source": "https://www.counterstats.net/league-of-legends/master-yi",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Zed",
+            "Rengar",
+            "Qiyana",
+            "Nocturne",
+            "Jayce",
+            "Kayn"
+          ],
+          "badAgainst": [
+            "Skarner",
+            "Rammus",
+            "Warwick",
+            "Wukong",
+            "Zac",
+            "Elise"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mel",
+      "source": "https://www.counterstats.net/league-of-legends/mel",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Qiyana",
+            "Orianna",
+            "Akshan",
+            "Zoe",
+            "Ryze",
+            "Azir"
+          ],
+          "badAgainst": [
+            "Vladimir",
+            "Fizz",
+            "Malzahar",
+            "Xerath",
+            "Aurora",
+            "Aurelion Sol"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Thresh",
+            "Pyke",
+            "Lux",
+            "Seraphine",
+            "Morgana",
+            "Nami"
+          ],
+          "badAgainst": [
+            "Leona",
+            "Karma",
+            "Yuumi",
+            "Senna",
+            "Lulu",
+            "Blitzcrank"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Milio",
+      "source": "https://www.counterstats.net/league-of-legends/milio",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Pantheon",
+            "Swain",
+            "Brand",
+            "Camille",
+            "Neeko",
+            "Morgana"
+          ],
+          "badAgainst": [
+            "Taric",
+            "Rell",
+            "Blitzcrank",
+            "Janna",
+            "Thresh",
+            "Vel'Koz"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Miss Fortune",
+      "source": "https://www.counterstats.net/league-of-legends/miss-fortune",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Draven",
+            "Ezreal",
+            "Aphelios",
+            "Caitlyn",
+            "Ziggs",
+            "Vayne"
+          ],
+          "badAgainst": [
+            "Karthus",
+            "Nilah",
+            "Sivir",
+            "Zeri",
+            "Aurelion Sol",
+            "Viktor"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mordekaiser",
+      "source": "https://www.counterstats.net/league-of-legends/mordekaiser",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Illaoi",
+            "Kennen",
+            "Jayce",
+            "Tahm Kench",
+            "Gangplank",
+            "Rumble"
+          ],
+          "badAgainst": [
+            "Vayne",
+            "Kayle",
+            "Tryndamere",
+            "Kled",
+            "Singed",
+            "Irelia"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Morgana",
+      "source": "https://www.counterstats.net/league-of-legends/morgana",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Zoe",
+            "Pyke",
+            "Nautilus",
+            "Swain",
+            "Poppy"
+          ],
+          "badAgainst": [
+            "Janna",
+            "Rell",
+            "Milio",
+            "Soraka",
+            "Senna",
+            "Karma"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Naafiri",
+      "source": "https://www.counterstats.net/league-of-legends/naafiri",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Lee Sin",
+            "Qiyana",
+            "Kha'Zix",
+            "Nidalee",
+            "Graves",
+            "Jayce"
+          ],
+          "badAgainst": [
+            "Zyra",
+            "Hecarim",
+            "Rammus",
+            "Xin Zhao",
+            "Lillia",
+            "Ekko"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Malzahar",
+            "Sylas",
+            "LeBlanc",
+            "Syndra",
+            "Locke",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Yone",
+            "Lissandra",
+            "Viktor",
+            "Ahri",
+            "Katarina"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nami",
+      "source": "https://www.counterstats.net/league-of-legends/nami",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Poppy",
+            "Camille",
+            "Swain",
+            "Pantheon",
+            "Renata Glasc"
+          ],
+          "badAgainst": [
+            "Maokai",
+            "Amumu",
+            "Blitzcrank",
+            "Leona",
+            "Thresh",
+            "Milio"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nasus",
+      "source": "https://www.counterstats.net/league-of-legends/nasus",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Trundle",
+            "Vladimir",
+            "Akali",
+            "Vayne",
+            "Jayce",
+            "Kennen"
+          ],
+          "badAgainst": [
+            "Aatrox",
+            "Ornn",
+            "Olaf",
+            "Shen",
+            "Garen",
+            "Camille"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nautilus",
+      "source": "https://www.counterstats.net/league-of-legends/nautilus",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Camille",
+            "Karma",
+            "Xerath",
+            "Yuumi",
+            "Bard"
+          ],
+          "badAgainst": [
+            "Taric",
+            "Braum",
+            "Alistar",
+            "Leona",
+            "Rell",
+            "Morgana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Neeko",
+      "source": "https://www.counterstats.net/league-of-legends/neeko",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Morgana",
+            "Nautilus",
+            "Blitzcrank",
+            "Rakan",
+            "Pantheon",
+            "Xerath"
+          ],
+          "badAgainst": [
+            "Soraka",
+            "Janna",
+            "Vel'Koz",
+            "Leona",
+            "Lulu",
+            "Seraphine"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nidalee",
+      "source": "https://www.counterstats.net/league-of-legends/nidalee",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Qiyana",
+            "Jayce",
+            "Lee Sin",
+            "Hecarim",
+            "Talon",
+            "Kindred"
+          ],
+          "badAgainst": [
+            "Amumu",
+            "Zyra",
+            "Evelynn",
+            "Zac",
+            "Bel'Veth",
+            "Cho'Gath"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nilah",
+      "source": "https://www.counterstats.net/league-of-legends/nilah",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Aphelios",
+            "Samira",
+            "Ezreal",
+            "Vayne",
+            "Kai'Sa",
+            "Twitch"
+          ],
+          "badAgainst": [
+            "Xayah",
+            "Jinx",
+            "Smolder",
+            "Lucian",
+            "Zeri",
+            "Ashe"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nocturne",
+      "source": "https://www.counterstats.net/league-of-legends/nocturne",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Lee Sin",
+            "Karthus",
+            "Zed",
+            "Qiyana",
+            "Elise",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Amumu",
+            "Bel'Veth",
+            "Sejuani",
+            "Volibear",
+            "Master Yi"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nunu & Willump",
+      "source": "https://www.counterstats.net/league-of-legends/nunu",
+      "lanes": {}
+    },
+    {
+      "name": "Olaf",
+      "source": "https://www.counterstats.net/league-of-legends/olaf",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Urgot",
+            "Teemo",
+            "Kennen",
+            "Yorick",
+            "Gnar",
+            "Jayce"
+          ],
+          "badAgainst": [
+            "Tryndamere",
+            "Kled",
+            "Illaoi",
+            "Aatrox",
+            "Camille",
+            "Garen"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Orianna",
+      "source": "https://www.counterstats.net/league-of-legends/orianna",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Annie",
+            "Ryze",
+            "Cassiopeia",
+            "Akshan",
+            "Aurelion Sol",
+            "Anivia"
+          ],
+          "badAgainst": [
+            "Vel'Koz",
+            "Diana",
+            "Syndra",
+            "LeBlanc",
+            "Ekko",
+            "Vladimir"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ornn",
+      "source": "https://www.counterstats.net/league-of-legends/ornn",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Gragas",
+            "Jayce",
+            "Cho'Gath",
+            "Rumble",
+            "Kennen",
+            "Urgot"
+          ],
+          "badAgainst": [
+            "Fiora",
+            "Singed",
+            "Garen",
+            "Camille",
+            "Yone",
+            "Zaahen"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Pantheon",
+      "source": "https://www.counterstats.net/league-of-legends/pantheon",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Vayne",
+            "Jayce",
+            "Akali",
+            "Yone",
+            "Volibear",
+            "Tryndamere"
+          ],
+          "badAgainst": [
+            "Heimerdinger",
+            "Kennen",
+            "Dr. Mundo",
+            "Ornn",
+            "Malphite",
+            "Sion"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Karma",
+            "Pyke",
+            "Swain",
+            "Lux",
+            "Bard",
+            "Nautilus"
+          ],
+          "badAgainst": [
+            "Taric",
+            "Maokai",
+            "Janna",
+            "Zilean",
+            "Soraka",
+            "Rell"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Poppy",
+      "source": "https://www.counterstats.net/league-of-legends/poppy",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Camille",
+            "Yuumi",
+            "Pyke",
+            "Pantheon",
+            "Tahm Kench",
+            "Blitzcrank"
+          ],
+          "badAgainst": [
+            "Nami",
+            "Lulu",
+            "Janna",
+            "Braum",
+            "Morgana",
+            "Senna"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jax",
+            "Sett",
+            "Riven",
+            "Jayce",
+            "Yone",
+            "Mordekaiser"
+          ],
+          "badAgainst": [
+            "Darius",
+            "Garen",
+            "Camille",
+            "Mordekaiser",
+            "Yone",
+            "Jayce"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Pyke",
+      "source": "https://www.counterstats.net/league-of-legends/pyke",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Neeko",
+            "Xerath",
+            "Yuumi",
+            "Bard",
+            "Camille"
+          ],
+          "badAgainst": [
+            "Soraka",
+            "Rakan",
+            "Renata Glasc",
+            "Poppy",
+            "Rell",
+            "Maokai"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Qiyana",
+      "source": "https://www.counterstats.net/league-of-legends/qiyana",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Jayce",
+            "Lee Sin",
+            "Elise",
+            "Kha'Zix",
+            "Ivern",
+            "Zed"
+          ],
+          "badAgainst": [
+            "Wukong",
+            "Cho'Gath",
+            "Amumu",
+            "Skarner",
+            "Rammus",
+            "Warwick"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Kassadin",
+            "Aurora",
+            "Azir",
+            "Lissandra",
+            "Aurelion Sol"
+          ],
+          "badAgainst": [
+            "Annie",
+            "Ekko",
+            "Zoe",
+            "Diana",
+            "Lux",
+            "LeBlanc"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Quinn",
+      "source": "https://www.counterstats.net/league-of-legends/quinn",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Evelynn",
+            "Qiyana",
+            "Lee Sin",
+            "Vi",
+            "Kha'Zix",
+            "Nocturne"
+          ],
+          "badAgainst": [
+            "Shyvana",
+            "Talon",
+            "Jarvan IV",
+            "Ekko",
+            "Briar",
+            "Wukong"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jayce",
+            "Sett",
+            "Jax",
+            "Aatrox",
+            "Gangplank",
+            "Renekton"
+          ],
+          "badAgainst": [
+            "Malphite",
+            "Teemo",
+            "Garen",
+            "Darius",
+            "Yone",
+            "Renekton"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rakan",
+      "source": "https://www.counterstats.net/league-of-legends/rakan",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Pyke",
+            "Pantheon",
+            "Tahm Kench",
+            "Karma",
+            "Xerath",
+            "Yuumi"
+          ],
+          "badAgainst": [
+            "Zilean",
+            "Rell",
+            "Janna",
+            "Senna",
+            "Leona",
+            "Milio"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rammus",
+      "source": "https://www.counterstats.net/league-of-legends/rammus",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Rengar",
+            "Kha'Zix",
+            "Naafiri",
+            "Qiyana",
+            "Zed",
+            "Viego"
+          ],
+          "badAgainst": [
+            "Lillia",
+            "Xin Zhao",
+            "Wukong",
+            "Jarvan IV",
+            "Nunu & Willump",
+            "Cho'Gath"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rek'Sai",
+      "source": "https://www.counterstats.net/league-of-legends/reksai",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Lee Sin",
+            "Qiyana",
+            "Briar",
+            "Kha'Zix",
+            "Graves",
+            "Sylas"
+          ],
+          "badAgainst": [
+            "Cho'Gath",
+            "Jarvan IV",
+            "Viego",
+            "Shaco",
+            "Lillia",
+            "Wukong"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rell",
+      "source": "https://www.counterstats.net/league-of-legends/rell",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Tahm Kench",
+            "Yuumi",
+            "Pantheon",
+            "Rakan",
+            "Morgana",
+            "Pyke"
+          ],
+          "badAgainst": [
+            "Zilean",
+            "Senna",
+            "Janna",
+            "Nami",
+            "Poppy",
+            "Renata Glasc"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Renata Glasc",
+      "source": "https://www.counterstats.net/league-of-legends/renata-glasc",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Tahm Kench",
+            "Pyke",
+            "Pantheon",
+            "Swain",
+            "Janna",
+            "Bard"
+          ],
+          "badAgainst": [
+            "Braum",
+            "Vel'Koz",
+            "Karma",
+            "Nami",
+            "Lulu",
+            "Brand"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Renekton",
+      "source": "https://www.counterstats.net/league-of-legends/renekton",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Riven",
+            "Ambessa",
+            "K'Sante",
+            "Rumble",
+            "Yone",
+            "Yasuo"
+          ],
+          "badAgainst": [
+            "Illaoi",
+            "Kayle",
+            "Vayne",
+            "Teemo",
+            "Ornn",
+            "Dr. Mundo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rengar",
+      "source": "https://www.counterstats.net/league-of-legends/rengar",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Qiyana",
+            "Ivern",
+            "Taliyah",
+            "Zyra",
+            "Lillia",
+            "Zed"
+          ],
+          "badAgainst": [
+            "Warwick",
+            "Rammus",
+            "Sejuani",
+            "Kindred",
+            "Zac",
+            "Master Yi"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Riven",
+      "source": "https://www.counterstats.net/league-of-legends/riven",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Akali",
+            "Ambessa",
+            "Gnar",
+            "K'Sante",
+            "Jax",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Urgot",
+            "Renekton",
+            "Poppy",
+            "Garen",
+            "Zaahen",
+            "Malphite"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rumble",
+      "source": "https://www.counterstats.net/league-of-legends/rumble",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "K'Sante",
+            "Pantheon",
+            "Akali",
+            "Fiora",
+            "Malphite",
+            "Jax"
+          ],
+          "badAgainst": [
+            "Shen",
+            "Yone",
+            "Volibear",
+            "Sion",
+            "Ambessa",
+            "Ornn"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ryze",
+      "source": "https://www.counterstats.net/league-of-legends/ryze",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Qiyana",
+            "Locke",
+            "Akshan",
+            "Sylas",
+            "Mel",
+            "Lux"
+          ],
+          "badAgainst": [
+            "Kassadin",
+            "Xerath",
+            "Veigar",
+            "LeBlanc",
+            "Aurelion Sol",
+            "Hwei"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Samira",
+      "source": "https://www.counterstats.net/league-of-legends/samira",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Varus",
+            "Draven",
+            "Lucian",
+            "Ezreal",
+            "Twitch",
+            "Aphelios"
+          ],
+          "badAgainst": [
+            "Viktor",
+            "Nilah",
+            "Xayah",
+            "Ziggs",
+            "Jinx",
+            "Zeri"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sejuani",
+      "source": "https://www.counterstats.net/league-of-legends/sejuani",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Elise",
+            "Zed",
+            "Rengar",
+            "Qiyana",
+            "Nocturne",
+            "Shaco"
+          ],
+          "badAgainst": [
+            "Amumu",
+            "Bel'Veth",
+            "Xin Zhao",
+            "Zac",
+            "Trundle",
+            "Cho'Gath"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Senna",
+      "source": "https://www.counterstats.net/league-of-legends/senna",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Camille",
+            "Tahm Kench",
+            "Pantheon",
+            "Morgana",
+            "Rell"
+          ],
+          "badAgainst": [
+            "Vel'Koz",
+            "Amumu",
+            "Zilean",
+            "Blitzcrank",
+            "Seraphine",
+            "Nami"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Seraphine",
+      "source": "https://www.counterstats.net/league-of-legends/seraphine",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Swain",
+            "Neeko",
+            "Tahm Kench",
+            "Pyke",
+            "Thresh"
+          ],
+          "badAgainst": [
+            "Amumu",
+            "Camille",
+            "Zyra",
+            "Zilean",
+            "Braum",
+            "Rell"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sett",
+      "source": "https://www.counterstats.net/league-of-legends/sett",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Yasuo",
+            "Irelia",
+            "Jayce",
+            "Gwen",
+            "Ambessa",
+            "Rumble"
+          ],
+          "badAgainst": [
+            "Quinn",
+            "Poppy",
+            "Kennen",
+            "Gnar",
+            "Ornn",
+            "Kayle"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shaco",
+      "source": "https://www.counterstats.net/league-of-legends/shaco",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Skarner",
+            "Lee Sin",
+            "Qiyana",
+            "Jayce",
+            "Udyr",
+            "Nidalee"
+          ],
+          "badAgainst": [
+            "Shyvana",
+            "Sejuani",
+            "Talon",
+            "Bel'Veth",
+            "Taliyah",
+            "Karthus"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shen",
+      "source": "https://www.counterstats.net/league-of-legends/shen",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Rumble",
+            "Irelia",
+            "K'Sante",
+            "Ambessa",
+            "Malphite",
+            "Jayce"
+          ],
+          "badAgainst": [
+            "Warwick",
+            "Kled",
+            "Heimerdinger",
+            "Kayle",
+            "Illaoi",
+            "Mordekaiser"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shyvana",
+      "source": "https://www.counterstats.net/league-of-legends/shyvana",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Karthus",
+            "Qiyana",
+            "Shaco",
+            "Rengar",
+            "Kindred",
+            "Skarner"
+          ],
+          "badAgainst": [
+            "Sylas",
+            "Taliyah",
+            "Cho'Gath",
+            "Bel'Veth",
+            "Gwen",
+            "Lillia"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Singed",
+      "source": "https://www.counterstats.net/league-of-legends/singed",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Jax",
+            "Irelia",
+            "Illaoi",
+            "Gwen",
+            "Riven",
+            "Gnar"
+          ],
+          "badAgainst": [
+            "Kayle",
+            "Teemo",
+            "Nasus",
+            "Tryndamere",
+            "Shen",
+            "Olaf"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sion",
+      "source": "https://www.counterstats.net/league-of-legends/sion",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Heimerdinger",
+            "Kennen",
+            "K'Sante",
+            "Rumble",
+            "Jax",
+            "Teemo"
+          ],
+          "badAgainst": [
+            "Darius",
+            "Dr. Mundo",
+            "Singed",
+            "Ambessa",
+            "Gwen",
+            "Shen"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sivir",
+      "source": "https://www.counterstats.net/league-of-legends/sivir",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Corki",
+            "Ezreal",
+            "Caitlyn",
+            "Jhin",
+            "Varus",
+            "Samira"
+          ],
+          "badAgainst": [
+            "Twitch",
+            "Viktor",
+            "Yunara",
+            "Kog'Maw",
+            "Xayah",
+            "Zeri"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Skarner",
+      "source": "https://www.counterstats.net/league-of-legends/skarner",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Qiyana",
+            "Master Yi",
+            "Vi",
+            "Kha'Zix",
+            "Sylas",
+            "Rengar"
+          ],
+          "badAgainst": [
+            "Shaco",
+            "Shyvana",
+            "Lillia",
+            "Wukong",
+            "Cho'Gath",
+            "Viego"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Smolder",
+      "source": "https://www.counterstats.net/league-of-legends/smolder",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Corki",
+            "Ezreal",
+            "Viktor",
+            "Veigar",
+            "Draven",
+            "Kai'Sa"
+          ],
+          "badAgainst": [
+            "Twitch",
+            "Zeri",
+            "Aphelios",
+            "Jinx",
+            "Sivir",
+            "Tristana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sona",
+      "source": "https://www.counterstats.net/league-of-legends/sona",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Karma",
+            "Lulu",
+            "Zilean",
+            "Brand",
+            "Bard",
+            "Braum"
+          ],
+          "badAgainst": [
+            "Alistar",
+            "Soraka",
+            "Rakan",
+            "Rell",
+            "Yuumi",
+            "Swain"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Soraka",
+      "source": "https://www.counterstats.net/league-of-legends/soraka",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Neeko",
+            "Taric",
+            "Pantheon",
+            "Pyke",
+            "Tahm Kench",
+            "Karma"
+          ],
+          "badAgainst": [
+            "Rell",
+            "Janna",
+            "Lulu",
+            "Milio",
+            "Thresh",
+            "Zyra"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Swain",
+      "source": "https://www.counterstats.net/league-of-legends/swain",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Tahm Kench",
+            "Nautilus",
+            "Bard",
+            "Alistar",
+            "Sona",
+            "Pyke"
+          ],
+          "badAgainst": [
+            "Yuumi",
+            "Vel'Koz",
+            "Janna",
+            "Zyra",
+            "Nami",
+            "Seraphine"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sylas",
+      "source": "https://www.counterstats.net/league-of-legends/sylas",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Aurelion Sol",
+            "Mel",
+            "Zed",
+            "Irelia",
+            "Azir"
+          ],
+          "badAgainst": [
+            "Naafiri",
+            "Vel'Koz",
+            "Hwei",
+            "Vex",
+            "Zoe",
+            "Anivia"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Rengar",
+            "Hecarim",
+            "Shyvana",
+            "Lee Sin",
+            "Qiyana",
+            "Zed"
+          ],
+          "badAgainst": [
+            "Taliyah",
+            "Zac",
+            "Karthus",
+            "Briar",
+            "Zyra",
+            "Rammus"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Syndra",
+      "source": "https://www.counterstats.net/league-of-legends/syndra",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Mel",
+            "Orianna",
+            "Azir",
+            "Cassiopeia",
+            "Anivia",
+            "Taliyah"
+          ],
+          "badAgainst": [
+            "Fizz",
+            "Katarina",
+            "Xerath",
+            "Naafiri",
+            "Talon",
+            "LeBlanc"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Tahm Kench",
+      "source": "https://www.counterstats.net/league-of-legends/tahm-kench",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Bard",
+            "Pantheon",
+            "Yuumi",
+            "Pyke",
+            "Blitzcrank",
+            "Neeko"
+          ],
+          "badAgainst": [
+            "Rell",
+            "Renata Glasc",
+            "Braum",
+            "Senna",
+            "Rakan",
+            "Soraka"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jayce",
+            "K'Sante",
+            "Kayle",
+            "Trundle",
+            "Jax",
+            "Irelia"
+          ],
+          "badAgainst": [
+            "Illaoi",
+            "Yorick",
+            "Mordekaiser",
+            "Shen",
+            "Gangplank",
+            "Gwen"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Taliyah",
+      "source": "https://www.counterstats.net/league-of-legends/taliyah",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Galio",
+            "Akali",
+            "Sylas",
+            "Azir",
+            "Diana",
+            "Ryze"
+          ],
+          "badAgainst": [
+            "Katarina",
+            "Zoe",
+            "Vex",
+            "Xerath",
+            "Syndra",
+            "Twisted Fate"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Diana",
+            "Sylas",
+            "Qiyana",
+            "Lee Sin",
+            "Nidalee",
+            "Cho'Gath"
+          ],
+          "badAgainst": [
+            "Master Yi",
+            "Talon",
+            "Kha'Zix",
+            "Rengar",
+            "Jarvan IV",
+            "Lillia"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Talon",
+      "source": "https://www.counterstats.net/league-of-legends/talon",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Shaco",
+            "Quinn",
+            "Zed",
+            "Taliyah",
+            "Naafiri",
+            "Skarner"
+          ],
+          "badAgainst": [
+            "Wukong",
+            "Shyvana",
+            "Fiddlesticks",
+            "Warwick",
+            "Bel'Veth",
+            "Rammus"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Akali",
+            "Malzahar",
+            "Viktor",
+            "Orianna",
+            "Syndra",
+            "Galio"
+          ],
+          "badAgainst": [
+            "Ekko",
+            "Hwei",
+            "Diana",
+            "Katarina",
+            "Yone",
+            "Lissandra"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Taric",
+      "source": "https://www.counterstats.net/league-of-legends/taric",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Pantheon",
+            "Nautilus",
+            "Blitzcrank",
+            "Milio",
+            "Bard",
+            "Lux"
+          ],
+          "badAgainst": [
+            "Soraka",
+            "Janna",
+            "Lulu",
+            "Rell",
+            "Seraphine",
+            "Senna"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Teemo",
+      "source": "https://www.counterstats.net/league-of-legends/teemo",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Vayne",
+            "Ambessa",
+            "Trundle",
+            "Volibear",
+            "Illaoi",
+            "Zaahen"
+          ],
+          "badAgainst": [
+            "Olaf",
+            "Sion",
+            "Cho'Gath",
+            "Malphite",
+            "Shen",
+            "Yorick"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Thresh",
+      "source": "https://www.counterstats.net/league-of-legends/thresh",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Camille",
+            "Yuumi",
+            "Mel",
+            "Pantheon",
+            "Pyke",
+            "Neeko"
+          ],
+          "badAgainst": [
+            "Amumu",
+            "Taric",
+            "Rell",
+            "Seraphine",
+            "Braum",
+            "Zoe"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Tristana",
+      "source": "https://www.counterstats.net/league-of-legends/tristana",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Kalista",
+            "Ashe",
+            "Zeri",
+            "Vayne",
+            "Corki"
+          ],
+          "badAgainst": [
+            "Veigar",
+            "Aurelion Sol",
+            "Ziggs",
+            "Xayah",
+            "Nilah",
+            "Sivir"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Trundle",
+      "source": "https://www.counterstats.net/league-of-legends/trundle",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Irelia",
+            "Yone",
+            "K'Sante",
+            "Urgot",
+            "Ambessa",
+            "Gragas"
+          ],
+          "badAgainst": [
+            "Teemo",
+            "Nasus",
+            "Malphite",
+            "Jax",
+            "Tahm Kench",
+            "Ornn"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Warwick",
+            "Hecarim",
+            "Briar",
+            "Lee Sin",
+            "Sejuani",
+            "Wukong"
+          ],
+          "badAgainst": [
+            "Viego",
+            "Cho'Gath",
+            "Shyvana",
+            "Kayn",
+            "Master Yi",
+            "Wukong"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Tryndamere",
+      "source": "https://www.counterstats.net/league-of-legends/tryndamere",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Olaf",
+            "Yorick",
+            "Gwen",
+            "Kayle",
+            "Mordekaiser",
+            "Irelia"
+          ],
+          "badAgainst": [
+            "Warwick",
+            "Malphite",
+            "Gragas",
+            "Teemo",
+            "Kled",
+            "Nasus"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Twisted Fate",
+      "source": "https://www.counterstats.net/league-of-legends/twisted-fate",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Zoe",
+            "Ryze",
+            "Akshan",
+            "Akali",
+            "Azir",
+            "Taliyah"
+          ],
+          "badAgainst": [
+            "Yasuo",
+            "Irelia",
+            "Vex",
+            "Aurora",
+            "Aurelion Sol",
+            "Xerath"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Twitch",
+      "source": "https://www.counterstats.net/league-of-legends/twitch",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Sivir",
+            "Varus",
+            "Aphelios",
+            "Ezreal",
+            "Vayne",
+            "Draven"
+          ],
+          "badAgainst": [
+            "Nilah",
+            "Samira",
+            "Xayah",
+            "Kog'Maw",
+            "Veigar",
+            "Tristana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Udyr",
+      "source": "https://www.counterstats.net/league-of-legends/udyr",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Diana",
+            "Wukong",
+            "Zac",
+            "Hecarim",
+            "Master Yi",
+            "Jarvan IV"
+          ],
+          "badAgainst": [
+            "Shaco",
+            "Warwick",
+            "Evelynn",
+            "Ekko",
+            "Amumu",
+            "Elise"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Darius"
+          ],
+          "badAgainst": [
+            "Darius"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Urgot",
+      "source": "https://www.counterstats.net/league-of-legends/urgot",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Riven",
+            "Jayce",
+            "Camille",
+            "Volibear",
+            "Renekton",
+            "Pantheon"
+          ],
+          "badAgainst": [
+            "Olaf",
+            "Ornn",
+            "Sion",
+            "Malphite",
+            "Shen",
+            "Trundle"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Varus",
+      "source": "https://www.counterstats.net/league-of-legends/varus",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Caitlyn",
+            "Lucian",
+            "Aphelios",
+            "Ashe",
+            "Vayne",
+            "Draven"
+          ],
+          "badAgainst": [
+            "Veigar",
+            "Twitch",
+            "Samira",
+            "Kog'Maw",
+            "Corki",
+            "Viktor"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Vayne",
+      "source": "https://www.counterstats.net/league-of-legends/vayne",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Corki",
+            "Ziggs",
+            "Jhin",
+            "Kalista",
+            "Caitlyn"
+          ],
+          "badAgainst": [
+            "Nilah",
+            "Zeri",
+            "Twitch",
+            "Jinx",
+            "Kog'Maw",
+            "Veigar"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Renekton",
+            "Mordekaiser",
+            "K'Sante",
+            "Volibear",
+            "Irelia",
+            "Shen"
+          ],
+          "badAgainst": [
+            "Malphite",
+            "Teemo",
+            "Pantheon",
+            "Nasus",
+            "Jax",
+            "Sett"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Veigar",
+      "source": "https://www.counterstats.net/league-of-legends/veigar",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Azir",
+            "Ryze",
+            "Cassiopeia",
+            "Zoe",
+            "Galio",
+            "Akshan"
+          ],
+          "badAgainst": [
+            "LeBlanc",
+            "Xerath",
+            "Locke",
+            "Kassadin",
+            "Fizz",
+            "Twisted Fate"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Varus",
+            "Tristana",
+            "Draven",
+            "Ezreal",
+            "Caitlyn",
+            "Vayne"
+          ],
+          "badAgainst": [
+            "Smolder",
+            "Sivir",
+            "Ashe",
+            "Twitch",
+            "Miss Fortune",
+            "Yunara"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Vel'Koz",
+      "source": "https://www.counterstats.net/league-of-legends/velkoz",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Swain",
+            "Neeko",
+            "Maokai",
+            "Renata Glasc",
+            "Senna",
+            "Lux"
+          ],
+          "badAgainst": [
+            "Zilean",
+            "Blitzcrank",
+            "Rell",
+            "Sona",
+            "Yuumi",
+            "Bard"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Orianna",
+            "Lux",
+            "Sylas",
+            "Viktor",
+            "Lissandra",
+            "Vladimir"
+          ],
+          "badAgainst": [
+            "Malzahar",
+            "Yone",
+            "Xerath",
+            "Fizz",
+            "Ahri",
+            "Veigar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Vex",
+      "source": "https://www.counterstats.net/league-of-legends/vex",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Yone",
+            "Taliyah",
+            "LeBlanc",
+            "Sylas",
+            "Anivia",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Vladimir",
+            "Veigar",
+            "Syndra",
+            "Lux",
+            "Hwei",
+            "Xerath"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Vi",
+      "source": "https://www.counterstats.net/league-of-legends/vi",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Rengar",
+            "Jayce",
+            "Qiyana",
+            "Nunu & Willump",
+            "Naafiri",
+            "Elise"
+          ],
+          "badAgainst": [
+            "Zyra",
+            "Diana",
+            "Sejuani",
+            "Skarner",
+            "Wukong",
+            "Shyvana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Viego",
+      "source": "https://www.counterstats.net/league-of-legends/viego",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Jayce",
+            "Qiyana",
+            "Nunu & Willump",
+            "Skarner",
+            "Trundle",
+            "Lee Sin"
+          ],
+          "badAgainst": [
+            "Rammus",
+            "Bel'Veth",
+            "Elise",
+            "Zyra",
+            "Briar",
+            "Amumu"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Viktor",
+      "source": "https://www.counterstats.net/league-of-legends/viktor",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Mel",
+            "Naafiri",
+            "Ryze",
+            "Cassiopeia",
+            "Azir",
+            "Qiyana"
+          ],
+          "badAgainst": [
+            "Vel'Koz",
+            "Ziggs",
+            "Aurelion Sol",
+            "Lux",
+            "Kassadin",
+            "Locke"
+          ]
+        },
+        "Dragon": {
+          "goodAgainst": [
+            "Samira",
+            "Varus",
+            "Sivir",
+            "Aphelios",
+            "Lucian",
+            "Vayne"
+          ],
+          "badAgainst": [
+            "Jhin",
+            "Smolder",
+            "Jinx",
+            "Xayah",
+            "Kai'Sa",
+            "Yunara"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Vladimir",
+      "source": "https://www.counterstats.net/league-of-legends/vladimir",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Mel",
+            "Azir",
+            "Aurelion Sol",
+            "Cassiopeia",
+            "Akshan",
+            "Vex"
+          ],
+          "badAgainst": [
+            "Malzahar",
+            "Vel'Koz",
+            "Zoe",
+            "Anivia",
+            "Kassadin",
+            "Taliyah"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Jax",
+            "Camille",
+            "Darius",
+            "Yone",
+            "Gangplank",
+            "Pantheon"
+          ],
+          "badAgainst": [
+            "Nasus",
+            "Aatrox",
+            "Akali",
+            "Irelia",
+            "Mordekaiser",
+            "Teemo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Volibear",
+      "source": "https://www.counterstats.net/league-of-legends/volibear",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Rumble",
+            "Yasuo",
+            "Kled",
+            "Irelia",
+            "Riven",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Teemo",
+            "Jax",
+            "Kayle",
+            "Illaoi",
+            "Urgot",
+            "Akali"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Nocturne",
+            "Evelynn",
+            "Lillia",
+            "Vi",
+            "Graves",
+            "Hecarim"
+          ],
+          "badAgainst": [
+            "Kha'Zix",
+            "Cho'Gath",
+            "Xin Zhao",
+            "Shyvana",
+            "Viego",
+            "Sylas"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Warwick",
+      "source": "https://www.counterstats.net/league-of-legends/warwick",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Zed",
+            "Rengar",
+            "Qiyana",
+            "Master Yi",
+            "Lee Sin",
+            "Nidalee"
+          ],
+          "badAgainst": [
+            "Trundle",
+            "Lillia",
+            "Bel'Veth",
+            "Cho'Gath",
+            "Shyvana",
+            "Briar"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Tryndamere",
+            "Yorick",
+            "Dr. Mundo",
+            "Shen",
+            "Irelia",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Garen",
+            "Teemo",
+            "Sion",
+            "K'Sante",
+            "Volibear",
+            "Jax"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Wukong",
+      "source": "https://www.counterstats.net/league-of-legends/wukong",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Qiyana",
+            "Talon",
+            "Master Yi",
+            "Nocturne",
+            "Vi",
+            "Lee Sin"
+          ],
+          "badAgainst": [
+            "Zyra",
+            "Amumu",
+            "Udyr",
+            "Ivern",
+            "Taliyah",
+            "Shyvana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Xayah",
+      "source": "https://www.counterstats.net/league-of-legends/xayah",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Ezreal",
+            "Nilah",
+            "Samira",
+            "Lucian",
+            "Draven",
+            "Kalista"
+          ],
+          "badAgainst": [
+            "Ziggs",
+            "Veigar",
+            "Jinx",
+            "Varus",
+            "Aphelios",
+            "Smolder"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Xerath",
+      "source": "https://www.counterstats.net/league-of-legends/xerath",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Azir",
+            "Mel",
+            "Ryze",
+            "Cassiopeia",
+            "Ziggs",
+            "Malzahar"
+          ],
+          "badAgainst": [
+            "Locke",
+            "Ekko",
+            "Talon",
+            "LeBlanc",
+            "Yasuo",
+            "Fizz"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Swain",
+            "Brand",
+            "Camille",
+            "Pantheon",
+            "Morgana",
+            "Lux"
+          ],
+          "badAgainst": [
+            "Braum",
+            "Yuumi",
+            "Rakan",
+            "Zilean",
+            "Leona",
+            "Rell"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Xin Zhao",
+      "source": "https://www.counterstats.net/league-of-legends/xin-zhao",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Naafiri",
+            "Kindred",
+            "Fiddlesticks",
+            "Zed",
+            "Qiyana",
+            "Sejuani"
+          ],
+          "badAgainst": [
+            "Amumu",
+            "Warwick",
+            "Wukong",
+            "Lillia",
+            "Briar",
+            "Jayce"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Yasuo",
+      "source": "https://www.counterstats.net/league-of-legends/yasuo",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Mel",
+            "Twisted Fate",
+            "Ryze",
+            "Akshan",
+            "Diana",
+            "Qiyana"
+          ],
+          "badAgainst": [
+            "Aurelion Sol",
+            "Malzahar",
+            "Lissandra",
+            "Vladimir",
+            "Cassiopeia",
+            "Taliyah"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Gragas",
+            "Jayce",
+            "Heimerdinger",
+            "Rumble",
+            "Gnar",
+            "Akali"
+          ],
+          "badAgainst": [
+            "Sett",
+            "Malphite",
+            "Darius",
+            "Ornn",
+            "Warwick",
+            "Volibear"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Yone",
+      "source": "https://www.counterstats.net/league-of-legends/yone",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Aurelion Sol",
+            "Naafiri",
+            "Qiyana",
+            "Kassadin",
+            "Vel'Koz",
+            "Talon"
+          ],
+          "badAgainst": [
+            "Vex",
+            "Annie",
+            "Vladimir",
+            "LeBlanc",
+            "Taliyah",
+            "Lissandra"
+          ]
+        },
+        "Baron": {
+          "goodAgainst": [
+            "Rumble",
+            "K'Sante",
+            "Yorick",
+            "Vayne",
+            "Mordekaiser",
+            "Dr. Mundo"
+          ],
+          "badAgainst": [
+            "Warwick",
+            "Trundle",
+            "Vladimir",
+            "Jax",
+            "Pantheon",
+            "Irelia"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Yorick",
+      "source": "https://www.counterstats.net/league-of-legends/yorick",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Kennen",
+            "K'Sante",
+            "Dr. Mundo",
+            "Tahm Kench",
+            "Jayce",
+            "Illaoi"
+          ],
+          "badAgainst": [
+            "Warwick",
+            "Kled",
+            "Gwen",
+            "Tryndamere",
+            "Sion",
+            "Yone"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Yunara",
+      "source": "https://www.counterstats.net/league-of-legends/yunara",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Kalista",
+            "Sivir",
+            "Ashe",
+            "Samira",
+            "Varus",
+            "Kai'Sa"
+          ],
+          "badAgainst": [
+            "Ziggs",
+            "Kog'Maw",
+            "Xayah",
+            "Miss Fortune",
+            "Nilah",
+            "Tristana"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Yuumi",
+      "source": "https://www.counterstats.net/league-of-legends/yuumi",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Mel",
+            "Swain",
+            "Xerath",
+            "Zoe",
+            "Brand",
+            "Lux"
+          ],
+          "badAgainst": [
+            "Amumu",
+            "Rell",
+            "Braum",
+            "Leona",
+            "Poppy",
+            "Alistar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zaahen",
+      "source": "https://www.counterstats.net/league-of-legends/zaahen",
+      "lanes": {
+        "Baron": {
+          "goodAgainst": [
+            "Ambessa",
+            "Dr. Mundo",
+            "Riven",
+            "Gnar",
+            "Jayce",
+            "K'Sante"
+          ],
+          "badAgainst": [
+            "Illaoi",
+            "Malphite",
+            "Teemo",
+            "Shen",
+            "Garen",
+            "Gragas"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zac",
+      "source": "https://www.counterstats.net/league-of-legends/zac",
+      "lanes": {
+        "Jungle": {
+          "goodAgainst": [
+            "Nidalee",
+            "Nunu & Willump",
+            "Rengar",
+            "Qiyana",
+            "Sylas",
+            "Lee Sin"
+          ],
+          "badAgainst": [
+            "Lillia",
+            "Ekko",
+            "Udyr",
+            "Kayn",
+            "Warwick",
+            "Elise"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zed",
+      "source": "https://www.counterstats.net/league-of-legends/zed",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Kassadin",
+            "Mel",
+            "Cassiopeia",
+            "Ziggs",
+            "Naafiri",
+            "Taliyah"
+          ],
+          "badAgainst": [
+            "Diana",
+            "Xerath",
+            "Ekko",
+            "Irelia",
+            "Fizz",
+            "Katarina"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Nidalee",
+            "Qiyana",
+            "Shyvana",
+            "Diana",
+            "Hecarim",
+            "Rengar"
+          ],
+          "badAgainst": [
+            "Evelynn",
+            "Warwick",
+            "Sejuani",
+            "Rammus",
+            "Cho'Gath",
+            "Zyra"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zeri",
+      "source": "https://www.counterstats.net/league-of-legends/zeri",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Vayne",
+            "Ezreal",
+            "Ziggs",
+            "Kalista",
+            "Samira",
+            "Kai'Sa"
+          ],
+          "badAgainst": [
+            "Kog'Maw",
+            "Veigar",
+            "Xayah",
+            "Tristana",
+            "Viktor",
+            "Twitch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ziggs",
+      "source": "https://www.counterstats.net/league-of-legends/ziggs",
+      "lanes": {
+        "Dragon": {
+          "goodAgainst": [
+            "Yunara",
+            "Samira",
+            "Tristana",
+            "Ezreal",
+            "Ashe",
+            "Xayah"
+          ],
+          "badAgainst": [
+            "Kalista",
+            "Zeri",
+            "Vayne",
+            "Miss Fortune",
+            "Kai'Sa",
+            "Smolder"
+          ]
+        },
+        "Mid": {
+          "goodAgainst": [
+            "Lux",
+            "Malzahar",
+            "Viktor",
+            "Akali",
+            "Yasuo",
+            "Yone"
+          ],
+          "badAgainst": [
+            "Xerath",
+            "Zed",
+            "Ahri",
+            "Syndra",
+            "Yone",
+            "Yasuo"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zilean",
+      "source": "https://www.counterstats.net/league-of-legends/zilean",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Rakan",
+            "Pantheon",
+            "Swain",
+            "Alistar",
+            "Rell",
+            "Vel'Koz"
+          ],
+          "badAgainst": [
+            "Sona",
+            "Soraka",
+            "Maokai",
+            "Yuumi",
+            "Zyra",
+            "Milio"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zoe",
+      "source": "https://www.counterstats.net/league-of-legends/zoe",
+      "lanes": {
+        "Mid": {
+          "goodAgainst": [
+            "Azir",
+            "Taliyah",
+            "Qiyana",
+            "Sylas",
+            "Akali",
+            "Vladimir"
+          ],
+          "badAgainst": [
+            "Anivia",
+            "Veigar",
+            "Twisted Fate",
+            "Ekko",
+            "Fizz",
+            "Xerath"
+          ]
+        },
+        "Support": {
+          "goodAgainst": [
+            "Lux",
+            "Thresh",
+            "Seraphine",
+            "Milio",
+            "Pyke",
+            "Nautilus"
+          ],
+          "badAgainst": [
+            "Leona",
+            "Morgana",
+            "Yuumi",
+            "Nami",
+            "Karma",
+            "Blitzcrank"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zyra",
+      "source": "https://www.counterstats.net/league-of-legends/zyra",
+      "lanes": {
+        "Support": {
+          "goodAgainst": [
+            "Swain",
+            "Seraphine",
+            "Maokai",
+            "Brand",
+            "Tahm Kench",
+            "Pantheon"
+          ],
+          "badAgainst": [
+            "Janna",
+            "Sona",
+            "Lulu",
+            "Alistar",
+            "Blitzcrank",
+            "Leona"
+          ]
+        },
+        "Jungle": {
+          "goodAgainst": [
+            "Naafiri",
+            "Nidalee",
+            "Elise",
+            "Vi",
+            "Zed",
+            "Diana"
+          ],
+          "badAgainst": [
+            "Shyvana",
+            "Cho'Gath",
+            "Xin Zhao",
+            "Briar",
+            "Sejuani",
+            "Rengar"
+          ]
+        }
+      }
+    }
+  ],
+  "failures": []
+}

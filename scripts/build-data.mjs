@@ -12,6 +12,7 @@ const read = name => JSON.parse(fs.readFileSync(new URL(name, dir), 'utf8'));
 const rosters = read('rosters.json');
 const meta = read('meta.json');
 const pcKitReferences = read('pcKitReferences.json');
+const sourcedMatchups = read('sourcedMatchups.json');
 const games = {};
 for (const game of ['pc', 'wr']) {
   const allowed = new Set(rosters[game].champions);
@@ -27,11 +28,12 @@ for (const game of ['pc', 'wr']) {
     const roles = guide.lanes.map(lane => lane === 'Dragon' ? (guide.category === 'mage' ? 'APC' : 'ADC') : lane);
     const matchupsByLane = Object.fromEntries(guide.lanes.map(lane => {
       const goodAgainst = [], badAgainst = [], synergies = [];
-      for (const interaction of laneInteractions) {
+      for (const interaction of [...laneInteractions, ...sourcedMatchups]) {
         if (!interaction.games.includes(game) || interaction.lane !== lane || !allowed.has(interaction.favored) || !allowed.has(interaction.challenged)) continue;
-        const reference = game === 'pc' ? pcKitReferences[interaction.favored]?.source : `https://wildrift.leagueoflegends.com/en-us/champions/${interaction.favored.toLowerCase()}/`;
-        if (interaction.favored === name) goodAgainst.push({ name: interaction.challenged, note: interaction.edge, evidence: 'editorial-interaction', reference });
-        if (interaction.challenged === name) badAgainst.push({ name: interaction.favored, note: interaction.response, evidence: 'editorial-interaction', reference });
+        const reference = interaction.sources?.[0] || (game === 'pc' ? pcKitReferences[interaction.favored]?.source : `https://wildrift.leagueoflegends.com/en-us/champions/${interaction.favored.toLowerCase()}/`);
+        const attribution = { evidence: interaction.evidence || 'editorial-interaction', reference, sources: interaction.sources, reviewedAt: interaction.reviewedAt };
+        if (interaction.favored === name) goodAgainst.push({ name: interaction.challenged, note: interaction.edge, ...attribution });
+        if (interaction.challenged === name) badAgainst.push({ name: interaction.favored, note: interaction.response, ...attribution });
       }
       for (const [carry, support, note] of duoPairs) {
         if (!allowed.has(carry) || !allowed.has(support)) continue;
@@ -40,7 +42,8 @@ for (const game of ['pc', 'wr']) {
       }
       return [lane, { goodAgainst, badAgainst, synergies, avoidSynergies: [], conditions: { green: [], red: [] },
         lanePlan: lanePlans[lane].plan, objectivePlan: lanePlans[lane].objective, itemPlan: itemPlan(guide, lane),
-        matchupCoverage: goodAgainst.length + badAgainst.length ? 'Limited editorial interactions' : 'No named lane interactions reviewed' }];
+        lanePressure: { risk: guide.risk, response: lanePlans[lane].plan },
+        matchupCoverage: `${goodAgainst.length} named opportunities · ${badAgainst.length} named threats; source suggestions and editorial kit windows` }];
     }));
     const first = matchupsByLane[guide.lanes[0]];
     return { name, game, primaryRole: roles[0], roles, playableLanes: guide.lanes, secondaryRoles: guide.lanes.slice(1),

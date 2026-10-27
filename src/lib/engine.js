@@ -1,7 +1,7 @@
 import { DRAFT_KEYS, LANE_CONFIG } from './constants.js';
 import { suggestChampion, draftTeams } from './suggestions.js';
 
-export function createEngine(dataset, game = 'wr') {
+export function createEngine(dataset) {
   const { championData, otherInfo } = dataset;
   const champions = new Map(championData.map(c => [c.name, c]));
   const byName = name => champions.get(name) || null;

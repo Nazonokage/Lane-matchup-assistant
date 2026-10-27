@@ -8,6 +8,6 @@ Design dials: visual variance 2/10, motion 1/10, information density 7/10, asset
 
 Existing assets: `public/think_fam_think.png` (logo), existing champion artwork loaded by `ChampionIcon`. Preserve the system-font stack, 10px card radius, existing flat surfaces and focus outlines. No new motion, fonts, icons or shadows.
 
-Palette: background #0d1117, panel #161b22, card #1c2129, text #e6edf3, border #30363d, teal #3fb9b0, gold #d4a853. Role and status colors remain as defined in `src/index.css`. Spacing: 4px base; desktop gutters 28px, grid gaps 24px and card interiors 20px. Body copy grows to 15px inside desktop recommendations; dropdown text is 16px.
+Palette: background #0d1117, panel #161b22, card #1c2129, text #e6edf3, border #30363d, teal #3fb9b0, gold #d4a853. Role and status colors remain as defined in `src/index.css`. Spacing: 4px base; desktop gutters 28px, grid gaps 24px and card interiors 20px. Typography uses fluid scalable tokens via `clamp()` with a sturdy medium base weight (500) and structured semi-bold anchors (550-650) for crisp readability across mobile and desktop. Body copy scales smoothly to 16px; dropdowns and inputs scale with the base scale.
 
 The supplied Garden skill's relative redesign and calibration reference files were not present next to the document. Existing repository styles and the user's approved layout provide the design context.

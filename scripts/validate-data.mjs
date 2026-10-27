@@ -36,9 +36,19 @@ for (const game of ['pc', 'wr']) {
     for (const lane of champion.playableLanes) {
       const slice = champion.matchupsByLane[lane];
       assert(slice.lanePlan && slice.itemPlan && slice.objectivePlan);
+      assert(slice.goodAgainst.length > 0, `${game}: missing named opportunities for ${champion.name}/${lane}`);
+      assert(slice.badAgainst.length > 0, `${game}: missing named threats for ${champion.name}/${lane}`);
+      assert(slice.lanePressure?.risk?.length > 20, `${game}: missing lane pressure for ${champion.name}/${lane}`);
+      assert(slice.lanePressure?.response?.length > 20, `${game}: missing pressure response for ${champion.name}/${lane}`);
+      assert.equal(engine.getMatchups(champion, lane).lanePressure, slice.lanePressure);
       for (const entry of slice.goodAgainst) {
+        assert(engine.byName(entry.name).playableLanes.includes(lane), `${game}: opponent outside ${lane}`);
         assert(engine.getMatchups(engine.byName(entry.name), lane).badAgainst.some(e => e.name === champion.name), `${champion.name}/${entry.name}: reciprocal matchup`);
         assert(!slice.badAgainst.some(e => e.name === entry.name));
+      }
+      for (const entry of slice.badAgainst) {
+        assert(engine.byName(entry.name).playableLanes.includes(lane), `${game}: threat outside ${lane}`);
+        assert(engine.getMatchups(engine.byName(entry.name), lane).goodAgainst.some(e => e.name === champion.name), `${champion.name}/${entry.name}: reciprocal threat`);
       }
     }
   }

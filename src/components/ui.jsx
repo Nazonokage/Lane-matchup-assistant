@@ -21,12 +21,23 @@ export function MatchupList({ items, cls = "" }) {
   return (
     <ul className={`matchup-list ${cls}`}>
       {items.map((e) => {
-        const { name, note, reference } = normalizeEntry(e);
+        const { name, note, reference, sources, evidence } = normalizeEntry(e);
         return (
           <li key={name}>
-            <strong>{name}</strong>
+            <div className="matchup-item-header">
+              <ChampionIcon name={name} alt={name} size={22} />
+              <strong>{name}</strong>
+            </div>
             {note ? <span>{note}</span> : null}
-            {reference ? <a href={reference} target="_blank" rel="noreferrer">Kit reference · strategic inference</a> : null}
+            {evidence === 'source-matchup' ? <span className="muted">Source-suggested matchup · general play notes</span> : null}
+            <div className="matchup-sources">
+              {(sources?.length ? sources : reference ? [reference] : []).map((source, index) => (
+                <a className="source-link" key={source} href={source} target="_blank" rel="noreferrer"
+                  aria-label={`${name}: ${evidence === 'source-matchup' ? 'matchup source' : 'kit reference'} ${index + 1} (opens in a new tab)`}>
+                  {evidence === 'source-matchup' ? 'Matchup source' : 'Kit reference'}{index ? ` ${index + 1}` : ''}
+                </a>
+              ))}
+            </div>
           </li>
         );
       })}

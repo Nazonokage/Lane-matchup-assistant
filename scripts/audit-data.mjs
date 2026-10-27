@@ -8,7 +8,8 @@ for (const [game, data] of Object.entries(games)) {
     const profiles = data.championData.filter(c => c.playableLanes.includes(lane));
     const named = profiles.filter(c => c.matchupsByLane[lane].goodAgainst.length + c.matchupsByLane[lane].badAgainst.length);
     const pairs = profiles.reduce((sum,c) => sum + c.matchupsByLane[lane].synergies.length, 0);
-    console.log(`${lane}: ${profiles.length} profiles; ${named.length} with named interactions; ${pairs} partner plans; ${profiles.length - named.length} without named matchup evidence`);
+    const both = profiles.filter(c => c.matchupsByLane[lane].goodAgainst.length && c.matchupsByLane[lane].badAgainst.length);
+    console.log(`${lane}: ${profiles.length} profiles; ${both.length} with both named directions; ${named.length} with any named interactions; ${pairs} partner plans; ${profiles.length - named.length} without named matchup evidence`);
   }
 }
 console.log('\nHistorical sources: 9 JSON files in src/data/archive; excluded from build.');

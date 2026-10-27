@@ -10,6 +10,7 @@ import { traitCorrections, supportEconomy } from '../src/data/draftProfiles.js';
 import { traitLabels, lanePlans, duoPairs, laneInteractions } from '../src/data/strategy.js';
 const rosters = JSON.parse(fs.readFileSync(new URL('../src/data/rosters.json', import.meta.url), 'utf8'));
 const allNames = new Set([...rosters.pc.champions, ...rosters.wr.champions]);
+const sourcedMatchups = JSON.parse(fs.readFileSync(new URL('../src/data/sourcedMatchups.json', import.meta.url), 'utf8'));
 const validTraits = traits => traits.every(t => Object.hasOwn(traitLabels, t));
 assert.deepEqual(Object.keys(roleDraftGuides).sort(), Object.keys(lanePlans).sort());
 for (const guide of Object.values(roleDraftGuides)) {
@@ -67,8 +68,9 @@ for (const plan of draftInteractions) {
     assert(plan.lanes.every(l => guide.lanes.includes(l)));
   }
 }
-for (const entry of laneInteractions) {
+for (const entry of [...laneInteractions, ...sourcedMatchups]) {
   assert(entry.edge && entry.response && entry.games.length);
+  assert.notEqual(entry.favored, entry.challenged, 'No self matchups');
   for (const game of entry.games) {
     assert(rosters[game]);
     for (const name of [entry.favored, entry.challenged]) {
@@ -78,5 +80,28 @@ for (const entry of laneInteractions) {
     }
     const key = [game, entry.lane, ...[entry.favored, entry.challenged].sort()].join('/');
     assert(!interactions.has(key), `Duplicate/conflicting interaction: ${key}`); interactions.add(key);
+  }
+}
+for (const entry of sourcedMatchups) {
+  assert(entry.games.length === 1 && entry.reviewedAt && entry.sources?.length);
+  assert(['source-matchup', 'editorial-flex'].includes(entry.evidence));
+  for (const source of entry.sources) {
+    const url = new URL(source);
+    const allowed = entry.games[0] === 'wr'
+      ? ['wildriftcounter.com', 'wildrift.leagueoflegends.com']
+      : ['www.counterstats.net', 'ddragon.leagueoflegends.com'];
+    assert(url.protocol === 'https:' && allowed.includes(url.hostname), `Wrong game source: ${source}`);
+  }
+}
+for (const game of ['pc', 'wr']) {
+  const snapshot = JSON.parse(fs.readFileSync(new URL(`../src/data/${game === 'pc' ? 'pcMatchupResearch' : 'matchupResearch'}.json`, import.meta.url), 'utf8'));
+  assert.equal(snapshot.sourceGame, game);
+  for (const entry of sourcedMatchups.filter(p => p.games.includes(game) && p.evidence === 'source-matchup')) {
+    for (const source of entry.sources) {
+      const page = snapshot.champions.find(p => p.source === source);
+      assert(page, `Missing source snapshot: ${source}`);
+      const lists = page.lanes[entry.lane];
+      assert(lists && ((page.name === entry.favored && lists.goodAgainst.includes(entry.challenged)) || (page.name === entry.challenged && lists.badAgainst.includes(entry.favored))), `Source does not support direction: ${source}/${entry.lane}`);
+    }
   }
 }

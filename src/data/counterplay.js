@@ -49,7 +49,7 @@ Hwei|Approach from split angles and avoid forcing through repeated area spells i
 Illaoi|Leave the tentacle zone after she commits her ultimate and avoid offering both spirit damage and a close fight.|Spirit pull and ultimate; a missed pull offers a safer trade than fighting in active tentacles.
 Irelia|Watch low-health minions that can become dash targets and avoid fighting into a prepared passive.|Passive stacks, stun and reset targets; a spent dash without a reset leaves less mobility.
 Ivern|Do not chase his protected ally through repeated shields; contest with lane support and identify the actual damage threat.|Shield timing, root and companion; forcing utility before the real engage improves your odds.
-Janna|Force one defensive response, then reassess before the second entry; avoid lining up in a narrow approach.|Tornado and ultimate disengage; one ready tool can stop a predictable commit.
+Janna|Bait Howling Gale or force Monsoon before fully committing an all-in; her displacements interrupt channels and reset aggressive dives.|Howling Gale and Monsoon disengage; do not waste all-in cooldowns while she holds point-blank knockbacks.
 Jarvan IV|Keep an answer for the flag-and-drag line and avoid trapping several allies inside his arena.|Flag combo and ultimate; hold movement if the arena would otherwise force a losing fight.
 Jax|Avoid attacking into his dodge and keep a way to leave before the stun ends.|Counter Strike; short spell trades and disengage are safer than matching a prepared long duel.
 Jayce|Use cover against ranged poke and answer after an aggressive melee switch if his exit is limited.|Empowered projectile combo and melee displacement; do not chase blindly after one missed shot.
@@ -115,7 +115,7 @@ Rengar|Stay away from unwarded brush when isolated and keep defensive tools for 
 Riven|Space out the combo and keep control for a committed movement window.|Shield and remaining dashes; do not assume the first movement spell was her last.
 Rumble|Leave the ultimate sideways instead of running along it and watch his heat before trading.|Heat and ultimate placement; forcing a bad overheat window can change the trade.
 Ryze|Use range and avoid offering repeated spell cycles when he can safely stand and cast.|Rune setup and root; a portal also changes where allies or enemies may arrive.
-Samira|Force her projectile defense, then keep a reliable interrupt for the ultimate.|Blade Whirl, style buildup and ultimate; one spent tool does not remove all of her entry threat.
+Samira|Bait Blade Whirl with minor spells, then save displacement or untargetability for her Inferno Trigger; knockbacks and knockups immediately cancel her ultimate and reset Style stacks.|Blade Whirl and Style rank S; do not commit into her melee range without hard crowd control to interrupt her channel.
 Sejuani|Avoid an isolated catch and keep teammates able to respond without clumping for follow-up.|Ultimate and freeze setup; nearby melee allies can make her control more threatening.
 Senna|Deny repeated safe trades and use cover against root; avoid letting every soul pickup become free pressure.|Root and long attack commitment; punish a predictable step forward with your partner.
 Seraphine|Spread your approach so her spells cannot gain value through several teammates at once.|Ultimate and empowered spell rhythm; push forward only when her remaining control is accounted for.
@@ -158,7 +158,7 @@ Vladimir|Force his pool before committing decisive control and avoid grouping fo
 Volibear|Break contact after his initial mark instead of granting repeated healing trades.|Frenzied Maul mark and ultimate; tower cover is not a complete plan during his dive window.
 Warwick|Do not offer an isolated low-health chase and keep a response ready for suppression.|Fear and ultimate; account for increased recovery when he is low before assuming a duel is won.
 Wukong|Identify the real entry, spread for knockups and avoid spending every control spell on a clone.|Decoy and ultimate stages; stay ready for a follow-up after the first knockup.
-Xayah|Watch feather lines behind your champion and delay a full entry until her defensive response is spent.|Bladecaller and ultimate; movement through a feather return path can create the root you were avoiding.
+Xayah|Watch feather lines behind you and bait Feather Storm before using all-in cooldowns; her untargetability dodges lethal burst and sets up Bladecaller roots.|Feather Storm untargetability and Bladecaller root; never chase directly along a line of placed feathers.
 Xerath|Vary movement while he channels and approach from a side angle rather than a narrow straight route.|Stun and charged poke; a missed stun is a more useful entry window than one missed long-range shot.
 Xin Zhao|Deny repeated close-range attacks and protect his target after the first entry.|Third-hit knockup and ultimate zone; ranged allies may need to reposition instead of firing from outside it.
 Yasuo|Track tornado preparation, avoid giving easy minion dash paths and wait out projectile defense.|Wind Wall and third thrust; non-projectile control and cross-angles need different answers.

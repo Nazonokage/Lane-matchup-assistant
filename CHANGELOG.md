@@ -4,6 +4,32 @@ All notable changes to Lane Ledger are documented here.
 
 ---
 
+## [Unreleased] — 2026-10-27
+
+### Scalable fluid typography and font weights
+- Implemented responsive fluid typography scale with `clamp()` CSS custom properties (`--text-2xs` through `--text-3xl`), ensuring typography scales smoothly between mobile viewports and large desktop monitors.
+- Strengthened typography weights to a tactile medium base (`500`) and structured semi-bold anchors (`550`–`650`) across body text, badges, cards, inputs, and section kickers, improving visual presence and contrast on dark theme backgrounds without becoming heavy or harsh.
+- Enabled antialiased subpixel text smoothing (`-webkit-font-smoothing: antialiased`, `-moz-osx-font-smoothing: grayscale`, and `text-rendering: optimizeLegibility`) for clean, crisp character rendering across high-DPI displays.
+- Added balanced line wrapping (`text-wrap: pretty`) and refined typography styles for about sections, cards, and modal dialogs.
+
+### Named champion matchups
+- Filled both “Lane opportunities” and “Lane pressure to respect” for all 441 supported champion-role combinations: 173 PC champions across 240 roles and 142 Wild Rift champions across 201 roles.
+- Added 1,209 source-suggested and authored flex-role interaction records. Combined with existing interactions, the dataset has 661 PC and 646 WR directional pairs; each pair produces an opportunity for one champion and a threat for the other.
+- Saved separate WildRiftCounter and CounterStats research snapshots for WR and PC. Explicit ability-based flex-role entries cover secondary roles missing from source lists. Source suggestions retain general play notes and are labeled separately from authored kit interactions; coverage is not a claim that every matchup has individually researched mechanics.
+- Preserved authored interaction priority, rejected contradictory external suggestions, and filtered by game roster and supported role. Builds compile checked-in snapshots without network access.
+- Added checks for named coverage in both directions, reciprocity, duplicate/conflicting pairs, opponent roles, source-game isolation and source support for each imported direction. Named-matchup scoring retains its existing bounded contribution.
+
+### Almanac and source links
+- Added champion icons and an “Avoid vs” summary in the detail modal, with enemy-draft highlighting.
+- Kept general champion risk and role guidance under “General pressure guidance,” beneath the named threats.
+- Styled source anchors with teal text, borders, wrapping, spacing, hover/active states and visible keyboard focus. Added accessible labels identifying links that open a new tab.
+
+### Development and handoff
+- Set strict local development port `43187` and production-preview port `43188`, both bound to `127.0.0.1`. An occupied port now reports an error instead of silently changing the URL.
+- Removed the unused engine argument that caused lint failure. Ignored temporary research output and local server logs in `.research/`.
+- Updated `TODO.md` and added `REFACTORING.md` with prioritized follow-up work, data invariants and validation requirements.
+- Validation: data tests and lint pass; browser smoke check confirmed page loading, champion detail and styled source links. Production builds still report the large JavaScript chunk warning; game-specific loading is tracked as follow-up work.
+
 ## [Unreleased] — 2026-10-26
 
 ### 🆕 New Files & Modules
