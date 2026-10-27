@@ -6,6 +6,12 @@ All notable changes to Lane Ledger are documented here.
 
 ## [Unreleased] — 2026-10-27
 
+### Verified champion kits and matchup data enhancements
+- Researched and updated full kit data for released champions Norra (Wild Rift artillery mage: Beloved Trinkets, Memory Surge, Journey to Nowhere, Threads of Homecoming, Portalpalooza!), Locke (PC AP assassin: Silver Stake, Ritual Nails, Soul Ignition, Ashen Pursuit, Purgatory), Zaahen (PC Darkin fighter: Cultivation of War, The Darkin Glaive, Dreaded Return, Aureate Rush, Grim Deliverance), Yunara (Wild Rift / PC marksman: Cultivation of Spirit, Arc of Judgment / Arc of Ruin, Kanmei's Steps / Untouchable Shadow, Transcend One's Self), and Mel (Searing Brilliance, Radiant Volley, Rebuttal, Solar Snare, Golden Eclipse).
+- Removed all hedging and placeholder text across `counterplay.js` and `championGuides.js`. Expanded concise guidance for Briar, Smolder, Zoe, and Ivern to reference explicit ability names and concrete execution risks.
+- Expanded `draftInteractions.js` with 6 new Dragon lane interactions (Miss Fortune vs Ezreal, Twitch vs Caitlyn, Kai'Sa vs Xayah, Sivir vs Vayne, Jinx vs Miss Fortune, Xayah vs Samira) and rewrote generic entries for Malphite, Rammus, and Poppy into ability-specific plans. Cleaned up apostrophe encoding.
+- Expanded `strategy.js` with ability-specific Dragon and Support lane interactions including Sivir vs Vayne, Miss Fortune vs Ezreal, Kai'Sa vs Xayah, Twitch vs Caitlyn, Lulu vs Leona, Thresh vs Blitzcrank, and Soraka vs Pyke, while refining existing matchup entries to name explicit abilities.
+
 ### Scalable fluid typography and font weights
 - Implemented responsive fluid typography scale with `clamp()` CSS custom properties (`--text-2xs` through `--text-3xl`), ensuring typography scales smoothly between mobile viewports and large desktop monitors.
 - Strengthened typography weights to a tactile medium base (`500`) and structured semi-bold anchors (`550`–`650`) across body text, badges, cards, inputs, and section kickers, improving visual presence and contrast on dark theme backgrounds without becoming heavy or harsh.

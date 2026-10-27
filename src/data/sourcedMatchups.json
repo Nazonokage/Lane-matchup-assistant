@@ -1590,8 +1590,8 @@
     "lane": "Baron",
     "favored": "Zaahen",
     "challenged": "Ambessa",
-    "edge": "Against Ambessa: Make her spend movement to approach, then use control when she commits rather than chasing each dash. Your plan: Use measured close-range trades and choose fights where repeated contact is possible.",
-    "response": "Against Zaahen: Avoid an unchecked extended duel and coordinate damage rather than giving repeated recovery windows. Your risk: Repeated dashes without useful attacks can leave you unable to finish or exit.",
+    "edge": "Against Ambessa: Make her spend movement to approach, then use control when she commits rather than chasing each dash. Your plan: Build Determination stacks via Cultivation of War through continuous melee trades, pull opponents with Dreaded Return, and knock them up with The Darkin Glaive before crushing teamfights with Grim Deliverance.",
+    "response": "Against Zaahen: Keep trades brief to prevent Zaahen from stacking Determination via Cultivation of War, and sidestep Dreaded Return to avoid being pulled into his double-strike range. Disengage before his Determination bar fills completely to deny his bonus attack damage surge and fatal-damage revive. Your risk: Repeated dashes without useful attacks can leave you unable to finish or exit.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/ambessa",
@@ -1894,8 +1894,8 @@
     "lane": "Baron",
     "favored": "Zaahen",
     "challenged": "Dr. Mundo",
-    "edge": "Against Dr. Mundo: Use blockers against cleavers and deny repeated free recovery; choose anti-heal only when you can apply it usefully. Your plan: Use measured close-range trades and choose fights where repeated contact is possible.",
-    "response": "Against Zaahen: Avoid an unchecked extended duel and coordinate damage rather than giving repeated recovery windows. Your risk: Healing reduction and sustained damage can cut through a lead in durability.",
+    "edge": "Against Dr. Mundo: Use blockers against cleavers and deny repeated free recovery; choose anti-heal only when you can apply it usefully. Your plan: Build Determination stacks via Cultivation of War through continuous melee trades, pull opponents with Dreaded Return, and knock them up with The Darkin Glaive before crushing teamfights with Grim Deliverance.",
+    "response": "Against Zaahen: Keep trades brief to prevent Zaahen from stacking Determination via Cultivation of War, and sidestep Dreaded Return to avoid being pulled into his double-strike range. Disengage before his Determination bar fills completely to deny his bonus attack damage surge and fatal-damage revive. Your risk: Healing reduction and sustained damage can cut through a lead in durability.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/dr-mundo",
@@ -2422,8 +2422,8 @@
     "lane": "Baron",
     "favored": "Illaoi",
     "challenged": "Zaahen",
-    "edge": "Against Zaahen: Avoid an unchecked extended duel and coordinate damage rather than giving repeated recovery windows. Your plan: Set up tentacles and punish enemies who choose to fight in your prepared area.",
-    "response": "Against Illaoi: Leave the tentacle zone after she commits her ultimate and avoid offering both spirit damage and a close fight. Your risk: Kiting and coordinated burst can deny a prolonged fighting window.",
+    "edge": "Against Zaahen: Keep trades brief to prevent Zaahen from stacking Determination via Cultivation of War, and sidestep Dreaded Return to avoid being pulled into his double-strike range. Disengage before his Determination bar fills completely to deny his bonus attack damage surge and fatal-damage revive. Your plan: Set up tentacles and punish enemies who choose to fight in your prepared area.",
+    "response": "Against Illaoi: Leave the tentacle zone after she commits her ultimate and avoid offering both spirit damage and a close fight. Your risk: Missing Dreaded Return or getting kited before your Cultivation of War Determination bar fills leaves you without bonus attack damage or your fatal-damage revive.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/illaoi",
@@ -2886,8 +2886,8 @@
     "lane": "Baron",
     "favored": "Malphite",
     "challenged": "Zaahen",
-    "edge": "Against Zaahen: Avoid an unchecked extended duel and coordinate damage rather than giving repeated recovery windows. Your plan: Use your durable lane pattern and hold ultimate for a reachable priority target or a peel emergency.",
-    "response": "Against Malphite: Keep carries separated and avoid a predictable cluster around an unwarded approach. Your risk: Kiting and coordinated burst can deny a prolonged fighting window.",
+    "edge": "Against Zaahen: Keep trades brief to prevent Zaahen from stacking Determination via Cultivation of War, and sidestep Dreaded Return to avoid being pulled into his double-strike range. Disengage before his Determination bar fills completely to deny his bonus attack damage surge and fatal-damage revive. Your plan: Use your durable lane pattern and hold ultimate for a reachable priority target or a peel emergency.",
+    "response": "Against Malphite: Keep carries separated and avoid a predictable cluster around an unwarded approach. Your risk: Missing Dreaded Return or getting kited before your Cultivation of War Determination bar fills leaves you without bonus attack damage or your fatal-damage revive.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/malphite",
@@ -3206,8 +3206,8 @@
     "lane": "Dragon",
     "favored": "Aphelios",
     "challenged": "Smolder",
-    "edge": "Against Smolder: Pressure safe farm access without forcing a bad dive, then spread against repeated splash damage. Your plan: Plan fights around your current weapons and keep enough room to attack behind allies.",
-    "response": "Against Aphelios: Read his active weapons before trading and pressure from angles that make safe attacking difficult. Your risk: Stacking greed can expose you to a dive before your scaling becomes useful.",
+    "edge": "Against Smolder: Contest his early farm to slow Dragon Practice stack growth; his Achooo! breath damage and Flap, Flap, Flap missile spread increase meaningfully with stacks. Your plan: Plan fights around your current weapons and keep enough room to attack behind allies.",
+    "response": "Against Aphelios: Read his active weapons before trading and pressure from angles that make safe attacking difficult. Your risk: Greedily walking up to farm Dragon Practice stacks without Flap, Flap, Flap available makes your fragile early-game body an easy target for aggressive dive duos.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/aphelios",
@@ -3270,8 +3270,8 @@
     "lane": "Dragon",
     "favored": "Yunara",
     "challenged": "Ashe",
-    "edge": "Against Ashe: Avoid being slowed in a long exposed lane; use cover against poke and track arrow angles. Your plan: Build a safe attack window before committing your enhanced form and keep allied protection nearby.",
-    "response": "Against Yunara: Deny free sustained attacks and use reliable control after she commits to an enhanced fight window. Your risk: You have no dash; stepping forward without vision can turn pressure into a catch.",
+    "edge": "Against Ashe: Avoid being slowed in a long exposed lane; use cover against poke and track arrow angles. Your plan: Stack Cultivation of Spirit on-hit damage, poke and slow with Arc of Judgment, and pop Transcend One's Self to gain free spellcasts, untargeted dash mobility with Untouchable Shadow, and piercing Arc of Ruin lasers.",
+    "response": "Against Yunara: Punish her short trading windows before she stacks Cultivation of Spirit, and dodge Arc of Judgment prayer beads to avoid being slowed. Disengage and kite out her 15-second Transcend One's Self ultimate state instead of fighting into free mana casts and maximum Unleash splash damage. Your risk: You have no dash; stepping forward without vision can turn pressure into a catch.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/ashe",
@@ -3292,22 +3292,6 @@
     "sources": [
       "https://www.counterstats.net/league-of-legends/ashe",
       "https://www.counterstats.net/league-of-legends/ziggs"
-    ],
-    "reviewedAt": "2026-10-27"
-  },
-  {
-    "games": [
-      "pc"
-    ],
-    "lane": "Dragon",
-    "favored": "Miss Fortune",
-    "challenged": "Caitlyn",
-    "edge": "Against Caitlyn: Protect health while last-hitting, avoid trap lines and ask for help before a large wave enables a dive. Your plan: Use bounce pressure in lane and a protected ultimate angle after allied control.",
-    "response": "Against Miss Fortune: Avoid standing behind a low-health bounce target and approach from outside a safe ultimate angle. Your risk: A pushed lane needs vision; range does not protect you from a flank.",
-    "evidence": "source-matchup",
-    "sources": [
-      "https://www.counterstats.net/league-of-legends/caitlyn",
-      "https://www.counterstats.net/league-of-legends/miss-fortune"
     ],
     "reviewedAt": "2026-10-27"
   },
@@ -3382,8 +3366,8 @@
     "lane": "Dragon",
     "favored": "Smolder",
     "challenged": "Corki",
-    "edge": "Against Corki: Avoid repeated rocket poke and make him spend movement before committing your chase. Your plan: Stack safely while preserving enough health to contest later waves and objectives.",
-    "response": "Against Smolder: Pressure safe farm access without forcing a bad dive, then spread against repeated splash damage. Your risk: Build and damage distribution differ by game; do not assume one version's setup transfers.",
+    "edge": "Against Corki: Avoid repeated rocket poke and make him spend movement before committing your chase. Your plan: Farm methodically with Super Scorcher Breath to stack Dragon Practice, poke through minion waves with Achooo!, and reposition over terrain using Flap, Flap, Flap before unleashing MMOOOMMMM! in teamfights.",
+    "response": "Against Smolder: Contest his early farm to slow Dragon Practice stack growth; his Achooo! breath damage and Flap, Flap, Flap missile spread increase meaningfully with stacks. Your risk: Build and damage distribution differ by game; do not assume one version's setup transfers.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/corki",
@@ -3492,26 +3476,10 @@
       "pc"
     ],
     "lane": "Dragon",
-    "favored": "Nilah",
-    "challenged": "Ezreal",
-    "edge": "Against Ezreal: Use minions to reduce direct skillshot pressure and force his blink before using your final gap closer. Your plan: Preserve health until your support can create a close-range fight you can sustain.",
-    "response": "Against Nilah: Use range to control early trades and back away from her defensive attack-denial window. Your risk: Minions block your main poke; safety does not guarantee wave priority.",
-    "evidence": "source-matchup",
-    "sources": [
-      "https://www.counterstats.net/league-of-legends/ezreal",
-      "https://www.counterstats.net/league-of-legends/nilah"
-    ],
-    "reviewedAt": "2026-10-27"
-  },
-  {
-    "games": [
-      "pc"
-    ],
-    "lane": "Dragon",
     "favored": "Smolder",
     "challenged": "Ezreal",
-    "edge": "Against Ezreal: Use minions to reduce direct skillshot pressure and force his blink before using your final gap closer. Your plan: Stack safely while preserving enough health to contest later waves and objectives.",
-    "response": "Against Smolder: Pressure safe farm access without forcing a bad dive, then spread against repeated splash damage. Your risk: Minions block your main poke; safety does not guarantee wave priority.",
+    "edge": "Against Ezreal: Use minions to reduce direct skillshot pressure and force his blink before using your final gap closer. Your plan: Farm methodically with Super Scorcher Breath to stack Dragon Practice, poke through minion waves with Achooo!, and reposition over terrain using Flap, Flap, Flap before unleashing MMOOOMMMM! in teamfights.",
+    "response": "Against Smolder: Contest his early farm to slow Dragon Practice stack growth; his Achooo! breath damage and Flap, Flap, Flap missile spread increase meaningfully with stacks. Your risk: Minions block your main poke; safety does not guarantee wave priority.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/ezreal",
@@ -3622,8 +3590,8 @@
     "lane": "Dragon",
     "favored": "Yunara",
     "challenged": "Kalista",
-    "edge": "Against Kalista: Interrupt her ability to keep attacking and avoid extending trades while spear stacks accumulate. Your plan: Build a safe attack window before committing your enhanced form and keep allied protection nearby.",
-    "response": "Against Yunara: Deny free sustained attacks and use reliable control after she commits to an enhanced fight window. Your risk: Slows and reliable control can disrupt the movement your trades depend on.",
+    "edge": "Against Kalista: Interrupt her ability to keep attacking and avoid extending trades while spear stacks accumulate. Your plan: Stack Cultivation of Spirit on-hit damage, poke and slow with Arc of Judgment, and pop Transcend One's Self to gain free spellcasts, untargeted dash mobility with Untouchable Shadow, and piercing Arc of Ruin lasers.",
+    "response": "Against Yunara: Punish her short trading windows before she stacks Cultivation of Spirit, and dodge Arc of Judgment prayer beads to avoid being slowed. Disengage and kite out her 15-second Transcend One's Self ultimate state instead of fighting into free mana casts and maximum Unleash splash damage. Your risk: Slows and reliable control can disrupt the movement your trades depend on.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/kalista",
@@ -3782,8 +3750,8 @@
     "lane": "Dragon",
     "favored": "Yunara",
     "challenged": "Sivir",
-    "edge": "Against Sivir: Force spell shield with a lower-value threat and approach from different angles. Your plan: Build a safe attack window before committing your enhanced form and keep allied protection nearby.",
-    "response": "Against Yunara: Deny free sustained attacks and use reliable control after she commits to an enhanced fight window. Your risk: Short attack reach still matters even when your wave clear is strong.",
+    "edge": "Against Sivir: Force spell shield with a lower-value threat and approach from different angles. Your plan: Stack Cultivation of Spirit on-hit damage, poke and slow with Arc of Judgment, and pop Transcend One's Self to gain free spellcasts, untargeted dash mobility with Untouchable Shadow, and piercing Arc of Ruin lasers.",
+    "response": "Against Yunara: Punish her short trading windows before she stacks Cultivation of Spirit, and dodge Arc of Judgment prayer beads to avoid being slowed. Disengage and kite out her 15-second Transcend One's Self ultimate state instead of fighting into free mana casts and maximum Unleash splash damage. Your risk: Short attack reach still matters even when your wave clear is strong.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/sivir",
@@ -3798,8 +3766,8 @@
     "lane": "Dragon",
     "favored": "Smolder",
     "challenged": "Veigar",
-    "edge": "Against Veigar: Do not rush through the cage edge; preserve a safe path and enter after the zone ends. Your plan: Stack safely while preserving enough health to contest later waves and objectives.",
-    "response": "Against Smolder: Pressure safe farm access without forcing a bad dive, then spread against repeated splash damage. Your risk: A wasted cage leaves a long window for enemies to close distance.",
+    "edge": "Against Veigar: Do not rush through the cage edge; preserve a safe path and enter after the zone ends. Your plan: Farm methodically with Super Scorcher Breath to stack Dragon Practice, poke through minion waves with Achooo!, and reposition over terrain using Flap, Flap, Flap before unleashing MMOOOMMMM! in teamfights.",
+    "response": "Against Smolder: Contest his early farm to slow Dragon Practice stack growth; his Achooo! breath damage and Flap, Flap, Flap missile spread increase meaningfully with stacks. Your risk: A wasted cage leaves a long window for enemies to close distance.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/smolder",
@@ -3894,8 +3862,8 @@
     "lane": "Dragon",
     "favored": "Ziggs",
     "challenged": "Yunara",
-    "edge": "Against Yunara: Deny free sustained attacks and use reliable control after she commits to an enhanced fight window. Your plan: Use wave pressure to earn safe resets and convert a won lane into tower damage.",
-    "response": "Against Ziggs: Approach from more than one angle and avoid repeatedly taking poke in a narrow objective path. Your risk: Early damage pressure and interruption can deny the sustained attacks you need.",
+    "edge": "Against Yunara: Punish her short trading windows before she stacks Cultivation of Spirit, and dodge Arc of Judgment prayer beads to avoid being slowed. Disengage and kite out her 15-second Transcend One's Self ultimate state instead of fighting into free mana casts and maximum Unleash splash damage. Your plan: Use wave pressure to earn safe resets and convert a won lane into tower damage.",
+    "response": "Against Ziggs: Approach from more than one angle and avoid repeatedly taking poke in a narrow objective path. Your risk: Overextending without Transcend One's Self active leaves you with only Kanmei's Steps movement speed and no dash escape to survive hard engage or dive assassins.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/yunara",
@@ -4022,8 +3990,8 @@
     "lane": "Jungle",
     "favored": "Briar",
     "challenged": "Evelynn",
-    "edge": "Against Evelynn: Group around vulnerable carries and place vision on likely approaches before walking into isolated space. Your plan: Choose fights where your target commitment is safe and keep a way to stop an overchase.",
-    "response": "Against Briar: Kite a committed pursuit toward your team and keep control ready for her arrival. Your risk: Vision control and grouped enemies reduce the safe targets you can reach.",
+    "edge": "Against Evelynn: Group around vulnerable carries and place vision on likely approaches before walking into isolated space. Your plan: Use Head Rush to stun priority targets and follow with Snack Attack frenzy healing; reserve Certain Death for long-range flank entries after enemy crowd control is baited.",
+    "response": "Against Briar: Kite her Head Rush commitment toward your team and avoid offering a single isolated target for her Snack Attack frenzy to chain between. Your risk: Vision control and grouped enemies reduce the safe targets you can reach.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/briar",
@@ -4038,8 +4006,8 @@
     "lane": "Jungle",
     "favored": "Briar",
     "challenged": "Karthus",
-    "edge": "Against Karthus: Move unpredictably through his repeated ground spells and leave his death zone rather than finishing a fight inside it. Your plan: Choose fights where your target commitment is safe and keep a way to stop an overchase.",
-    "response": "Against Briar: Kite a committed pursuit toward your team and keep control ready for her arrival. Your risk: You need time to deal damage; scattered fights and early pressure can limit it.",
+    "edge": "Against Karthus: Move unpredictably through his repeated ground spells and leave his death zone rather than finishing a fight inside it. Your plan: Use Head Rush to stun priority targets and follow with Snack Attack frenzy healing; reserve Certain Death for long-range flank entries after enemy crowd control is baited.",
+    "response": "Against Briar: Kite her Head Rush commitment toward your team and avoid offering a single isolated target for her Snack Attack frenzy to chain between. Your risk: You need time to deal damage; scattered fights and early pressure can limit it.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/briar",
@@ -4054,8 +4022,8 @@
     "lane": "Jungle",
     "favored": "Briar",
     "challenged": "Kha'Zix",
-    "edge": "Against Kha'Zix: Stay close enough to allies to deny easy isolated targets and protect low-health teammates. Your plan: Choose fights where your target commitment is safe and keep a way to stop an overchase.",
-    "response": "Against Briar: Kite a committed pursuit toward your team and keep control ready for her arrival. Your risk: Grouped enemies deny isolation and can punish a committed entry.",
+    "edge": "Against Kha'Zix: Stay close enough to allies to deny easy isolated targets and protect low-health teammates. Your plan: Use Head Rush to stun priority targets and follow with Snack Attack frenzy healing; reserve Certain Death for long-range flank entries after enemy crowd control is baited.",
+    "response": "Against Briar: Kite her Head Rush commitment toward your team and avoid offering a single isolated target for her Snack Attack frenzy to chain between. Your risk: Grouped enemies deny isolation and can punish a committed entry.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/briar",
@@ -4070,8 +4038,8 @@
     "lane": "Jungle",
     "favored": "Rek'Sai",
     "challenged": "Briar",
-    "edge": "Against Briar: Kite a committed pursuit toward your team and keep control ready for her arrival. Your plan: Use tunnels and information to approach a supported early fight.",
-    "response": "Against Rek'Sai: Respect early supported ganks and use vision around tunnel approaches. Your risk: Forced pursuit can carry you into towers or a waiting enemy team.",
+    "edge": "Against Briar: Kite her Head Rush commitment toward your team and avoid offering a single isolated target for her Snack Attack frenzy to chain between. Your plan: Use tunnels and information to approach a supported early fight.",
+    "response": "Against Rek'Sai: Respect early supported ganks and use vision around tunnel approaches. Your risk: Casting Certain Death without allied follow-up locks you into an unbreakable pursuit that carries you directly under towers or into grouped counter-attacks.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/briar",
@@ -4086,8 +4054,8 @@
     "lane": "Jungle",
     "favored": "Trundle",
     "challenged": "Briar",
-    "edge": "Against Briar: Kite a committed pursuit toward your team and keep control ready for her arrival. Your plan: Use pillar to keep contact and choose a durable target when stealing stats helps the fight.",
-    "response": "Against Trundle: Use space and terrain to deny repeated attacks and reassess after he steals defensive stats. Your risk: Forced pursuit can carry you into towers or a waiting enemy team.",
+    "edge": "Against Briar: Kite her Head Rush commitment toward your team and avoid offering a single isolated target for her Snack Attack frenzy to chain between. Your plan: Use pillar to keep contact and choose a durable target when stealing stats helps the fight.",
+    "response": "Against Trundle: Use space and terrain to deny repeated attacks and reassess after he steals defensive stats. Your risk: Casting Certain Death without allied follow-up locks you into an unbreakable pursuit that carries you directly under towers or into grouped counter-attacks.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/briar",
@@ -4167,7 +4135,7 @@
     "favored": "Ekko",
     "challenged": "Ivern",
     "edge": "Against Ivern: Do not chase his protected ally through repeated shields; contest with lane support and identify the actual damage threat. Your plan: Create a stun-zone threat, use a short burst window and track your return position.",
-    "response": "Against Ekko: Leave the stun-zone area and watch the return marker before spending your entire burst. Your risk: Invading alone or expecting carry-level burst can waste your utility advantage.",
+    "response": "Against Ekko: Leave the stun-zone area and watch the return marker before spending your entire burst. Your risk: Missed Rootcaller skillshots and poorly positioned Daisy summons leave you with zero offensive dueling power against burst junglers invading your camps.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/ekko",
@@ -4486,7 +4454,7 @@
     "lane": "Jungle",
     "favored": "Ivern",
     "challenged": "Hecarim",
-    "edge": "Against Hecarim: Use flank vision and keep defensive control for his arrival; do not let his speed split your formation. Your plan: Path around lane needs and use shields and your companion to support an ally's fight.",
+    "edge": "Against Hecarim: Use flank vision and keep defensive control for his arrival; do not let his speed split your formation. Your plan: Coordinate skirmishes with Rootcaller dash delivery and stack Triggerseed shields on diving allies while Daisy disrupts the enemy backline.",
     "response": "Against Ivern: Do not chase his protected ally through repeated shields; contest with lane support and identify the actual damage threat. Your risk: A fast engage can outrun your allies and leave you deep in enemy territory.",
     "evidence": "source-matchup",
     "sources": [
@@ -4550,7 +4518,7 @@
     "lane": "Jungle",
     "favored": "Ivern",
     "challenged": "Kha'Zix",
-    "edge": "Against Kha'Zix: Stay close enough to allies to deny easy isolated targets and protect low-health teammates. Your plan: Path around lane needs and use shields and your companion to support an ally's fight.",
+    "edge": "Against Kha'Zix: Stay close enough to allies to deny easy isolated targets and protect low-health teammates. Your plan: Coordinate skirmishes with Rootcaller dash delivery and stack Triggerseed shields on diving allies while Daisy disrupts the enemy backline.",
     "response": "Against Ivern: Do not chase his protected ally through repeated shields; contest with lane support and identify the actual damage threat. Your risk: Grouped enemies deny isolation and can punish a committed entry.",
     "evidence": "source-matchup",
     "sources": [
@@ -4566,7 +4534,7 @@
     "lane": "Jungle",
     "favored": "Ivern",
     "challenged": "Lillia",
-    "edge": "Against Lillia: Avoid letting her build speed from free hits and separate when several allies are marked for sleep. Your plan: Path around lane needs and use shields and your companion to support an ally's fight.",
+    "edge": "Against Lillia: Avoid letting her build speed from free hits and separate when several allies are marked for sleep. Your plan: Coordinate skirmishes with Rootcaller dash delivery and stack Triggerseed shields on diving allies while Daisy disrupts the enemy backline.",
     "response": "Against Ivern: Do not chase his protected ally through repeated shields; contest with lane support and identify the actual damage threat. Your risk: Reliable control or a burst entry can stop you before your movement builds.",
     "evidence": "source-matchup",
     "sources": [
@@ -4583,7 +4551,7 @@
     "favored": "Rengar",
     "challenged": "Ivern",
     "edge": "Against Ivern: Do not chase his protected ally through repeated shields; contest with lane support and identify the actual damage threat. Your plan: Use brush and information to choose a vulnerable target, then plan your empowered response.",
-    "response": "Against Rengar: Stay away from unwarded brush when isolated and keep defensive tools for his landing. Your risk: Invading alone or expecting carry-level burst can waste your utility advantage.",
+    "response": "Against Rengar: Stay away from unwarded brush when isolated and keep defensive tools for his landing. Your risk: Missed Rootcaller skillshots and poorly positioned Daisy summons leave you with zero offensive dueling power against burst junglers invading your camps.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/ivern",
@@ -5302,8 +5270,8 @@
     "lane": "Mid",
     "favored": "Akali",
     "challenged": "Locke",
-    "edge": "Against Locke: Avoid offering a long unchecked attack sequence and hold pressure for after his defensive commitment. Your plan: Use shroud and short trades to create a later all-in; enter teamfights after key control is used.",
-    "response": "Against Akali: Keep distance from shroud, protect low-health allies and save control for a visible re-entry. Your risk: Sustaining through a trade is not guaranteed if enemies can finish you during it.",
+    "edge": "Against Locke: Dodge Ritual Nails to avoid stacking slows, and avoid lingering at low health where Silver Stake deals execution bonus damage. Force him to fight without Soul Ignition active, or punish him immediately during its self-damaging window before the delayed heal returns. Your plan: Use shroud and short trades to create a later all-in; enter teamfights after key control is used.",
+    "response": "Against Akali: Keep distance from shroud, protect low-health allies and save control for a visible re-entry. Your risk: Activating Soul Ignition burns your own health pool, leaving you vulnerable to being bursted down before its delayed self-heal or Purgatory execute can trigger.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/akali",
@@ -5527,7 +5495,7 @@
     "favored": "Anivia",
     "challenged": "Zoe",
     "edge": "Against Zoe: Use blockers and vision against sleep and punish a known return location without chasing too far. Your plan: Use wall and storm to divide a fight and control narrow approaches.",
-    "response": "Against Anivia: Fight away from her prepared storm and avoid getting trapped between a wall and a choke. Your risk: A predictable return position can be punished by ready enemy control.",
+    "response": "Against Anivia: Fight away from her prepared storm and avoid getting trapped between a wall and a choke. Your risk: Portal Jump always returns you to your exact starting location, allowing observant opponents to queue up lethal crowd control and burst on your return pad.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/anivia",
@@ -5670,8 +5638,8 @@
     "lane": "Mid",
     "favored": "Aurelion Sol",
     "challenged": "Mel",
-    "edge": "Against Mel: Bait her defensive response before firing a high-value projectile and approach from more than one angle. Your plan: Collect safe farm and fight around zones that keep enemies in your damage.",
-    "response": "Against Aurelion Sol: Contest his early access to farm without overchasing, and leave his damage zones instead of fighting through them. Your risk: A wasted defensive cooldown invites a follow-up attack before it returns.",
+    "edge": "Against Mel: Bait Rebuttal — her reflective defensive spell that returns projectiles — with a lower-value ability before firing your decisive control or burst. Your plan: Collect safe farm and fight around zones that keep enemies in your damage.",
+    "response": "Against Aurelion Sol: Contest his early access to farm without overchasing, and leave his damage zones instead of fighting through them. Your risk: Wasting Rebuttal on minor chip damage leaves your immobile frame completely unprotected against priority crowd-control skillshots and burst combos.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/aurelion-sol",
@@ -5766,8 +5734,8 @@
     "lane": "Mid",
     "favored": "Aurora",
     "challenged": "Locke",
-    "edge": "Against Locke: Avoid offering a long unchecked attack sequence and hold pressure for after his defensive commitment. Your plan: Use short trades and reposition before enemies can answer; reserve an escape route.",
-    "response": "Against Aurora: Avoid giving her repeated free ranged trades and keep an exit from her fight area. Your risk: Sustaining through a trade is not guaranteed if enemies can finish you during it.",
+    "edge": "Against Locke: Dodge Ritual Nails to avoid stacking slows, and avoid lingering at low health where Silver Stake deals execution bonus damage. Force him to fight without Soul Ignition active, or punish him immediately during its self-damaging window before the delayed heal returns. Your plan: Use short trades and reposition before enemies can answer; reserve an escape route.",
+    "response": "Against Aurora: Avoid giving her repeated free ranged trades and keep an exit from her fight area. Your risk: Activating Soul Ignition burns your own health pool, leaving you vulnerable to being bursted down before its delayed self-heal or Purgatory execute can trigger.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/aurora",
@@ -5782,8 +5750,8 @@
     "lane": "Mid",
     "favored": "Aurora",
     "challenged": "Mel",
-    "edge": "Against Mel: Bait her defensive response before firing a high-value projectile and approach from more than one angle. Your plan: Use short trades and reposition before enemies can answer; reserve an escape route.",
-    "response": "Against Aurora: Avoid giving her repeated free ranged trades and keep an exit from her fight area. Your risk: A wasted defensive cooldown invites a follow-up attack before it returns.",
+    "edge": "Against Mel: Bait Rebuttal — her reflective defensive spell that returns projectiles — with a lower-value ability before firing your decisive control or burst. Your plan: Use short trades and reposition before enemies can answer; reserve an escape route.",
+    "response": "Against Aurora: Avoid giving her repeated free ranged trades and keep an exit from her fight area. Your risk: Wasting Rebuttal on minor chip damage leaves your immobile frame completely unprotected against priority crowd-control skillshots and burst combos.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/aurora",
@@ -5862,7 +5830,7 @@
     "lane": "Mid",
     "favored": "Zoe",
     "challenged": "Azir",
-    "edge": "Against Azir: Fight outside useful soldier positions and threaten him when repositioning tools have been spent. Your plan: Threaten sleep from an angle and use long-range follow-up rather than prolonged trades.",
+    "edge": "Against Azir: Fight outside useful soldier positions and threaten him when repositioning tools have been spent. Your plan: Land Sleepy Trouble Bubble through terrain to set up long-range Paddle Star nukes, and scavenge active spell shards with Spell Thief to win skirmishes.",
     "response": "Against Zoe: Use blockers and vision against sleep and punish a known return location without chasing too far. Your risk: A flashy forward dash can remove the positioning advantage your team needs.",
     "evidence": "source-matchup",
     "sources": [
@@ -6023,7 +5991,7 @@
     "favored": "Ekko",
     "challenged": "Zoe",
     "edge": "Against Zoe: Use blockers and vision against sleep and punish a known return location without chasing too far. Your plan: Create a stun-zone threat, use a short burst window and track your return position.",
-    "response": "Against Ekko: Leave the stun-zone area and watch the return marker before spending your entire burst. Your risk: A predictable return position can be punished by ready enemy control.",
+    "response": "Against Ekko: Leave the stun-zone area and watch the return marker before spending your entire burst. Your risk: Portal Jump always returns you to your exact starting location, allowing observant opponents to queue up lethal crowd control and burst on your return pad.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/ekko",
@@ -6198,8 +6166,8 @@
     "lane": "Mid",
     "favored": "Katarina",
     "challenged": "Locke",
-    "edge": "Against Locke: Avoid offering a long unchecked attack sequence and hold pressure for after his defensive commitment. Your plan: Wait for key enemy control to be used, then enter where a takedown can chain into another.",
-    "response": "Against Katarina: Keep reliable control for her actual entry and move away from daggers that define her follow-up path. Your risk: Sustaining through a trade is not guaranteed if enemies can finish you during it.",
+    "edge": "Against Locke: Dodge Ritual Nails to avoid stacking slows, and avoid lingering at low health where Silver Stake deals execution bonus damage. Force him to fight without Soul Ignition active, or punish him immediately during its self-damaging window before the delayed heal returns. Your plan: Wait for key enemy control to be used, then enter where a takedown can chain into another.",
+    "response": "Against Katarina: Keep reliable control for her actual entry and move away from daggers that define her follow-up path. Your risk: Activating Soul Ignition burns your own health pool, leaving you vulnerable to being bursted down before its delayed self-heal or Purgatory execute can trigger.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/katarina",
@@ -6326,8 +6294,8 @@
     "lane": "Mid",
     "favored": "Locke",
     "challenged": "Veigar",
-    "edge": "Against Veigar: Do not rush through the cage edge; preserve a safe path and enter after the zone ends. Your plan: Choose short entry windows and account for the health you spend before committing to damage.",
-    "response": "Against Locke: Avoid offering a long unchecked attack sequence and hold pressure for after his defensive commitment. Your risk: A wasted cage leaves a long window for enemies to close distance.",
+    "edge": "Against Veigar: Do not rush through the cage edge; preserve a safe path and enter after the zone ends. Your plan: Stack slows with Ritual Nails and activate Soul Ignition for attack-speed burst trades, then dash with Ashen Pursuit to execute low-health targets with Silver Stake and Purgatory.",
+    "response": "Against Locke: Dodge Ritual Nails to avoid stacking slows, and avoid lingering at low health where Silver Stake deals execution bonus damage. Force him to fight without Soul Ignition active, or punish him immediately during its self-damaging window before the delayed heal returns. Your risk: A wasted cage leaves a long window for enemies to close distance.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/locke",
@@ -6342,8 +6310,8 @@
     "lane": "Mid",
     "favored": "Locke",
     "challenged": "Viktor",
-    "edge": "Against Viktor: Avoid standing in his control zone and approach from angles that force him to move before casting again. Your plan: Choose short entry windows and account for the health you spend before committing to damage.",
-    "response": "Against Locke: Avoid offering a long unchecked attack sequence and hold pressure for after his defensive commitment. Your risk: Early pressure and flanks can force you away from the space you need.",
+    "edge": "Against Viktor: Avoid standing in his control zone and approach from angles that force him to move before casting again. Your plan: Stack slows with Ritual Nails and activate Soul Ignition for attack-speed burst trades, then dash with Ashen Pursuit to execute low-health targets with Silver Stake and Purgatory.",
+    "response": "Against Locke: Dodge Ritual Nails to avoid stacking slows, and avoid lingering at low health where Silver Stake deals execution bonus damage. Force him to fight without Soul Ignition active, or punish him immediately during its self-damaging window before the delayed heal returns. Your risk: Early pressure and flanks can force you away from the space you need.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/locke",
@@ -6358,8 +6326,8 @@
     "lane": "Mid",
     "favored": "Locke",
     "challenged": "Xerath",
-    "edge": "Against Xerath: Vary movement while he channels and approach from a side angle rather than a narrow straight route. Your plan: Choose short entry windows and account for the health you spend before committing to damage.",
-    "response": "Against Locke: Avoid offering a long unchecked attack sequence and hold pressure for after his defensive commitment. Your risk: Long casts and no dash make unwarded side angles especially dangerous.",
+    "edge": "Against Xerath: Vary movement while he channels and approach from a side angle rather than a narrow straight route. Your plan: Stack slows with Ritual Nails and activate Soul Ignition for attack-speed burst trades, then dash with Ashen Pursuit to execute low-health targets with Silver Stake and Purgatory.",
+    "response": "Against Locke: Dodge Ritual Nails to avoid stacking slows, and avoid lingering at low health where Silver Stake deals execution bonus damage. Force him to fight without Soul Ignition active, or punish him immediately during its self-damaging window before the delayed heal returns. Your risk: Long casts and no dash make unwarded side angles especially dangerous.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/locke",
@@ -6518,7 +6486,7 @@
     "lane": "Mid",
     "favored": "Zoe",
     "challenged": "Qiyana",
-    "edge": "Against Qiyana: Avoid grouping beside useful terrain and track the element she prepared before an entry. Your plan: Threaten sleep from an angle and use long-range follow-up rather than prolonged trades.",
+    "edge": "Against Qiyana: Avoid grouping beside useful terrain and track the element she prepared before an entry. Your plan: Land Sleepy Trouble Bubble through terrain to set up long-range Paddle Star nukes, and scavenge active spell shards with Spell Thief to win skirmishes.",
     "response": "Against Zoe: Use blockers and vision against sleep and punish a known return location without chasing too far. Your risk: An entry with no useful terrain or exit leaves less room to recover a missed combo.",
     "evidence": "source-matchup",
     "sources": [
@@ -7332,22 +7300,6 @@
       "pc"
     ],
     "lane": "Support",
-    "favored": "Lulu",
-    "challenged": "Poppy",
-    "edge": "Against Poppy: Avoid walls and bait her dash-denial zone before spending movement on a full entry. Your plan: Protect the ally who can keep dealing damage and save disruption for the main diver.",
-    "response": "Against Lulu: Force protection on one target, then reconsider your target or wait for a second entry. Your risk: Using defensive tools for minor damage can remove your answer to a later dive.",
-    "evidence": "source-matchup",
-    "sources": [
-      "https://www.counterstats.net/league-of-legends/lulu",
-      "https://www.counterstats.net/league-of-legends/poppy"
-    ],
-    "reviewedAt": "2026-10-27"
-  },
-  {
-    "games": [
-      "pc"
-    ],
-    "lane": "Support",
     "favored": "Sona",
     "challenged": "Lulu",
     "edge": "Against Lulu: Force protection on one target, then reconsider your target or wait for a second entry. Your plan: Use safe repeated utility and save your ultimate to stop or start a reachable fight.",
@@ -7628,22 +7580,6 @@
     "sources": [
       "https://www.counterstats.net/league-of-legends/pantheon",
       "https://www.counterstats.net/league-of-legends/rell"
-    ],
-    "reviewedAt": "2026-10-27"
-  },
-  {
-    "games": [
-      "pc"
-    ],
-    "lane": "Support",
-    "favored": "Soraka",
-    "challenged": "Pantheon",
-    "edge": "Against Pantheon: Respect empowered short trades and move around directional protection instead of unloading into it. Your plan: Trade safely to support your healing cycle and place silence where enemies must commit.",
-    "response": "Against Soraka: Threaten her position or force her to move; apply healing reduction when it can affect the actual fight. Your risk: An ultimate arrival without allies or an exit can trade away your early advantage.",
-    "evidence": "source-matchup",
-    "sources": [
-      "https://www.counterstats.net/league-of-legends/pantheon",
-      "https://www.counterstats.net/league-of-legends/soraka"
     ],
     "reviewedAt": "2026-10-27"
   },
@@ -8224,21 +8160,6 @@
       "pc"
     ],
     "lane": "Dragon",
-    "favored": "Aphelios",
-    "challenged": "Xayah",
-    "edge": "Against Xayah: Watch feather lines behind you and bait Feather Storm before using all-in cooldowns; her untargetability dodges lethal burst and sets up Bladecaller roots. Your plan: Plan fights around your current weapons and keep enough room to attack behind allies.",
-    "response": "Against Aphelios: Read his active weapons before trading and pressure from angles that make safe attacking difficult. Your risk: Poor feather positions make a root unreliable even when enemies are close.",
-    "evidence": "source-matchup",
-    "sources": [
-      "https://www.counterstats.net/league-of-legends/xayah"
-    ],
-    "reviewedAt": "2026-10-27"
-  },
-  {
-    "games": [
-      "pc"
-    ],
-    "lane": "Dragon",
     "favored": "Ashe",
     "challenged": "Corki",
     "edge": "Against Corki: Avoid repeated rocket poke and make him spend movement before committing your chase. Your plan: Use slows to control trade length and arrow to start a fight your team can reach.",
@@ -8331,8 +8252,8 @@
     "lane": "Dragon",
     "favored": "Corki",
     "challenged": "Yunara",
-    "edge": "Against Yunara: Deny free sustained attacks and use reliable control after she commits to an enhanced fight window. Your plan: Soften enemies with ranged spells and keep your movement available for a safe damage angle.",
-    "response": "Against Corki: Avoid repeated rocket poke and make him spend movement before committing your chase. Your risk: Early damage pressure and interruption can deny the sustained attacks you need.",
+    "edge": "Against Yunara: Punish her short trading windows before she stacks Cultivation of Spirit, and dodge Arc of Judgment prayer beads to avoid being slowed. Disengage and kite out her 15-second Transcend One's Self ultimate state instead of fighting into free mana casts and maximum Unleash splash damage. Your plan: Soften enemies with ranged spells and keep your movement available for a safe damage angle.",
+    "response": "Against Corki: Avoid repeated rocket poke and make him spend movement before committing your chase. Your risk: Overextending without Transcend One's Self active leaves you with only Kanmei's Steps movement speed and no dash escape to survive hard engage or dive assassins.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/corki"
@@ -8391,8 +8312,8 @@
     "lane": "Dragon",
     "favored": "Jinx",
     "challenged": "Smolder",
-    "edge": "Against Smolder: Pressure safe farm access without forcing a bad dive, then spread against repeated splash damage. Your plan: Deal safe damage behind allies until a takedown opens a reset; use rocket range deliberately.",
-    "response": "Against Jinx: Deny a safe first takedown and approach from an angle rather than walking through her entire team. Your risk: Stacking greed can expose you to a dive before your scaling becomes useful.",
+    "edge": "Against Smolder: Contest his early farm to slow Dragon Practice stack growth; his Achooo! breath damage and Flap, Flap, Flap missile spread increase meaningfully with stacks. Your plan: Deal safe damage behind allies until a takedown opens a reset; use rocket range deliberately.",
+    "response": "Against Jinx: Deny a safe first takedown and approach from an angle rather than walking through her entire team. Your risk: Greedily walking up to farm Dragon Practice stacks without Flap, Flap, Flap available makes your fragile early-game body an easy target for aggressive dive duos.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/smolder"
@@ -8767,7 +8688,7 @@
     "favored": "Qiyana",
     "challenged": "Ivern",
     "edge": "Against Ivern: Do not chase his protected ally through repeated shields; contest with lane support and identify the actual damage threat. Your plan: Plan your element and terrain before entering; threaten fights near useful walls.",
-    "response": "Against Qiyana: Avoid grouping beside useful terrain and track the element she prepared before an entry. Your risk: Invading alone or expecting carry-level burst can waste your utility advantage.",
+    "response": "Against Qiyana: Avoid grouping beside useful terrain and track the element she prepared before an entry. Your risk: Missed Rootcaller skillshots and poorly positioned Daisy summons leave you with zero offensive dueling power against burst junglers invading your camps.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/qiyana"
@@ -9006,8 +8927,8 @@
     "lane": "Mid",
     "favored": "Mel",
     "challenged": "Akshan",
-    "edge": "Against Akshan: Deny safe ranged trades and stand where his swing route becomes difficult. Your plan: Trade from range and reserve your defensive response for a high-value incoming spell.",
-    "response": "Against Mel: Bait her defensive response before firing a high-value projectile and approach from more than one angle. Your risk: A blocked swing or a long melee fight can remove your escape.",
+    "edge": "Against Akshan: Deny safe ranged trades and stand where his swing route becomes difficult. Your plan: Poke from distance with Radiant Volley and lock choke points with Solar Snare, then execute retreating targets with Golden Eclipse as Searing Brilliance Overwhelm stacks accumulate.",
+    "response": "Against Mel: Bait Rebuttal — her reflective defensive spell that returns projectiles — with a lower-value ability before firing your decisive control or burst. Your risk: A blocked swing or a long melee fight can remove your escape.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/mel"
@@ -9231,8 +9152,8 @@
     "lane": "Mid",
     "favored": "Ryze",
     "challenged": "Locke",
-    "edge": "Against Locke: Avoid offering a long unchecked attack sequence and hold pressure for after his defensive commitment. Your plan: Use safe wave control and repeated spell cycles before looking for a coordinated move.",
-    "response": "Against Ryze: Use range and avoid offering repeated spell cycles when he can safely stand and cast. Your risk: Sustaining through a trade is not guaranteed if enemies can finish you during it.",
+    "edge": "Against Locke: Dodge Ritual Nails to avoid stacking slows, and avoid lingering at low health where Silver Stake deals execution bonus damage. Force him to fight without Soul Ignition active, or punish him immediately during its self-damaging window before the delayed heal returns. Your plan: Use safe wave control and repeated spell cycles before looking for a coordinated move.",
+    "response": "Against Ryze: Use range and avoid offering repeated spell cycles when he can safely stand and cast. Your risk: Activating Soul Ignition burns your own health pool, leaving you vulnerable to being bursted down before its delayed self-heal or Purgatory execute can trigger.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/ryze"
@@ -9246,8 +9167,8 @@
     "lane": "Mid",
     "favored": "Mel",
     "challenged": "Orianna",
-    "edge": "Against Orianna: Track the ball, not just Orianna, and avoid clustering near the ally carrying it. Your plan: Trade from range and reserve your defensive response for a high-value incoming spell.",
-    "response": "Against Mel: Bait her defensive response before firing a high-value projectile and approach from more than one angle. Your risk: Your damage and protection depend on ball position, not just your champion's position.",
+    "edge": "Against Orianna: Track the ball, not just Orianna, and avoid clustering near the ally carrying it. Your plan: Poke from distance with Radiant Volley and lock choke points with Solar Snare, then execute retreating targets with Golden Eclipse as Searing Brilliance Overwhelm stacks accumulate.",
+    "response": "Against Mel: Bait Rebuttal — her reflective defensive spell that returns projectiles — with a lower-value ability before firing your decisive control or burst. Your risk: Your damage and protection depend on ball position, not just your champion's position.",
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/mel"
@@ -9536,21 +9457,6 @@
     "evidence": "source-matchup",
     "sources": [
       "https://www.counterstats.net/league-of-legends/zilean"
-    ],
-    "reviewedAt": "2026-10-27"
-  },
-  {
-    "games": [
-      "pc"
-    ],
-    "lane": "Support",
-    "favored": "Thresh",
-    "challenged": "Milio",
-    "edge": "Against Milio: Force protection before committing a full engage and avoid granting the enemy carry free extended attacks. Your plan: Use hook threat to control space and keep lantern available for an ally who needs an exit.",
-    "response": "Against Thresh: Use blockers for hook and avoid an entry that his flay can easily stop. Your risk: You need allied damage; face-checking or initiating alone wastes your strengths.",
-    "evidence": "source-matchup",
-    "sources": [
-      "https://www.counterstats.net/league-of-legends/milio"
     ],
     "reviewedAt": "2026-10-27"
   },
@@ -11206,22 +11112,6 @@
       "wr"
     ],
     "lane": "Dragon",
-    "favored": "Miss Fortune",
-    "challenged": "Varus",
-    "edge": "Against Varus: Use cover against poke and spread against his ultimate before a choke fight. Your plan: Use bounce pressure in lane and a protected ultimate angle after allied control.",
-    "response": "Against Miss Fortune: Avoid standing behind a low-health bounce target and approach from outside a safe ultimate angle. Your risk: Different builds solve different problems; no dash makes vision and spacing essential.",
-    "evidence": "source-matchup",
-    "sources": [
-      "https://wildriftcounter.com/champions/miss-fortune/",
-      "https://wildriftcounter.com/champions/varus/"
-    ],
-    "reviewedAt": "2026-10-27"
-  },
-  {
-    "games": [
-      "wr"
-    ],
-    "lane": "Dragon",
     "favored": "Samira",
     "challenged": "Varus",
     "edge": "Against Varus: Use cover against poke and spread against his ultimate before a choke fight. Your plan: Stack Style with ranged abilities before diving in with Wild Rush and Inferno Trigger behind allied crowd control.",
@@ -12376,7 +12266,7 @@
     "lane": "Mid",
     "favored": "Zoe",
     "challenged": "Irelia",
-    "edge": "Against Irelia: Watch low-health minions that can become dash targets and avoid fighting into a prepared passive. Your plan: Threaten sleep from an angle and use long-range follow-up rather than prolonged trades.",
+    "edge": "Against Irelia: Watch low-health minions that can become dash targets and avoid fighting into a prepared passive. Your plan: Land Sleepy Trouble Bubble through terrain to set up long-range Paddle Star nukes, and scavenge active spell shards with Spell Thief to win skirmishes.",
     "response": "Against Zoe: Use blockers and vision against sleep and punish a known return location without chasing too far. Your risk: A missed reset or a wave with no exit route can leave you stranded.",
     "evidence": "source-matchup",
     "sources": [
@@ -12409,7 +12299,7 @@
     "favored": "Kassadin",
     "challenged": "Zoe",
     "edge": "Against Zoe: Use blockers and vision against sleep and punish a known return location without chasing too far. Your plan: Preserve health through difficult early waves and look for side angles after gaining mobility.",
-    "response": "Against Kassadin: Use early wave pressure with safe vision and avoid giving free exits from short trades. Your risk: A predictable return position can be punished by ready enemy control.",
+    "response": "Against Kassadin: Use early wave pressure with safe vision and avoid giving free exits from short trades. Your risk: Portal Jump always returns you to your exact starting location, allowing observant opponents to queue up lethal crowd control and burst on your return pad.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/kassadin/",
@@ -12601,7 +12491,7 @@
     "favored": "Twisted Fate",
     "challenged": "Zoe",
     "edge": "Against Zoe: Use blockers and vision against sleep and punish a known return location without chasing too far. Your plan: Prepare a useful card and use wave priority before committing to a side-lane play.",
-    "response": "Against Twisted Fate: Respect the prepared card and protect side lanes when he can disappear from mid. Your risk: A predictable return position can be punished by ready enemy control.",
+    "response": "Against Twisted Fate: Respect the prepared card and protect side lanes when he can disappear from mid. Your risk: Portal Jump always returns you to your exact starting location, allowing observant opponents to queue up lethal crowd control and burst on your return pad.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/twisted-fate/",
@@ -12822,22 +12712,6 @@
       "wr"
     ],
     "lane": "Support",
-    "favored": "Thresh",
-    "challenged": "Blitzcrank",
-    "edge": "Against Blitzcrank: Use minions as hook cover and avoid standing beside a low-health blocker that is about to die. Your plan: Use hook threat to control space and keep lantern available for an ally who needs an exit.",
-    "response": "Against Thresh: Use blockers for hook and avoid an entry that his flay can easily stop. Your risk: Pulling a durable engager into your carry can help the enemy.",
-    "evidence": "source-matchup",
-    "sources": [
-      "https://wildriftcounter.com/champions/blitzcrank/",
-      "https://wildriftcounter.com/champions/thresh/"
-    ],
-    "reviewedAt": "2026-10-27"
-  },
-  {
-    "games": [
-      "wr"
-    ],
-    "lane": "Support",
     "favored": "Blitzcrank",
     "challenged": "Yuumi",
     "edge": "Against Yuumi: Focus on the host's positioning and punish only safe detach windows; avoid splitting damage without a plan. Your plan: Pressure with hook threat from fog and choose targets your team actually wants nearby.",
@@ -12974,22 +12848,6 @@
     "sources": [
       "https://wildriftcounter.com/champions/karma/",
       "https://wildriftcounter.com/champions/zyra/"
-    ],
-    "reviewedAt": "2026-10-27"
-  },
-  {
-    "games": [
-      "wr"
-    ],
-    "lane": "Support",
-    "favored": "Leona",
-    "challenged": "Lulu",
-    "edge": "Against Lulu: Force protection on one target, then reconsider your target or wait for a second entry. Your plan: Threaten a short-distance all-in when your carry can immediately add damage.",
-    "response": "Against Leona: Stay outside an easy entry and punish only when your carry can help; do not trade through a large enemy wave. Your risk: Using every buff for pressure can leave no protection for the enemy's commit.",
-    "evidence": "source-matchup",
-    "sources": [
-      "https://wildriftcounter.com/champions/leona/",
-      "https://wildriftcounter.com/champions/lulu/"
     ],
     "reviewedAt": "2026-10-27"
   },
@@ -14631,8 +14489,8 @@
     "lane": "Dragon",
     "favored": "Ashe",
     "challenged": "Yunara",
-    "edge": "Against Yunara: Deny free sustained attacks and use reliable control after she commits to an enhanced fight window. Your plan: Use slows to control trade length and arrow to start a fight your team can reach.",
-    "response": "Against Ashe: Avoid being slowed in a long exposed lane; use cover against poke and track arrow angles. Your risk: Early damage pressure and interruption can deny the sustained attacks you need.",
+    "edge": "Against Yunara: Punish her short trading windows before she stacks Cultivation of Spirit, and dodge Arc of Judgment prayer beads to avoid being slowed. Disengage and kite out her 15-second Transcend One's Self ultimate state instead of fighting into free mana casts and maximum Unleash splash damage. Your plan: Use slows to control trade length and arrow to start a fight your team can reach.",
+    "response": "Against Ashe: Avoid being slowed in a long exposed lane; use cover against poke and track arrow angles. Your risk: Overextending without Transcend One's Self active leaves you with only Kanmei's Steps movement speed and no dash escape to survive hard engage or dive assassins.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/yunara/"
@@ -14691,8 +14549,8 @@
     "lane": "Dragon",
     "favored": "Caitlyn",
     "challenged": "Smolder",
-    "edge": "Against Smolder: Pressure safe farm access without forcing a bad dive, then spread against repeated splash damage. Your plan: Pressure last hits with range and place traps under existing control.",
-    "response": "Against Caitlyn: Protect health while last-hitting, avoid trap lines and ask for help before a large wave enables a dive. Your risk: Stacking greed can expose you to a dive before your scaling becomes useful.",
+    "edge": "Against Smolder: Contest his early farm to slow Dragon Practice stack growth; his Achooo! breath damage and Flap, Flap, Flap missile spread increase meaningfully with stacks. Your plan: Pressure last hits with range and place traps under existing control.",
+    "response": "Against Caitlyn: Protect health while last-hitting, avoid trap lines and ask for help before a large wave enables a dive. Your risk: Greedily walking up to farm Dragon Practice stacks without Flap, Flap, Flap available makes your fragile early-game body an easy target for aggressive dive duos.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/smolder/"
@@ -14751,8 +14609,8 @@
     "lane": "Dragon",
     "favored": "Caitlyn",
     "challenged": "Yunara",
-    "edge": "Against Yunara: Deny free sustained attacks and use reliable control after she commits to an enhanced fight window. Your plan: Pressure last hits with range and place traps under existing control.",
-    "response": "Against Caitlyn: Protect health while last-hitting, avoid trap lines and ask for help before a large wave enables a dive. Your risk: Early damage pressure and interruption can deny the sustained attacks you need.",
+    "edge": "Against Yunara: Punish her short trading windows before she stacks Cultivation of Spirit, and dodge Arc of Judgment prayer beads to avoid being slowed. Disengage and kite out her 15-second Transcend One's Self ultimate state instead of fighting into free mana casts and maximum Unleash splash damage. Your plan: Pressure last hits with range and place traps under existing control.",
+    "response": "Against Caitlyn: Protect health while last-hitting, avoid trap lines and ask for help before a large wave enables a dive. Your risk: Overextending without Transcend One's Self active leaves you with only Kanmei's Steps movement speed and no dash escape to survive hard engage or dive assassins.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/yunara/"
@@ -14841,8 +14699,8 @@
     "lane": "Dragon",
     "favored": "Smolder",
     "challenged": "Corki",
-    "edge": "Against Corki: Avoid repeated rocket poke and make him spend movement before committing your chase. Your plan: Stack safely while preserving enough health to contest later waves and objectives.",
-    "response": "Against Smolder: Pressure safe farm access without forcing a bad dive, then spread against repeated splash damage. Your risk: Build and damage distribution differ by game; do not assume one version's setup transfers.",
+    "edge": "Against Corki: Avoid repeated rocket poke and make him spend movement before committing your chase. Your plan: Farm methodically with Super Scorcher Breath to stack Dragon Practice, poke through minion waves with Achooo!, and reposition over terrain using Flap, Flap, Flap before unleashing MMOOOMMMM! in teamfights.",
+    "response": "Against Smolder: Contest his early farm to slow Dragon Practice stack growth; his Achooo! breath damage and Flap, Flap, Flap missile spread increase meaningfully with stacks. Your risk: Build and damage distribution differ by game; do not assume one version's setup transfers.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/smolder/"
@@ -14931,8 +14789,8 @@
     "lane": "Dragon",
     "favored": "Smolder",
     "challenged": "Ezreal",
-    "edge": "Against Ezreal: Use minions to reduce direct skillshot pressure and force his blink before using your final gap closer. Your plan: Stack safely while preserving enough health to contest later waves and objectives.",
-    "response": "Against Smolder: Pressure safe farm access without forcing a bad dive, then spread against repeated splash damage. Your risk: Minions block your main poke; safety does not guarantee wave priority.",
+    "edge": "Against Ezreal: Use minions to reduce direct skillshot pressure and force his blink before using your final gap closer. Your plan: Farm methodically with Super Scorcher Breath to stack Dragon Practice, poke through minion waves with Achooo!, and reposition over terrain using Flap, Flap, Flap before unleashing MMOOOMMMM! in teamfights.",
+    "response": "Against Smolder: Contest his early farm to slow Dragon Practice stack growth; his Achooo! breath damage and Flap, Flap, Flap missile spread increase meaningfully with stacks. Your risk: Minions block your main poke; safety does not guarantee wave priority.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/smolder/"
@@ -15006,8 +14864,8 @@
     "lane": "Dragon",
     "favored": "Smolder",
     "challenged": "Hwei",
-    "edge": "Against Hwei: Approach from split angles and avoid forcing through repeated area spells in a choke. Your plan: Stack safely while preserving enough health to contest later waves and objectives.",
-    "response": "Against Smolder: Pressure safe farm access without forcing a bad dive, then spread against repeated splash damage. Your risk: Using your defensive option for damage can expose you to a dive.",
+    "edge": "Against Hwei: Approach from split angles and avoid forcing through repeated area spells in a choke. Your plan: Farm methodically with Super Scorcher Breath to stack Dragon Practice, poke through minion waves with Achooo!, and reposition over terrain using Flap, Flap, Flap before unleashing MMOOOMMMM! in teamfights.",
+    "response": "Against Smolder: Contest his early farm to slow Dragon Practice stack growth; his Achooo! breath damage and Flap, Flap, Flap missile spread increase meaningfully with stacks. Your risk: Using your defensive option for damage can expose you to a dive.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/smolder/"
@@ -15156,8 +15014,8 @@
     "lane": "Dragon",
     "favored": "Yunara",
     "challenged": "Kai'Sa",
-    "edge": "Against Kai'Sa: Avoid being isolated for her burst and keep defensive tools for a committed ultimate arrival. Your plan: Build a safe attack window before committing your enhanced form and keep allied protection nearby.",
-    "response": "Against Yunara: Deny free sustained attacks and use reliable control after she commits to an enhanced fight window. Your risk: An ultimate into an unreachable backline can separate you from your team.",
+    "edge": "Against Kai'Sa: Avoid being isolated for her burst and keep defensive tools for a committed ultimate arrival. Your plan: Stack Cultivation of Spirit on-hit damage, poke and slow with Arc of Judgment, and pop Transcend One's Self to gain free spellcasts, untargeted dash mobility with Untouchable Shadow, and piercing Arc of Ruin lasers.",
+    "response": "Against Yunara: Punish her short trading windows before she stacks Cultivation of Spirit, and dodge Arc of Judgment prayer beads to avoid being slowed. Disengage and kite out her 15-second Transcend One's Self ultimate state instead of fighting into free mana casts and maximum Unleash splash damage. Your risk: An ultimate into an unreachable backline can separate you from your team.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/yunara/"
@@ -15201,8 +15059,8 @@
     "lane": "Dragon",
     "favored": "Kog'Maw",
     "challenged": "Smolder",
-    "edge": "Against Smolder: Pressure safe farm access without forcing a bad dive, then spread against repeated splash damage. Your plan: Fight during your range window and use allied protection to keep attacking the nearest safe target.",
-    "response": "Against Kog'Maw: Force movement or disengage during his enhanced attack window, then pressure when it ends. Your risk: Stacking greed can expose you to a dive before your scaling becomes useful.",
+    "edge": "Against Smolder: Contest his early farm to slow Dragon Practice stack growth; his Achooo! breath damage and Flap, Flap, Flap missile spread increase meaningfully with stacks. Your plan: Fight during your range window and use allied protection to keep attacking the nearest safe target.",
+    "response": "Against Kog'Maw: Force movement or disengage during his enhanced attack window, then pressure when it ends. Your risk: Greedily walking up to farm Dragon Practice stacks without Flap, Flap, Flap available makes your fragile early-game body an easy target for aggressive dive duos.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/smolder/"
@@ -15291,8 +15149,8 @@
     "lane": "Dragon",
     "favored": "Yunara",
     "challenged": "Sivir",
-    "edge": "Against Sivir: Force spell shield with a lower-value threat and approach from different angles. Your plan: Build a safe attack window before committing your enhanced form and keep allied protection nearby.",
-    "response": "Against Yunara: Deny free sustained attacks and use reliable control after she commits to an enhanced fight window. Your risk: Short attack reach still matters even when your wave clear is strong.",
+    "edge": "Against Sivir: Force spell shield with a lower-value threat and approach from different angles. Your plan: Stack Cultivation of Spirit on-hit damage, poke and slow with Arc of Judgment, and pop Transcend One's Self to gain free spellcasts, untargeted dash mobility with Untouchable Shadow, and piercing Arc of Ruin lasers.",
+    "response": "Against Yunara: Punish her short trading windows before she stacks Cultivation of Spirit, and dodge Arc of Judgment prayer beads to avoid being slowed. Disengage and kite out her 15-second Transcend One's Self ultimate state instead of fighting into free mana casts and maximum Unleash splash damage. Your risk: Short attack reach still matters even when your wave clear is strong.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/yunara/"
@@ -16356,8 +16214,8 @@
     "lane": "Mid",
     "favored": "Mel",
     "challenged": "Ahri",
-    "edge": "Against Ahri: Keep a blocker or sidestep route against charm, then answer while her main control is unavailable. Your plan: Trade from range and reserve your defensive response for a high-value incoming spell.",
-    "response": "Against Mel: Bait her defensive response before firing a high-value projectile and approach from more than one angle. Your risk: Using every dash offensively leaves no escape if the pick fails.",
+    "edge": "Against Ahri: Keep a blocker or sidestep route against charm, then answer while her main control is unavailable. Your plan: Poke from distance with Radiant Volley and lock choke points with Solar Snare, then execute retreating targets with Golden Eclipse as Searing Brilliance Overwhelm stacks accumulate.",
+    "response": "Against Mel: Bait Rebuttal — her reflective defensive spell that returns projectiles — with a lower-value ability before firing your decisive control or burst. Your risk: Using every dash offensively leaves no escape if the pick fails.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/mel/"
@@ -16371,8 +16229,8 @@
     "lane": "Mid",
     "favored": "Ahri",
     "challenged": "Norra",
-    "edge": "Against Norra: Avoid walking through prepared trinket zones and change angles while she charges a spell. Your plan: Threaten charm from an angle, then move with your jungler after clearing the wave.",
-    "response": "Against Ahri: Keep a blocker or sidestep route against charm, then answer while her main control is unavailable. Your risk: Charging slows your movement and can expose you to a fast approach.",
+    "edge": "Against Norra: Avoid stepping on Beloved Trinkets that scatter across the lane, and steer clear of Threads of Homecoming portals that slow and enlarge your hitbox with Thread Sigils. Rush her position while Memory Surge is charging to interrupt her cast and exploit her reduced movement speed. Your plan: Threaten charm from an angle, then move with your jungler after clearing the wave.",
+    "response": "Against Ahri: Keep a blocker or sidestep route against charm, then answer while her main control is unavailable. Your risk: Memory Surge slows your movement significantly while charging, leaving you an easy target for fast engages if cast without Journey to Nowhere banish protection ready.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/norra/"
@@ -16791,7 +16649,7 @@
     "lane": "Mid",
     "favored": "Zoe",
     "challenged": "Akshan",
-    "edge": "Against Akshan: Deny safe ranged trades and stand where his swing route becomes difficult. Your plan: Threaten sleep from an angle and use long-range follow-up rather than prolonged trades.",
+    "edge": "Against Akshan: Deny safe ranged trades and stand where his swing route becomes difficult. Your plan: Land Sleepy Trouble Bubble through terrain to set up long-range Paddle Star nukes, and scavenge active spell shards with Spell Thief to win skirmishes.",
     "response": "Against Zoe: Use blockers and vision against sleep and punish a known return location without chasing too far. Your risk: A blocked swing or a long melee fight can remove your escape.",
     "evidence": "source-matchup",
     "sources": [
@@ -16851,8 +16709,8 @@
     "lane": "Mid",
     "favored": "Norra",
     "challenged": "Annie",
-    "edge": "Against Annie: Watch the stun indicator and avoid grouping at the edge of her engage range. Your plan: Prepare trinket zones and aim charged spells through the space enemies must cross.",
-    "response": "Against Norra: Avoid walking through prepared trinket zones and change angles while she charges a spell. Your risk: Spending the stun casually gives enemies a safer window to approach.",
+    "edge": "Against Annie: Watch the stun indicator and avoid grouping at the edge of her engage range. Your plan: Set up zone control with Beloved Trinkets and Threads of Homecoming portals, charge Memory Surge through choke points, and banish high-threat divers with Journey to Nowhere while channeling Portalpalooza!.",
+    "response": "Against Norra: Avoid stepping on Beloved Trinkets that scatter across the lane, and steer clear of Threads of Homecoming portals that slow and enlarge your hitbox with Thread Sigils. Rush her position while Memory Surge is charging to interrupt her cast and exploit her reduced movement speed. Your risk: Spending the stun casually gives enemies a safer window to approach.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/norra/"
@@ -17016,8 +16874,8 @@
     "lane": "Mid",
     "favored": "Aurelion Sol",
     "challenged": "Mel",
-    "edge": "Against Mel: Bait her defensive response before firing a high-value projectile and approach from more than one angle. Your plan: Collect safe farm and fight around zones that keep enemies in your damage.",
-    "response": "Against Aurelion Sol: Contest his early access to farm without overchasing, and leave his damage zones instead of fighting through them. Your risk: A wasted defensive cooldown invites a follow-up attack before it returns.",
+    "edge": "Against Mel: Bait Rebuttal — her reflective defensive spell that returns projectiles — with a lower-value ability before firing your decisive control or burst. Your plan: Collect safe farm and fight around zones that keep enemies in your damage.",
+    "response": "Against Aurelion Sol: Contest his early access to farm without overchasing, and leave his damage zones instead of fighting through them. Your risk: Wasting Rebuttal on minor chip damage leaves your immobile frame completely unprotected against priority crowd-control skillshots and burst combos.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/mel/"
@@ -17031,8 +16889,8 @@
     "lane": "Mid",
     "favored": "Norra",
     "challenged": "Aurelion Sol",
-    "edge": "Against Aurelion Sol: Contest his early access to farm without overchasing, and leave his damage zones instead of fighting through them. Your plan: Prepare trinket zones and aim charged spells through the space enemies must cross.",
-    "response": "Against Norra: Avoid walking through prepared trinket zones and change angles while she charges a spell. Your risk: Greedy farming or a predictable flight can expose you before your damage develops.",
+    "edge": "Against Aurelion Sol: Contest his early access to farm without overchasing, and leave his damage zones instead of fighting through them. Your plan: Set up zone control with Beloved Trinkets and Threads of Homecoming portals, charge Memory Surge through choke points, and banish high-threat divers with Journey to Nowhere while channeling Portalpalooza!.",
+    "response": "Against Norra: Avoid stepping on Beloved Trinkets that scatter across the lane, and steer clear of Threads of Homecoming portals that slow and enlarge your hitbox with Thread Sigils. Rush her position while Memory Surge is charging to interrupt her cast and exploit her reduced movement speed. Your risk: Greedy farming or a predictable flight can expose you before your damage develops.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/norra/"
@@ -17421,8 +17279,8 @@
     "lane": "Mid",
     "favored": "Ekko",
     "challenged": "Norra",
-    "edge": "Against Norra: Avoid walking through prepared trinket zones and change angles while she charges a spell. Your plan: Create a stun-zone threat, use a short burst window and track your return position.",
-    "response": "Against Ekko: Leave the stun-zone area and watch the return marker before spending your entire burst. Your risk: Charging slows your movement and can expose you to a fast approach.",
+    "edge": "Against Norra: Avoid stepping on Beloved Trinkets that scatter across the lane, and steer clear of Threads of Homecoming portals that slow and enlarge your hitbox with Thread Sigils. Rush her position while Memory Surge is charging to interrupt her cast and exploit her reduced movement speed. Your plan: Create a stun-zone threat, use a short burst window and track your return position.",
+    "response": "Against Ekko: Leave the stun-zone area and watch the return marker before spending your entire burst. Your risk: Memory Surge slows your movement significantly while charging, leaving you an easy target for fast engages if cast without Journey to Nowhere banish protection ready.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/norra/"
@@ -17526,8 +17384,8 @@
     "lane": "Mid",
     "favored": "Fizz",
     "challenged": "Mel",
-    "edge": "Against Mel: Bait her defensive response before firing a high-value projectile and approach from more than one angle. Your plan: Use short trades and keep your evasive spell for the enemy's most important response.",
-    "response": "Against Fizz: Keep enough distance to avoid an easy ultimate and hold important damage until his evasive spell ends. Your risk: A wasted defensive cooldown invites a follow-up attack before it returns.",
+    "edge": "Against Mel: Bait Rebuttal — her reflective defensive spell that returns projectiles — with a lower-value ability before firing your decisive control or burst. Your plan: Use short trades and keep your evasive spell for the enemy's most important response.",
+    "response": "Against Fizz: Keep enough distance to avoid an easy ultimate and hold important damage until his evasive spell ends. Your risk: Wasting Rebuttal on minor chip damage leaves your immobile frame completely unprotected against priority crowd-control skillshots and burst combos.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/mel/"
@@ -17721,8 +17579,8 @@
     "lane": "Mid",
     "favored": "Hwei",
     "challenged": "Mel",
-    "edge": "Against Mel: Bait her defensive response before firing a high-value projectile and approach from more than one angle. Your plan: Choose spells for the immediate job: clearing, zoning or stopping an approach.",
-    "response": "Against Hwei: Approach from split angles and avoid forcing through repeated area spells in a choke. Your risk: A wasted defensive cooldown invites a follow-up attack before it returns.",
+    "edge": "Against Mel: Bait Rebuttal — her reflective defensive spell that returns projectiles — with a lower-value ability before firing your decisive control or burst. Your plan: Choose spells for the immediate job: clearing, zoning or stopping an approach.",
+    "response": "Against Hwei: Approach from split angles and avoid forcing through repeated area spells in a choke. Your risk: Wasting Rebuttal on minor chip damage leaves your immobile frame completely unprotected against priority crowd-control skillshots and burst combos.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/hwei/"
@@ -17931,8 +17789,8 @@
     "lane": "Mid",
     "favored": "Mel",
     "challenged": "Lux",
-    "edge": "Against Lux: Use lateral movement and avoid standing behind only one blocker when binding can reach further. Your plan: Trade from range and reserve your defensive response for a high-value incoming spell.",
-    "response": "Against Mel: Bait her defensive response before firing a high-value projectile and approach from more than one angle. Your risk: A missed binding leaves an obvious window for enemies to close distance.",
+    "edge": "Against Lux: Use lateral movement and avoid standing behind only one blocker when binding can reach further. Your plan: Poke from distance with Radiant Volley and lock choke points with Solar Snare, then execute retreating targets with Golden Eclipse as Searing Brilliance Overwhelm stacks accumulate.",
+    "response": "Against Mel: Bait Rebuttal — her reflective defensive spell that returns projectiles — with a lower-value ability before firing your decisive control or burst. Your risk: A missed binding leaves an obvious window for enemies to close distance.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/mel/"
@@ -18308,21 +18166,6 @@
     "challenged": "Rakan",
     "edge": "Against Rakan: Track the allies he can return to and spread enough that one entry cannot control everyone. Your plan: Roam after a safe wave state and use terrain routes to create numbers advantages.",
     "response": "Against Bard: Respect unusual tunnel routes, ping roams and avoid chasing into a choke without vision. Your risk: Engaging without an ally to return to makes your exit much less reliable.",
-    "evidence": "source-matchup",
-    "sources": [
-      "https://wildriftcounter.com/champions/bard/"
-    ],
-    "reviewedAt": "2026-10-27"
-  },
-  {
-    "games": [
-      "wr"
-    ],
-    "lane": "Support",
-    "favored": "Soraka",
-    "challenged": "Bard",
-    "edge": "Against Bard: Respect unusual tunnel routes, ping roams and avoid chasing into a choke without vision. Your plan: Trade safely to support your healing cycle and place silence where enemies must commit.",
-    "response": "Against Soraka: Threaten her position or force her to move; apply healing reduction when it can affect the actual fight. Your risk: Leaving your carry under a large wave can cost more than a speculative roam gains.",
     "evidence": "source-matchup",
     "sources": [
       "https://wildriftcounter.com/champions/bard/"
